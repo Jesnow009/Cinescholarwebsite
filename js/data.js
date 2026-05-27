@@ -34090,7 +34090,7 @@ const FILMS_DATA = {
                     "Depth tells story: Deep focus allows simultaneous action across multiple planes of the frame.",
                     "Break the rules deliberately: Toland unorthodox techniques reshaped what cinema could look like."
                 ],
-                "image": "assets/images/cinematographers/gregg-toland.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg",
                 "bestWork": "Citizen Kane, The Grapes of Wrath, The Best Years of Our Lives",
                 "mustWatch": [
                     {
@@ -34162,7 +34162,7 @@ const FILMS_DATA = {
                     "Shadow as character: What you choose not to show is as powerful as what you do show.",
                     "Break exposure rules: Willis proved that darkness can tell the story."
                 ],
-                "image": "assets/images/cinematographers/gordon-willis.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/6gOmfatlF7UdhaHi2tPsZMb5vmz.jpg",
                 "bestWork": "The Godfather, The Godfather Part II, Manhattan",
                 "mustWatch": [
                     {
@@ -34250,7 +34250,7 @@ const FILMS_DATA = {
                     "Embrace constraints: Shooting with only natural light forced extreme creativity in scheduling.",
                     "Camera as consciousness: Lubezki places the viewer inside the emotional experience."
                 ],
-                "image": "assets/images/cinematographers/emmanuel-lubezki.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/v5reoqVqGobAVAq4RploSoWD3DZ.jpg",
                 "bestWork": "The Revenant, Children of Men, Gravity, Birdman",
                 "mustWatch": [
                     {
@@ -34354,7 +34354,7 @@ const FILMS_DATA = {
                     "Stylization serves truth: Extreme visual choices can paradoxically make a scene feel more real and urgent.",
                     "Collaborate deeply: Richardson best work grew from long-term director relationships."
                 ],
-                "image": "assets/images/cinematographers/robert-richardson.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/lmJy31oZtN5l2VAGpkrt3xEXsxL.jpg",
                 "bestWork": "JFK, Casino, Inglourious Basterds, The Aviator, Kill Bill",
                 "mustWatch": [
                     {
@@ -34458,7 +34458,7 @@ const FILMS_DATA = {
                     "Perfection is the enemy of beauty: Hall willingness to embrace mistakes created stunning images.",
                     "Light emotionally: Choose your light not for technical accuracy but for emotional resonance."
                 ],
-                "image": "assets/images/cinematographers/conrad-hall.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/rMg7swA9zsiYWzajsg3eDaDAlku.jpg",
                 "bestWork": "American Beauty, Road to Perdition, Butch Cassidy and the Sundance Kid",
                 "mustWatch": [
                     {
@@ -34546,7 +34546,7 @@ const FILMS_DATA = {
                     "Invent solutions: Howe created tools and techniques that did not yet exist to solve visual problems.",
                     "Adapt to material: His style evolved radically across five decades to match each story."
                 ],
-                "image": "assets/images/cinematographers/james-wong-howe.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/7i7dsr3DjFuUXWjDG0Kp467Sovo.jpg",
                 "bestWork": "Hud, Sweet Smell of Success, Seconds, Picnic",
                 "mustWatch": [
                     {
@@ -34634,7 +34634,7 @@ const FILMS_DATA = {
                     "Lens choice is storytelling: The focal length you choose fundamentally changes how viewers relate to characters.",
                     "Scale and intimacy coexist: Epic and intimate can share the same frame."
                 ],
-                "image": "assets/images/cinematographers/robert-elswit.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/5urU681Z1ZyJxfjEGp6qY6XYXg1.jpg",
                 "bestWork": "There Will Be Blood, Boogie Nights, Good Night and Good Luck, Magnolia",
                 "mustWatch": [
                     {
@@ -34722,7 +34722,7 @@ const FILMS_DATA = {
                     "Desaturation deepens gravity: Removing color saturation can transform a film into something timeless.",
                     "Light as history: Kaminski visual choices make fictional events feel like historical record."
                 ],
-                "image": "assets/images/cinematographers/janusz-kaminski.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/5yURZbwMmhiXXlvDmRdz4V14Ufs.jpg",
                 "bestWork": "Schindler List, Saving Private Ryan, Minority Report, Munich, Lincoln",
                 "mustWatch": [
                     {
@@ -34826,7 +34826,7 @@ const FILMS_DATA = {
                     "Format matters: The decision to shoot on IMAX fundamentally changes the audience physical experience.",
                     "Reality before effects: Practical photography grounds fantasy in tangible, believable images."
                 ],
-                "image": "assets/images/cinematographers/wally-pfister.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/uyWeYsERTTLjpjkE79QeSETLIoA.jpg",
                 "bestWork": "Inception, The Dark Knight, The Prestige, Batman Begins",
                 "mustWatch": [
                     {
@@ -34914,7 +34914,7 @@ const FILMS_DATA = {
                     "Color is emotion: A deliberate color shift can tell the audience more than dialogue.",
                     "Physical camera placement equals emotional placement: Where you put the camera tells people how to feel."
                 ],
-                "image": "assets/images/cinematographers/matthew-libatique.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/gpW5xCOMbWWZKRPHeSIyXg4F3b1.jpg",
                 "bestWork": "Black Swan, Requiem for a Dream, A Star Is Born, The Fountain",
                 "mustWatch": [
                     {
@@ -35002,7 +35002,7 @@ const FILMS_DATA = {
                     "Color codes reality: The Matrix green and amber color system teaches viewers what world they are in without dialogue.",
                     "Innovation serves narrative: Every technical breakthrough in Pope work exists to tell the story."
                 ],
-                "image": "assets/images/cinematographers/bill-pope.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/kpakvuSrk1D9D8WMt5SOi4Rs2EV.jpg",
                 "bestWork": "The Matrix, Spider-Man 2, Bound, Scott Pilgrim vs. the World",
                 "mustWatch": [
                     {
@@ -35090,7 +35090,7 @@ const FILMS_DATA = {
                     "Study painting: Knowledge of fine art directly translates to better cinematography.",
                     "Serve the emotional story: Technical decisions should always support the film emotional core."
                 ],
-                "image": "assets/images/cinematographers/caleb-deschanel.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/sY2ZKhy94GRy7CK2xseLtC67QjN.jpg",
                 "bestWork": "The Black Stallion, The Right Stuff, The Natural, The Passion of the Christ",
                 "mustWatch": [
                     {
@@ -35178,7 +35178,7 @@ const FILMS_DATA = {
                     "Adaptability is mastery: A truly great cinematographer can excel across all genres.",
                     "Color temperature signals genre: The shift from cold horror to warm adventure begins with a deliberate lighting choice."
                 ],
-                "image": "assets/images/cinematographers/dean-cundey.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/5f95wKLwh4OTjGEzNkDhOdixDxU.jpg",
                 "bestWork": "Halloween, The Thing, Jurassic Park, Back to the Future",
                 "mustWatch": [
                     {
@@ -35266,7 +35266,7 @@ const FILMS_DATA = {
                     "Dark is expressive: Bradford Young underexposed images are among the most emotionally powerful in modern cinema.",
                     "Visual culture matters: Your cultural background shapes your visual sensibility. Embrace it."
                 ],
-                "image": "assets/images/cinematographers/bradford-young.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/shGkUnVemFAOVJuXQDk58CqCgsz.jpg",
                 "bestWork": "Arrival, Selma, A Most Violent Year, Solo",
                 "mustWatch": [
                     {
@@ -35354,7 +35354,7 @@ const FILMS_DATA = {
                     "Atmosphere is a character: The smoke and haze of Blade Runner is as much a character as Deckard.",
                     "Genre can be reinvented: Cronenweth took the noir tradition and projected it into science fiction future."
                 ],
-                "image": "assets/images/cinematographers/jordan-cronenweth.jpg",
+                "image": "https://image.tmdb.org/t/p/w500/kEZFQZKU5mRjDK2zi5ZjXVFgofj.jpg",
                 "bestWork": "Blade Runner, Altered States, Peggy Sue Got Married",
                 "mustWatch": [
                     {
