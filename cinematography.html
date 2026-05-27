@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Direction study curriculum. Analyze Welles, Hitchcock, De Sica, and Bong Joon Ho.">
+    <title>CINEMATOGRAPHY Curriculum | CineAcademy</title>
+    <!-- Remix Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="cinematographer-hub">
+    <div class="app-container">
+        <!-- Navigation Header -->
+        <header class="header-nav" id="headerNav">
+            <div class="logo">
+                <a href="index.html" style="display:flex; align-items:center; gap:0.75rem;">
+                    <i class="ri-movie-2-line logo-icon"></i>
+                    <span class="logo-text">CineAcademy</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-trigger">Curriculum <i class="ri-arrow-down-s-line"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="direction.html">Direction</a></li>
+                        <li><a href="screenwriting.html">Screenwriting</a></li>
+                        <li><a href="editing.html">Editing</a></li>
+                        <li class="active"><a href="cinematography.html">Cinematography</a></li>
+                        <li><a href="sound-design.html">Sound Design</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuBtn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content" style="padding-top: 80px;">
+            <!-- Subpage Hero -->
+            <section class="subpage-hero" style="background-image: linear-gradient(rgba(7, 8, 12, 0.6), rgba(7, 8, 12, 0.9)), url('assets/cinema-hero.png');">
+                <div class="subpage-hero-overlay"></div>
+                <div class="subpage-hero-content">
+                    <a href="index.html" class="subpage-back-link"><i class="ri-arrow-left-line"></i> Back to Hub</a>
+                    <span class="subpage-tagline">Curriculum Pathway</span>
+                    <h1 class="subpage-title">CINEMATOGRAPHY HUB</h1>
+                    <p class="subpage-intro" style="margin-bottom: 1.5rem;">Study the editors who shaped cinema across different movements, cultures, and nations. Select a region below to explore their masterpieces, techniques, and visual styling.</p>
+                    <div class="curation-notice" style="background: rgba(212, 175, 55, 0.08); border: 1px solid rgba(212, 175, 55, 0.25); border-radius: 8px; padding: 1rem 1.25rem; font-size: 0.85rem; max-width: 800px; line-height: 1.5; color: var(--text-secondary); text-align: left; margin: 0 auto; display: flex; gap: 0.75rem; align-items: flex-start; backdrop-filter: blur(4px);">
+                        <i class="ri-award-line" style="color: var(--accent-gold); font-size: 1.35rem; margin-top: 0.1rem; flex-shrink: 0;"></i>
+                        <div>
+                            <strong style="color: var(--text-primary); display: block; margin-bottom: 0.25rem; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem;">Curriculum Curation Notice</strong>
+                            These filmmakers represent the definitive master cinematographers of film history. Curated specifically for Film Studies, each cinematographer and corresponding film has been selected for their pioneering work in shaping cinematography language, staging, composition, and visual style. They are the essential benchmark for understanding cinematic grammar.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Grid of Regions Explorer -->
+            <section class="section section-dark" style="border-bottom: none; min-height: calc(100vh - 200px); padding-top: 4rem;">
+                
+                <!-- ===  Global Search Bar === -->
+                <div class="global-search-section" id="globalSearchSection">
+                    <div class="global-search-inner">
+                        <div class="global-search-headline">
+                            <i class="ri-film-line"></i>
+                            <span>Search Cinematographers, Films & Crew</span>
+                        </div>
+                        <div class="global-search-box-wrapper" id="globalSearchWrapper">
+                            <i class="ri-search-line global-search-icon"></i>
+                            <input
+                                type="text"
+                                id="globalSearchInput"
+                                class="global-search-input" placeholder="Search by cinematographer, film title, writer, cinematographer, composer, studio…"
+                                autocomplete="off"
+                                spellcheck="false"
+                            >
+                            <button class="global-search-clear" id="globalSearchClear" title="Clear" style="display:none;">
+                                <i class="ri-close-circle-fill"></i>
+                            </button>
+                            <div class="global-search-kbd">
+                                <kbd>ESC</kbd> to close
+                            </div>
+                        </div>
+                        <!-- Results dropdown -->
+                        <div class="global-search-results" id="globalSearchResults" style="display:none;">
+                            <div class="gsr-inner" id="globalSearchResultsInner"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="region-hub-container" style="margin-top: 4rem;">
+                    <div class="section-header" style="margin-bottom: 3rem; text-align: left;">
+                        <span class="section-subtitle">Regional Movements</span>
+                        <h2 class="section-title">Select a Region or Form to Explore</h2>
+                    </div>
+                    <div class="region-hub-grid" id="regionHubGrid">
+                        <!-- Generated dynamically by js/app.js -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+<div class="footer-logo">CineAcademy</div>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="direction.html">Direction</a></li>
+                <li><a href="screenwriting.html">Screenwriting</a></li>
+                <li><a href="editing.html">Editing</a></li>
+                <li><a href="cinematography.html" class="active">Cinematography</a></li>
+                <li><a href="sound-design.html">Sound Design</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 CineAcademy. Created for aspiring directors and cinema students.</p>
+        </footer>
+    </div>
+
+    <!-- Load Script files -->
+    <script src="js/data.js?v=8"></script>
+    <script src="js/app.js?v=8"></script>
+</body>
+</html>

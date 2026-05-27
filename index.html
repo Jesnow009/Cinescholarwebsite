@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CineAcademy is a premium cinematic curriculum website for aspiring filmmakers. Master direction, screenwriting, editing, and sound design.">
+    <title>CineAcademy | Premium Film Studies Platform</title>
+    <!-- Remix Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-page="home">
+    <div class="app-container">
+        <!-- Navigation Header -->
+        <header class="header-nav" id="headerNav">
+            <div class="logo">
+                <a href="index.html" style="display:flex; align-items:center; gap:0.75rem;">
+                    <i class="ri-movie-2-line logo-icon"></i>
+                    <span class="logo-text">CineAcademy</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-trigger">Curriculum <i class="ri-arrow-down-s-line"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="direction.html">Direction</a></li>
+                        <li><a href="screenwriting.html">Screenwriting</a></li>
+                        <li><a href="editing.html">Editing</a></li>
+                        <li><a href="cinematography.html">Cinematography</a></li>
+                        <li><a href="sound-design.html">Sound Design</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuBtn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Parallax Hero -->
+            <section class="hero" id="heroSection" style="background-image: linear-gradient(rgba(7, 8, 12, 0.7), rgba(7, 8, 12, 0.95)), url('assets/cinema-hero.png');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <span class="hero-tagline">The Filmmaker's Curriculum</span>
+                    <h1 class="hero-title">Master the Language of Cinema</h1>
+                    <p class="hero-desc">Choose a dedicated filmmaking craft and study the curated masterpieces that define the medium. Build your visual vocabulary scene by scene.</p>
+                    <div class="hero-actions">
+                        <a class="btn-primary" href="#pathsSelectorSection">Choose Your Path</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Path Selector Grid Section -->
+            <section class="section" id="pathsSelectorSection">
+                <div class="section-header">
+                    <span class="section-subtitle">Cinematic Disciplines</span>
+                    <h2 class="section-title">Select Your Craft Page</h2>
+                </div>
+                
+                <div class="paths-grid">
+                    <!-- Path 1: DIRECTION -->
+                    <a href="direction.html" class="path-card">
+                        <i class="ri-movie-2-line path-card-icon"></i>
+                        <h3 class="path-card-title">DIRECTION</h3>
+                        <div class="path-card-quote">
+                            <span class="quote-text">“To be an artist means never to avert one’s eyes.”</span>
+                            <span class="quote-author">— Akira Kurosawa</span>
+                        </div>
+                    </a>
+
+
+                    <!-- Path 3: SCREENWRITING -->
+                    <a href="screenwriting.html" class="path-card">
+                        <i class="ri-edit-box-line path-card-icon"></i>
+                        <h3 class="path-card-title">SCREENWRITING</h3>
+                        <div class="path-card-quote">
+                            <span class="quote-text">“To make a great film, you need three things: the script, the script, and the script.”</span>
+                            <span class="quote-author">— Alfred Hitchcock</span>
+                        </div>
+                    </a>
+
+                    <!-- Path 4: EDITING -->
+                    <a href="editing.html" class="path-card">
+                        <i class="ri-scissors-cut-line path-card-icon"></i>
+                        <h3 class="path-card-title">EDITING</h3>
+                        <div class="path-card-quote">
+                            <span class="quote-text">“The blink of an eye is where cinema lives.”</span>
+                            <span class="quote-author">— Walter Murch</span>
+                        </div>
+                    </a>
+
+                    <!-- Path 2: CINEMATOGRAPHY -->
+                    <a href="cinematography.html" class="path-card">
+                        <i class="ri-camera-lens-line path-card-icon"></i>
+                        <h3 class="path-card-title">CINEMATOGRAPHY</h3>
+                        <div class="path-card-quote">
+                            <span class="quote-text">“The camera is an instrument that teaches people how to see without a camera.”</span>
+                            <span class="quote-author">— Dorothea Lange</span>
+                        </div>
+                    </a>
+
+                    <!-- Path 5: SOUND DESIGN -->
+                    <a href="sound-design.html" class="path-card">
+                        <i class="ri-volume-up-line path-card-icon"></i>
+                        <h3 class="path-card-title">SOUND DESIGN</h3>
+                        <div class="path-card-quote">
+                            <span class="quote-text">“Sound creates the world you cannot see.”</span>
+                            <span class="quote-author">— Ben Burtt</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-logo">CineAcademy</div>
+            <ul class="footer-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="direction.html">Direction</a></li>
+                <li><a href="screenwriting.html">Screenwriting</a></li>
+                <li><a href="editing.html">Editing</a></li>
+                <li><a href="cinematography.html">Cinematography</a></li>
+                <li><a href="sound-design.html">Sound Design</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 CineAcademy. Created for aspiring directors and cinema students.</p>
+        </footer>
+    </div>
+
+    <!-- Load Script files -->
+    <script src="js/data.js?v=8"></script>
+    <script src="js/app.js?v=8"></script>
+</body>
+</html>

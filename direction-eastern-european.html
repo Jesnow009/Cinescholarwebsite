@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Study Eastern European Cinema master directors and viewings on CineAcademy.">
+    <title>Eastern European Cinema | DIRECTION Curriculum | CineAcademy</title>
+    <!-- Remix Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="director" data-region="eastern-european">
+    <div class="app-container">
+        <!-- Navigation Header -->
+        <header class="header-nav" id="headerNav">
+            <div class="logo">
+                <a href="index.html" style="display:flex; align-items:center; gap:0.75rem;">
+                    <i class="ri-movie-2-line logo-icon"></i>
+                    <span class="logo-text">CineAcademy</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-trigger">Curriculum <i class="ri-arrow-down-s-line"></i></a>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="direction.html">Direction</a></li>
+                        <li><a href="screenwriting.html">Screenwriting</a></li>
+                        <li><a href="editing.html">Editing</a></li>
+                        <li><a href="cinematography.html">Cinematography</a></li>
+                        <li><a href="sound-design.html">Sound Design</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuBtn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content" style="padding-top: 100px;">
+            <!-- Top Bar Workspace -->
+            <div class="explorer-top-bar" style="max-width: 1300px; margin: 0 auto 2.5rem auto; padding: 0 2rem 1.5rem 2rem;">
+                <div class="etb-left">
+                    <a href="direction.html" class="back-to-hub-btn"><i class="ri-arrow-left-line"></i> Back to Hub</a>
+                    <h2 class="region-page-title">Eastern European Cinema</h2>
+                    <div class="region-select-wrapper">
+                        <button class="region-select-trigger" id="regionSelectTrigger">
+                            <span>Change Region</span> <i class="ri-arrow-down-s-line"></i>
+                        </button>
+                        <div class="region-select-dropdown" id="regionSelectDropdown">
+                            <a href="direction-hollywood-na.html" class="">Hollywood & North American Masters</a>
+                            <a href="direction-british.html" class="">British Filmmakers</a>
+                            <a href="direction-irish.html" class="">Irish Filmmakers</a>
+                            <a href="direction-french.html" class="">French New Wave & French Masters</a>
+                            <a href="direction-italian.html" class="">Italian Neorealism & Italian Cinema</a>
+                            <a href="direction-german.html" class="">German Cinema</a>
+                            <a href="#" class="active">Eastern European Cinema</a>
+                            <a href="direction-soviet.html" class="">Soviet Cinema</a>
+                            <a href="direction-russian.html" class="">Russian Cinema</a>
+                            <a href="direction-japanese.html" class="">The Cinema of Japan</a>
+                            <a href="direction-korean.html" class="">Korean New Cinema</a>
+                            <a href="direction-chinese.html" class="">Chinese Fifth Generation & Modern Chinese Cinema</a>
+                                                        <a href="direction-hong-kong.html" class="">Hong Kong Cinema</a>
+                            <a href="direction-taiwanese.html" class="">Taiwanese Cinema</a>
+                            <a href="direction-iranian.html" class="">Iranian Cinema</a>
+                            <a href="direction-middle-eastern.html" class="">Middle Eastern Cinema</a>
+                            <a href="direction-indian.html" class="">The Cinema of India</a>
+                            <a href="direction-south-asian.html" class="">South Asian Storytellers</a>
+                            <a href="direction-southeast-asian.html" class="">Southeast Asian Visionaries</a>
+                            <a href="direction-nordic.html" class="">Nordic Cinema & Scandinavian Masters</a>
+                            <a href="direction-spanish-portuguese.html" class="">Spanish & Portuguese Cinema</a>
+                            <a href="direction-latin-american.html" class="">Latin American New Cinema</a>
+                            <a href="direction-african.html" class="">African Cinema</a>
+                            <a href="direction-australian-oceanic.html" class="">Australian & Oceanic Filmmakers</a>
+                            <a href="direction-animation.html" class="">Animation Masters</a>
+                            <a href="direction-documentary.html" class="">Documentary Masters</a>
+                            <a href="direction-experimental.html" class="">Experimental & Avant-Garde Cinema</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="etb-right">
+                    <!-- ===  Global Search Bar === -->
+                    <div class="top-search-box-wrapper" id="globalSearchWrapper">
+                        <i class="ri-search-line top-search-icon"></i>
+                        <input
+                            type="text"
+                            id="globalSearchInput"
+                            class="top-search-input"
+                            placeholder="Search directors, films, crew..."
+                            autocomplete="off"
+                            spellcheck="false"
+                        >
+                        <button class="global-search-clear" id="globalSearchClear" title="Clear" style="display:none;">
+                            <i class="ri-close-circle-fill"></i>
+                        </button>
+                        <div class="global-search-results" id="globalSearchResults" style="display:none;">
+                            <div class="gsr-inner" id="globalSearchResultsInner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Film Explorer Panel -->
+            <section class="section section-dark explorer-section active" id="explorerSection" style="border-top: 1px solid var(--border-color); border-bottom: none; min-height: calc(100vh - 200px); padding-top: 4rem;">
+                <div class="explorer-layout">
+                    <!-- Left Column: Path Intro & Film List -->
+                    <div class="path-sidebar">
+                        <div class="path-intro" id="pathIntroContainer">
+                            <!-- Rendered dynamically from data.js -->
+                        </div>
+                        <div class="films-list-container">
+                            <h4 class="films-list-title">Required Viewings</h4>
+                            <div class="films-list" id="filmsListContainer">
+                                <!-- Rendered dynamically -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Film Detail Window -->
+                    <div class="film-detail-window" id="filmDetailContainer">
+                        <!-- Rendered dynamically -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-logo">CineAcademy</div>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="direction.html" class="active">Direction</a></li>
+                <li><a href="screenwriting.html">Screenwriting</a></li>
+                <li><a href="editing.html">Editing</a></li>
+                <li><a href="cinematography.html">Cinematography</a></li>
+                <li><a href="sound-design.html">Sound Design</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 CineAcademy. Created for aspiring directors and cinema students.</p>
+        </footer>
+    </div>
+
+    <!-- Load Script files -->
+    <script src="js/data.js?v=8"></script>
+    <script src="js/app.js?v=8"></script>
+</body>
+</html>
