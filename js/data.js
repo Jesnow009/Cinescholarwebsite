@@ -34090,7 +34090,7 @@ const FILMS_DATA = {
                     "Depth tells story: Deep focus allows simultaneous action across multiple planes of the frame.",
                     "Break the rules deliberately: Toland unorthodox techniques reshaped what cinema could look like."
                 ],
-                "image": "https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg",
+                "image": "assets/images/cinematographers/gregg-toland.jpg",
                 "bestWork": "Citizen Kane, The Grapes of Wrath, The Best Years of Our Lives",
                 "mustWatch": [
                     {
