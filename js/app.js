@@ -795,7 +795,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     item.innerHTML = `
                         <div class="film-item-left" style="flex-direction: row; align-items: center; gap: 0.75rem; text-align: left;">
                             ${person.image ? `
-                                <img class="director-sidebar-avatar" src="${person.image}" alt="${person.name}" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; margin-bottom: 0;" />
+                                <img class="director-sidebar-avatar" referrerpolicy="no-referrer" src="${person.image}" alt="${person.name}" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; margin-bottom: 0;" />
                             ` : `
                                 <div class="director-sidebar-avatar-placeholder" style="width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(212,175,55,0.1); margin-bottom: 0;"><i class="ri-user-line" style="font-size: 1.2rem; color: var(--accent-gold);"></i></div>
                             `}
@@ -911,7 +911,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="director-profile-header">
                 ${person.image ? `
                     <div class="director-detail-portrait-wrapper">
-                        <img class="director-detail-portrait" src="${person.image}" alt="${person.name}" onerror="this.outerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:rgba(212,175,55,0.05);\'><i class=\'ri-user-3-line\' style=\'font-size:4.5rem;color:rgba(212,175,55,0.35);\'></i></div>'" />
+                        <img class="director-detail-portrait" referrerpolicy="no-referrer" src="${person.image}" alt="${person.name}" onerror="this.outerHTML='<div style=\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:rgba(212,175,55,0.05);\'><i class=\'ri-user-3-line\' style=\'font-size:4.5rem;color:rgba(212,175,55,0.35);\'></i></div>'" />
                     </div>
                 ` : `
                     <div class="director-detail-portrait-wrapper" style="background: rgba(212,175,55,0.05); display: flex; align-items: center; justify-content: center; border-color: rgba(212,175,55,0.3);">
@@ -945,7 +945,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <div class="screening-card-poster-wrapper">
                                         <div class="screening-card-poster-inner">
                                             ${movie.poster ? `
-                                                <img src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;poster-placeholder&quot; style=&quot;aspect-ratio: 2/3;&quot;><i class=&quot;ri-clapperboard-line&quot;></i></div>'" />
+                                                <img referrerpolicy="no-referrer" src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;poster-placeholder&quot; style=&quot;aspect-ratio: 2/3;&quot;><i class=&quot;ri-clapperboard-line&quot;></i></div>'" />
                                             ` : `
                                                 <div class="poster-placeholder" style="aspect-ratio: 2/3;">
                                                     <i class="ri-clapperboard-line"></i>
@@ -1044,7 +1044,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="screening-card-poster-wrapper">
                         <div class="screening-card-poster-inner">
                             ${film.poster ? `
-                                <img src="${film.poster}" alt="${film.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;poster-placeholder&quot; style=&quot;aspect-ratio: 2/3;&quot;><i class=&quot;ri-clapperboard-line&quot;></i></div>'" />
+                                <img referrerpolicy="no-referrer" src="${film.poster}" alt="${film.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;poster-placeholder&quot; style=&quot;aspect-ratio: 2/3;&quot;><i class=&quot;ri-clapperboard-line&quot;></i></div>'" />
                             ` : `
                                 <div class="poster-placeholder" style="aspect-ratio: 2/3;">
                                     <i class="ri-clapperboard-line"></i>
