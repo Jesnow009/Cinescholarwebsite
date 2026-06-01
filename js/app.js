@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 desc: "Learn self-reflexive docufiction, minimalist poetry, and profound ethical allegories."
             },
             "middle-eastern": {
-                name: "Middle Eastern Filmmakers",
+                name: "Middle Eastern Cinema",
                 desc: "Explore the diverse voices, political allegories, and rich histories of Middle Eastern film."
             },
             "south-asian": {
@@ -975,18 +975,18 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <div class="screening-card-details-grid">
                                         ${[
                                             { icon: 'ri-calendar-line', label: 'Released', value: movie.releaseDate },
-                            { icon: 'ri-clapperboard-line', label: 'Director', value: movie.director },
+                                            { icon: 'ri-clapperboard-line', label: 'Director', value: movie.director },
                                             { icon: 'ri-edit-line', label: 'Screenplay', value: movie.writer },
                                             { icon: 'ri-camera-lens-line', label: 'Cinematography', value: movie.cinematographer },
                                             { icon: 'ri-scissors-cut-line', label: 'Editing', value: movie.editor },
                                             { icon: 'ri-music-2-line', label: 'Music', value: movie.composer },
                                             { icon: 'ri-building-line', label: 'Studio', value: movie.studio }
-                                        ].map(item => `
+                                        ].filter(item => item.value && !['none', 'n/a', 'na'].includes(String(item.value).trim().toLowerCase()) && String(item.value).trim() !== '').map(item => `
                                             <div class="screening-card-detail-item">
                                                 <i class="${item.icon}"></i>
                                                 <div>
                                                     <span class="screening-card-detail-label">${item.label}</span><br/>
-                                                    <span class="screening-card-detail-value">${item.value || 'N/A'}</span>
+                                                    <span class="screening-card-detail-value">${item.value}</span>
                                                 </div>
                                             </div>
                                         `).join('')}
@@ -1080,12 +1080,12 @@ document.addEventListener("DOMContentLoaded", () => {
                             { icon: 'ri-scissors-cut-line', label: 'Editing', value: film.editor },
                             { icon: 'ri-music-2-line', label: 'Music', value: film.composer },
                             { icon: 'ri-building-line', label: 'Studio', value: film.studio }
-                        ].map(item => `
+                        ].filter(item => item.value && !['none', 'n/a', 'na'].includes(String(item.value).trim().toLowerCase()) && String(item.value).trim() !== '').map(item => `
                             <div class="screening-card-detail-item">
                                 <i class="${item.icon}"></i>
                                 <div>
                                     <span class="screening-card-detail-label">${item.label}</span><br/>
-                                    <span class="screening-card-detail-value">${item.value || 'N/A'}</span>
+                                    <span class="screening-card-detail-value">${item.value}</span>
                                 </div>
                             </div>
                         `).join('')}
@@ -2091,11 +2091,11 @@ document.addEventListener("DOMContentLoaded", () => {
                         title: film.title,
                         meta: `${film.year} · Dir: ${director.name}`,
                         extraTags: [
-                            film.writer && film.writer !== "N/A" ? `Writer: ${film.writer}` : null,
-                            film.cinematographer && film.cinematographer !== "N/A" ? `DP: ${film.cinematographer}` : null,
-                            film.editor && film.editor !== "N/A" ? `Editor: ${film.editor}` : null,
-                            film.composer && film.composer !== "N/A" ? `Music: ${film.composer}` : null,
-                            film.studio && film.studio !== "N/A" ? film.studio : null,
+                            film.writer && !['none', 'n/a', 'na'].includes(String(film.writer).trim().toLowerCase()) ? `Writer: ${film.writer}` : null,
+                            film.cinematographer && !['none', 'n/a', 'na'].includes(String(film.cinematographer).trim().toLowerCase()) ? `DP: ${film.cinematographer}` : null,
+                            film.editor && !['none', 'n/a', 'na'].includes(String(film.editor).trim().toLowerCase()) ? `Editor: ${film.editor}` : null,
+                            film.composer && !['none', 'n/a', 'na'].includes(String(film.composer).trim().toLowerCase()) ? `Music: ${film.composer}` : null,
+                            film.studio && !['none', 'n/a', 'na'].includes(String(film.studio).trim().toLowerCase()) ? film.studio : null,
                         ].filter(Boolean).join(" · "),
                         matchExtra: [
                             film.writer, film.cinematographer, film.editor, film.composer, film.studio
@@ -2129,11 +2129,11 @@ document.addEventListener("DOMContentLoaded", () => {
                         title: film.title,
                         meta: `${film.year} · Editor: ${editor.name}`,
                         extraTags: [
-                            film.writer && film.writer !== "N/A" ? `Writer: ${film.writer}` : null,
-                            film.cinematographer && film.cinematographer !== "N/A" ? `DP: ${film.cinematographer}` : null,
-                            film.editor && film.editor !== "N/A" ? `Editor: ${film.editor}` : null,
-                            film.composer && film.composer !== "N/A" ? `Music: ${film.composer}` : null,
-                            film.studio && film.studio !== "N/A" ? film.studio : null,
+                            film.writer && !['none', 'n/a', 'na'].includes(String(film.writer).trim().toLowerCase()) ? `Writer: ${film.writer}` : null,
+                            film.cinematographer && !['none', 'n/a', 'na'].includes(String(film.cinematographer).trim().toLowerCase()) ? `DP: ${film.cinematographer}` : null,
+                            film.editor && !['none', 'n/a', 'na'].includes(String(film.editor).trim().toLowerCase()) ? `Editor: ${film.editor}` : null,
+                            film.composer && !['none', 'n/a', 'na'].includes(String(film.composer).trim().toLowerCase()) ? `Music: ${film.composer}` : null,
+                            film.studio && !['none', 'n/a', 'na'].includes(String(film.studio).trim().toLowerCase()) ? film.studio : null,
                         ].filter(Boolean).join(" · "),
                         matchExtra: [
                             film.writer, film.cinematographer, film.editor, film.composer, film.studio
@@ -2167,11 +2167,11 @@ document.addEventListener("DOMContentLoaded", () => {
                         title: film.title,
                         meta: `${film.year} · DP: ${dp.name}`,
                         extraTags: [
-                            film.writer && film.writer !== "N/A" ? `Writer: ${film.writer}` : null,
-                            film.cinematographer && film.cinematographer !== "N/A" ? `DP: ${film.cinematographer}` : null,
-                            film.editor && film.editor !== "N/A" ? `Editor: ${film.editor}` : null,
-                            film.composer && film.composer !== "N/A" ? `Music: ${film.composer}` : null,
-                            film.studio && film.studio !== "N/A" ? film.studio : null,
+                            film.writer && !['none', 'n/a', 'na'].includes(String(film.writer).trim().toLowerCase()) ? `Writer: ${film.writer}` : null,
+                            film.cinematographer && !['none', 'n/a', 'na'].includes(String(film.cinematographer).trim().toLowerCase()) ? `DP: ${film.cinematographer}` : null,
+                            film.editor && !['none', 'n/a', 'na'].includes(String(film.editor).trim().toLowerCase()) ? `Editor: ${film.editor}` : null,
+                            film.composer && !['none', 'n/a', 'na'].includes(String(film.composer).trim().toLowerCase()) ? `Music: ${film.composer}` : null,
+                            film.studio && !['none', 'n/a', 'na'].includes(String(film.studio).trim().toLowerCase()) ? film.studio : null,
                         ].filter(Boolean).join(" · "),
                         matchExtra: [
                             film.writer, film.cinematographer, film.editor, film.composer, film.studio

@@ -1,0 +1,29 @@
+const fs = require('fs');
+
+function run() {
+    const dataStr = fs.readFileSync('js/data.js', 'utf8');
+    const match = dataStr.match(/const FILMS_DATA = (\{[\s\S]*?\});/);
+    let data = eval('(' + match[1] + ')');
+    let modified = false;
+
+    let dp = data.cinematographer.cinematographers.find(p => p.id === 'nirav-shah');
+    
+    if (dp) {
+        for (const m of dp.mustWatch) {
+            if (m.title === '2.0') {
+                m.poster = 'https://upload.wikimedia.org/wikipedia/en/c/c5/2.0_poster.jpg';
+                modified = true;
+                console.log(`Patched actual poster for ${m.title}`);
+            }
+        }
+    }
+
+    if (modified) {
+        let newContent = JSON.stringify(data, null, 4);
+        const newFileContent = dataStr.substring(0, match.index) + 'const FILMS_DATA = ' + newContent + ';' + dataStr.substring(match.index + match[0].length);
+        fs.writeFileSync('js/data.js', newFileContent, 'utf8');
+        console.log("Successfully patched actual 2.0 poster.");
+    }
+}
+
+run();
