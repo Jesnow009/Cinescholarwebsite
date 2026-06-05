@@ -4331,7 +4331,7 @@ const FILMS_DATA = {
                         "analysis": "Jayasundara keeps them in separate frame halves using a wide master-shot inside a dim, sparse room. He refuses close-ups, preventing the audience from easy emotional access. The physical proximity and emotional distance create a devastating portrait of a marriage destroyed by war."
                     }
                 ],
-                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Vimukthi_Jayasundara.jpg/440px-Vimukthi_Jayasundara.jpg"
+                "image": "assets/images/vimukthi-jayasundara.png"
             },
             {
                 "id": "tareque-masud",
@@ -49493,4 +49493,4 @@ const FILMS_DATA = {
     }
 };
 
-module.exports = FILMS_DATA;
+

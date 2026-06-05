@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CineAcademy is a premium cinematic curriculum website for aspiring filmmakers. Master direction, screenwriting, editing, and sound design.">
-    <title>CineAcademy | Premium Film Studies Platform</title>
+    <meta name="description" content="CineScholar is a premium cinematic curriculum website for aspiring filmmakers. Master direction, screenwriting, editing, and sound design.">
+    <title>CineScholar | Premium Film Studies Platform</title>
     <!-- Remix Icons CDN -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Main Stylesheet -->
@@ -21,7 +21,7 @@
             <div class="logo">
                 <a href="index.html" style="display:flex; align-items:center; gap:0.75rem;">
                     <i class="ri-movie-2-line logo-icon"></i>
-                    <span class="logo-text">CineAcademy</span>
+                    <span class="logo-text">CineScholar</span>
                 </a>
             </div>
             <ul class="nav-links">
@@ -30,10 +30,8 @@
                     <a href="#" class="dropdown-trigger">Curriculum <i class="ri-arrow-down-s-line"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="direction.html">Direction</a></li>
-                        <li><a href="screenwriting.html">Screenwriting</a></li>
                         <li><a href="editing.html">Editing</a></li>
                         <li><a href="cinematography.html">Cinematography</a></li>
-                        <li><a href="sound-design.html">Sound Design</a></li>
                     </ul>
                 </li>
             </ul>
@@ -44,8 +42,9 @@
 
         <!-- Main Content Area -->
         <main class="main-content">
-            <!-- Parallax Hero -->
-            <section class="hero" id="heroSection" style="background-image: linear-gradient(rgba(7, 8, 12, 0.7), rgba(7, 8, 12, 0.95)), url('assets/cinema-hero.png');">
+            <!-- Cinematic Hero -->
+            <section class="hero" id="heroSection">
+                <div class="hero-bg" style="background-image: url('assets/cinema-hero.png');"></div>
                 <div class="hero-overlay"></div>
                 <div class="hero-content">
                     <span class="hero-tagline">The Filmmaker's Curriculum</span>
@@ -54,6 +53,9 @@
                     <div class="hero-actions">
                         <a class="btn-primary" href="#pathsSelectorSection">Choose Your Path</a>
                     </div>
+                </div>
+                <div class="hero-scroll-indicator">
+                    <div class="mouse"></div>
                 </div>
             </section>
 
@@ -66,7 +68,8 @@
                 
                 <div class="paths-grid">
                     <!-- Path 1: DIRECTION -->
-                    <a href="direction.html" class="path-card">
+                    <a href="direction.html" class="path-card path-card-direction" data-tilt>
+                        <div class="glare"></div>
                         <i class="ri-movie-2-line path-card-icon"></i>
                         <h3 class="path-card-title">DIRECTION</h3>
                         <div class="path-card-quote">
@@ -76,18 +79,10 @@
                     </a>
 
 
-                    <!-- Path 3: SCREENWRITING -->
-                    <a href="screenwriting.html" class="path-card">
-                        <i class="ri-edit-box-line path-card-icon"></i>
-                        <h3 class="path-card-title">SCREENWRITING</h3>
-                        <div class="path-card-quote">
-                            <span class="quote-text">“To make a great film, you need three things: the script, the script, and the script.”</span>
-                            <span class="quote-author">— Alfred Hitchcock</span>
-                        </div>
-                    </a>
 
                     <!-- Path 4: EDITING -->
-                    <a href="editing.html" class="path-card">
+                    <a href="editing.html" class="path-card path-card-editing" data-tilt>
+                        <div class="glare"></div>
                         <i class="ri-scissors-cut-line path-card-icon"></i>
                         <h3 class="path-card-title">EDITING</h3>
                         <div class="path-card-quote">
@@ -97,7 +92,8 @@
                     </a>
 
                     <!-- Path 2: CINEMATOGRAPHY -->
-                    <a href="cinematography.html" class="path-card">
+                    <a href="cinematography.html" class="path-card path-card-cinematography" data-tilt>
+                        <div class="glare"></div>
                         <i class="ri-camera-lens-line path-card-icon"></i>
                         <h3 class="path-card-title">CINEMATOGRAPHY</h3>
                         <div class="path-card-quote">
@@ -106,36 +102,25 @@
                         </div>
                     </a>
 
-                    <!-- Path 5: SOUND DESIGN -->
-                    <a href="sound-design.html" class="path-card">
-                        <i class="ri-volume-up-line path-card-icon"></i>
-                        <h3 class="path-card-title">SOUND DESIGN</h3>
-                        <div class="path-card-quote">
-                            <span class="quote-text">“Sound creates the world you cannot see.”</span>
-                            <span class="quote-author">— Ben Burtt</span>
-                        </div>
-                    </a>
                 </div>
             </section>
         </main>
 
         <!-- Footer -->
         <footer class="footer">
-            <div class="footer-logo">CineAcademy</div>
+            <div class="footer-logo">CineScholar</div>
             <ul class="footer-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="direction.html">Direction</a></li>
-                <li><a href="screenwriting.html">Screenwriting</a></li>
                 <li><a href="editing.html">Editing</a></li>
                 <li><a href="cinematography.html">Cinematography</a></li>
-                <li><a href="sound-design.html">Sound Design</a></li>
             </ul>
-            <p class="footer-copy">&copy; 2026 CineAcademy. Created for aspiring directors and cinema students.</p>
+            <p class="footer-copy">&copy; 2026 CineScholar. Created for aspiring directors and cinema students.</p>
         </footer>
     </div>
 
     <!-- Load Script files -->
-    <script src="js/data.js?v=12"></script>
-    <script src="js/app.js?v=12"></script>
+    <script src="js/data.js?v=13"></script>
+    <script src="js/app.js?v=13"></script>
 </body>
 </html>

@@ -4154,41 +4154,47 @@ const FILMS_DATA = {
                     {
                         "title": "Rekava",
                         "year": 1956,
+                        "director": "Lester James Peries",
+                        "writer": "Lester James Peries / K.A.W. Perera",
+                        "cinematographer": "William Blake",
+                        "editor": "Titus Thotawatte",
+                        "composer": "Sunil Santha / K.A. Dayaratne",
+                        "studio": "Chitra Lanka",
+                        "country": "Sri Lanka",
+                        "releaseDate": "December 28, 1956",
                         "focus": "Birth of Sri Lankan cinema, on-location village realism, and folk magical narrative",
-                        "releaseDate": "21 Jan 1956",
-                        "writer": "Lester James Peries",
-                        "cinematographer": "Willie Blake",
-                        "editor": "Lester James Peries",
-                        "composer": "Sunil Santha",
-                        "studio": "Associated Newspapers of Ceylon",
-                        "poster": "https://image.tmdb.org/t/p/w500/u2HLHOK4J7JTcJbrBdd5TOY10IV.jpg",
-                        "plot": "A sprawling portrait of rural life in Sri Lanka; the story revolves around a boy and his friend--a blind girl who he accidentally 'heals' by giving her sight. Though the girl believes the boy healed her, in reality the boy has no such powers. The father of the boy fools the village folk into believing he's a healer, but ultimately the sham is exposed, causing the village to revolt against the boy and his family."
+                        "plot": "A sprawling portrait of rural life in Sri Lanka; the story revolves around a boy and his friend--a blind girl who he accidentally 'heals' by giving her sight. Though the girl believes the boy healed her, in reality the boy has no such powers. The father of the boy fools the village folk into believing he's a healer, but ultimately the sham is exposed, causing the village to revolt against the boy and his family.",
+                        "poster": "https://image.tmdb.org/t/p/w500/u2HLHOK4J7JTcJbrBdd5TOY10IV.jpg"
                     },
                     {
                         "title": "Gamperaliya",
                         "year": 1963,
-                        "focus": "Lyrical village realism, caste conflicts, and location cinematography",
-                        "releaseDate": "20 Dec 1963",
-                        "writer": "Regi Siriwardena",
+                        "director": "Lester James Peries",
+                        "writer": "Reggie SiriwardENA",
                         "cinematographer": "William Blake",
-                        "editor": "Sumitra Gunawardana",
+                        "editor": "Sumitra Peries",
                         "composer": "W.D. Amaradeva",
-                        "studio": "Cinelanka Ltd.",
-                        "poster": "https://image.tmdb.org/t/p/w500/4DcE1EJBFvCmlM6ea6iQ2YdqPxo.jpg",
-                        "plot": "Piyal is a handsome young teacher who is hired to teach English to Nanda, a member of a high class family. They fall in love, but can't elope because Piyal is of a lower class. Nanda's parents instead push her into a marriage with Jinadasa, who is of the same class as them. With economic downturn in Sri Lanka, both families lose their status and Jinadasa leaves to try to make a better life for himself; he never achieves his goal and dies penniless. Piyal and Nanda can now finally come together. They have changed however, and the earlier idylic nature of their relationship is not recaptured."
+                        "studio": "Cine Lanka",
+                        "country": "Sri Lanka",
+                        "releaseDate": "December 20, 1963",
+                        "focus": "Lyrical village realism, caste conflicts, and location cinematography",
+                        "plot": "Piyal is a handsome young teacher who is hired to teach English to Nanda, a member of a high class family. They fall in love, but can't elope because Piyal is of a lower class. Nanda's parents instead push her into a marriage with Jinadasa, who is of the same class as them. With economic downturn in Sri Lanka, both families lose their status and Jinadasa leaves to try to make a better life for himself; he never achieves his goal and dies penniless. Piyal and Nanda can now finally come together. They have changed however, and the earlier idylic nature of their relationship is not recaptured.",
+                        "poster": "https://image.tmdb.org/t/p/w500/4DcE1EJBFvCmlM6ea6iQ2YdqPxo.jpg"
                     },
                     {
                         "title": "Nidhanaya",
                         "year": 1972,
-                        "focus": "Obsession, greed, psychological tragedy, and baroque staging",
-                        "releaseDate": "19 Feb 1972",
+                        "director": "Lester James Peries",
                         "writer": "Tissa Abeysekara",
-                        "cinematographer": "M. S. Ananda",
-                        "editor": "Lester James Peries",
-                        "composer": "Premasiri Kemadasa",
-                        "studio": "Lester James Peries Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/6GUH5s9iV3UtATCsNaNMHQixXXF.jpg",
-                        "plot": "Based on a short story written by G.B. Senanayake in one of his short story collection known as \"The Revenge,\"  the film revolves around a murder committed for the purpose of gaining access to a hidden treasure."
+                        "cinematographer": "M.S. Anandan",
+                        "editor": "Sumitra Peries",
+                        "composer": "Premasiri Khemadasa",
+                        "studio": "Ceylon Studios",
+                        "country": "Sri Lanka",
+                        "releaseDate": "April 3, 1972",
+                        "focus": "Obsession, greed, psychological tragedy, and baroque staging",
+                        "plot": "Based on a short story written by G.B. Senanayake in one of his short story collection known as \"The Revenge,\"  the film revolves around a murder committed for the purpose of gaining access to a hidden treasure.",
+                        "poster": "assets/images/nidhanaya.png"
                     }
                 ],
                 "scenes": [
@@ -4228,43 +4234,50 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Death on a Full Moon Day",
-                        "year": 1997,
-                        "focus": "Civil war casualty denial, anti-spectacular trauma staging, and rural silence as grief",
-                        "releaseDate": "01 Jan 1997",
+                        "id": "anantha-rathriya",
+                        "title": "Anantha Rathriya",
+                        "year": 1996,
+                        "director": "Prasanna Vithanage",
                         "writer": "Prasanna Vithanage",
-                        "cinematographer": "Channa Deshapriya",
-                        "editor": "Prasanna Vithanage",
-                        "composer": "Nanda Malini",
-                        "studio": "Prasanna Vithanage Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/syGDMZyDKcVQjn9vh22EqkzwRbK.jpg",
-                        "plot": "Drama about a father who refuses to believe in his son's death at war."
+                        "cinematographer": "M.D. Mahindapala",
+                        "editor": "Elmo Halliday",
+                        "composer": "Harsha Makalanda",
+                        "studio": "Film Lanka Productions",
+                        "country": "Sri Lanka",
+                        "releaseDate": "March 15, 1996",
+                        "focus": "Vithanage employs a fragmented narrative structure and introspective pacing to explore guilt, memory, and the lasting psychological scars of political violence.",
+                        "plot": "A man reflects on his past actions during the 1971 JVP insurrection, specifically a traumatic incident involving a young woman he once loved.",
+                        "poster": "assets/images/anantha-rathriya.jpg"
                     },
                     {
-                        "title": "August Sun",
-                        "year": 2003,
-                        "focus": "Post-war identity crisis, minimalist interior staging, and long-take male silence",
-                        "releaseDate": "01 Jan 2003",
+                        "title": "Purahanda Kaluwara",
+                        "year": 2001,
+                        "director": "Prasanna Vithanage",
                         "writer": "Prasanna Vithanage",
-                        "cinematographer": "Channa Deshapriya",
-                        "editor": "Prasanna Vithanage",
-                        "composer": "Nanda Malini",
+                        "cinematographer": "M.D. Mahindapala",
+                        "editor": "A. Sreekar Prasad",
+                        "composer": "Harsha Makalanda",
                         "studio": "Prasanna Vithanage Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/notU5LORx9ic793OSelDLbZNBFY.jpg",
-                        "plot": "Set in Sri Lanka during the mid-1990s, August Sun tells three simultaneous stories against the backdrop of the country's savage civil war (1983 – 2009)."
+                        "country": "Sri Lanka",
+                        "releaseDate": "July 27, 2001",
+                        "focus": "Civil war casualty denial, anti-spectacular trauma staging, and rural silence as grief",
+                        "plot": "Drama about a father who refuses to believe in his son's death at war.",
+                        "poster": "https://image.tmdb.org/t/p/w500/syGDMZyDKcVQjn9vh22EqkzwRbK.jpg"
                     },
                     {
                         "title": "With You, Without You",
                         "year": 2012,
-                        "focus": "Ethnic reconciliation, rural landscape stillness, and long contemplative takes",
-                        "releaseDate": "01 Sep 2012",
+                        "director": "Prasanna Vithanage",
                         "writer": "Prasanna Vithanage",
-                        "cinematographer": "Channa Deshapriya",
-                        "editor": "Prasanna Vithanage",
-                        "composer": "Lal Debasinghe",
+                        "cinematographer": "M.D. Mahindapala",
+                        "editor": "A. Sreekar Prasad",
+                        "composer": "Lakshman Joseph De Saram",
                         "studio": "Prasanna Vithanage Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/ho5qdAQfcFDpb4R0XLT6vDxA2en.jpg",
-                        "plot": "The film set, in post war Sri Lanka, brings us close to two characters who collide quite accidentally, and through them we experience the deep and seemingly unbridgeable chasm that conflict almost always creates. Will love help them cross the bridge? Or will the past continue to color the present? A man and a woman from the two ends of the thirty-year-old bloody civil war in Sri Lanka discover that the color of love is blue, and life, shades of grey."
+                        "country": "Sri Lanka",
+                        "releaseDate": "August 31, 2012",
+                        "focus": "Ethnic reconciliation, rural landscape stillness, and long contemplative takes",
+                        "plot": "The film set, in post war Sri Lanka, brings us close to two characters who collide quite accidentally, and through them we experience the deep and seemingly unbridgeable chasm that conflict almost always creates. Will love help them cross the bridge? Or will the past continue to color the present? A man and a woman from the two ends of the thirty-year-old bloody civil war in Sri Lanka discover that the color of love is blue, and life, shades of grey.",
+                        "poster": "assets/images/with-you-without-you.png"
                     }
                 ],
                 "scenes": [
@@ -4304,17 +4317,35 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "The Forsaken Land",
+                        "title": "Forsaken Land",
                         "year": 2005,
-                        "focus": "Cannes Camera d'Or winner, post-war rural stasis, extreme minimalist duration takes",
-                        "releaseDate": "20 May 2005",
+                        "director": "Vimukthi Jayasundara",
                         "writer": "Vimukthi Jayasundara",
-                        "cinematographer": "Vimukthi Jayasundara",
-                        "editor": "Vimukthi Jayasundara",
-                        "composer": "None (ambient sound design)",
-                        "studio": "Dharmasoka Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/hRPCWykVJfC2qMNRiOPXrOLPZDo.jpg",
-                        "plot": "A home-guard serviceman assigned the task of standing watch over a barren no-man's-land begins to experience an existential crisis after years of lonely service."
+                        "cinematographer": "Channa Deshapriya",
+                        "editor": "Gisèle Rapp-Meichler",
+                        "composer": "Nadeeka Guruge",
+                        "studio": "Les Films de l'Etranger / Film Council",
+                        "country": "Sri Lanka / France",
+                        "releaseDate": "May 14, 2005",
+                        "focus": "Cannes Camera d'Or winner, post-war rural stasis, extreme minimalist duration takes",
+                        "plot": "A home-guard serviceman assigned the task of standing watch over a barren no-man's-land begins to experience an existential crisis after years of lonely service.",
+                        "poster": "https://image.tmdb.org/t/p/w500/hRPCWykVJfC2qMNRiOPXrOLPZDo.jpg"
+                    },
+                    {
+                        "id": "between-two-worlds",
+                        "title": "Between Two Worlds",
+                        "year": 2009,
+                        "director": "Vimukthi Jayasundara",
+                        "writer": "Vimukthi Jayasundara",
+                        "cinematographer": "Channa Deshapriya",
+                        "editor": "Julie Beziau",
+                        "composer": "Nadeeka Guruge",
+                        "studio": "Digimage / Les Films de l'Etranger",
+                        "country": "Sri Lanka / France",
+                        "releaseDate": "September 8, 2009",
+                        "focus": "A highly allegorical and visually arresting exploration of dislocation, utilizing stark, beautiful imagery and sparse dialogue to reflect the disorientation of post-war Sri Lanka.",
+                        "plot": "A mysterious young man falls from the sky and navigates a surreal, dreamlike landscape torn by conflict, encountering various displaced individuals.",
+                        "poster": "assets/images/between-two-worlds.jpg"
                     }
                 ],
                 "scenes": [
@@ -4331,7 +4362,7 @@ const FILMS_DATA = {
                         "analysis": "Jayasundara keeps them in separate frame halves using a wide master-shot inside a dim, sparse room. He refuses close-ups, preventing the audience from easy emotional access. The physical proximity and emotional distance create a devastating portrait of a marriage destroyed by war."
                     }
                 ],
-                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Vimukthi_Jayasundara.jpg/440px-Vimukthi_Jayasundara.jpg"
+                "image": "assets/images/vimukthi-jayasundara.png"
             },
             {
                 "id": "tareque-masud",
@@ -4354,17 +4385,33 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Matir Moina",
+                        "title": "The Clay Bird",
                         "year": 2002,
-                        "focus": "Liberation War child-eye perspective, Cannes FIPRESCI winner, folk Baul music integration",
-                        "releaseDate": "25 May 2002",
-                        "writer": "Tareque Masud, Catherine Masud",
-                        "cinematographer": "Sudhir Palsane",
+                        "director": "Tareque Masud",
+                        "writer": "Tareque Masud / Catherine Masud",
+                        "cinematographer": "Sudheer Palsane",
                         "editor": "Catherine Masud",
-                        "composer": "Moushumi Bhowmik",
+                        "studio": "Audiovision / Mk2 Productions",
+                        "country": "Bangladesh / France",
+                        "releaseDate": "May 15, 2002",
+                        "focus": "Liberation War child-eye perspective, Cannes FIPRESCI winner, folk Baul music integration",
+                        "plot": "A family must come to grips with its culture, its faith, and the brutal political changes entering its small-town world.",
+                        "poster": "https://image.tmdb.org/t/p/w500/lpuRN4Gh2jiKhwZeHEsKjgoHZ83.jpg"
+                    },
+                    {
+                        "id": "ontoryatra",
+                        "title": "Ontoryatra",
+                        "year": 2006,
+                        "director": "Tareque Masud / Catherine Masud",
+                        "writer": "Tareque Masud / Catherine Masud",
+                        "cinematographer": "Tareque Masud",
+                        "editor": "Catherine Masud",
                         "studio": "Audiovision",
-                        "poster": "https://image.tmdb.org/t/p/w500/lpuRN4Gh2jiKhwZeHEsKjgoHZ83.jpg",
-                        "plot": "A family must come to grips with its culture, its faith, and the brutal political changes entering its small-town world."
+                        "country": "Bangladesh",
+                        "releaseDate": "April 21, 2006",
+                        "focus": "Masud delicately captures the nuances of diaspora and the emotional pull of the homeland, using intimate, naturalistic cinematography to explore the tension between modernity and tradition.",
+                        "plot": "A divorced mother and her son return to Bangladesh from London for a funeral, forcing them to confront their complex cultural identities and strained family dynamics.",
+                        "poster": "assets/images/ontoryatra.jpg"
                     }
                 ],
                 "scenes": [
@@ -4381,7 +4428,7 @@ const FILMS_DATA = {
                         "analysis": "Masud shoots this in a single static wide-shot of the entire family illuminated by a single kerosene lamp in darkness. He cuts to the children's bewildered faces in close-up, then back to the wide shot. The small circle of lamplight against the vast darkness represents a nation teetering on the edge of cataclysm."
                     }
                 ],
-                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tareque_Masud.jpg/440px-Tareque_Masud.jpg"
+                "image": "assets/images/tareque-masud.png"
             },
             {
                 "id": "humayun-ahmed",
@@ -4405,29 +4452,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Aguner Poroshmoni",
-                        "year": 1995,
-                        "focus": "National Film Award Best Film, Liberation War domestic drama, warm literary ensemble staging",
-                        "releaseDate": "14 Apr 1994",
+                        "year": 1994,
+                        "director": "Humayun Ahmed",
                         "writer": "Humayun Ahmed",
-                        "cinematographer": "Mohammad Hossain",
-                        "editor": "Aminul Islam",
-                        "composer": "Moushumi Bhowmik",
-                        "studio": "Humayun Ahmed Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/ygJopYcwwi8wbZTaUFav5u6Rz8L.jpg",
-                        "plot": "A middle-class family shelters a freedom fighter in war-torn Dhaka."
+                        "cinematographer": "Anwar Hossain",
+                        "editor": "M.A. Khaleque",
+                        "composer": "Satya Saha",
+                        "studio": "Nuhash Chalachitra",
+                        "country": "Bangladesh",
+                        "releaseDate": "December 23, 1994",
+                        "focus": "National Film Award Best Film, Liberation War domestic drama, warm literary ensemble staging",
+                        "plot": "A middle-class family shelters a freedom fighter in war-torn Dhaka.",
+                        "poster": "https://image.tmdb.org/t/p/w500/ygJopYcwwi8wbZTaUFav5u6Rz8L.jpg"
                     },
                     {
                         "title": "Shyamol Chhaya",
                         "year": 2004,
-                        "focus": "Liberation War boat-journey suspense, river landscape staging, moral revelation ensemble drama",
-                        "releaseDate": "01 Jan 2004",
+                        "director": "Humayun Ahmed",
                         "writer": "Humayun Ahmed",
-                        "cinematographer": "Sumon Chakraborty",
-                        "editor": "Badal Rahman",
-                        "composer": "Moushumi Bhowmik",
-                        "studio": "Humayun Ahmed Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/k0KIqsShCTtNEHm2B2crp4eWUI7.jpg",
-                        "plot": "Refugees from East Pakistan flee West Pakistani soldiers aboard a rickety steamboat."
+                        "cinematographer": "Mahfuzur Rahman Khan",
+                        "editor": "Aminul Islam Mintu",
+                        "composer": "Maksud Jamil Mintu",
+                        "studio": "Nuhash Chalachitra",
+                        "country": "Bangladesh",
+                        "releaseDate": "December 16, 2004",
+                        "focus": "Liberation War boat-journey suspense, river landscape staging, moral revelation ensemble drama",
+                        "plot": "Refugees from East Pakistan flee West Pakistani soldiers aboard a rickety steamboat.",
+                        "poster": "https://image.tmdb.org/t/p/w500/k0KIqsShCTtNEHm2B2crp4eWUI7.jpg"
                     }
                 ],
                 "scenes": [
@@ -4468,29 +4519,34 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Television",
-                        "year": 2012,
+                        "year": 2013,
+                        "director": "Mostofa Sarwar Farooki",
+                        "writer": "Mostofa Sarwar Farooki / Anisul Hoque",
+                        "cinematographer": "Golam Maula Nabir",
+                        "editor": "Amit Debnath",
+                        "composer": "Ayub Bachchu",
+                        "studio": "Chabial",
+                        "country": "Bangladesh",
+                        "releaseDate": "January 25, 2013",
                         "focus": "Rural conservative family and television ban, warm social comedy, ensemble village dynamics",
-                        "releaseDate": "30 Mar 2013",
-                        "writer": "Mostofa Sarwar Farooki",
-                        "cinematographer": "Mahmudul Bari",
-                        "editor": "Tanjil Hasan Jihad",
-                        "composer": "Fuad Al Muqtadir",
-                        "studio": "Bengal Creations",
-                        "poster": "https://image.tmdb.org/t/p/w500/wmIV5gTjiU9xOg5ZoyQqLmT73JD.jpg",
-                        "plot": "A devout village leader prohibits an array of modern devices, but when his strict measures go too far, the locals rise up in popular rebellion."
+                        "plot": "A devout village leader prohibits an array of modern devices, but when his strict measures go too far, the locals rise up in popular rebellion.",
+                        "poster": "https://image.tmdb.org/t/p/w500/wmIV5gTjiU9xOg5ZoyQqLmT73JD.jpg"
                     },
                     {
-                        "title": "No Bed of Roses",
-                        "year": 2016,
-                        "focus": "Asian Film Award Best Film winner, Dhaka urban marriage drama, genre-fluid social realism",
-                        "releaseDate": "30 Dec 2016",
+                        "id": "doob-no-bed-of-roses",
+                        "title": "Doob: No Bed of Roses",
+                        "year": 2017,
+                        "director": "Mostofa Sarwar Farooki",
                         "writer": "Mostofa Sarwar Farooki",
-                        "cinematographer": "Mahmudul Bari",
-                        "editor": "Tanjil Hasan Jihad",
-                        "composer": "Fuad Al Muqtadir",
-                        "studio": "Bengal Creations",
-                        "poster": "https://image.tmdb.org/t/p/w500/4SX4TXZ7E5KhWfktNJCAdTREKes.jpg",
-                        "plot": "As a noted filmmaker’s infidelity becomes a media firestorm, his fractured family privately navigates the fallout of his actions for years to come."
+                        "cinematographer": "Sheikh Rajibul Islam",
+                        "editor": "Amit Debnath",
+                        "composer": "Pavel Areen",
+                        "studio": "Jaaz Multimedia / Irrfan Khan Movies / Eskay Movies",
+                        "country": "Bangladesh / India",
+                        "releaseDate": "October 27, 2017",
+                        "focus": "Farooki crafts a melancholic, visually poetic meditation on love, betrayal, and mortality, characterized by its deliberate pacing and emotionally raw performances.",
+                        "plot": "A successful filmmaker's life is thrown into turmoil when an illicit affair causes a deeply painful and highly publicized rift within his family.",
+                        "poster": "assets/images/doob-no-bed-of-roses.jpg"
                     }
                 ],
                 "scenes": [
@@ -4532,28 +4588,32 @@ const FILMS_DATA = {
                     {
                         "title": "Khuda Kay Liye",
                         "year": 2007,
-                        "focus": "Religious extremism post-9/11 debate, Pakistani cinema renaissance, forceful ideological courtroom drama",
-                        "releaseDate": "31 Aug 2007",
+                        "director": "Shoaib Mansoor",
                         "writer": "Shoaib Mansoor",
-                        "cinematographer": "Shoaib Mansoor",
+                        "cinematographer": "Faisal Qureshi",
                         "editor": "Shoaib Mansoor",
-                        "composer": "Salman Ahmad",
-                        "studio": "Shoaib Mansoor Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/4QaOrupHDRLgWRJEndFKERx9I5y.jpg",
-                        "plot": "The film is about the difficult situation in which the Pakistanis in particular and the Muslims in general are caught up since 9/11. There is a war going on between the Fundamentalists and the Liberal Muslims. This situation is creating a drift not only between the Western world and the Muslims, but also within the Muslims. The educated and modern Muslims are in a difficult situation because of their approach towards life and their western attire. They are criticized and harassed by the fundamentalists and on the other hand the Western world sees them as potential suspects of terrorism just because of their Muslim names."
+                        "composer": "Shoaib Mansoor",
+                        "studio": "Shoman Productions",
+                        "country": "Pakistan",
+                        "releaseDate": "July 20, 2007",
+                        "focus": "Religious extremism post-9/11 debate, Pakistani cinema renaissance, forceful ideological courtroom drama",
+                        "plot": "The film is about the difficult situation in which the Pakistanis in particular and the Muslims in general are caught up since 9/11. There is a war going on between the Fundamentalists and the Liberal Muslims. This situation is creating a drift not only between the Western world and the Muslims, but also within the Muslims. The educated and modern Muslims are in a difficult situation because of their approach towards life and their western attire. They are criticized and harassed by the fundamentalists and on the other hand the Western world sees them as potential suspects of terrorism just because of their Muslim names.",
+                        "poster": "https://image.tmdb.org/t/p/w500/4QaOrupHDRLgWRJEndFKERx9I5y.jpg"
                     },
                     {
                         "title": "Bol",
                         "year": 2011,
-                        "focus": "Gender violence critique, honor killing, performance-driven social realism",
-                        "releaseDate": "24 Jun 2011",
+                        "director": "Shoaib Mansoor",
                         "writer": "Shoaib Mansoor",
-                        "cinematographer": "Shoaib Mansoor",
-                        "editor": "Shoaib Mansoor",
-                        "composer": "Strings, Shoaib Mansoor",
-                        "studio": "Shoaib Mansoor Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/6hx1ogX91dxe4SGJ1MRHX9dLjp7.jpg",
-                        "plot": "The patriarch of a religious Muslim family refuses to accept his intersex child, tearing his family apart."
+                        "cinematographer": "Jono Smith",
+                        "editor": "Yousuf Hasan Khan",
+                        "composer": "Shoaib Mansoor",
+                        "studio": "Shoman Productions",
+                        "country": "Pakistan",
+                        "releaseDate": "June 24, 2011",
+                        "focus": "Gender violence critique, honor killing, performance-driven social realism",
+                        "plot": "The patriarch of a religious Muslim family refuses to accept his intersex child, tearing his family apart.",
+                        "poster": "https://image.tmdb.org/t/p/w500/6hx1ogX91dxe4SGJ1MRHX9dLjp7.jpg"
                     }
                 ],
                 "scenes": [
@@ -4570,7 +4630,7 @@ const FILMS_DATA = {
                         "analysis": "Mansoor uses a direct-address close-up — Zainab looking almost directly into the camera. Her story is told in flashback, but her present gaze gives the audience no distance from her pain, making them direct witnesses and forcing a moral reckoning."
                     }
                 ],
-                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Shoaib_Mansoor.jpg/440px-Shoaib_Mansoor.jpg"
+                "image": "assets/images/shoaib-mansoor.png"
             },
             {
                 "id": "sarmad-khoosat",
@@ -4593,17 +4653,36 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Zindagi Tamasha",
-                        "year": 2020,
-                        "focus": "Pakistan Oscar entry, religious mob persecution of artist, intimate theatrical performance direction",
-                        "releaseDate": "24 Jan 2020",
-                        "writer": "Sarmad Khoosat",
-                        "cinematographer": "Rana Kamran",
-                        "editor": "Sarmad Khoosat",
-                        "composer": "Natasha Humera Ejaz",
-                        "studio": "Mastermind Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/in9zaAGE9aIw0DKtagJvsfqkknl.jpg",
-                        "plot": "A devout Muslim who writes, composes, and even records hymns praising the Prophet, Muhammad Rahat Khawaja is a respected elderly man who works in real estate and takes care of his bedridden wife. One day, he attends the wedding of a friend's son, where he inadvertently shows off a dance in front of his friends and family. His dance gets recorded and then uploaded to all social media platforms, which then also gets broadcasted on television. And chaos begins to ensue in his quiet life. Other than his wife, no one else in the world understands Rahat's circumstances. His daughters and neighbors criticize him, his friends turn their backs on him"
+                        "id": "manto",
+                        "title": "Manto",
+                        "year": 2015,
+                        "director": "Sarmad Khoosat",
+                        "writer": "Shahid Nadeem",
+                        "cinematographer": "Bilal Khan",
+                        "editor": "Rohit Philip",
+                        "composer": "True Brew Records",
+                        "studio": "Geo Films / Khoosat Films",
+                        "country": "Pakistan",
+                        "releaseDate": "September 11, 2015",
+                        "focus": "A gritty, uncompromising portrait of a tortured artist, featuring a deeply immersive performance by Khoosat and a stark, unromanticized depiction of post-partition Lahore.",
+                        "plot": "A biographical drama chronicling the tumultuous life of the controversial Urdu writer Saadat Hasan Manto as he struggles with censorship, alcoholism, and the trauma of the partition.",
+                        "poster": "assets/images/manto.jpg"
+                    },
+                    {
+                        "id": "kamli",
+                        "title": "Kamli",
+                        "year": 2022,
+                        "director": "Sarmad Khoosat",
+                        "writer": "Fatimah Sattar",
+                        "cinematographer": "Awais Gohar",
+                        "editor": "Saim Sadiq",
+                        "composer": "Saad Sultan",
+                        "studio": "Khoosat Films",
+                        "country": "Pakistan",
+                        "releaseDate": "June 3, 2022",
+                        "focus": "Khoosat blends psychological thriller elements with lyrical romance, utilizing lush, vibrant cinematography and atmospheric tension to explore female desire and societal constraints.",
+                        "plot": "A young woman awaits the return of her husband in a remote, idyllic village, where she becomes entangled in a passionate, mysterious relationship.",
+                        "poster": "assets/images/kamli.jpg"
                     }
                 ],
                 "scenes": [
@@ -4620,7 +4699,7 @@ const FILMS_DATA = {
                         "analysis": "Khoosat keeps the camera inside the house — with Rahat — never going outside to cover the mob's perspective. The sounds of the crowd penetrate the walls while the camera focuses on the family's frozen, terrified faces. The deliberate refusal to show the mob gives it a more terrifying, shapeless power."
                     }
                 ],
-                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sarmad_Khoosat.jpg/440px-Sarmad_Khoosat.jpg"
+                "image": "assets/images/sarmad-khoosat.png"
             },
             {
                 "id": "min-bahadur-bham",
@@ -4645,15 +4724,32 @@ const FILMS_DATA = {
                     {
                         "title": "The Black Hen",
                         "year": 2015,
+                        "director": "Min Bahadur Bham",
+                        "writer": "Min Bahadur Bham / Abinash Bikram Shah",
+                        "cinematographer": "Aziz Zhambakiyev",
+                        "editor": "Niam Itani",
+                        "composer": "Jason Kunwar",
+                        "studio": "Shooney Films / Mila Productions",
+                        "country": "Nepal / France / Germany / Switzerland",
+                        "releaseDate": "September 4, 2015",
                         "focus": "Nepal Oscar submission, Venice NETPAC Award, Maoist insurgency child-eye view, Himalayan landscape",
-                        "releaseDate": "03 Sep 2015",
-                        "writer": "Min Bahadur Bham",
-                        "cinematographer": "Sanjay Thakur",
-                        "editor": "Bikram Subba",
-                        "composer": "Prabhakar Dhakal",
-                        "studio": "Sani Babu Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/ffYITYNxVYmREsaI5B6u8CE7LAn.jpg",
-                        "plot": "We are in the year 2001, a temporary ceasefire brings a much-needed break to a small war-torn village in Northern Nepal, bringing much joy among the residents. Prakash and Kiran, two young close friends, are also starting to feel the change in the air. Though they are divided by caste and social creed, they remain inseparable, and start raising a hen given to Prakash by his sister, with hopes to save money by selling her eggs. However, the hen goes missing. To find it, they embark on a journey, innocently unaware of the tyranny brought by the fragile ceasefire."
+                        "plot": "We are in the year 2001, a temporary ceasefire brings a much-needed break to a small war-torn village in Northern Nepal, bringing much joy among the residents. Prakash and Kiran, two young close friends, are also starting to feel the change in the air. Though they are divided by caste and social creed, they remain inseparable, and start raising a hen given to Prakash by his sister, with hopes to save money by selling her eggs. However, the hen goes missing. To find it, they embark on a journey, innocently unaware of the tyranny brought by the fragile ceasefire.",
+                        "poster": "https://image.tmdb.org/t/p/w500/ffYITYNxVYmREsaI5B6u8CE7LAn.jpg"
+                    },
+                    {
+                        "id": "shambhala",
+                        "title": "Shambhala",
+                        "year": 2024,
+                        "director": "Min Bahadur Bham",
+                        "writer": "Min Bahadur Bham / Abinash Bikram Shah",
+                        "cinematographer": "Muriel Cravatte",
+                        "editor": "Kiran Shrestha",
+                        "studio": "Shooney Films / CDP",
+                        "country": "Nepal / France / Germany / Norway / Hong Kong",
+                        "releaseDate": "February 23, 2024",
+                        "focus": "A visually majestic and spiritually profound film that captures the harsh beauty of the Himalayas, emphasizing ethnographic authenticity and a deeply empathetic portrayal of female resilience.",
+                        "plot": "In a polyandrous Himalayan village, a pregnant woman embarks on a perilous journey across the mountains to find her missing husband and prove her innocence.",
+                        "poster": "assets/images/shambhala.png"
                     }
                 ],
                 "scenes": [
@@ -4687,17 +4783,33 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
+                        "id": "highway",
+                        "title": "Highway",
+                        "year": 2012,
+                        "director": "Deepak Rauniyar",
+                        "writer": "Deepak Rauniyar / Kedar Shrestha",
+                        "cinematographer": "Deepak Rauniyar",
+                        "editor": "Lokesh Bajracharya",
+                        "studio": "Aadi Production",
+                        "country": "Nepal",
+                        "releaseDate": "June 15, 2012",
+                        "focus": "Rauniyar employs a kinetic, multi-strand narrative to capture the chaotic, transitional state of modern Nepal, blending realism with sharp social commentary.",
+                        "plot": "The lives of several distinct passengers intersect on a fraught bus journey to Kathmandu, delayed by constant roadblocks and bandhs (political strikes).",
+                        "poster": "assets/images/highway.png"
+                    },
+                    {
                         "title": "White Sun",
                         "year": 2016,
+                        "director": "Deepak Rauniyar",
+                        "writer": "Deepak Rauniyar / David Barker",
+                        "cinematographer": "Mark Jeevan",
+                        "editor": "David Barker",
+                        "studio": "Aadi Production / Louverture Films",
+                        "country": "Nepal / United States / Netherlands / Qatar",
+                        "releaseDate": "September 1, 2016",
                         "focus": "Tribeca FIPRESCI Prize, Maoist civil war aftermath, Himalayan journey film, multi-generational conflict",
-                        "releaseDate": "20 Apr 2016",
-                        "writer": "Deepak Rauniyar",
-                        "cinematographer": "Saumitra Upadhyay",
-                        "editor": "Remi Cahon",
-                        "composer": "Narayan Kaia",
-                        "studio": "Dreams Catcher Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/5XUuWAWwjb4OUgB3r8holAZzc7r.jpg",
-                        "plot": "Young Pooja lives with her mother in a village in Nepal. Though saddened by the death of her grandfather, she is secretly thrilled at the prospect of meeting the man she hopes may be her father — Chandra, a former Maoist guerrilla who is returning home after a decade-long civil conflict."
+                        "plot": "Young Pooja lives with her mother in a village in Nepal. Though saddened by the death of her grandfather, she is secretly thrilled at the prospect of meeting the man she hopes may be her father — Chandra, a former Maoist guerrilla who is returning home after a decade-long civil conflict.",
+                        "poster": "https://image.tmdb.org/t/p/w500/5XUuWAWwjb4OUgB3r8holAZzc7r.jpg"
                     }
                 ],
                 "scenes": [
@@ -4725,60 +4837,50 @@ const FILMS_DATA = {
                     "Hypnotic Static Framing: Keeps the camera locked for minutes, letting characters walk out of frame while the camera lingers on nature."
                 ],
                 "lessons": [
-                    "Respect the mystery. You do not need to explain why a ghost appears; let it sit in the frame like a normal family member.",
+                    "Respect the mystery. You do not need to explain why a ghost appears; var it sit in the frame like a normal family member.",
                     "Embrace slow time. Long, silent frames allow the audience's mind to wander, turning the film into a personal meditation."
                 ],
                 "mustWatch": [
                     {
                         "title": "Tropical Malady",
                         "year": 2004,
-                        "focus": "Split-narrative structure, jungle myths, and shape-shifting tigers",
                         "releaseDate": "May 17, 2004",
+                        "director": "Apichatpong Weerasethakul",
                         "writer": "Apichatpong Weerasethakul",
-                        "cinematographer": "Jarin Pengpanitch, Vichit Tanapanitch, Jean-Louis Vialard",
-                        "editor": "Lee Chatametikool, Jacopo Quadri",
-                        "composer": "Various (Ambient Jungle Soundscape)",
-                        "studio": "Anna Sanders Films, TIFA, Downtown Pictures, Thoke Moebius Film Company, Kick the Machine Films, RAI Cinema, Fabrica Cinema",
+                        "cinematographer": "Jarin Pengpanitch / Vichit Tanapanitch / Jean-Louis Vialard",
+                        "editor": "Jacopo Quadri",
+                        "studio": "Kick the Machine / Anna Sanders Films",
+                        "country": "Thailand / France / Germany / Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/9WJ8ZSZp2NC7jSvweFLskldpzzg.jpg",
-                        "plot": "The passionate relationship between two men with unusual consequences. The film is divided in two parts. The first half charts the modest attraction between two men in the sunny, relaxing countryside and the second half charts the confusion and terror of an unknown menace lurking deep within the jungle shadows."
-                    },
-                    {
-                        "title": "Syndromes and a Century",
-                        "year": 2006,
-                        "focus": "Symmetric split narrative, medical spaces, memories of youth",
-                        "releaseDate": "August 31, 2006",
-                        "writer": "Apichatpong Weerasethakul",
-                        "cinematographer": "Sayombhu Mukdeeprom",
-                        "editor": "Lee Chatametikool",
-                        "composer": "Koichi Shimizu",
-                        "studio": "Kick the Machine, Kick the Machine Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/1XUMd93PRMUkCtE2NWn0zQb1NC6.jpg",
-                        "plot": "A story about director Apichatpong Weerasethakul’s parents who were both doctors, and his memories of growing up in a hospital environment."
+                        "focus": "Split-narrative structure, jungle myths, and shape-shifting tigers",
+                        "plot": "Plot details not available."
                     },
                     {
                         "title": "Uncle Boonmee Who Can Recall His Past Lives",
                         "year": 2010,
-                        "focus": "Red-eyed monkey ghosts, cave staging, and spiritual transitions",
                         "releaseDate": "May 21, 2010",
+                        "director": "Apichatpong Weerasethakul",
                         "writer": "Apichatpong Weerasethakul",
-                        "cinematographer": "Sayombhu Mukdeeprom, Yukontorn Mingmongkon, Charin Pengpanitch",
+                        "cinematographer": "Sayombhu Mukdeeprom",
                         "editor": "Lee Chatametikool",
-                        "composer": "Various (Ambient Soundscape & Thai Folk Music)",
-                        "studio": "Kick the Machine Film, Zhao Wei Films",
+                        "studio": "Kick the Machine / Illuminations Films / Match Factory",
+                        "country": "Thailand / United Kingdom / France / Germany / Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/kPFkC9EBvllCIuDTR7A0DSEK6gJ.jpg",
-                        "plot": "Suffering from acute kidney failure, Boonmee has chosen to spend his final days surrounded by his loved ones in the countryside. Surprisingly, the ghost of his deceased wife appears to care for him, and his long lost son returns home in a non-human form. Contemplating the reasons for his illness, Boonmee treks through the jungle with his family to a mysterious hilltop cave—the birthplace of his first life."
+                        "focus": "Red-eyed monkey ghosts, cave staging, and spiritual transitions",
+                        "plot": "Plot details not available."
                     },
                     {
                         "title": "Cemetery of Splendour",
                         "year": 2015,
-                        "focus": "Sleeping soldiers, neon light therapy tubes, medium visitations",
-                        "releaseDate": "September 2, 2015",
+                        "releaseDate": "May 18, 2015",
+                        "director": "Apichatpong Weerasethakul",
                         "writer": "Apichatpong Weerasethakul",
                         "cinematographer": "Sayombhu Mukdeeprom",
                         "editor": "Lee Chatametikool",
-                        "composer": "Ambient Soundscape",
-                        "studio": "Kick the Machine, Illuminations Films, Anna Sanders Films",
+                        "studio": "Kick the Machine / Illuminations Films",
+                        "country": "Thailand / United Kingdom / France / Germany / Malaysia",
                         "poster": "https://image.tmdb.org/t/p/w500/pK5y82ISbaBWa87R5neub8qojDk.jpg",
+                        "focus": "Sleeping soldiers, neon light therapy tubes, medium visitations",
                         "plot": "In a hospital, ten soldiers are being treated for a mysterious sleeping sickness. In a story in which dreams can be experienced by others, and in which goddesses can sit casually with mortals, a nurse learns the reason why the patients will never be cured, and forms a telepathic bond with one of them."
                     }
                 ],
@@ -4832,28 +4934,32 @@ const FILMS_DATA = {
                     {
                         "title": "Last Life in the Universe",
                         "year": 2003,
-                        "focus": "Suicidal librarian, neon apartments, and accidental companionship",
-                        "releaseDate": "August 3, 2003",
-                        "writer": "Pen-Ek Ratanaruang, Prabda Yoon",
-                        "cinematographer": "Christopher Doyle",
-                        "editor": "Patamanadda Yukol",
-                        "composer": "Smallroom",
-                        "studio": "Cinemasia, Five Star Production",
-                        "poster": "https://image.tmdb.org/t/p/w500/pN6e9bMNfFNsIJZqb924KKu8lq4.jpg",
-                        "plot": "An obsessive-compulsive Japanese librarian living in Bangkok spends most of his days contemplating suicide in his apartment. His life changes when he witnesses the death of a young girl and becomes acquainted with her elder sister."
-                    },
-                    {
-                        "title": "Invisible Waves",
-                        "year": 2006,
-                        "focus": "Guilt-ridden chef, ship cabin confinement, and slow-burn revenge",
-                        "releaseDate": "March 2, 2006",
-                        "writer": "Prabda Yoon",
+                        "releaseDate": "August 8, 2003",
+                        "director": "Pen-Ek Ratanaruang",
+                        "writer": "Pen-Ek Ratanaruang / Prabda Yoon",
                         "cinematographer": "Christopher Doyle",
                         "editor": "Patamanadda Yukol",
                         "composer": "Hualampong Riddim",
+                        "studio": "Five Star Production / Bohemian Films",
+                        "country": "Thailand / Japan / Netherlands",
+                        "poster": "https://image.tmdb.org/t/p/w500/pN6e9bMNfFNsIJZqb924KKu8lq4.jpg",
+                        "focus": "Cultural displacement, suicidal ideation, and minimalist urban aesthetics",
+                        "plot": "An obsessive-compulsive Japanese librarian living in Bangkok spends most of his days contemplating suicide in his apartment. His life changes when he witnesses the death of a young girl and becomes acquainted with her elder sister."
+                    },
+                    {
+                        "title": "6ixtynin9",
+                        "year": 1999,
+                        "releaseDate": "November 25, 1999",
+                        "director": "Pen-Ek Ratanaruang",
+                        "writer": "Pen-Ek Ratanaruang",
+                        "cinematographer": "Chankit Chamnivikaipong",
+                        "editor": "Patamanadda Yukol",
+                        "composer": "Amornbhong Methakunavudh",
                         "studio": "Five Star Production",
-                        "poster": "https://image.tmdb.org/t/p/w500/hkLRQNDOpaFRj8xyW6aTBhFxyLX.jpg",
-                        "plot": "After inadvertently killing his girlfriend, a man flees Macau for Thailand in an attempt to cope with his guilt, and avoid possible arrest. But the relocation doesn't prevent his problems from following him, as his new friends could be potential enemies."
+                        "country": "Thailand",
+                        "poster": "https://image.tmdb.org/t/p/w500/q9hHVuHQX3yTDDUtuIezDz3YC34.jpg",
+                        "focus": "Dark comedy, existential crisis, and apartment-bound suspense",
+                        "plot": "A woman, fired from a financial corporation during the Asia crisis, returns home with no money. However, she finds a box with a fortune in front of her door, and decides to keep it. However, the people that left it there soon want it back."
                     }
                 ],
                 "scenes": [
@@ -4894,14 +5000,16 @@ const FILMS_DATA = {
                     {
                         "title": "Nang Nak",
                         "year": 1999,
-                        "focus": "Ghost wife, rural canals, and tragic devotion",
-                        "releaseDate": "July 23, 1999",
+                        "releaseDate": "July 30, 1999",
+                        "director": "Nonzee Nimibutr",
                         "writer": "Wisit Sasanatieng",
                         "cinematographer": "Nattawut Kittikhun",
-                        "editor": "Sunij Asvinikul",
-                        "composer": "Pakawat Vaiyagnik",
-                        "studio": "Buddy Film & Video Production",
+                        "editor": "Sunit Asvinikul",
+                        "composer": "Pakawat Vaiyavat /ชาติชาย ประเสริฐศิริ (Chatchai Pongprapaphan)",
+                        "studio": "Buddy Film and Video Production / Tai Entertainment",
+                        "country": "Thailand",
                         "poster": "https://image.tmdb.org/t/p/w500/gEPxY5GEgo6vUWuJhTpvruhovRD.jpg",
+                        "focus": "Traditional folklore, atmospheric horror, and tragic romance",
                         "plot": "In a rural village in Thailand, Mak is sent to fight in a war and leaves his pregnant wife, Nak. Mak is injured and barely survives. He returns home to his doting wife and child, or so he thinks."
                     }
                 ],
@@ -4937,27 +5045,31 @@ const FILMS_DATA = {
                     {
                         "title": "Manila in the Claws of Light",
                         "year": 1975,
-                        "focus": "Construction site exploitation, rural flight, and urban corruption",
                         "releaseDate": "July 16, 1975",
+                        "director": "Lino Brocka",
                         "writer": "Clodualdo del Mundo Jr.",
                         "cinematographer": "Mike De Leon",
-                        "editor": "Ike Jarlego Jr.",
+                        "editor": "Edgardo Vinarao",
                         "composer": "Max Jocson",
-                        "studio": "Cinema Artists",
+                        "studio": "Cinema Artists Philippines",
+                        "country": "Philippines",
                         "poster": "https://image.tmdb.org/t/p/w500/iFM8bcQnyBPlzd0JItgWNn6TjT2.jpg",
+                        "focus": "Social realism, urban decay, and systemic corruption in Marcos-era Philippines",
                         "plot": "Julio, a young fisherman from a provincial village, descends into social alienation as he arrives in Manila to search for his loved one."
                     },
                     {
                         "title": "Insiang",
                         "year": 1976,
-                        "focus": "Slum survival, mother-daughter rivalry, and sexual violence",
-                        "releaseDate": "December 25, 1976",
-                        "writer": "Lamberto E. Antonio, Mario O'Hara",
+                        "releaseDate": "December 19, 1976",
+                        "director": "Lino Brocka",
+                        "writer": "Mario O'Hara / Lamberto E. Antonio",
                         "cinematographer": "Conrado Baltazar",
                         "editor": "Augusto Salvador",
-                        "composer": "Mico Jocson",
+                        "composer": "Minda Azarcon",
                         "studio": "Cine Manila",
+                        "country": "Philippines",
                         "poster": "https://image.tmdb.org/t/p/w500/v8ABYJ28OXvzEceox2NrN9Vgycr.jpg",
+                        "focus": "Slum life claustrophobia, revenge narratives, and female victimization",
                         "plot": "A story about the life of a young girl living with her mother in the slums of Manila, which becomes unbearable when her mother's young boyfriend moves in with them."
                     }
                 ],
@@ -4992,35 +5104,37 @@ const FILMS_DATA = {
                     "Fixed Camera Philosophy: Rejects panning, tilting, or zooming, letting the viewer's eyes scan the frame independently."
                 ],
                 "lessons": [
-                    "De-commericalize cinema. Reject the standard 90-minute limit; let the film's scope and subject dictate its duration.",
+                    "De-commericalize cinema. Reject the standard 90-minute limit; var the film's scope and subject dictate its duration.",
                     "History as narrative. Cinema can serve as a massive, slow witness to the historical trauma and cultural identity of a people."
                 ],
                 "mustWatch": [
                     {
                         "title": "Norte, the End of History",
-                        "year": 2014,
-                        "focus": "Dostoyevskian guilt, intellectual hubris, and class injustice",
-                        "releaseDate": "March 11, 2014",
-                        "writer": "Lav Diaz, Rody Vera",
-                        "cinematographer": "Lauro Rene Manda",
+                        "year": 2013,
+                        "releaseDate": "May 23, 2013",
+                        "director": "Lav Diaz",
+                        "writer": "Lav Diaz / Rody Vera",
+                        "cinematographer": "Lav Diaz",
                         "editor": "Lav Diaz",
-                        "composer": "Ambient Soundscape",
-                        "studio": "Khavn, Wacky O Productions",
+                        "studio": "Kayan Productions / Moira Lang",
+                        "country": "Philippines",
                         "poster": "https://image.tmdb.org/t/p/w500/23FlJD2ykd4M7RTQ7A9HNayYOQy.jpg",
+                        "focus": "Durational cinema, moral philosophy, and Dostoevskian themes",
                         "plot": "An embittered law student commits a brutal double murder; a family man takes the fall and is forced to take a harsh sentence; and a mother and her two children wander the countryside in search of some kind of redemption."
                     },
                     {
-                        "title": "From What Is Before",
-                        "year": 2014,
-                        "focus": "Rural village life, pre-Martial Law anxiety, and spiritual decay",
-                        "releaseDate": "July 3, 2014",
+                        "title": "The Woman Who Left",
+                        "year": 2016,
+                        "releaseDate": "September 9, 2016",
+                        "director": "Lav Diaz",
                         "writer": "Lav Diaz",
                         "cinematographer": "Lav Diaz",
                         "editor": "Lav Diaz",
-                        "composer": "Lav Diaz",
-                        "studio": "Sine Olivia Pilipinas",
-                        "poster": "https://image.tmdb.org/t/p/w500/4fL07Lf7dghqtgX5ohoIYx4wZRG.jpg",
-                        "plot": "The Philippines, 1972. Mysterious things are happening in a remote barrio. Wails are heard from the forest, cows are hacked to death, a man is found bleeding to death at the crossroad, and houses are burned. Ferdinand E. Marcos announces Proclamation No. 1081, putting the entire country under Martial Law."
+                        "studio": "Sine Olivia Pilipinas / Cinema One Originals",
+                        "country": "Philippines",
+                        "poster": "https://image.tmdb.org/t/p/w500/vKBkoUW62DLZjo7ctJRflRTXe67.jpg",
+                        "focus": "Black-and-white cinematography, long takes, and post-incarceration alienation",
+                        "plot": "After three decades' wrongful incarceration for murder, a woman discovers that her friend and fellow inmate committed the murder of which she was accused. This leads to her release and subsequent discovery of the man who framed her — her ruling class ex-lover."
                     }
                 ],
                 "scenes": [
@@ -5061,27 +5175,31 @@ const FILMS_DATA = {
                     {
                         "title": "Kinatay",
                         "year": 2009,
-                        "focus": "Police corruption, kidnap and murder, and a night of horror",
-                        "releaseDate": "September 23, 2009",
+                        "releaseDate": "May 17, 2009",
+                        "director": "Brillante Mendoza",
                         "writer": "Armando Lao",
                         "cinematographer": "Odyssey Flores",
                         "editor": "Kats Serraon",
                         "composer": "Teresa Barrozo",
-                        "studio": "Centerstage Productions",
+                        "studio": "Swift Productions / Center Stage Productions",
+                        "country": "Philippines / France",
                         "poster": "https://image.tmdb.org/t/p/w500/cTj91tCZupzRDJhevh7PmTl2J4g.jpg",
+                        "focus": "Real-time descent into depravity, handheld camerawork, and extreme realism",
                         "plot": "A young man tries to make some money so he can marry his girlfriend. He takes a job for $2,000 and then soon realizes that this job involves killing a woman."
                     },
                     {
-                        "title": "Ma’ Rosa",
+                        "title": "Ma' Rosa",
                         "year": 2016,
-                        "focus": "Bribes, drug dealing in convenience stores, and family survival",
-                        "releaseDate": "November 9, 2016",
+                        "releaseDate": "May 18, 2016",
+                        "director": "Brillante Mendoza",
                         "writer": "Troy Espiritu",
                         "cinematographer": "Odyssey Flores",
                         "editor": "Diego Marx Dobles",
                         "composer": "Teresa Barrozo",
-                        "studio": "Centerstage Productions",
+                        "studio": "Center Stage Productions",
+                        "country": "Philippines",
                         "poster": "https://image.tmdb.org/t/p/w500/bKfnlEoZHewglGvNmWvnJ9X1Bt7.jpg",
+                        "focus": "Corruption in the police force, gritty slum aesthetics, and survival economics",
                         "plot": "Ma’ Rosa has four children. She owns a small convenience store in a poor section of Manila where everybody knows her. To make ends meet, Rosa and her husband, Nestor, resell small amounts of narcotics on the side. One day, they get arrested. Rosa’s children are ready to do anything to buy their parents’ freedom from the corrupt police."
                     }
                 ],
@@ -5121,17 +5239,19 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Leaf on a Pillow",
-                        "year": 1998,
-                        "focus": "Yogyakarta street children, survival, and maternal shelter",
-                        "releaseDate": "August 14, 1998",
-                        "writer": "Garin Nugroho, Armantono",
-                        "cinematographer": "Yadi Sugandi",
-                        "editor": "Sentot Sahid",
-                        "composer": "Dwiki Dharmawan",
-                        "studio": "Suryakanta Movie production",
-                        "poster": "https://image.tmdb.org/t/p/w500/3tyL0897Xehb4aBgR59DABjur3G.jpg",
-                        "plot": "The Indonesian society is seen through a middle-aged lady's eyes in her daily encounters with the street children who work and live off the harsh and sleazy world of adults."
+                        "title": "Memories of My Body",
+                        "year": 2018,
+                        "releaseDate": "September 1, 2018",
+                        "director": "Garin Nugroho",
+                        "writer": "Garin Nugroho",
+                        "cinematographer": "Teoh Gay Hian",
+                        "editor": "Greg Arya",
+                        "composer": "Mondo Gascaro",
+                        "studio": "Fourcolours Films",
+                        "country": "Indonesia",
+                        "poster": "https://image.tmdb.org/t/p/w500/2oa5oLm4FfjxvasKAW07wTrQ7Ow.jpg",
+                        "focus": "Gender fluidity, traditional Lengger dance, and political trauma",
+                        "plot": "Juno was just a child when his father abandoned him from their village in Central Java. Abandoned and alone, he joins a Lengger dance centre where men shape their feminine appearance and movement. The sensuality and sexuality that came from the dance, mixed with the violent sociopolitical Indonesian environment, forces Juno to move from village to village."
                     }
                 ],
                 "scenes": [
@@ -5164,29 +5284,33 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Satan’s Slaves",
+                        "title": "Satan's Slaves",
                         "year": 2017,
-                        "focus": "Dead mother's return, cult alliances, and house confinement",
                         "releaseDate": "September 28, 2017",
+                        "director": "Joko Anwar",
                         "writer": "Joko Anwar",
                         "cinematographer": "Ical Tanjung",
                         "editor": "Arifin Cu'unk",
-                        "composer": "Aghi Narottama, Bemby Gusti, Tony Merle",
-                        "studio": "Rapi Films, CJ Entertainment",
+                        "composer": "Aghi Narottama / Bemby Gusti / Tony Merle",
+                        "studio": "Rapi Films / CJ Entertainment",
+                        "country": "Indonesia / South Korea",
                         "poster": "https://image.tmdb.org/t/p/w500/k16xOaI9x5fqepxVwBwUJAozsW8.jpg",
+                        "focus": "Islamic horror tropes, atmospheric dread, and family trauma",
                         "plot": "After dying from a strange illness that she suffered for three years, a mother returns home to pick up her children."
                     },
                     {
                         "title": "Impetigore",
                         "year": 2019,
-                        "focus": "Village curse, shadow puppetry, and skin rituals",
                         "releaseDate": "October 17, 2019",
+                        "director": "Joko Anwar",
                         "writer": "Joko Anwar",
                         "cinematographer": "Ical Tanjung",
                         "editor": "Dinda Amanda",
-                        "composer": "Aghi Narottama, Bemby Gusti, Tony Merle",
-                        "studio": "Rapi Films, CJ Entertainment, Base Entertainment",
+                        "composer": "Aghi Narottama / Bemby Gusti / Tony Merle / Mian Tiara",
+                        "studio": "Base Entertainment / Rapi Films / CJ Entertainment / Ivanhoe Pictures",
+                        "country": "Indonesia / South Korea / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/dku2KnAPALsi69MnvTV7cXrylWm.jpg",
+                        "focus": "Javanese shadow puppetry, village curses, and folk horror elements",
                         "plot": "A woman inherits a house in her ancestral village, but she's unaware that members of the community have been trying to locate and kill her to remove the curse that has plagued them for years."
                     }
                 ],
@@ -5226,17 +5350,19 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Blind Pig Who Wants to Fly",
-                        "year": 2008,
-                        "focus": "Chinese-Indonesian identity, pop music, and everyday racism",
-                        "releaseDate": "May 18, 2008",
-                        "writer": "Edwin",
-                        "cinematographer": "Sidi Saleh",
-                        "editor": "Herman Kumala",
-                        "composer": "David Tarigan",
-                        "studio": "Babibutafilm",
-                        "poster": "https://image.tmdb.org/t/p/w500/jhhLMNAXE5dhgE3CtQGbc0kEImm.jpg",
-                        "plot": "Linda is a young woman of Chinese heritage whose mother converted to Christianity after gaining some fame as a badminton player. Her friend Cahyono is tired of anti-Chinese prejudice and now tells people he's from Japan. Together, they try to make sense of their place in the Indonesian society."
+                        "title": "Vengeance Is Mine, All Others Pay Cash",
+                        "year": 2021,
+                        "releaseDate": "August 8, 2021",
+                        "director": "Edwin",
+                        "writer": "Edwin / Eka Kurniawan",
+                        "cinematographer": "Akiko Ashizawa",
+                        "editor": "Lee Chatametikool",
+                        "composer": "Vicki Wendriaji",
+                        "studio": "Palari Films / Phoenix Films / Match Factory",
+                        "country": "Indonesia / Singapore / Germany / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/t3I0rpfGacjT18ZvhQ0krObrSAQ.jpg",
+                        "focus": "Homage to 80s action cinema, toxic masculinity, and romance",
+                        "plot": "Ajo Kawir is a fighter who fears nothing, not even death. His raging urge to fight is driven by a secret: his impotence. When he crosses paths with a tough female fighter named Iteung, Ajo gets beaten black and blue, but he also falls head over heels in love. Will Ajo’s path lead him to a happy life with Iteung, and, eventually, his own peace of mind?"
                     }
                 ],
                 "scenes": [
@@ -5271,41 +5397,32 @@ const FILMS_DATA = {
                     {
                         "title": "The Scent of Green Papaya",
                         "year": 1993,
-                        "focus": "Domestic servitude, sensory growth, and silent observation",
                         "releaseDate": "June 8, 1993",
+                        "director": "Tran Anh Hung",
                         "writer": "Tran Anh Hung",
                         "cinematographer": "Benoît Delhomme",
-                        "editor": "Nicole Dedieu, Jean-Pierre Galland",
+                        "editor": "Nicole Dedieu / Jean-Pierre Galland",
                         "composer": "Tôn-Thất Tiết",
                         "studio": "Les Productions Lazennec",
+                        "country": "Vietnam / France",
                         "poster": "https://image.tmdb.org/t/p/w500/p9lJFQ54IiNqN4fcmn5JxXdqQtR.jpg",
+                        "focus": "Exquisite studio sets, sensory details, and silent observation",
                         "plot": "1950s Saigon through the eyes of Mui, a Vietnamese servant girl. At 10 years-old, Mui leaves her village to work for an affluent, troubled family. As she comes of age, Mui finds work in the household of a pianist she has admired since childhood, and finds their relationship growing in complexity."
                     },
                     {
-                        "title": "Cyclo",
+                        "title": "The Cyclo",
                         "year": 1995,
-                        "focus": "Ho Chi Minh City underbelly, cycle theft, and moral corruption",
-                        "releaseDate": "September 27, 1995",
+                        "releaseDate": "September 15, 1995",
+                        "director": "Tran Anh Hung",
                         "writer": "Tran Anh Hung",
                         "cinematographer": "Benoît Delhomme",
-                        "editor": "Claude Ronzeau",
+                        "editor": "Nicole Dedieu / Claude Ronzeau",
                         "composer": "Tôn-Thất Tiết",
-                        "studio": "Lumiere, Canal+",
-                        "poster": "https://image.tmdb.org/t/p/w500/mdOsnSVTLwHMEH1juOLMiwXcO5o.jpg",
-                        "plot": "Follows a young cyclo driver on his poverty-driven descent into criminality in modern-day Ho Chi Minh City. The boy's struggles to scratch out a living for his two sisters and grandfather in the mean streets of the city lead to petty crime on behalf of a mysterious Madame from whom he rents his cyclo."
-                    },
-                    {
-                        "title": "The Vertical Ray of the Sun",
-                        "year": 2000,
-                        "focus": "Three sisters, Hanoi summer heat, and hidden marital secrets",
-                        "releaseDate": "May 17, 2000",
-                        "writer": "Tran Anh Hung",
-                        "cinematographer": "Mark Lee Ping-bing",
-                        "editor": "Mario Battistel",
-                        "composer": "Tôn-Thất Tiết",
-                        "studio": "Canal+, Arena Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/mZCgbOi383Cohv0sIlH5XDEfQTa.jpg",
-                        "plot": "Hanoi comes across almost picture-perfect in director Tran Anh Hung's beautiful, elegiac tale about the lives and loves of three Vietnamese sisters. A mood characteristic of Hung's films is set early on with the vivid sounds of birds, insects and water and the way the lighting enhances the subtle use of color. They all combine to gem-like effect here."
+                        "studio": "Les Productions Lazennec / Lumière",
+                        "country": "Vietnam / France / Hong Kong",
+                        "poster": "https://image.tmdb.org/t/p/w500/hRJWTpFYIkWILmKtRjbx6W5IdJp.jpg",
+                        "focus": "Urban alienation, kinetic violence, and the poetry of poverty",
+                        "plot": "When a obsessive, hopeless-romantic tries to pursue a woman he’s in love with, he will stop at nothing to get her, even if it means he has to make life-changing and devastating decisions."
                     }
                 ],
                 "scenes": [
@@ -5352,14 +5469,16 @@ const FILMS_DATA = {
                     {
                         "title": "The Missing Picture",
                         "year": 2013,
-                        "focus": "Khmer Rouge genocide, clay miniatures, and memory reconstruction",
-                        "releaseDate": "November 4, 2013",
-                        "writer": "Rithy Panh, Christophe Bataille",
+                        "releaseDate": "May 19, 2013",
+                        "director": "Rithy Panh",
+                        "writer": "Rithy Panh",
                         "cinematographer": "Prum Mesa",
-                        "editor": "Rithy Panh, Marie-Christine Rougerie",
+                        "editor": "Rithy Panh / Marie-Christine Rougerie",
                         "composer": "Marc Marder",
-                        "studio": "Catherine Dussart Productions",
+                        "studio": "CDP / Catherine Dussart Productions / Bophana Center",
+                        "country": "Cambodia / France",
                         "poster": "https://image.tmdb.org/t/p/w500/vPE5WXwdwKvQ1un90yKEBrh7aY6.jpg",
+                        "focus": "Clay figurine animation, Khmer Rouge atrocities, and autobiographical memory",
                         "plot": "Rithy Panh uses clay figures, archival footage, and his narration to recreate the atrocities Cambodia's Khmer Rouge committed between 1975 and 1979."
                     }
                 ],
@@ -5394,29 +5513,17 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Sepet",
-                        "year": 2004,
-                        "focus": "Chinese-Malay teenage romance, poetry, and social prejudice",
-                        "releaseDate": "September 30, 2004",
+                        "year": 2005,
+                        "releaseDate": "February 24, 2005",
+                        "director": "Yasmin Ahmad",
                         "writer": "Yasmin Ahmad",
                         "cinematographer": "Low Soon Keong",
                         "editor": "Affandi Jamaludin",
-                        "composer": "Hardesh Singh",
                         "studio": "MHZ Productions",
+                        "country": "Malaysia",
                         "poster": "https://image.tmdb.org/t/p/w500/at8AzTsf4LEbrGs727E77G6JKO3.jpg",
+                        "focus": "Interracial romance, multicultural Malaysian identity, and naturalistic dialogue",
                         "plot": "19-year old Ah Loong is in charge of a street stall selling pirated VCDs. Ah Loong is an incurable romantic with a unique hobby – he loves to read and write poetry. Quite content to carry on being the Romeo of the slums, Ah Loong's life takes on a sudden change one day when a 16-year old Malay schoolgirl arrives at his stall in search of Wong Kar-Wai films."
-                    },
-                    {
-                        "title": "Mukhsin",
-                        "year": 2007,
-                        "focus": "Childhood friendship, first love, and rural Malaysian life",
-                        "releaseDate": "March 8, 2007",
-                        "writer": "Yasmin Ahmad",
-                        "cinematographer": "Keong Low",
-                        "editor": "Affandi Jamaludin",
-                        "composer": "Aki & Kuniko",
-                        "studio": "Grand Brilliance",
-                        "poster": "https://image.tmdb.org/t/p/w500/1LsRsTl372jKxUfdPoyFkztwk5f.jpg",
-                        "plot": "A twelve-year-old Malaysian boy's friendship with a sharp-tongued, assertive little girl moves awkwardly and wistfully into first love in this gently comic prequel to Yasmin Ahmad's \"Sepet\" and \"Gubra.\""
                     }
                 ],
                 "scenes": [
@@ -5456,29 +5563,18 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Mee Pok Man",
-                        "year": 1996,
-                        "focus": "Noodle seller, prostitute obsession, and urban decay",
-                        "releaseDate": "February 16, 1996",
-                        "writer": "Eric Khoo, Damien Sin",
-                        "cinematographer": "Adrian Tan",
-                        "editor": "Juliana Ang",
-                        "composer": "Kevin Mathews",
+                        "year": 1995,
+                        "releaseDate": "April 21, 1995",
+                        "director": "Eric Khoo",
+                        "writer": "Eric Khoo / Michael Chiang",
+                        "cinematographer": "Ho Yoke Weng",
+                        "editor": "Beon Wong",
+                        "composer": "Kevin Mathews / Christopher Fernandez",
                         "studio": "Zhao Wei Films",
+                        "country": "Singapore",
                         "poster": "https://image.tmdb.org/t/p/w500/xPfFVK1ImZQCywmbKkoPHfbjIul.jpg",
+                        "focus": "Urban loneliness, gritty nocturnal Singapore, and morbid obsession",
                         "plot": "A painfully shy noodle-shop owner and a prostitute have a chance encounter when destiny arrives in the form of a car accident."
-                    },
-                    {
-                        "title": "Be with Me",
-                        "year": 2005,
-                        "focus": "Theresa Chan biography, deaf-blind memoir, and three love stories",
-                        "releaseDate": "May 12, 2005",
-                        "writer": "Eric Khoo, Wong Kim Hoh",
-                        "cinematographer": "Adrian Tan",
-                        "editor": "Lester Ooi",
-                        "composer": "Kevin Mathews",
-                        "studio": "Zhao Wei Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/sP2Dmq7pANMhPxl8fbl04fxQHYH.jpg",
-                        "plot": "Three tales of love wrap around the true story of a blind and deaf woman named Theresa Chan. In the first an elderly shopkeeper is devoted to his sick wife. In the second, two teenage girls become soul mates and lovers. In the third a chubby security guard tries to find the courage to woo a beautiful woman who works in his building."
                     }
                 ],
                 "scenes": [
@@ -5512,87 +5608,54 @@ const FILMS_DATA = {
                     "Stark Lighting Contrast: Cooperates with DP Sven Nykvist to create sharp, dramatic shadows on faces, externalizing internal conflict."
                 ],
                 "lessons": [
-                    "The human face is the most interesting landscape. Keep the camera close and let the actor's eyes speak without dialogue.",
+                    "The human face is the most interesting landscape. Keep the camera close and var the actor's eyes speak without dialogue.",
                     "Strip away clutter. A blank wall and two actors are all you need to depict a psychological battleground."
                 ],
                 "mustWatch": [
                     {
                         "title": "The Seventh Seal",
                         "year": 1957,
-                        "focus": "Chess with Death, silhouettes, and plague-era metaphors",
                         "releaseDate": "February 16, 1957",
+                        "director": "Ingmar Bergman",
                         "writer": "Ingmar Bergman",
                         "cinematographer": "Gunnar Fischer",
                         "editor": "Lennart Wallén",
                         "composer": "Erik Nordgren",
-                        "studio": "AB Svensk Filmindustri",
-                        "poster": "https://image.tmdb.org/t/p/w500/lpuRN4Gh2jiKhwZeHEsKjgoHZ83.jpg",
-                        "plot": "When disillusioned Swedish knight Antonius Block returns home from the Crusades to find his country in the grips of the Black Death, he challenges Death to a chess match for his life. Tormented by the belief that God does not exist, Block sets off on a journey, meeting up with traveling players Jof and his wife, Mia, and becoming determined to evade Death long enough to commit one redemptive act while he still lives."
-                    },
-                    {
-                        "title": "Wild Strawberries",
-                        "year": 1957,
-                        "focus": "Cemetery dreams, aging reflections, and nostalgic memory landscapes",
-                        "releaseDate": "August 28, 1957",
-                        "writer": "Ingmar Bergman",
-                        "cinematographer": "Gunnar Fischer",
-                        "editor": "Oscar Rosander",
-                        "composer": "Erik Nordgren",
-                        "studio": "AB Svensk Filmindustri",
-                        "poster": "https://image.tmdb.org/t/p/w500/iyTD2QnySNMPUPE3IedZQipSWfz.jpg",
-                        "plot": "Crotchety retired doctor Isak Borg travels from Stockholm to Lund, Sweden, with his pregnant and unhappy daughter-in-law, Marianne, in order to receive an honorary degree from his alma mater. Along the way, they encounter a series of hitchhikers, each of whom causes the elderly doctor to muse upon the pleasures and failures of his own life. These include the vivacious young Sara, a dead ringer for the doctor's own first love."
+                        "studio": "Svensk Filmindustri",
+                        "country": "Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/wcZ21zrOsy0b52AfAF50XpTiv75.jpg",
+                        "plot": "When disillusioned Swedish knight Antonius Block returns home from the Crusades to find his country in the grips of the Black Death, he challenges Death to a chess match for his life. Tormented by the belief that God does not exist, Block sets off on a journey, meeting up with traveling players Jof and his wife, Mia, and becoming determined to evade Death long enough to commit one redemptive act while he still lives.",
+                        "focus": "Existential allegory, stark lighting, and the silence of God"
                     },
                     {
                         "title": "Persona",
                         "year": 1966,
-                        "focus": "Identity merger, close-ups, and meta-cinematic film burns",
-                        "releaseDate": "August 31, 1966",
+                        "releaseDate": "October 18, 1966",
+                        "director": "Ingmar Bergman",
                         "writer": "Ingmar Bergman",
                         "cinematographer": "Sven Nykvist",
                         "editor": "Ulla Ryghe",
                         "composer": "Lars Johan Werle",
-                        "studio": "AB Svensk Filmindustri",
-                        "poster": "https://image.tmdb.org/t/p/w500/kPFkC9EBvllCIuDTR7A0DSEK6gJ.jpg",
-                        "plot": "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never receiving any answer."
-                    },
-                    {
-                        "title": "Cries and Whispers",
-                        "year": 1972,
-                        "focus": "Vibrant red color palettes, sisterly guilt, and clock-ticking soundscapes",
-                        "releaseDate": "December 21, 1972",
-                        "writer": "Ingmar Bergman",
-                        "cinematographer": "Sven Nykvist",
-                        "editor": "Siv Lundgren",
-                        "composer": "Various (Chopin & Bach)",
-                        "studio": "Cinematograph AB",
-                        "poster": "https://image.tmdb.org/t/p/w500/a1bMgB09YDvvRN9SitCclUYragr.jpg",
-                        "plot": "As Agnes slowly dies of cancer, her sisters are so immersed in their own psychic pains that they are unable to offer her the support she needs."
-                    },
-                    {
-                        "title": "Scenes from a Marriage",
-                        "year": 1974,
-                        "focus": "Intense close-up monologues, long-take dialogue scenes, and relationship decay",
-                        "releaseDate": "September 15, 1974",
-                        "writer": "Ingmar Bergman",
-                        "cinematographer": "Sven Nykvist",
-                        "editor": "Siv Lundgren",
-                        "composer": "Ambient Soundscape",
-                        "studio": "Cinematograph AB",
-                        "poster": "https://image.tmdb.org/t/p/w500/ArKEdvJesIktFX8OAhcdKAOLl6I.jpg",
-                        "plot": "Johan and Marianne are married and seem to have it all. Their happiness, however, is a façade for a troubled relationship, which becomes even rockier when Johan admits that he's having an affair. Before long, the spouses separate and move towards finalizing their divorce, but they make attempts at reconciling. Even as they pursue other relationships, Johan and Marianne realize that they have a significant bond, but also many issues that hinder that connection."
-                    },
-                    {
-                        "title": "Fanny and Alexander",
-                        "year": 1982,
-                        "focus": "Baroque Christmas warmth, stark puritanical reform, and magic realism",
-                        "releaseDate": "December 17, 1982",
-                        "writer": "Ingmar Bergman",
-                        "cinematographer": "Sven Nykvist",
-                        "editor": "Sylvia Ingemarsson",
-                        "composer": "Daniel Bell",
                         "studio": "Svensk Filmindustri",
-                        "poster": "https://image.tmdb.org/t/p/w500/q8jlA3Wc1Z987hNKRFA44g5OugC.jpg",
-                        "plot": "As children in the loving Ekdahl family, Fanny and Alexander enjoy a happy life with their parents, who run a theater company. After their father dies unexpectedly, however, the siblings end up in a joyless home when their mother, Emilie, marries a stern bishop. The bleak situation gradually grows worse as the bishop becomes more controlling, but dedicated relatives make a valiant attempt to aid Emilie, Fanny and Alexander."
+                        "country": "Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/yPTntWP9Wvew8vHN0jB7Z1EvEUN.jpg",
+                        "plot": "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never receiving any answer.",
+                        "focus": "Psychological blurring, avant-garde editing, and face-centric cinematography"
+                    },
+                    {
+                        "title": "Wild Strawberries",
+                        "year": 1957,
+                        "releaseDate": "December 26, 1957",
+                        "director": "Ingmar Bergman",
+                        "writer": "Ingmar Bergman",
+                        "cinematographer": "Sven Nykvist",
+                        "editor": "Oscar Rosander",
+                        "composer": "Erik Nordgren",
+                        "studio": "Svensk Filmindustri",
+                        "country": "Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/iyTD2QnySNMPUPE3IedZQipSWfz.jpg",
+                        "plot": "Crotchety retired doctor Isak Borg travels from Stockholm to Lund, Sweden, with his pregnant and unhappy daughter-in-law, Marianne, in order to receive an honorary degree from his alma mater. Along the way, they encounter a series of hitchhikers, each of whom causes the elderly doctor to muse upon the pleasures and failures of his own life. These include the vivacious young Sara, a dead ringer for the doctor's own first love.",
+                        "focus": "Dream logic, nostalgia, and psychological reflection"
                     }
                 ],
                 "scenes": [
@@ -5645,15 +5708,16 @@ const FILMS_DATA = {
                     {
                         "title": "The Phantom Carriage",
                         "year": 1921,
-                        "focus": "Spectral carriage, New Year's Eve curse, and double-exposure ghosts",
                         "releaseDate": "January 1, 1921",
-                        "writer": "Selma Lagerlöf, Victor Sjöström",
+                        "director": "Victor Sjöström",
+                        "writer": "Victor Sjöström",
                         "cinematographer": "Julius Jaenzon",
                         "editor": "Victor Sjöström",
-                        "composer": "Matti Bye",
-                        "studio": "AB Svensk Filmindustri",
+                        "studio": "Svensk Filmindustri",
+                        "country": "Sweden",
                         "poster": "https://image.tmdb.org/t/p/w500/vmhMEj2d8JnKS5jzqJf4kYypKWN.jpg",
-                        "plot": "An alcoholic, abusive ne'er-do-well is shown the error of his ways through a legend that dooms the last person to die on New Year's Eve before the clock strikes twelve to take the reins of Death's chariot and work tirelessly collecting fresh souls for the next year."
+                        "plot": "An alcoholic, abusive ne'er-do-well is shown the error of his ways through a legend that dooms the last person to die on New Year's Eve before the clock strikes twelve to take the reins of Death's chariot and work tirelessly collecting fresh souls for the next year.",
+                        "focus": "Double exposure trick photography, morality tales, and early cinematic storytelling"
                     }
                 ],
                 "scenes": [
@@ -5688,41 +5752,30 @@ const FILMS_DATA = {
                     {
                         "title": "Songs from the Second Floor",
                         "year": 2000,
-                        "focus": "Millennial gridlock, scapegoat rituals, and corporate guilt",
-                        "releaseDate": "October 6, 2000",
+                        "releaseDate": "May 21, 2000",
+                        "director": "Roy Andersson",
                         "writer": "Roy Andersson",
-                        "cinematographer": "István Borbás, Jesper Klevenås",
+                        "cinematographer": "István Borbás / Jesper Klevenås",
                         "editor": "Roy Andersson",
-                        "composer": "Benny Andersson",
-                        "studio": "Studio 24",
+                        "studio": "Roy Andersson Filmproduktion / Essential Filmproduktion",
+                        "country": "Sweden / Denmark / Norway / France / Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/xMZieoxiQ1hb5zraZlhzcvU7MGN.jpg",
-                        "plot": "A monumental traffic jam serves as the backdrop for the lives of the inhabitants of a Swedish city."
-                    },
-                    {
-                        "title": "You, the Living",
-                        "year": 2007,
-                        "focus": "Existential dreams, melancholy rock bands, and everyday anxieties",
-                        "releaseDate": "September 21, 2007",
-                        "writer": "Roy Andersson",
-                        "cinematographer": "Gustav Danielsson",
-                        "editor": "Anna Märta Waern",
-                        "composer": "Benny Andersson",
-                        "studio": "Studio 24",
-                        "poster": "https://image.tmdb.org/t/p/w500/j4FAPvqjqUvs1YrQi76p6fIDRUB.jpg",
-                        "plot": "In the Swedish city of Lethe, people from different walks of life take part in a series of short, deadpan vignettes that rush past. Some are just seconds long, none longer than a couple of minutes. A young woman remembers a fantasy honeymoon with a rock guitarist. A man awakes from a dream about bomber planes. A businessman boasts about success while being robbed by a pickpocket, and so on. The absurdist collection is accompanied by Dixieland jazz and similar music."
+                        "plot": "A monumental traffic jam serves as the backdrop for the lives of the inhabitants of a Swedish city.",
+                        "focus": "Deadpan surrealism, deep focus tracking shots, and social critique"
                     },
                     {
                         "title": "A Pigeon Sat on a Branch Reflecting on Existence",
                         "year": 2014,
-                        "focus": "Novelty salesmen, historical intrusions, and mechanical cruelty",
-                        "releaseDate": "October 24, 2014",
+                        "releaseDate": "September 2, 2014",
+                        "director": "Roy Andersson",
                         "writer": "Roy Andersson",
-                        "cinematographer": "István Borbás, Gergely Pálos",
+                        "cinematographer": "István Borbás / Gergely Pálos",
                         "editor": "Alexandra Strauss",
-                        "composer": "Various",
-                        "studio": "Studio 24",
+                        "studio": "Roy Andersson Filmproduktion / 42 Film",
+                        "country": "Sweden / Germany / Norway / France",
                         "poster": "https://image.tmdb.org/t/p/w500/h2uRIr0fNpZbTGH5youi7MDRL2T.jpg",
-                        "plot": "An absurdist, surrealistic and shocking pitch-black comedy, which moves freely from nightmare to fantasy to hilariously deadpan humour as it muses on man’s perpetual inhumanity to man."
+                        "plot": "An absurdist, surrealistic and shocking pitch-black comedy, which moves freely from nightmare to fantasy to hilariously deadpan humour as it muses on man’s perpetual inhumanity to man.",
+                        "focus": "Static tableaux, pale aesthetics, and absurdist vignettes"
                     }
                 ],
                 "scenes": [
@@ -5763,54 +5816,30 @@ const FILMS_DATA = {
                     {
                         "title": "The Passion of Joan of Arc",
                         "year": 1928,
-                        "focus": "Facial landscapes, ecclesiastical trial, and spiritual suffering",
                         "releaseDate": "April 21, 1928",
-                        "writer": "Carl Theodor Dreyer, Joseph Delteil",
+                        "director": "Carl Theodor Dreyer",
+                        "writer": "Carl Theodor Dreyer",
                         "cinematographer": "Rudolph Maté",
                         "editor": "Carl Theodor Dreyer",
-                        "composer": "Richard Einhorn",
                         "studio": "Société Générale des Films",
+                        "country": "France",
                         "poster": "https://image.tmdb.org/t/p/w500/tAgV9yxY6AC1bsPt3qJJQpD4s8.jpg",
-                        "plot": "A classic of the silent age, this film tells the story of the doomed but ultimately canonized 15th-century teenage warrior. On trial for claiming she'd spoken to God, Jeanne d'Arc is subjected to inhumane treatment and scare tactics at the hands of church court officials. Initially bullied into changing her story, Jeanne eventually opts for what she sees as the truth. Her punishment, a famously brutal execution, earns her perpetual martyrdom."
-                    },
-                    {
-                        "title": "Vampyr",
-                        "year": 1932,
-                        "focus": "Shadow shadows, translucent coffin vision, and dream logic",
-                        "releaseDate": "May 6, 1932",
-                        "writer": "Carl Theodor Dreyer, Christen Jul",
-                        "cinematographer": "Rudolph Maté",
-                        "editor": "Carl Theodor Dreyer",
-                        "composer": "Wolfgang Zeller",
-                        "studio": "Dreyer-Film",
-                        "poster": "https://image.tmdb.org/t/p/w500/yt3JS5JSoZseSohYkhs6FLU9B0O.jpg",
-                        "plot": "Allan Gray, a young man fascinated by the supernatural, goes to a small village where he feels a sinister force descending upon him. There, Allan meets an old man who asks him to protect his two daughters, for one of them has been bitten by a vampire."
+                        "plot": "A classic of the silent age, this film tells the story of the doomed but ultimately canonized 15th-century teenage warrior. On trial for claiming she'd spoken to God, Jeanne d'Arc is subjected to inhumane treatment and scare tactics at the hands of church court officials. Initially bullied into changing her story, Jeanne eventually opts for what she sees as the truth. Her punishment, a famously brutal execution, earns her perpetual martyrdom.",
+                        "focus": "Extreme emotional close-ups, stripped sets, and psychological realism"
                     },
                     {
                         "title": "Ordet",
                         "year": 1955,
-                        "focus": "Faith and resurrection, rural Jutland, and circular pan shots",
-                        "releaseDate": "January 9, 1955",
-                        "writer": "Carl Theodor Dreyer, Kaj Munk",
+                        "releaseDate": "January 10, 1955",
+                        "director": "Carl Theodor Dreyer",
+                        "writer": "Carl Theodor Dreyer",
                         "cinematographer": "Henning Bendtsen",
-                        "editor": "Edith Schlüssel",
-                        "composer": "Poul Schierbeck",
-                        "studio": "Palladium Film",
+                        "editor": "Edith Schüssel",
+                        "studio": "Film-Centralen-Palladium",
+                        "country": "Denmark",
                         "poster": "https://image.tmdb.org/t/p/w500/c9Oef9uQEuadZlnvv8hphRmTIgx.jpg",
-                        "plot": "The three sons of devout Danish farmer Morten have widely disparate religious beliefs. Youngest son Anders shares his father's religion, but eldest son Mikkel has lost his faith, while middle child Johannes has become delusional and proclaims that he is Jesus Christ himself. When Mikkel's wife, Inger goes into a difficult childbirth, everyone's beliefs are put to the test."
-                    },
-                    {
-                        "title": "Gertrud",
-                        "year": 1964,
-                        "focus": "Tragic idealism, formal long takes, and uncompromising love",
-                        "releaseDate": "December 19, 1964",
-                        "writer": "Carl Theodor Dreyer, Hjalmar Söderberg",
-                        "cinematographer": "Henning Bendtsen",
-                        "editor": "Edith Schlüssel",
-                        "composer": "Jørgen Jersild",
-                        "studio": "Palladium Film",
-                        "poster": "https://image.tmdb.org/t/p/w500/o6tiS3EaSwn4wI1DStLqDJ8OZJL.jpg",
-                        "plot": "Hopeless romantic Gertrud inhabits a turn-of-the-century milieu of artists and musicians, where she pursues an idealized notion of love that will always elude her. She abandons her distinguished husband and embraces an affair with a young concert pianist, who falls short of her desire for lasting affection. When an old lover returns to her life, fresh disappointments follow, and Gertrud must try to come to terms with reality."
+                        "plot": "The three sons of devout Danish farmer Morten have widely disparate religious beliefs. Youngest son Anders shares his father's religion, but eldest son Mikkel has lost his faith, while middle child Johannes has become delusional and proclaims that he is Jesus Christ himself. When Mikkel's wife, Inger goes into a difficult childbirth, everyone's beliefs are put to the test.",
+                        "focus": "Spiritual faith, slow pacing, and transcendental style"
                     }
                 ],
                 "scenes": [
@@ -5851,54 +5880,31 @@ const FILMS_DATA = {
                     {
                         "title": "Breaking the Waves",
                         "year": 1996,
-                        "focus": "Sacrificial love, religious dogmatism, and Scottish coast landscapes",
-                        "releaseDate": "July 5, 1996",
-                        "writer": "Lars von Trier, Peter Asmussen",
+                        "releaseDate": "May 18, 1996",
+                        "director": "Lars von Trier",
+                        "writer": "Lars von Trier",
                         "cinematographer": "Robby Müller",
                         "editor": "Anders Refn",
                         "composer": "Joachim Holbek",
-                        "studio": "Zentropa Entertainments",
+                        "studio": "Zentropa Entertainments / Argus Film Produkties",
+                        "country": "Denmark / United Kingdom / France / Germany / Sweden",
                         "poster": "https://image.tmdb.org/t/p/w500/dQWMcdHXUOSHtr7ypOCa5T79JMS.jpg",
-                        "plot": "In a small, conservative Scottish village, an oilman is paralyzed in an accident. His wife, who prayed for his return, feels guilty; even more, when he urges her to have sex with another."
-                    },
-                    {
-                        "title": "Dancer in the Dark",
-                        "year": 2000,
-                        "focus": "Tragic musical dreams, digital multiple-camera setups, and maternal sacrifice",
-                        "releaseDate": "September 1, 2000",
-                        "writer": "Lars von Trier",
-                        "cinematographer": "Robby Müller",
-                        "editor": "Molly Malene Stensgaard",
-                        "composer": "Björk",
-                        "studio": "Zentropa Entertainments",
-                        "poster": "https://image.tmdb.org/t/p/w500/pWzOfTJRZHPNO1VNrMnNFqRcJwg.jpg",
-                        "plot": "Selma, a Czech immigrant on the verge of blindness, struggles to make ends meet for herself and her son, who has inherited the same genetic disorder and will suffer the same fate without an expensive operation. When life gets too difficult, Selma learns to cope through her love of musicals, dreaming up little numbers to the rhythmic beats of her surroundings."
-                    },
-                    {
-                        "title": "Dogville",
-                        "year": 2003,
-                        "focus": "Bare soundstage staging, human hypocrisy, and slow-burn revenge",
-                        "releaseDate": "May 21, 2003",
-                        "writer": "Lars von Trier",
-                        "cinematographer": "Anthony Dod Mantle",
-                        "editor": "Molly Malene Stensgaard",
-                        "composer": "Antonio Vivaldi",
-                        "studio": "Zentropa Entertainments",
-                        "poster": "https://image.tmdb.org/t/p/w500/lraVawavIXh5geMlVjpzCw9TGwR.jpg",
-                        "plot": "A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town, she learns that their support has a price."
+                        "plot": "In a small, conservative Scottish village, an oilman is paralyzed in an accident. His wife, who prayed for his return, feels guilty; even more, when he urges her to have sex with another.",
+                        "focus": "Dogme 95 aesthetics, hand-held camera, and profound emotional extremes"
                     },
                     {
                         "title": "Melancholia",
                         "year": 2011,
-                        "focus": "Depression, cosmic collision, and operatic prologue aesthetics",
-                        "releaseDate": "May 26, 2011",
+                        "releaseDate": "May 18, 2011",
+                        "director": "Lars von Trier",
                         "writer": "Lars von Trier",
                         "cinematographer": "Manuel Alberto Claro",
                         "editor": "Molly Malene Stensgaard",
-                        "composer": "Richard Wagner",
-                        "studio": "Zentropa Entertainments",
+                        "studio": "Zentropa Entertainments / Memfis Film",
+                        "country": "Denmark / Sweden / France / Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/fMneszMiQuTKY8JUXrGGB5vwqJf.jpg",
-                        "plot": "Two sisters find their already strained relationship challenged as a mysterious new planet threatens to collide with Earth."
+                        "plot": "Two sisters find their already strained relationship challenged as a mysterious new planet threatens to collide with Earth.",
+                        "focus": "Depression metaphor, romantic visual aesthetics, and apocalyptic anxiety"
                     }
                 ],
                 "scenes": [
@@ -5937,43 +5943,32 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Festen",
+                        "title": "The Celebration (Festen)",
                         "year": 1998,
-                        "focus": "Dogme 95 manifesto, family secrets, and dinner table confessions",
-                        "releaseDate": "June 19, 1998",
-                        "writer": "Thomas Vinterberg, Mogens Rukov",
+                        "releaseDate": "May 17, 1998",
+                        "director": "Thomas Vinterberg",
+                        "writer": "Thomas Vinterberg / Mogens Rukov",
                         "cinematographer": "Anthony Dod Mantle",
                         "editor": "Valdís Óskarsdóttir",
-                        "composer": "Lars Bo Jensen",
-                        "studio": "Nimbus Film",
+                        "studio": "Nimbus Film / Danmarks Radio",
+                        "country": "Denmark / Sweden",
                         "poster": "https://image.tmdb.org/t/p/w500/2LRzNq41yrY8EjCnD1S8sCCPvKk.jpg",
-                        "plot": "The family of a wealthy businessman gather to celebrate his 60th birthday. During the course of the party, his eldest son presents a speech that reveals a devastating secret that turns the night into a battle of truth and denial."
-                    },
-                    {
-                        "title": "The Hunt",
-                        "year": 2012,
-                        "focus": "Social ostracization, false accusation, and community hysteria",
-                        "releaseDate": "October 25, 2012",
-                        "writer": "Thomas Vinterberg, Tobias Lindholm",
-                        "cinematographer": "Charlotte Bruus Christensen",
-                        "editor": "Janus Billeskov Jansen, Anne Østerud",
-                        "composer": "Nikolaj Egelund",
-                        "studio": "Zentropa Entertainments",
-                        "poster": "https://image.tmdb.org/t/p/w500/jkixsXzRh28q3PCqFoWcf7unghT.jpg",
-                        "plot": "A teacher lives a lonely life, all the while struggling over his son’s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie."
+                        "plot": "The family of a wealthy businessman gather to celebrate his 60th birthday. During the course of the party, his eldest son presents a speech that reveals a devastating secret that turns the night into a battle of truth and denial.",
+                        "focus": "Dogme 95 manifesto rules, natural lighting, and intense family drama"
                     },
                     {
                         "title": "Another Round",
                         "year": 2020,
-                        "focus": "Alcohol experiment, mid-life crisis, and euphoric release",
-                        "releaseDate": "September 24, 2020",
-                        "writer": "Thomas Vinterberg, Tobias Lindholm",
+                        "releaseDate": "September 12, 2020",
+                        "director": "Thomas Vinterberg",
+                        "writer": "Thomas Vinterberg / Tobias Lindholm",
                         "cinematographer": "Sturla Brandth Grøvlen",
-                        "editor": "Anne Østerud, Janus Billeskov Jansen",
-                        "composer": "Janus Billeskov Jansen",
-                        "studio": "Zentropa Entertainments",
+                        "editor": "Anne Østerud / Janus Billeskov Jansen",
+                        "studio": "Zentropa Entertainments / Film i Väst",
+                        "country": "Denmark / Sweden / Netherlands",
                         "poster": "https://image.tmdb.org/t/p/w500/aDcIt4NHURLKnAEu7gow51Yd00Q.jpg",
-                        "plot": "Four stagnant high school teachers decide to test out a theory that maintaining a constant level of intoxication will improve their overall lives."
+                        "plot": "Four stagnant high school teachers decide to test out a theory that maintaining a constant level of intoxication will improve their overall lives.",
+                        "focus": "Midlife crisis, kinetic handheld cinematography, and Danish drinking culture"
                     }
                 ],
                 "scenes": [
@@ -6012,43 +6007,34 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Reprise",
-                        "year": 2006,
-                        "focus": "Literary ambition, mental illness, and youth friendship",
-                        "releaseDate": "September 8, 2006",
-                        "writer": "Joachim Trier, Eskil Vogt",
-                        "cinematographer": "Jakob Ihre",
+                        "title": "The Worst Person in the World",
+                        "year": 2021,
+                        "releaseDate": "July 8, 2021",
+                        "director": "Joachim Trier",
+                        "writer": "Joachim Trier / Eskil Vogt",
+                        "cinematographer": "Kasper Tuxen",
                         "editor": "Olivier Bugge Coutté",
                         "composer": "Ola Fløttum",
-                        "studio": "Spillefilmkompaniet 4 1/2",
-                        "poster": "https://image.tmdb.org/t/p/w500/9GdptmzKh5Sx1KFiABJeUEt9eS.jpg",
-                        "plot": "Fueled by literary aspirations and youthful exuberance, two competitive friends endure the pangs of love, depression, and burgeoning careers."
+                        "studio": "Oslo Pictures / MK2 Productions",
+                        "country": "Norway / France / Germany / Denmark / Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/1NxGNQchGBTHXJ6RShLY1IlZqWn.jpg",
+                        "plot": "The chronicles of four years in the life of Julie, a young woman who navigates the troubled waters of her love life and struggles to find her career path, leading her to take a realistic look at who she really is.",
+                        "focus": "Millennial existentialism, magical realism elements, and fluid editing"
                     },
                     {
                         "title": "Oslo, August 31st",
                         "year": 2011,
-                        "focus": "Addiction recovery, 24-hour journey, and existential fatigue",
-                        "releaseDate": "August 31, 2011",
-                        "writer": "Joachim Trier, Eskil Vogt",
+                        "releaseDate": "May 19, 2011",
+                        "director": "Joachim Trier",
+                        "writer": "Joachim Trier / Eskil Vogt",
                         "cinematographer": "Jakob Ihre",
                         "editor": "Olivier Bugge Coutté",
-                        "composer": "Ola Fløttum",
-                        "studio": "Motlys",
+                        "composer": "Torgny Amandam",
+                        "studio": "Motlys / Don't Look Back",
+                        "country": "Norway",
                         "poster": "https://image.tmdb.org/t/p/w500/3IJZ252ecJICOShQgymHk7AOVIs.jpg",
-                        "plot": "A recovering drug addict is granted a day’s leave from rehab and returns to Oslo, where he reconnects with friends, faces the weight of his past, and struggles with uncertainty about his future. Over the course of one day, he drifts through encounters that reflect his longing for connection and his deep sense of alienation."
-                    },
-                    {
-                        "title": "The Worst Person in the World",
-                        "year": 2021,
-                        "focus": "Identity search, modern relationships, and time-freeze sequences",
-                        "releaseDate": "October 13, 2021",
-                        "writer": "Joachim Trier, Eskil Vogt",
-                        "cinematographer": "Kasper Tuxen",
-                        "editor": "Olivier Bugge Coutté",
-                        "composer": "Ola Fløttum",
-                        "studio": "Oslo Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/1NxGNQchGBTHXJ6RShLY1IlZqWn.jpg",
-                        "plot": "The chronicles of four years in the life of Julie, a young woman who navigates the troubled waters of her love life and struggles to find her career path, leading her to take a realistic look at who she really is."
+                        "plot": "A recovering drug addict is granted a day’s leave from rehab and returns to Oslo, where he reconnects with friends, faces the weight of his past, and struggles with uncertainty about his future. Over the course of one day, he drifts through encounters that reflect his longing for connection and his deep sense of alienation.",
+                        "focus": "Urban isolation, addiction recovery, and somber realism"
                     }
                 ],
                 "scenes": [
@@ -6087,69 +6073,32 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Ariel",
-                        "year": 1988,
-                        "focus": "Unemployed miner, prison escape, and stoic survival",
-                        "releaseDate": "July 1, 1989",
-                        "writer": "Aki Kaurismäki",
-                        "cinematographer": "Timo Salminen",
-                        "editor": "Raija Talvio",
-                        "composer": "Various",
-                        "studio": "Villealfa Filmproductions",
-                        "poster": "https://image.tmdb.org/t/p/w500/hC5h9AhNXwYFhxQgYjBQM2og6rn.jpg",
-                        "plot": "A Finnish man goes to the city to find a job after the mine where he worked is closed and his father commits suicide."
-                    },
-                    {
                         "title": "The Match Factory Girl",
                         "year": 1990,
-                        "focus": "Factory routine, maternal abuse, and dry poison revenge",
                         "releaseDate": "January 12, 1990",
+                        "director": "Aki Kaurismäki",
                         "writer": "Aki Kaurismäki",
                         "cinematographer": "Timo Salminen",
                         "editor": "Aki Kaurismäki",
-                        "composer": "Various",
-                        "studio": "Villealfa Filmproductions",
+                        "studio": "Villealfa Filmproduction / Swedish Film Institute",
+                        "country": "Finland / Sweden",
                         "poster": "https://image.tmdb.org/t/p/w500/zHfabvr3RKEbNfksFBs2Cder91i.jpg",
-                        "plot": "Iris is a shy and dowdy young woman stuck in a dead-end job at a match factory, who dreams of finding love at the local dancehall. Finding herself pregnant after a one-night stand and abandoned by the father, Iris finally decides the time has come to get even and she begins to plot her revenge."
-                    },
-                    {
-                        "title": "Drifting Clouds",
-                        "year": 1996,
-                        "focus": "Helsinki unemployment, economic crisis, and resilient hope",
-                        "releaseDate": "January 26, 1996",
-                        "writer": "Aki Kaurismäki",
-                        "cinematographer": "Timo Salminen",
-                        "editor": "Aki Kaurismäki",
-                        "composer": "Shelley Fisher",
-                        "studio": "Sputnik Oy",
-                        "poster": "https://image.tmdb.org/t/p/w500/xxzuKTo3RNyyUGXghfVkeiSbVDt.jpg",
-                        "plot": "The ever-poker-faced Ilona loses her job as a restaurant hostess, as her tram driver husband, Lauri, also finds himself out of work. Together they must hit the streets of Helsinki, facing up to hardship and humiliation in their quest for survival, guided through the gloom by a ray of hope."
-                    },
-                    {
-                        "title": "The Man Without a Past",
-                        "year": 2002,
-                        "focus": "Amnesia, container community, and Salvation Army bands",
-                        "releaseDate": "March 1, 2002",
-                        "writer": "Aki Kaurismäki",
-                        "cinematographer": "Timo Salminen",
-                        "editor": "Timo Linnasalo",
-                        "composer": "Antero Jakoila",
-                        "studio": "Sputnik Oy",
-                        "poster": "https://image.tmdb.org/t/p/w500/9tBepCujkyNg1qM52MsaJfDkIRw.jpg",
-                        "plot": "Arriving in Helsinki, a nameless man is beaten within an inch of his life by thugs, miraculously recovering only to find that he has completely lost his memory. Back on the streets, he attempts to begin again from zero, befriending a moody dog and becoming besotted with a Salvation Army volunteer."
+                        "plot": "Iris is a shy and dowdy young woman stuck in a dead-end job at a match factory, who dreams of finding love at the local dancehall. Finding herself pregnant after a one-night stand and abandoned by the father, Iris finally decides the time has come to get even and she begins to plot her revenge.",
+                        "focus": "Deadpan minimalism, proletarian struggle, and sparse dialogue"
                     },
                     {
                         "title": "Fallen Leaves",
                         "year": 2023,
-                        "focus": "Lonely hearts, modern Helsinki, and cinema dates",
-                        "releaseDate": "September 14, 2023",
+                        "releaseDate": "May 22, 2023",
+                        "director": "Aki Kaurismäki",
                         "writer": "Aki Kaurismäki",
                         "cinematographer": "Timo Salminen",
                         "editor": "Samu Heikkilä",
-                        "composer": "Various",
-                        "studio": "Sputnik Oy",
+                        "studio": "Sputnik Oy / Oy Bufo Ab / Pandora Film",
+                        "country": "Finland / Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/9ayYOpeqHhxfHHUoyt3kXzznECO.jpg",
-                        "plot": "In modern-day Helsinki, two lonely souls in search of love meet by chance in a karaoke bar. However, their path to happiness is beset by obstacles – from lost phone numbers to mistaken addresses, alcoholism, and a charming stray dog."
+                        "plot": "In modern-day Helsinki, two lonely souls in search of love meet by chance in a karaoke bar. However, their path to happiness is beset by obstacles – from lost phone numbers to mistaken addresses, alcoholism, and a charming stray dog.",
+                        "focus": "Retro aesthetic, deadpan humor, and working-class romance"
                     }
                 ],
                 "scenes": [
@@ -6188,30 +6137,19 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "A White, White Day",
-                        "year": 2019,
-                        "focus": "Grief-stricken policeman, home construction, and dense Iceland fog",
-                        "releaseDate": "July 25, 2019",
-                        "writer": "Hlynur Pálmason",
-                        "cinematographer": "Maria von Hausswolff",
-                        "editor": "Julius Krebs Damsbo",
-                        "composer": "Edvard Egilsson",
-                        "studio": "Join Motion Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/3NPNQSXlYvRqECOPFozjoGhjy4n.jpg",
-                        "plot": "In a remote Icelandic town, an off duty police chief begins to suspect a local man to have had an affair with his wife, who has recently died in a car accident. Gradually his obsession for finding out the truth accumulates and inevitably begins to endanger himself and his loved ones. A story of grief, revenge and unconditional love."
-                    },
-                    {
                         "title": "Godland",
                         "year": 2022,
-                        "focus": "19th-century priest, wet horse travel, and colonial hubris",
-                        "releaseDate": "December 1, 2022",
+                        "releaseDate": "May 24, 2022",
+                        "director": "Hlynur Pálmason",
                         "writer": "Hlynur Pálmason",
                         "cinematographer": "Maria von Hausswolff",
                         "editor": "Julius Krebs Damsbo",
                         "composer": "Alex Zhang Hungtai",
-                        "studio": "Join Motion Pictures",
+                        "studio": "Join Motion Pictures / Snowglobe Production",
+                        "country": "Iceland / Denmark / France / Sweden",
                         "poster": "https://image.tmdb.org/t/p/w500/s0cWPhzpKJ4kspaleMcOduHBFBw.jpg",
-                        "plot": "In the late 19th century, a young Danish priest travels to a remote part of Iceland to build a church and photograph its people. But the deeper he goes into the unforgiving landscape, the more he strays from his purpose, the mission and morality."
+                        "plot": "In the late 19th century, a young Danish priest travels to a remote part of Iceland to build a church and photograph its people. But the deeper he goes into the unforgiving landscape, the more he strays from his purpose, the mission and morality.",
+                        "focus": "Harsh natural landscapes, colonialism, and psychological breakdown"
                     }
                 ],
                 "scenes": [
@@ -6250,69 +6188,49 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Women on the Verge of a Nervous Breakdown",
-                        "year": 1988,
-                        "focus": "Gazpacho spiked with sleeping pills, telephone madness, and pop melodrama",
-                        "releaseDate": "March 25, 1988",
-                        "writer": "Pedro Almodóvar",
-                        "cinematographer": "José Luis Alcaine",
-                        "editor": "José Salcedo",
-                        "composer": "Bernardo Bonezzi",
-                        "studio": "El Deseo, Laurenfilm",
-                        "poster": "https://image.tmdb.org/t/p/w500/8C5FJlUo96pj1xAs2BKnB58PYzi.jpg",
-                        "plot": "After being dumped by her lover, Pepa finds her life and the lives of those around her spiraling out of control in a deliciously chaotic series of events."
-                    },
-                    {
                         "title": "All About My Mother",
                         "year": 1999,
-                        "focus": "Red color motifs, maternal grief, and theater meta-scenes",
-                        "releaseDate": "April 14, 1999",
+                        "releaseDate": "April 16, 1999",
+                        "director": "Pedro Almodóvar",
                         "writer": "Pedro Almodóvar",
                         "cinematographer": "Affonso Beato",
                         "editor": "José Salcedo",
                         "composer": "Alberto Iglesias",
-                        "studio": "Warner Sogefilms, Pathé Distribution",
-                        "poster": "https://image.tmdb.org/t/p/w500/lpuRN4Gh2jiKhwZeHEsKjgoHZ83.jpg",
-                        "plot": "Following the tragic death of her teenage son, Manuela travels from Madrid to Barcelona in an attempt to contact the long-estranged father the boy never knew. She reunites with an old friend, an outspoken transgender sex worker, and befriends a troubled actress and a pregnant, HIV-positive nun."
+                        "studio": "El Deseo / Renn Productions",
+                        "country": "Spain / France",
+                        "plot": "Following the tragic death of her teenage son, Manuela travels from Madrid to Barcelona in an attempt to contact the long-estranged father the boy never knew. She reunites with an old friend, an outspoken transgender sex worker, and befriends a troubled actress and a pregnant, HIV-positive nun.",
+                        "focus": "Gender identity, female solidarity, and melodramatic pastiche",
+                        "poster": "assets/images/all_about_my_mother_poster.png"
                     },
                     {
                         "title": "Talk to Her",
                         "year": 2002,
-                        "focus": "Comatose patients, silent film homages, and male grief",
                         "releaseDate": "March 15, 2002",
+                        "director": "Pedro Almodóvar",
                         "writer": "Pedro Almodóvar",
                         "cinematographer": "Javier Aguirresarobe",
                         "editor": "José Salcedo",
                         "composer": "Alberto Iglesias",
                         "studio": "El Deseo",
-                        "poster": "https://image.tmdb.org/t/p/w500/fWDbQlOWOqjR5jZm98KjGyYmUOw.jpg",
-                        "plot": "Two men share an odd friendship while they care for two women who are both in deep comas."
+                        "country": "Spain",
+                        "plot": "Two men share an odd friendship while they care for two women who are both in deep comas.",
+                        "focus": "Male loneliness, voyeurism, and the ethics of care",
+                        "poster": "https://image.tmdb.org/t/p/w500/fWDbQlOWOqjR5jZm98KjGyYmUOw.jpg"
                     },
                     {
                         "title": "Volver",
                         "year": 2006,
-                        "focus": "Spanish rural custom, domestic survival, and ghost melodrama",
-                        "releaseDate": "March 17, 2006",
+                        "releaseDate": "March 10, 2006",
+                        "director": "Pedro Almodóvar",
                         "writer": "Pedro Almodóvar",
                         "cinematographer": "José Luis Alcaine",
                         "editor": "José Salcedo",
                         "composer": "Alberto Iglesias",
                         "studio": "El Deseo",
-                        "poster": "https://image.tmdb.org/t/p/w500/ho5qdAQfcFDpb4R0XLT6vDxA2en.jpg",
-                        "plot": "Three generations of women deal with family secrets while surviving the east wind, fire, insanity, superstition, lies and even death."
-                    },
-                    {
-                        "title": "Pain and Glory",
-                        "year": 2019,
-                        "focus": "Aging filmmaker, childhood memory transitions, and art-as-therapy",
-                        "releaseDate": "March 22, 2019",
-                        "writer": "Pedro Almodóvar",
-                        "cinematographer": "José Luis Alcaine",
-                        "editor": "Teresa Font",
-                        "composer": "Alberto Iglesias",
-                        "studio": "El Deseo",
-                        "poster": "https://image.tmdb.org/t/p/w500/cMlueArJXXwZbeLpb4NhC3pxmBk.jpg",
-                        "plot": "Salvador Mallo, a filmmaker in the twilight of his career, remembers his life: his mother, his lovers, the actors he worked with. The sixties in a small village in Valencia, the eighties in Madrid, the present, when he feels an immeasurable emptiness, facing his mortality, the incapability of continuing filming, the impossibility of separating creation from his own life. The need of narrating his past can be his salvation."
+                        "country": "Spain",
+                        "poster": "https://image.tmdb.org/t/p/w500/m1ZUDGTFtVGE3zjTvF8OiQ9um5e.jpg",
+                        "plot": "Three generations of women deal with family secrets while surviving the east wind, fire, insanity, superstition, lies and even death.",
+                        "focus": "Maternal ghosts, working-class resilience, and magic realism"
                     }
                 ],
                 "scenes": [
@@ -6363,56 +6281,47 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
+                        "title": "The Discreet Charm of the Bourgeoisie",
+                        "year": 1972,
+                        "releaseDate": "September 15, 1972",
+                        "director": "Luis Buñuel",
+                        "writer": "Luis Buñuel / Jean-Claude Carrière",
+                        "cinematographer": "Edmond Richard",
+                        "editor": "Hélène Plemiannikov",
+                        "studio": "Greenwich Film Productions",
+                        "country": "France / Italy / Spain",
+                        "poster": "https://image.tmdb.org/t/p/w500/zN4ILX2x64PvT2jIOAHXxCOi5WA.jpg",
+                        "plot": "In Luis Buñuel’s deliciously satiric masterpiece, an upper-class sextet sits down to dinner but never eats, their attempts continually thwarted by a vaudevillian mixture of events both actual and imagined.",
+                        "focus": "Surrealist satire, ruling-class hypocrisy, and dream logic"
+                    },
+                    {
                         "title": "Los Olvidados",
                         "year": 1950,
-                        "focus": "Gritty street youth, cruel poverty, and Freudian dream sequences",
-                        "releaseDate": "December 9, 1950",
-                        "writer": "Luis Buñuel, Luis Alcoriza",
+                        "releaseDate": "November 9, 1950",
+                        "director": "Luis Buñuel",
+                        "writer": "Luis Buñuel / Luis Alcoriza",
                         "cinematographer": "Gabriel Figueroa",
                         "editor": "Carlos Savage",
-                        "composer": "Gustavo Pittaluga, Rodolfo Halffter",
+                        "composer": "Gustavo Pittaluga / Rodolfo Halffter",
                         "studio": "Ultramar Films",
+                        "country": "Mexico",
                         "poster": "https://image.tmdb.org/t/p/w500/cDCvmYoyqFg4CuSMtGMvCpfOIEw.jpg",
-                        "plot": "A group of juvenile delinquents live a violent life in the infamous slums of Mexico City; among them Pedro, whose morality is gradually corrupted and destroyed by the others."
-                    },
-                    {
-                        "title": "Viridiana",
-                        "year": 1962,
-                        "focus": "Beggar banquets, mock Last Supper, and religious disillusionment",
-                        "releaseDate": "April 1, 1962",
-                        "writer": "Luis Buñuel, Julio Alejandro",
-                        "cinematographer": "José F. Aguayo",
-                        "editor": "Pedro del Rey",
-                        "composer": "Various (Handel & Beethoven)",
-                        "studio": "Gustavo Alatriste, UNINCI, Films 59",
-                        "poster": "https://image.tmdb.org/t/p/w500/mYPuSx5JwL8AdTwS1iQW4Un1cYP.jpg",
-                        "plot": "Viridiana is preparing to start her life as a nun when she is sent, somewhat unwillingly, to visit her aging uncle, Don Jaime. He supports her; but the two have met only once. Jaime thinks Viridiana resembles his dead wife. Viridiana has secretly despised this man all her life and finds her worst fears proven when Jaime grows determined to seduce his pure niece. Viridiana becomes undone as her uncle upends the plans she had made to join the convent."
-                    },
-                    {
-                        "title": "The Exterminating Angel",
-                        "year": 1962,
-                        "focus": "Trapped aristocrats, breakdown of social decorum, and ritualistic sheep",
-                        "releaseDate": "May 16, 1962",
-                        "writer": "Luis Buñuel, Luis Alcoriza",
-                        "cinematographer": "Gabriel Figueroa",
-                        "editor": "Carlos Savage",
-                        "composer": "Various",
-                        "studio": "Gustavo Alatriste",
-                        "poster": "https://image.tmdb.org/t/p/w500/qqZXHvBFxUpo8Pfbyvgh4SYMiWm.jpg",
-                        "plot": "After a lavish dinner party, the guests find themselves unable to depart... and, over the next few days, all of their elaborate societal pretenses and façades deteriorate as they are reduced to living like animals."
+                        "plot": "A group of juvenile delinquents live a violent life in the infamous slums of Mexico City; among them Pedro, whose morality is gradually corrupted and destroyed by the others.",
+                        "focus": "Gritty neo-realism, juvenile delinquency, and systemic poverty"
                     },
                     {
                         "title": "Belle de Jour",
                         "year": 1967,
-                        "focus": "Double lives, masochistic fantasies, and ringing carriage bells",
                         "releaseDate": "May 24, 1967",
-                        "writer": "Luis Buñuel, Jean-Claude Carrière",
-                        "cinematographer": "Christian Matras",
+                        "director": "Luis Buñuel",
+                        "writer": "Luis Buñuel / Jean-Claude Carrière",
+                        "cinematographer": "Sacha Vierny",
                         "editor": "Louisette Hautecoeur",
-                        "composer": "Ambient Soundscape",
-                        "studio": "Paris Film Productions, Five Film",
+                        "studio": "Paris Film Productions / Five Film",
+                        "country": "France / Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/iUAFECovwPA0cVV9bo4uNGLJSGL.jpg",
-                        "plot": "Beautiful young housewife Séverine Serizy cannot reconcile her masochistic fantasies with her everyday life alongside dutiful husband Pierre. When her lovestruck friend Henri mentions a secretive high-class brothel run by Madame Anais, Séverine begins to work there during the day under the name Belle de Jour. But when one of her clients grows possessive, she must try to go back to her normal life."
+                        "plot": "Beautiful young housewife Séverine Serizy cannot reconcile her masochistic fantasies with her everyday life alongside dutiful husband Pierre. When her lovestruck friend Henri mentions a secretive high-class brothel run by Madame Anais, Séverine begins to work there during the day under the name Belle de Jour. But when one of her clients grows possessive, she must try to go back to her normal life.",
+                        "focus": "Bourgeois repression, sadomasochistic fantasy, and narrative ambiguity"
                     }
                 ],
                 "scenes": [
@@ -6452,35 +6361,38 @@ const FILMS_DATA = {
                     "Acoustic Silence Contrast: Paces scenes with complete silence, interrupted only by ticking clocks, footsteps, or natural wind."
                 ],
                 "lessons": [
-                    "The power of subtext. When dealing with political trauma or censorship, let childhood fantasy and visual metaphors speak for the unspeakable.",
+                    "The power of subtext. When dealing with political trauma or censorship, var childhood fantasy and visual metaphors speak for the unspeakable.",
                     "Painterly compositions. Frame each shot with the care of a classical painting, letting light and shadow tell the story instead of dialogue."
                 ],
                 "mustWatch": [
                     {
                         "title": "The Spirit of the Beehive",
                         "year": 1973,
-                        "focus": "Frankenstein myth, childhood imagination, and post-Civil War silence",
                         "releaseDate": "October 8, 1973",
-                        "writer": "Víctor Erice, Ángel Fernández-Santos",
+                        "director": "Víctor Erice",
+                        "writer": "Ángel Fernández-Santos / Víctor Erice",
                         "cinematographer": "Luis Cuadrado",
                         "editor": "Pablo González del Amo",
                         "composer": "Luis de Pablo",
-                        "studio": "Elias Querejeta Producciones",
+                        "studio": "Elías Querejeta Producciones Cinematográficas",
+                        "country": "Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/p2wx4EWasQaPGxnbS2IsW74ewVN.jpg",
-                        "plot": "In 1940, in the immediate aftermath of the Spanish Civil War, a young girl living on the Castilian plain is haunted after attending a screening of James Whale's 1931 film Frankenstein and hearing from her sister that the monster is not dead, instead existing as a spirit inhabiting a nearby barn."
+                        "plot": "In 1940, in the immediate aftermath of the Spanish Civil War, a young girl living on the Castilian plain is haunted after attending a screening of James Whale's 1931 film Frankenstein and hearing from her sister that the monster is not dead, instead existing as a spirit inhabiting a nearby barn.",
+                        "focus": "Post-war trauma, childhood imagination, and political allegory"
                     },
                     {
                         "title": "El Sur",
                         "year": 1983,
-                        "focus": "Father-daughter distance, Northern-Southern divides, and pendulum motifs",
                         "releaseDate": "May 19, 1983",
-                        "writer": "Víctor Erice, Adelaida García Morales",
+                        "director": "Víctor Erice",
+                        "writer": "Víctor Erice",
                         "cinematographer": "José Luis Alcaine",
-                        "editor": "Pablo González del Amo",
-                        "composer": "Various",
-                        "studio": "Elías Querejeta Producciones",
+                        "editor": "Mapi Laguna",
+                        "studio": "Elías Querejeta Producciones Cinematográficas / Chloe Productions",
+                        "country": "Spain / France",
                         "poster": "https://image.tmdb.org/t/p/w500/bAyghNTLIwHIxoQOha6kHfwmxS6.jpg",
-                        "plot": "A woman recalls her childhood growing up in the North of Spain, focusing on her relationship with her father."
+                        "plot": "A woman recalls her childhood growing up in the North of Spain, focusing on her relationship with her father.",
+                        "focus": "Nostalgia, paternal mystique, and the legacy of the Spanish Civil War"
                     }
                 ],
                 "scenes": [
@@ -6521,28 +6433,31 @@ const FILMS_DATA = {
                     {
                         "title": "Cría Cuervos",
                         "year": 1976,
-                        "focus": "Childhood grief, military father satire, and 'Porque te vas' pop song",
-                        "releaseDate": "June 3, 1976",
+                        "releaseDate": "January 15, 1976",
+                        "director": "Carlos Saura",
                         "writer": "Carlos Saura",
-                        "cinematographer": "Teodoro Escamilla",
+                        "cinematographer": "Teo Escamilla",
                         "editor": "Pablo González del Amo",
-                        "composer": "José Luis Perales",
-                        "studio": "Elías Querejeta Producciones",
+                        "studio": "Elías Querejeta Producciones Cinematográficas",
+                        "country": "Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/hueMt6pkaV8nwVGwKP2uuiqF5DJ.jpg",
-                        "plot": "Ana, an eight-year-old girl living in Madrid with her grandmother and two sisters, mourns the death of her mother."
+                        "plot": "Ana, an eight-year-old girl living in Madrid with her grandmother and two sisters, mourns the death of her mother.",
+                        "focus": "Childhood trauma, Francoist dictatorship allegory, and psychological confinement"
                     },
                     {
-                        "title": "Carmen",
-                        "year": 1983,
-                        "focus": "Flamenco choreography, reality-fiction overlap, and Bizet's opera",
-                        "releaseDate": "May 6, 1983",
-                        "writer": "Carlos Saura, Antonio Gades",
-                        "cinematographer": "Teodoro Escamilla",
-                        "editor": "Pedro del Rey",
-                        "composer": "Paco de Lucía",
-                        "studio": "Emiliano Piedra",
-                        "poster": "https://image.tmdb.org/t/p/w500/qieLqTENb8YwnR391ipUMV2Rjlq.jpg",
-                        "plot": "A woman involved with a terrorist group becomes dangerously close to the police officer guarding the bank they plan to rob."
+                        "title": "La Caza",
+                        "year": 1966,
+                        "releaseDate": "November 14, 1966",
+                        "director": "Carlos Saura",
+                        "writer": "Angelino Fons / Carlos Saura",
+                        "cinematographer": "Luis Cuadrado",
+                        "editor": "Pablo González del Amo",
+                        "composer": "Luis de Pablo",
+                        "studio": "Elías Querejeta Producciones Cinematográficas",
+                        "country": "Spain",
+                        "poster": "https://image.tmdb.org/t/p/w500/2lODWq6rLdcb8hLuQpt9qHSAatW.jpg",
+                        "plot": "Three veterans of the Spanish Civil War go rabbit hunting. While doing so, old wounds open up.",
+                        "focus": "Toxic masculinity, suppressed violence, and Spanish Civil War metaphors"
                     }
                 ],
                 "scenes": [
@@ -6581,43 +6496,34 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Open Your Eyes",
-                        "year": 1997,
-                        "focus": "Facial disfigurement, virtual reality, and dream-reality slip",
-                        "releaseDate": "December 19, 1997",
-                        "writer": "Alejandro Amenábar, Mateo Gil",
-                        "cinematographer": "Hans Burmann",
-                        "editor": "María Elena Sáinz de Rozas",
-                        "composer": "Alejandro Amenábar, Mariano Marín",
-                        "studio": "Las Producciones del Escorpión",
-                        "poster": "https://image.tmdb.org/t/p/w500/1NkQNM5bw3U7n3RCba8JKnb61Ds.jpg",
-                        "plot": "Handsome 25-year-old Cesar had it all -- a successful career, expensive cars, a swank bachelor's pad, and an endless string of beautiful and willing women -- until he is thrown into a strange psychological mystery after a car accident scars his face and lands him in prison."
-                    },
-                    {
                         "title": "The Others",
                         "year": 2001,
-                        "focus": "Photophobic children, locked doors, and classic gothic twists",
-                        "releaseDate": "August 2, 2001",
+                        "releaseDate": "August 10, 2001",
+                        "director": "Alejandro Amenábar",
                         "writer": "Alejandro Amenábar",
                         "cinematographer": "Javier Aguirresarobe",
-                        "editor": "Emiliano Otegui",
+                        "editor": "Nacho Ruiz Capillas",
                         "composer": "Alejandro Amenábar",
-                        "studio": "Sogecine, Las Producciones del Escorpión",
+                        "studio": "Las Producciones del Escorpión / Sogecine / Cruise-Wagner Productions",
+                        "country": "Spain / United States / France / Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/p8g1vlTvpM6nr2hMMiZ1fUlKF0D.jpg",
-                        "plot": "Grace is a woman who lives in an old house kept dark because her two children, Anne and Nicholas, have a rare sensitivity to light. When the family begins to suspect the house is haunted, Grace fights to protect her children at any cost in the face of strange events and disturbing visions."
+                        "plot": "Grace is a woman who lives in an old house kept dark because her two children, Anne and Nicholas, have a rare sensitivity to light. When the family begins to suspect the house is haunted, Grace fights to protect her children at any cost in the face of strange events and disturbing visions.",
+                        "focus": "Gothic atmosphere, psychological horror, and plot twists"
                     },
                     {
                         "title": "The Sea Inside",
                         "year": 2004,
-                        "focus": "Euthanasia battle, window framing, and flights of the mind",
                         "releaseDate": "September 3, 2004",
-                        "writer": "Alejandro Amenábar, Mateo Gil",
+                        "director": "Alejandro Amenábar",
+                        "writer": "Alejandro Amenábar / Mateo Gil",
                         "cinematographer": "Javier Aguirresarobe",
-                        "editor": "Iván Aledo",
+                        "editor": "Alejandro Amenábar",
                         "composer": "Alejandro Amenábar",
-                        "studio": "Sogecine, Himenóptero",
+                        "studio": "Sogecine / Himenóptero / UGC Images",
+                        "country": "Spain / France / Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/mQW1JJKCUg02cmWBzr9JFu9vM1V.jpg",
-                        "plot": "Ramón Sampedro is a ship mechanic and part-time poet left a quadriplegic following a diving accident. Ramón fought for 30 years for the legal right to end his own life. He develops close relationships with his long-term lawyer Julia and his friend Rosa, who tries to convince him that his life is worth living. Despite his situation, Ramón manages to inspire those around him to live life to the fullest."
+                        "plot": "Ramón Sampedro is a ship mechanic and part-time poet left a quadriplegic following a diving accident. Ramón fought for 30 years for the legal right to end his own life. He develops close relationships with his long-term lawyer Julia and his friend Rosa, who tries to convince him that his life is worth living. Despite his situation, Ramón manages to inspire those around him to live life to the fullest.",
+                        "focus": "Euthanasia debate, physical paralysis, and the right to die"
                     }
                 ],
                 "scenes": [
@@ -6664,28 +6570,32 @@ const FILMS_DATA = {
                     {
                         "title": "The Orphanage",
                         "year": 2007,
-                        "focus": "Sack-headed ghosts, maternal devotion, and old orphanage secrets",
-                        "releaseDate": "May 20, 2007",
+                        "releaseDate": "October 11, 2007",
+                        "director": "J. A. Bayona",
                         "writer": "Sergio G. Sánchez",
                         "cinematographer": "Óscar Faura",
                         "editor": "Elena Ruiz",
                         "composer": "Fernando Velázquez",
-                        "studio": "Rodar y Rodar, Telecinco Cinema",
+                        "studio": "Rodar y Rodar / Telecinco Cinema",
+                        "country": "Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/vIpi1KtHLXUOfSVC2m6MqpjSPgL.jpg",
-                        "plot": "A woman brings her family back to her childhood home, which used to be an orphanage, intent on reopening it. Before long, her son starts to communicate with a new invisible friend."
+                        "plot": "A woman brings her family back to her childhood home, which used to be an orphanage, intent on reopening it. Before long, her son starts to communicate with a new invisible friend.",
+                        "focus": "Gothic suspense, maternal grief, and atmospheric dread"
                     },
                     {
-                        "title": "The Impossible",
-                        "year": 2012,
-                        "focus": "2004 Indian Ocean tsunami, physical survival, and family separation",
-                        "releaseDate": "September 9, 2012",
-                        "writer": "Sergio G. Sánchez",
-                        "cinematographer": "Óscar Faura",
-                        "editor": "Elena Ruiz, Bernat Vilaplana",
-                        "composer": "Fernando Velázquez",
-                        "studio": "Apaches Entertainment, Telecinco Cinema",
-                        "poster": "https://image.tmdb.org/t/p/w500/k0DLCiDbnYywOHiISALbl2EH2NE.jpg",
-                        "plot": "In December 2004, close-knit family Maria, Henry and their three sons begin their winter vacation in Thailand. But the day after Christmas, the idyllic holiday turns into an incomprehensible nightmare when a terrifying roar rises from the depths of the sea, followed by a wall of black water that devours everything in its path. Though Maria and her family face their darkest hour, unexpected displays of kindness and courage ameliorate their terror."
+                        "title": "Society of the Snow",
+                        "year": 2023,
+                        "releaseDate": "December 13, 2023",
+                        "director": "J. A. Bayona",
+                        "writer": "J. A. Bayona / Bernat Vilaplana / Jaime Marques / Nicolás Casariego",
+                        "cinematographer": "Pedro Luque",
+                        "editor": "Jaume Martí / Andrés Gil",
+                        "composer": "Michael Giacchino",
+                        "studio": "Misión de Audacia Films / El Arriero Films / Netflix",
+                        "country": "Spain / United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/2e853FDVSIso600RqAMunPxiZjq.jpg",
+                        "plot": "On October 13, 1972, Uruguayan Air Force Flight 571, chartered to take a rugby team to Chile, crashes into a glacier in the heart of the Andes.",
+                        "focus": "Extreme survival, human resilience, and ethical dilemmas in crisis"
                     }
                 ],
                 "scenes": [
@@ -6724,43 +6634,33 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Aniki-Bóbó",
+                        "title": "Aniki Bóbó",
                         "year": 1942,
-                        "focus": "Porto street children, moral choice, and child street games",
                         "releaseDate": "December 18, 1942",
-                        "writer": "Manoel de Oliveira, Rodrigo de Freitas",
+                        "director": "Manoel de Oliveira",
+                        "writer": "Manoel de Oliveira",
                         "cinematographer": "António Mendes",
                         "editor": "Manoel de Oliveira",
                         "composer": "Jaime Silva Filho",
-                        "studio": "Produções Manoel de Oliveira",
+                        "studio": "Produções Cinematográficas Manuel de Oliveira",
+                        "country": "Portugal",
                         "poster": "https://image.tmdb.org/t/p/w500/u3ALny6no1YHFZ7DaKNKEhlpMuJ.jpg",
-                        "plot": "Two schoolboys, Carlitos and Eduardo, fight for the affection of a girl, Teresinha."
+                        "plot": "Two schoolboys, Carlitos and Eduardo, fight for the affection of a girl, Teresinha.",
+                        "focus": "Childhood innocence, street life realism, and early Portuguese cinema"
                     },
                     {
-                        "title": "Francisca",
-                        "year": 1981,
-                        "focus": "Tragic romance, formal theatrical framing, and Portuguese society",
-                        "releaseDate": "December 3, 1981",
-                        "writer": "Manoel de Oliveira, Agustina Bessa-Luís",
-                        "cinematographer": "Elso Roque",
-                        "editor": "Manoel de Oliveira",
-                        "composer": "João Paes",
-                        "studio": "V.O. Filmes",
-                        "poster": "https://image.tmdb.org/t/p/w500/vik6JLVcDk8R29t6cKbnIQUxM26.jpg",
-                        "plot": "The life of a young man, son of an English officer who lets himself become a prisoner of love resulting in fatalism and disgrace."
-                    },
-                    {
-                        "title": "Voyage to the Beginning of the World",
-                        "year": 1997,
-                        "focus": "Marcello Mastroianni, childhood nostalgia, and Portuguese migration",
-                        "releaseDate": "May 16, 1997",
+                        "title": "Abraham's Valley",
+                        "year": 1993,
+                        "releaseDate": "October 15, 1993",
+                        "director": "Manoel de Oliveira",
                         "writer": "Manoel de Oliveira",
-                        "cinematographer": "Renato Berta",
-                        "editor": "Valérie Loiseleux",
-                        "composer": "Emmanuel Nuñes",
-                        "studio": "Madragoa Filmes, Gemini Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/euRxVGm8A3Y1y2rUafr5vKi027g.jpg",
-                        "plot": "Manoel is an aging film director who travels with the film crew through Portugal in search of the origins of Afonso, a famous French actor whose father emigrated from Portugal to France and in process remembers his own youth."
+                        "cinematographer": "Mario Barroso",
+                        "editor": "Valerie Loiseleux",
+                        "studio": "Madragoa Filmes / Gemini Films",
+                        "country": "Portugal / France / Switzerland",
+                        "poster": "https://image.tmdb.org/t/p/w500/zU5moFVXIVZbjd6pcwo6J47sBbY.jpg",
+                        "plot": "Ema is a very attractive but innocent girl, so pretty that cars crash in her presence. In her youth she marries Dr. Carlos Paiva, her father's friend, to whom she is not attracted. They move to the valley of Abraham. Carlos loves her, but decides to sleep in a separate room to avoid waking Ema when he has to return late at night. As time goes by she begins to feel unhappy about her marriage, so she finds a new lover.",
+                        "focus": "Bourgeois ennui, romantic disillusionment, and literary adaptation"
                     }
                 ],
                 "scenes": [
@@ -6799,43 +6699,32 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Ossos",
-                        "year": 1997,
-                        "focus": "Lisbon slums, teenage parenthood, and silent despair",
-                        "releaseDate": "November 14, 1997",
-                        "writer": "Pedro Costa",
-                        "cinematographer": "Emmanuel Machuel",
-                        "editor": "Jackie Bastide",
-                        "composer": "Various",
-                        "studio": "Madragoa Filmes",
-                        "poster": "https://image.tmdb.org/t/p/w500/8g4lW86bbqxNW2kAjEn8mpX1QNB.jpg",
-                        "plot": "After a suicidal teenage girl gives birth, she misguidedly entrusts her baby’s safety to the troubled, deadbeat father, whose violent actions take the viewer on a tour of the foreboding, crumbling shantytown in which they live."
-                    },
-                    {
-                        "title": "In Vanda’s Room",
-                        "year": 2001,
-                        "focus": "Vanda Duarte, heroin routine, and slum demolition",
-                        "releaseDate": "March 2, 2001",
+                        "title": "In Vanda's Room",
+                        "year": 2000,
+                        "releaseDate": "May 19, 2000",
+                        "director": "Pedro Costa",
                         "writer": "Pedro Costa",
                         "cinematographer": "Pedro Costa",
-                        "editor": "Patricia Saramago",
-                        "composer": "Ambient Soundscape",
-                        "studio": "Contracosta Produções",
+                        "editor": "Dominique Auvray",
+                        "studio": "Contracosta Produções / ZDF",
+                        "country": "Portugal / Germany / Switzerland",
                         "poster": "https://image.tmdb.org/t/p/w500/wi70RuDNiYqIyruZtXPeBOHTtj2.jpg",
-                        "plot": "An unflinching, fragmentary look at a handful of self-destructive, marginalized people, but taking as main focus the heroin-addicted Vanda Duarte."
+                        "plot": "An unflinching, fragmentary look at a handful of self-destructive, marginalized people, but taking as main focus the heroin-addicted Vanda Duarte.",
+                        "focus": "Docufiction hybrid, marginalization, and the Fontainhas slum"
                     },
                     {
-                        "title": "Colossal Youth",
-                        "year": 2006,
-                        "focus": "Ventura, housing projects, and memory wanders",
-                        "releaseDate": "November 23, 2006",
-                        "writer": "Pedro Costa",
-                        "cinematographer": "Pedro Costa",
-                        "editor": "Valérie Loiseleux",
-                        "composer": "Ambient Soundscape",
-                        "studio": "Contracosta Produções",
-                        "poster": "https://image.tmdb.org/t/p/w500/7gXzGezgUDaYsauYGPhM3Dmbt2g.jpg",
-                        "plot": "After the Portuguese government demolishes his slum and relocates him to a housing project on the outskirts of Lisbon, 75-year-old Cape Verde immigrant Ventura wanders between his new and old homes, reconnecting with people from his past."
+                        "title": "Vitalina Varela",
+                        "year": 2019,
+                        "releaseDate": "August 14, 2019",
+                        "director": "Pedro Costa",
+                        "writer": "Pedro Costa / Vitalina Varela",
+                        "cinematographer": "Leonardo Simões",
+                        "editor": "João Dias",
+                        "studio": "OPTEC Filmes",
+                        "country": "Portugal",
+                        "poster": "https://image.tmdb.org/t/p/w500/xJUMhpsxuoSLyDhb8cEbVdwuaAw.jpg",
+                        "plot": "A Cape Verdean woman navigates her way through Lisbon, following the scanty physical traces her deceased husband left behind and discovering his secret, illicit life.",
+                        "focus": "Chiaroscuro lighting, immigrant grief, and ghostly realism"
                     }
                 ],
                 "scenes": [
@@ -6876,28 +6765,30 @@ const FILMS_DATA = {
                     {
                         "title": "Tabu",
                         "year": 2012,
-                        "focus": "Colonial memory, silent romance, and baby crocodiles",
-                        "releaseDate": "April 5, 2012",
-                        "writer": "Miguel Gomes, Mariana Ricardo",
+                        "releaseDate": "February 14, 2012",
+                        "director": "Miguel Gomes",
+                        "writer": "Miguel Gomes / Mariana Ricardo",
                         "cinematographer": "Rui Poças",
-                        "editor": "Telmo Churro, Miguel Gomes",
-                        "composer": "Various",
-                        "studio": "O Som e a Fúria",
+                        "editor": "Telmo Churro / Miguel Gomes",
+                        "studio": "O Som e a Fúria / Shellac Sud / Komplizen Film",
+                        "country": "Portugal / Germany / Brazil / France",
                         "poster": "https://image.tmdb.org/t/p/w500/mtr1ztUkJs6jsYdzK3gBLsuffr4.jpg",
-                        "plot": "Lisbon, Portugal, 2010. Pilar, a pious woman devoted to social causes, maintains a peculiar relationship with her neighbor Aurora, a temperamental old woman obsessed with gambling who lives tormented by a mysterious past."
+                        "plot": "Lisbon, Portugal, 2010. Pilar, a pious woman devoted to social causes, maintains a peculiar relationship with her neighbor Aurora, a temperamental old woman obsessed with gambling who lives tormented by a mysterious past.",
+                        "focus": "Colonial nostalgia, silent film homage, and romantic melancholy"
                     },
                     {
-                        "title": "Arabian Nights",
-                        "year": 2015,
-                        "focus": "Austerity Portugal, Scheherazade framing, and singing roosters",
-                        "releaseDate": "May 16, 2015",
-                        "writer": "Miguel Gomes, Mariana Ricardo, Telmo Churro",
-                        "cinematographer": "Sayombhu Mukdeeprom",
-                        "editor": "Telmo Churro, Pedro Filipe Marques",
-                        "composer": "Various",
-                        "studio": "O Som e a Fúria",
-                        "poster": "https://image.tmdb.org/t/p/w500/5h9MscXOebtsRyByH1UiWbuPoRe.jpg",
-                        "plot": "Some of the chapters from Arabian Nights are adapted to a modern Portugal in this epic."
+                        "title": "Grand Tour",
+                        "year": 2024,
+                        "releaseDate": "May 22, 2024",
+                        "director": "Miguel Gomes",
+                        "writer": "Miguel Gomes / Mariana Ricardo / Telmo Churro / Maureen Fazendeiro",
+                        "cinematographer": "Rui Poças / Sayombhu Mukdeeprom",
+                        "editor": "Telmo Churro / Pedro Ribeiro",
+                        "studio": "Uma Pedra no Sapato / Vivo Film / Shellac",
+                        "country": "Portugal / Italy / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/dc21nMtakPqF5BvWozaaOWpmDR3.jpg",
+                        "plot": "In 1917 Burma (now Myanmar), a British diplomat is set to marry his fiancée, but after a sudden panic, escapes to Singapore, sending her on what evolves into a chase across Asia.",
+                        "focus": "Post-colonial reflection, travelogue aesthetics, and historical memory"
                     }
                 ],
                 "scenes": [
@@ -6936,30 +6827,19 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "O Fantasma",
-                        "year": 2000,
-                        "focus": "Lisbon garbage collector, latex suits, and silent obsession",
-                        "releaseDate": "October 20, 2000",
-                        "writer": "João Pedro Rodrigues, José Neves, Alexandre Melo",
+                        "title": "The Ornithologist",
+                        "year": 2016,
+                        "releaseDate": "August 8, 2016",
+                        "director": "João Pedro Rodrigues",
+                        "writer": "João Pedro Rodrigues",
                         "cinematographer": "Rui Poças",
-                        "editor": "Paulo Rebelo",
-                        "composer": "Various",
-                        "studio": "Blackmaria",
-                        "poster": "https://image.tmdb.org/t/p/w500/rR2JY0ooBoHmCEuMMBcPnimxess.jpg",
-                        "plot": "Sergio is a brooding, alienated man who works as a trash collector in Lisbon by day and roams the city streets by night seeking rough, anonymous sex with men. One night he meets a man who seems to be the embodiment of his tormented fantasies, and he becomes obsessed with the stranger until loneliness and unfulfilled desire propel him finally into a dark and dangerous animalistic state."
-                    },
-                    {
-                        "title": "To Die Like a Man",
-                        "year": 2009,
-                        "focus": "Aging drag queen, trans identity, and operatic forest transitions",
-                        "releaseDate": "October 15, 2009",
-                        "writer": "João Pedro Rodrigues, Rui Catalão",
-                        "cinematographer": "Rui Poças",
-                        "editor": "João Pedro Rodrigues, Rui Alexandre Santos",
-                        "composer": "Various",
-                        "studio": "Blackmaria",
-                        "poster": "https://image.tmdb.org/t/p/w500/s2SdVFz3lamXDQADrdwEBJN7VI.jpg",
-                        "plot": "A transgender woman attempts to rehabilitate her younger, drug-addicted boyfriend while also dealing with her ne’er-do-well son, a soldier who’s gone AWOL."
+                        "editor": "Raphaël Lefèvre",
+                        "composer": "Severine Ballon",
+                        "studio": "Blackmaria / House on Fire / Itaca Films",
+                        "country": "Portugal / France / Brazil",
+                        "poster": "https://image.tmdb.org/t/p/w500/xS7akhtD1fwDzLseiTkDKOEwXHr.jpg",
+                        "plot": "Stranded along a sublime river fjord in northern Portugal, an ornithologist is subjected to a series of brutal and erotic Stations-of-the-Cross-style tests.",
+                        "focus": "Queer surrealism, religious allegory, and wilderness transformation"
                     }
                 ],
                 "scenes": [
@@ -6998,19 +6878,34 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 60225,
-                        "title": "Maria Candelaria",
-                        "original_title": "María Candelaria (Xochimilco)",
+                        "title": "María Candelaria",
                         "year": 1944,
                         "releaseDate": "January 20, 1944",
-                        "writer": "Emilio Fernández, Mauricio Magdaleno",
+                        "director": "Emilio Fernández",
+                        "writer": "Emilio Fernández / Mauricio Magdaleno",
                         "cinematographer": "Gabriel Figueroa",
-                        "editor": "Jorge Busto",
+                        "editor": "Gloria Schoemann",
                         "composer": "Francisco Domínguez",
                         "studio": "Films Mundiales",
+                        "country": "Mexico",
                         "poster": "https://image.tmdb.org/t/p/w500/whd229FgEBmzxZOGgOWffKOcuRl.jpg",
-                        "focus": "Indigenous romance, backlighting flowers, and religious stoning melodrama",
-                        "plot": "A young journalist asks an old artist about the portrait of a naked Indian woman that he has in his study. The artist tells the story of Maria Candelaria, a young Indian woman who was rejected by her own people for being the daughter of a prostitute. She is protected by a young Indian man, Lorenzo Rafael, who has fallen in love with her."
+                        "plot": "A young journalist asks an old artist about the portrait of a naked Indian woman that he has in his study. The artist tells the story of Maria Candelaria, a young Indian woman who was rejected by her own people for being the daughter of a prostitute. She is protected by a young Indian man, Lorenzo Rafael, who has fallen in love with her.",
+                        "focus": "Indigenous identity, tragic melodrama, and Mexican golden age cinematography"
+                    },
+                    {
+                        "title": "Enamorada",
+                        "year": 1946,
+                        "releaseDate": "December 25, 1946",
+                        "director": "Emilio Fernández",
+                        "writer": "Emilio Fernández / Iñigo de Martino",
+                        "cinematographer": "Gabriel Figueroa",
+                        "editor": "Gloria Schoemann",
+                        "composer": "Eduardo Hernández Moncada",
+                        "studio": "Panamerican Films",
+                        "country": "Mexico",
+                        "poster": "https://image.tmdb.org/t/p/w500/lHKRBzPNgu0XgGiBg2U5ltSE438.jpg",
+                        "plot": "In Mexican Revolution times, a guerrilla general and his troops take the conservative town of Cholula, near by Mexico City. As the revolutionaries mistreat the town's riches, General Reyes falls for beautiful and wild Beatriz Peñafiel, the daughter of one of the town's richest men.",
+                        "focus": "Mexican Revolution context, romantic melodrama, and stark lighting"
                     }
                 ],
                 "scenes": [
@@ -7049,49 +6944,32 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 1391,
                         "title": "Y Tu Mamá También",
-                        "original_title": "Y tu mamá también",
                         "year": 2001,
                         "releaseDate": "June 8, 2001",
-                        "writer": "Alfonso Cuarón, Carlos Cuarón",
+                        "director": "Alfonso Cuarón",
+                        "writer": "Carlos Cuarón / Alfonso Cuarón",
                         "cinematographer": "Emmanuel Lubezki",
-                        "editor": "Alfonso Cuarón",
-                        "composer": "None",
-                        "studio": "Bésame Mucho Pictures, Anhelo Productions",
+                        "editor": "Alfonso Cuarón / Alex Rodríguez",
+                        "studio": "Anhelo Producciones / Producciones Hincapié",
+                        "country": "Mexico",
                         "poster": "https://image.tmdb.org/t/p/w500/aj3rqjab8jfc2fWmcS3H3c5qbur.jpg",
-                        "focus": "Detour narration, coming-of-age road trip, and Mexican landscape realism",
-                        "plot": "In Mexico, two teenage boys and an attractive older woman embark on a road trip and learn a thing or two about life, friendship, sex, and each other."
+                        "plot": "In Mexico, two teenage boys and an attractive older woman embark on a road trip and learn a thing or two about life, friendship, sex, and each other.",
+                        "focus": "Coming-of-age, class divide, and sociopolitical undercurrents"
                     },
                     {
-                        "id": 9693,
-                        "title": "Children of Men",
-                        "original_title": "Children of Men",
-                        "year": 2006,
-                        "releaseDate": "September 22, 2006",
-                        "writer": "Alfonso Cuarón, Timothy J. Sexton, David Arata, Mark Fergus, Hawk Ostby",
-                        "cinematographer": "Emmanuel Lubezki",
-                        "editor": "Alfonso Cuarón",
-                        "composer": "John Tavener",
-                        "studio": "Universal Pictures, Strike Entertainment, Hit & Run Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/k9IAS4TehZFcKi4HVByxZNPfqex.jpg",
-                        "focus": "Sci-fi dystopian setting, wide-angle lenses, and fluid action tracking takes",
-                        "plot": "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind."
-                    },
-                    {
-                        "id": 426426,
                         "title": "Roma",
-                        "original_title": "Roma",
                         "year": 2018,
-                        "releaseDate": "November 21, 2018",
+                        "releaseDate": "August 30, 2018",
+                        "director": "Alfonso Cuarón",
                         "writer": "Alfonso Cuarón",
                         "cinematographer": "Alfonso Cuarón",
                         "editor": "Alfonso Cuarón",
-                        "composer": "None",
-                        "studio": "Participant, Esperanto Filmoj",
+                        "studio": "Esperanto Filmoj / Participant Media",
+                        "country": "Mexico / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/dtIIyQyALk57ko5bjac7hi01YQ.jpg",
-                        "focus": "Black-and-white deep focus, slow pans, and domestic choreography",
-                        "plot": "In 1970s Mexico City, two domestic workers help a mother of four while her husband is away for an extended period of time."
+                        "plot": "In 1970s Mexico City, two domestic workers help a mother of four while her husband is away for an extended period of time.",
+                        "focus": "Autobiographical memory, domestic life, and striking black-and-white cinematography"
                     }
                 ],
                 "scenes": [
@@ -7136,64 +7014,34 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 55,
                         "title": "Amores Perros",
-                        "original_title": "Amores perros",
                         "year": 2000,
-                        "releaseDate": "June 16, 2000",
+                        "releaseDate": "May 14, 2000",
+                        "director": "Alejandro González Iñárritu",
                         "writer": "Guillermo Arriaga",
                         "cinematographer": "Rodrigo Prieto",
-                        "editor": "Luis Carballar",
+                        "editor": "Alejandro González Iñárritu / Luis Carballar / Fernando Pérez Unda",
                         "composer": "Gustavo Santaolalla",
-                        "studio": "Altavista Films, Zeta Film",
+                        "studio": "Altavista Films / Zeta Film",
+                        "country": "Mexico",
                         "poster": "https://image.tmdb.org/t/p/w500/A4lH22nlFF7MdalGfcvSrlC1ttt.jpg",
-                        "focus": "Kinetic car crash, dog fighting subculture, and multi-story structure",
-                        "plot": "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man."
+                        "plot": "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man.",
+                        "focus": "Interlocking narratives, urban grit, and fatalistic coincidence"
                     },
                     {
-                        "id": 470,
-                        "title": "21 Grams",
-                        "original_title": "21 Grams",
-                        "year": 2003,
-                        "releaseDate": "September 6, 2003",
-                        "writer": "Guillermo Arriaga",
-                        "cinematographer": "Rodrigo Prieto",
-                        "editor": "Stephen Mirrione",
-                        "composer": "Gustavo Santaolalla",
-                        "studio": "This is that, Y Productions, Mediana Productions Filmgesellschaft",
-                        "poster": "https://image.tmdb.org/t/p/w500/wZ0l6or5juuVWqDkLEgaghs4f9l.jpg",
-                        "focus": "Non-linear timeline, heart transplant grief, and high-grain 35mm styling",
-                        "plot": "Paul Rivers, an ailing mathematician lovelessly married to an English émigré; Christina Peck, an upper-middle-class suburban housewife and mother of two girls; and Jack Jordan, a born-again ex-con, are brought together by a terrible accident that changes their lives."
-                    },
-                    {
-                        "id": 1164,
-                        "title": "Babel",
-                        "original_title": "Babel",
-                        "year": 2006,
-                        "releaseDate": "October 26, 2006",
-                        "writer": "Guillermo Arriaga",
-                        "cinematographer": "Rodrigo Prieto",
-                        "editor": "Douglas Crise",
-                        "composer": "Gustavo Santaolalla",
-                        "studio": "Central Films, Zeta Film, Anonymous Content",
-                        "poster": "https://image.tmdb.org/t/p/w500/bZByZbvU7u14WjoUJERqCRW9saN.jpg",
-                        "focus": "Global communication breakdown, Moroccan deserts, and Tokyo neon club aesthetics",
-                        "plot": "Tragedy strikes a married couple vacationing in the Moroccan desert, which jumpstarts an interlocking story involving four different families."
-                    },
-                    {
-                        "id": 194662,
-                        "title": "Birdman or (The Unexpected Virtue of Ignorance)",
-                        "original_title": "Birdman or (The Unexpected Virtue of Ignorance)",
+                        "title": "Birdman",
                         "year": 2014,
-                        "releaseDate": "October 17, 2014",
-                        "writer": "Nicolás Giacobone, Armando Bo, Alejandro G. Iñárritu, Alexander Dinelaris",
+                        "releaseDate": "August 27, 2014",
+                        "director": "Alejandro González Iñárritu",
+                        "writer": "Alejandro González Iñárritu / Nicolás Giacobone / Alexander Dinelaris Jr. / Armando Bó",
                         "cinematographer": "Emmanuel Lubezki",
-                        "editor": "Douglas Crise",
+                        "editor": "Douglas Crise / Stephen Mirrione",
                         "composer": "Antonio Sánchez",
-                        "studio": "TSG Entertainment, Worldview Entertainment, New Regency Pictures",
+                        "studio": "New Regency Pictures / Searchlight Pictures",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg",
-                        "focus": "Broadway backstage corridors, simulated single take, and kinetic drum score",
-                        "plot": "A fading actor best known for his portrayal of a popular superhero attempts to mount a comeback by appearing in a Broadway play. As opening night approaches, his attempts to become more altruistic, rebuild his career, and reconnect with friends and family prove more difficult than expected."
+                        "plot": "A fading actor best known for his portrayal of a popular superhero attempts to mount a comeback by appearing in a Broadway play. As opening night approaches, his attempts to become more altruistic, rebuild his career, and reconnect with friends and family prove more difficult than expected.",
+                        "focus": "Tracking shots, artistic ego, and magical realism"
                     }
                 ],
                 "scenes": [
@@ -7210,7 +7058,7 @@ const FILMS_DATA = {
                         "analysis": "Lubezki pans and glides the camera behind Riggan, disguised as a single continuous shot. The tight framing and lack of cuts capture the suffocating pressure of his fading career."
                     }
                 ],
-                "image": "https://image.tmdb.org/t/p/w500/1pB9V6F9iQhQv3z9U5T6T3S8n2.jpg"
+                "image": "assets/images/alejandro_gonzalez_inarritu_profile.png"
             },
             {
                 "id": "guillermo-del-toro",
@@ -7232,49 +7080,34 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 11655,
-                        "title": "Cronos",
-                        "original_title": "Cronos",
-                        "year": 1993,
-                        "releaseDate": "November 5, 1993",
-                        "writer": "Guillermo del Toro",
-                        "cinematographer": "Guillermo Navarro",
-                        "editor": "Raúl Dávalos",
-                        "composer": "Javier Álvarez",
-                        "studio": "Consejo Nacional para la Cultura y las Artes, Instituto Mexicano de Cinematografía, Fondo de Fomento a la Calidad Cinematográfica",
-                        "poster": "https://image.tmdb.org/t/p/w500/tQqIA8bDN7v1LmHjJg7Qh9BKCLa.jpg",
-                        "focus": "Golden clockwork beetle, vampire mythology, and domestic grandfather bond",
-                        "plot": "Faced with his own mortality, an ingenious alchemist tried to perfect an invention that would provide him with the key to eternal life. It was called the Cronos device. When he died more than 400 years later, he took the secrets of this remarkable device to the grave with him. Now, an elderly antiques dealer has found the hellish machine hidden in a statue and learns about its incredible powers. The more he uses the device, the younger he becomes...but nothing comes without a price. Life after death is just the beginning as this nerve-shattering thriller unfolds and the fountain of youth turns bloody."
-                    },
-                    {
-                        "id": 1433,
-                        "title": "The Devil's Backbone",
-                        "original_title": "El espinazo del diablo",
-                        "year": 2001,
-                        "releaseDate": "April 20, 2001",
-                        "writer": "Guillermo del Toro, David Muñoz, Antonio Trashorras",
-                        "cinematographer": "Guillermo Navarro",
-                        "editor": "Luis de la Madrid",
-                        "composer": "Javier Navarrete",
-                        "studio": "Tequila Gang, Anhelo Productions, El Deseo",
-                        "poster": "https://image.tmdb.org/t/p/w500/iP1z1aJzPnkP8FHg77TS7ukqoEZ.jpg",
-                        "focus": "Unexploded bomb courtyard, floating ribbon ghost, and Spanish Civil War gothic",
-                        "plot": "Spain, 1939. In the last days of the Spanish Civil War, the young Carlos arrives at the Santa Lucía orphanage, where he will make friends and enemies as he follows the quiet footsteps of a mysterious presence eager for revenge."
-                    },
-                    {
-                        "id": 1417,
                         "title": "Pan's Labyrinth",
-                        "original_title": "El laberinto del fauno",
                         "year": 2006,
-                        "releaseDate": "October 11, 2006",
+                        "releaseDate": "May 27, 2006",
+                        "director": "Guillermo del Toro",
                         "writer": "Guillermo del Toro",
                         "cinematographer": "Guillermo Navarro",
                         "editor": "Bernat Vilaplana",
                         "composer": "Javier Navarrete",
-                        "studio": "Estudios Picasso, Esperanto Filmoj, Tequila Gang",
+                        "studio": "Estudios Picasso / Tequila Gang / Esperanto Filmoj",
+                        "country": "Spain / Mexico",
                         "poster": "https://image.tmdb.org/t/p/w500/z7xXihu5wHuSMWymq5VAulPVuvg.jpg",
-                        "focus": "Fascist Spain contrast, Pale Man banquet, and mythical stone labyrinth",
-                        "plot": "In post–civil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she may be a lost princess from an underground kingdom. To return to her true father, she must complete a series of surreal and perilous tasks that blur the line between reality and fantasy."
+                        "plot": "In post–civil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she may be a lost princess from an underground kingdom. To return to her true father, she must complete a series of surreal and perilous tasks that blur the line between reality and fantasy.",
+                        "focus": "Dark fantasy, anti-fascist allegory, and visually rich creature design"
+                    },
+                    {
+                        "title": "The Devil's Backbone",
+                        "year": 2001,
+                        "releaseDate": "April 20, 2001",
+                        "director": "Guillermo del Toro",
+                        "writer": "Guillermo del Toro / Antonio Trashorras / David Muñoz",
+                        "cinematographer": "Guillermo Navarro",
+                        "editor": "Luis de la Madrid",
+                        "composer": "Javier Navarrete",
+                        "studio": "El Deseo / Tequila Gang / Anhelo Producciones",
+                        "country": "Spain / Mexico",
+                        "poster": "https://image.tmdb.org/t/p/w500/iP1z1aJzPnkP8FHg77TS7ukqoEZ.jpg",
+                        "plot": "Spain, 1939. In the last days of the Spanish Civil War, the young Carlos arrives at the Santa Lucía orphanage, where he will make friends and enemies as he follows the quiet footsteps of a mysterious presence eager for revenge.",
+                        "focus": "Ghost story conventions, Spanish Civil War setting, and childhood trauma"
                     }
                 ],
                 "scenes": [
@@ -7313,34 +7146,33 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 67612,
                         "title": "Black God, White Devil",
-                        "original_title": "Deus e o Diabo na Terra do Sol",
                         "year": 1964,
-                        "releaseDate": "March 13, 1964",
-                        "writer": "Glauber Rocha, Paulo Gil Soares, Walter Lima Jr.",
+                        "releaseDate": "April 10, 1964",
+                        "director": "Glauber Rocha",
+                        "writer": "Glauber Rocha",
                         "cinematographer": "Waldemar Lima",
                         "editor": "Rafael Justo Valverde",
-                        "composer": "Sérgio Ricardo",
-                        "studio": "Copacabana Filmes, Luiz Augusto Mendes Produções Cinematográficas, Banco Nacional de Minas Gerais",
+                        "composer": "Heitor Villa-Lobos / Sergio Ricardo",
+                        "studio": "Copacabana Filmes",
+                        "country": "Brazil",
                         "poster": "https://image.tmdb.org/t/p/w500/keNDV8nbgVLiCUyzObisEDxdAI4.jpg",
-                        "focus": "Sertão drought, religious fanaticism, and revolutionary mercenary violence",
-                        "plot": "Wanted for killing his boss, Manuel flees with his wife Rosa to the sertão, the barren landscape of Northern Brazil. Thrust into a primordial violent region, Manuel and Rosa come under the influence and control of a series of frightening figures."
+                        "plot": "Wanted for killing his boss, Manuel flees with his wife Rosa to the sertão, the barren landscape of Northern Brazil. Thrust into a primordial violent region, Manuel and Rosa come under the influence and control of a series of frightening figures.",
+                        "focus": "Cinema Novo aesthetics, revolutionary politics, and religious fanaticism"
                     },
                     {
-                        "id": 67062,
                         "title": "Entranced Earth",
-                        "original_title": "Terra em Transe",
                         "year": 1967,
-                        "releaseDate": "May 2, 1967",
+                        "releaseDate": "April 15, 1967",
+                        "director": "Glauber Rocha",
                         "writer": "Glauber Rocha",
                         "cinematographer": "Luiz Carlos Barreto",
                         "editor": "Eduardo Escorel",
-                        "composer": "Sérgio Ricardo",
-                        "studio": "Mapa Filmes, Difilm",
+                        "studio": "Mapa Filmes",
+                        "country": "Brazil",
                         "poster": "https://image.tmdb.org/t/p/w500/kuBU2eGzZyCBYxChYBUGbyTQ052.jpg",
-                        "focus": "Eldorado political satire, beach coronation theater, and peasant drum rhythms",
-                        "plot": "Eldorado, a fictitious country in America, is sparkling with the internal struggle for political power. In the eye of this social convulsion, the jaded journalist Paulo Martins opposes two equally corrupt political candidates: a pseudopopulist and a conservative. In this context, Paulo is torn between the madness of the elite and the blind submission of the masses. But, in this complex tropical reality, nothing really is what it seems to be."
+                        "plot": "Eldorado, a fictitious country in America, is sparkling with the internal struggle for political power. In the eye of this social convulsion, the jaded journalist Paulo Martins opposes two equally corrupt political candidates: a pseudopopulist and a conservative. In this context, Paulo is torn between the madness of the elite and the blind submission of the masses. But, in this complex tropical reality, nothing really is what it seems to be.",
+                        "focus": "Political disillusionment, tropicalist allegory, and baroque style"
                     }
                 ],
                 "scenes": [
@@ -7371,7 +7203,7 @@ const FILMS_DATA = {
                 "techniques": [
                     "Observational Realism: Shoots on location in actual slums or prisons, using natural light to create an authentic, documentary feel.",
                     "Empathetic Margins: Focuses the camera on characters who are outcasts, capturing their humanity and survival instincts without judgment.",
-                    "Intimate Performance Framing: Holds long close-ups on actors' faces to let their internal pain and resilience speak directly to the audience."
+                    "Intimate Performance Framing: Holds long close-ups on actors' faces to var their internal pain and resilience speak directly to the audience."
                 ],
                 "lessons": [
                     "Shoot on location. The real environment (slums, old buildings) provides a texture and truth that no studio set can replicate.",
@@ -7379,34 +7211,34 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 42148,
                         "title": "Pixote",
-                        "original_title": "Pixote: A Lei do Mais Fraco",
-                        "year": 1980,
-                        "releaseDate": "September 26, 1980",
-                        "writer": "Héctor Babenco, Jorge Durán",
+                        "year": 1981,
+                        "releaseDate": "May 5, 1981",
+                        "director": "Héctor Babenco",
+                        "writer": "Héctor Babenco / Jorge Durán",
                         "cinematographer": "Rodolfo Sánchez",
                         "editor": "Luiz Elias",
                         "composer": "John Neschling",
-                        "studio": "HB Filmes, Embrafilme",
+                        "studio": "Embrafilme / HB Filmes",
+                        "country": "Brazil",
                         "poster": "https://image.tmdb.org/t/p/w500/zaBtclnYKv2JkgRDQ7OiFtWHm4e.jpg",
-                        "focus": "Homeless street youths, São Paulo reformatories, and crime survival",
-                        "plot": "10-year-old Pixote endures torture, degradation, and corruption at a local youth detention center where two of its members are murdered by policemen who frame Lilica, a 17-year-old trans hustler. Pixote helps Lilica and three other boys escape and they start to make their living by a life of crime which only escalates to more violence and death."
+                        "plot": "10-year-old Pixote endures torture, degradation, and corruption at a local youth detention center where two of its members are murdered by policemen who frame Lilica, a 17-year-old trans hustler. Pixote helps Lilica and three other boys escape and they start to make their living by a life of crime which only escalates to more violence and death.",
+                        "focus": "Docufiction realism, institutional failure, and juvenile delinquency"
                     },
                     {
-                        "id": 11703,
-                        "title": "Kiss of the Spider Woman",
-                        "original_title": "Kiss of the Spider Woman",
-                        "year": 1985,
-                        "releaseDate": "July 26, 1985",
-                        "writer": "Leonard Schrader",
-                        "cinematographer": "Rodolfo Sánchez",
+                        "title": "Carandiru",
+                        "year": 2003,
+                        "releaseDate": "April 11, 2003",
+                        "director": "Héctor Babenco",
+                        "writer": "Héctor Babenco / Fernando Bonassi / Victor Navas",
+                        "cinematographer": "Walter Carvalho",
                         "editor": "Mauro Alice",
-                        "composer": "Nando Cordeiro",
-                        "studio": "HB Filmes, Island Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/lbrn4gOjYKrLrINn3uUJRlV2NZO.jpg",
-                        "focus": "Cell claustrophobia, movie fantasy monologues, and political solidarity",
-                        "plot": "The story of two radically different men thrown together in a Latin American prison cell. One is Valentin, a journalist being tortured for his political beliefs. The other is Molina, a gay window-dresser who fills their lonely nights by spinning romantic fantasies drawn from memories of old movies."
+                        "composer": "Andre Abujamra",
+                        "studio": "HB Filmes / Sony Pictures Classics",
+                        "country": "Brazil / Argentina",
+                        "poster": "https://image.tmdb.org/t/p/w500/bkq8RsbCb7ugW0ZmsD8SYEvQWSp.jpg",
+                        "plot": "When a doctor decides to carry out an AIDS prevention program inside Latin America’s largest prison: the Casa de Detenção de São Paulo - Carandiru, he meets the future victims of one of the darkest days in Brazilian History when the State of São Paulo’s Military Police, with the excuse for law enforcement, shot to death 111 people. Based on real facts and on the book written by Dráuzio Varella.",
+                        "focus": "Prison life, systemic violence, and social marginalization"
                     }
                 ],
                 "scenes": [
@@ -7440,39 +7272,24 @@ const FILMS_DATA = {
                     "Freeze-Frame Focus: Stops the action on a character's face during key moments to introduce their backstory or highlight their fate."
                 ],
                 "lessons": [
-                    "Use editing to pace emotion. Rapid montage can build excitement, but slowing down to static takes is essential to let tragedy hit home.",
+                    "Use editing to pace emotion. Rapid montage can build excitement, but slowing down to static takes is essential to var tragedy hit home.",
                     "Color your eras. Change the color grading and texture of your film to reflect the emotional shift and historical passage of time."
                 ],
                 "mustWatch": [
                     {
-                        "id": 598,
                         "title": "City of God",
-                        "original_title": "Cidade de Deus",
                         "year": 2002,
-                        "releaseDate": "August 30, 2002",
+                        "releaseDate": "May 18, 2002",
+                        "director": "Fernando Meirelles",
                         "writer": "Bráulio Mantovani",
                         "cinematographer": "César Charlone",
                         "editor": "Daniel Rezende",
-                        "composer": "Ed Cortês",
-                        "studio": "O2 Filmes, VideoFilmes, Wild Bunch",
+                        "composer": "Antonio Pinto / Ed Cortês",
+                        "studio": "O2 Filmes / VideoFilmes",
+                        "country": "Brazil / France",
                         "poster": "https://image.tmdb.org/t/p/w500/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
-                        "focus": " Favela gang wars, hyper-fast editing pace, and golden-to-blue color grades",
-                        "plot": "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood, while José “Zé” Pequeno is an ambitious drug dealer diving into a dangerous life of crime."
-                    },
-                    {
-                        "id": 1985,
-                        "title": "The Constant Gardener",
-                        "original_title": "The Constant Gardener",
-                        "year": 2005,
-                        "releaseDate": "August 31, 2005",
-                        "writer": "Jeffrey Caine",
-                        "cinematographer": "César Charlone",
-                        "editor": "Claire Simpson",
-                        "composer": "Alberto Iglesias",
-                        "studio": "Scion Films, Studio Babelsberg, Epsilon Motion Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/nkXq7V7mmJVbvwZGr3nxkHo7HkS.jpg",
-                        "focus": "Conspiracy thriller, Kibera slum hand-held, and pharmaceutical corruption",
-                        "plot": "Justin Quayle is a low-level British diplomat who has always gone about his work very quietly, not causing any problems. But after his radical wife Tessa is killed he becomes determined to find out why, thrusting himself into the middle of a very dangerous conspiracy."
+                        "plot": "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood, while José “Zé” Pequeno is an ambitious drug dealer diving into a dangerous life of crime.",
+                        "focus": "Favela crime dynamics, kinetic editing, and cyclical violence"
                     }
                 ],
                 "scenes": [
@@ -7511,49 +7328,32 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 97989,
                         "title": "Neighboring Sounds",
-                        "original_title": "O Som ao Redor",
                         "year": 2012,
-                        "releaseDate": "November 19, 2012",
+                        "releaseDate": "January 29, 2012",
+                        "director": "Kleber Mendonça Filho",
                         "writer": "Kleber Mendonça Filho",
-                        "cinematographer": "Pedro Sotero",
-                        "editor": "Kleber Mendonça Filho",
-                        "composer": "DJ Dolores",
-                        "studio": "CinemaScópio",
+                        "cinematographer": "Pedro Sotero / Fabricio Tadeu",
+                        "editor": "Kleber Mendonça Filho / João Maria",
+                        "studio": "Cinemascópio / Rec Produtores Associados",
+                        "country": "Brazil",
                         "poster": "https://image.tmdb.org/t/p/w500/gX5bvUtJZaBjWwq8lSwGOIJN5jM.jpg",
-                        "focus": "Recife apartment security, barking dogs, and domestic class anxiety",
-                        "plot": "An independent private security firm arrives at a middle-class neighborhood in Recife, Brazil."
+                        "plot": "An independent private security firm arrives at a middle-class neighborhood in Recife, Brazil.",
+                        "focus": "Urban paranoia, class tension, and intricate sound design"
                     },
                     {
-                        "id": 377273,
                         "title": "Aquarius",
-                        "original_title": "Aquarius",
                         "year": 2016,
-                        "releaseDate": "September 1, 2016",
+                        "releaseDate": "May 17, 2016",
+                        "director": "Kleber Mendonça Filho",
                         "writer": "Kleber Mendonça Filho",
-                        "cinematographer": "Fabricio Tadeu",
+                        "cinematographer": "Pedro Sotero / Fabricio Tadeu",
                         "editor": "Eduardo Serrano",
-                        "composer": "Mateus Alves",
-                        "studio": "SBS Productions, Globo Filmes, VideoFilmes",
+                        "studio": "Cinemascópio / SBS Productions",
+                        "country": "Brazil / France",
                         "poster": "https://image.tmdb.org/t/p/w500/9hwkjmtl3HCXe7JW2BVSyjLXHCo.jpg",
-                        "focus": "Real estate pressure, apartment resistance, and classic vinyl soundtrack",
-                        "plot": "Clara, a vibrant former music critic and widow with flowing tresses is the only remaining apartment owner in a beautiful older building targeted for demolition by ruthless luxury high-rise developers. Clara proves to be a force to be reckoned with as she thwarts the builders plans to kick her out of the apartment."
-                    },
-                    {
-                        "id": 446159,
-                        "title": "Bacurau",
-                        "original_title": "Bacurau",
-                        "year": 2019,
-                        "releaseDate": "August 29, 2019",
-                        "writer": "Juliano Dornelles, Kleber Mendonça Filho",
-                        "cinematographer": "Pedro Sotero",
-                        "editor": "Eduardo Serrano",
-                        "composer": "Mateus Alves",
-                        "studio": "Símio Filmes, ARTE France Cinéma, Globo Filmes",
-                        "poster": "https://image.tmdb.org/t/p/w500/tBa4zMGzZUco26XT3WfZZCwQ76i.jpg",
-                        "focus": "Sci-fi local resistance, vanishing town coordinates, and western genre blend",
-                        "plot": "Bacurau, a small town in the Brazilian sertão, mourns the loss of its matriarch, Carmelita, who lived to be 94. Days later, its inhabitants notice that their community has vanished from most maps."
+                        "plot": "Clara, a vibrant former music critic and widow with flowing tresses is the only remaining apartment owner in a beautiful older building targeted for demolition by ruthless luxury high-rise developers. Clara proves to be a force to be reckoned with as she thwarts the builders plans to kick her out of the apartment.",
+                        "focus": "Historical preservation, property disputes, and individual defiance"
                     }
                 ],
                 "scenes": [
@@ -7592,49 +7392,32 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 58429,
                         "title": "La Ciénaga",
-                        "original_title": "La Ciénaga",
                         "year": 2001,
-                        "releaseDate": "April 12, 2001",
+                        "releaseDate": "February 8, 2001",
+                        "director": "Lucrecia Martel",
                         "writer": "Lucrecia Martel",
                         "cinematographer": "Hugo Colace",
                         "editor": "Santiago Ricci",
-                        "composer": "None",
-                        "studio": "Wanda Visión, Cuatro Cabezas, 4k Films",
+                        "studio": "Cuatro Cabeceras / Lita Stantic Producciones",
+                        "country": "Argentina / Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/fcgRKfCRudyWggyHIT9LOPgU3qW.jpg",
-                        "focus": "Stagnant pool decay, domestic injury, and humid provincial stagnation",
-                        "plot": "Amid the sweltering summer heat in northern Argentina, two middle-class families retreat to a crumbling country estate and a modest townhouse, where strained relationships, simmering tensions, and the presence of children and servants quietly expose the fractures of family life. Between idle days, gossip, and unspoken desires, the boundaries of class, tradition, and faith are reflected in their everyday interactions."
+                        "plot": "Amid the sweltering summer heat in northern Argentina, two middle-class families retreat to a crumbling country estate and a modest townhouse, where strained relationships, simmering tensions, and the presence of children and servants quietly expose the fractures of family life. Between idle days, gossip, and unspoken desires, the boundaries of class, tradition, and faith are reflected in their everyday interactions.",
+                        "focus": "Bourgeois decay, oppressive atmosphere, and elliptical storytelling"
                     },
                     {
-                        "id": 8898,
                         "title": "The Headless Woman",
-                        "original_title": "La mujer sin cabeza",
                         "year": 2008,
-                        "releaseDate": "August 21, 2008",
+                        "releaseDate": "May 22, 2008",
+                        "director": "Lucrecia Martel",
                         "writer": "Lucrecia Martel",
                         "cinematographer": "Bárbara Álvarez",
                         "editor": "Miguel Schverdfinger",
-                        "composer": "Roberta Ainstein",
-                        "studio": "El Deseo, Aquafilms, Teodora Film",
+                        "studio": "Aquafilmes / El Deseo / Slot Machine",
+                        "country": "Argentina / France / Italy / Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/qzDfJLfKQZY9D6zpaadFiugtphK.jpg",
-                        "focus": "Car accident denial, class displacement, and bleached blonde hair motif",
-                        "plot": "After running into something with her car, Vero experiences a particular psychological state. She realizes she might have killed someone."
-                    },
-                    {
-                        "id": 326382,
-                        "title": "Zama",
-                        "original_title": "Zama",
-                        "year": 2017,
-                        "releaseDate": "September 28, 2017",
-                        "writer": "Lucrecia Martel",
-                        "cinematographer": "Rui Poças",
-                        "editor": "Karen Harley",
-                        "composer": "None",
-                        "studio": "Bananeira Filmes, Canana, El Deseo",
-                        "poster": "https://image.tmdb.org/t/p/w500/kpp9R6iYKSIXxfyW0feVYrk0jsg.jpg",
-                        "focus": "Colonial bureaucratic delays, river shores, and hallucinatory local heat",
-                        "plot": "In a remote South American colony in the late 18th century, officer Zama of the Spanish crown waits in vain for a transfer to a more prestigious location. He suffers small humiliations and petty politicking as he increasingly succumbs to lust and paranoia."
+                        "plot": "After running into something with her car, Vero experiences a particular psychological state. She realizes she might have killed someone.",
+                        "focus": "Psychological denial, class complicity, and blurred reality"
                     }
                 ],
                 "scenes": [
@@ -7673,19 +7456,19 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 25376,
                         "title": "The Secret in Their Eyes",
-                        "original_title": "El secreto de sus ojos",
                         "year": 2009,
                         "releaseDate": "August 13, 2009",
-                        "writer": "Juan José Campanella, Eduardo Sacheri",
-                        "cinematographer": "Félix \"Chango\" Monti",
+                        "director": "Juan José Campanella",
+                        "writer": "Juan José Campanella / Eduardo Sacheri",
+                        "cinematographer": "Félix Monti",
                         "editor": "Juan José Campanella",
-                        "composer": "Emilio Kauderer",
-                        "studio": "Canal+ España, 100 Bares, Tornasol Media",
+                        "composer": "Federico Jusid",
+                        "studio": "Haddock Films / Tornasol Films",
+                        "country": "Argentina / Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/dkeAwfZzwL3WvToydE3CXiY80E0.jpg",
-                        "focus": "Stadium tracking shot, Dirty War history, and typewriter letter mystery",
-                        "plot": "Hoping to put to rest years of unease concerning a past case, retired criminal investigator Benjamín begins writing a novel based on the unsolved mystery of a newlywed’s rape and murder. With the help of a former colleague, judge Irene, he attempts to make sense of the past."
+                        "plot": "Hoping to put to rest years of unease concerning a past case, retired criminal investigator Benjamín begins writing a novel based on the unsolved mystery of a newlywed’s rape and murder. With the help of a former colleague, judge Irene, he attempts to make sense of the past.",
+                        "focus": "Historical memory, obsession, and non-linear narrative"
                     }
                 ],
                 "scenes": [
@@ -7696,7 +7479,7 @@ const FILMS_DATA = {
                         "analysis": "Monti coordinates a seamless, long take that blends aerial CGI with handheld action tracking. The constant movement through the crowded, chaotic stadium builds a desperate, heart-pounding sense of pursuit."
                     }
                 ],
-                "image": "https://image.tmdb.org/t/p/w500/q3Uv1N3dD0Tz1x3S8n2v4E2a1b9.jpg"
+                "image": "assets/images/juan_jose_campanella_profile.png"
             },
             {
                 "id": "damian-szifron",
@@ -7718,19 +7501,19 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 265195,
                         "title": "Wild Tales",
-                        "original_title": "Relatos salvajes",
                         "year": 2014,
-                        "releaseDate": "August 21, 2014",
+                        "releaseDate": "May 17, 2014",
+                        "director": "Damián Szifron",
                         "writer": "Damián Szifron",
                         "cinematographer": "Javier Julia",
-                        "editor": "Pablo Barbieri Carrera",
+                        "editor": "Damián Szifron / Pablo Barbieri",
                         "composer": "Gustavo Santaolalla",
-                        "studio": "El Deseo, K & S Films, Telefe",
+                        "studio": "Kramer & Sigman Films / El Deseo",
+                        "country": "Argentina / Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/bU7IUeTdYFOgeUPtwpWKQNhORMC.jpg",
-                        "focus": "Anthology structure, towing company bomb, and wedding reception chaos",
-                        "plot": "Injustice and the demands of the world can cause stress for many people. Some of them, however, explode. This includes a waitress serving a grouchy loan shark, an altercation between two motorists, an ill-fated wedding reception, and a wealthy businessman who tries to buy his family out of trouble."
+                        "plot": "Injustice and the demands of the world can cause stress for many people. Some of them, however, explode. This includes a waitress serving a grouchy loan shark, an altercation between two motorists, an ill-fated wedding reception, and a wealthy businessman who tries to buy his family out of trouble.",
+                        "focus": "Dark comedy, social inequality, and explosive revenge"
                     }
                 ],
                 "scenes": [
@@ -7763,49 +7546,33 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 33774,
-                        "title": "Tony Manero",
-                        "original_title": "Tony Manero",
-                        "year": 2008,
-                        "releaseDate": "August 28, 2008",
-                        "writer": "Alfredo Castro, Mateo Iribarren, Pablo Larraín",
-                        "cinematographer": "Sergio Armstrong",
-                        "editor": "Andrea Chignoli",
-                        "composer": "None",
-                        "studio": "Fabula, Latina Estúdio",
-                        "poster": "https://image.tmdb.org/t/p/w500/moNodAj8wcthRY6jqhyIz99KBvB.jpg",
-                        "focus": "Saturday Night Fever obsession, desaturated dictatorship grey, and sociopathic lead",
-                        "plot": "A man is obsessed with John Travolta's disco dancing character from \"Saturday Night Fever\"."
-                    },
-                    {
-                        "id": 110398,
                         "title": "No",
-                        "original_title": "No",
-                        "year": 2007,
-                        "releaseDate": "August 9, 2012",
+                        "year": 2012,
+                        "releaseDate": "May 18, 2012",
+                        "director": "Pablo Larraín",
                         "writer": "Pedro Peirano",
                         "cinematographer": "Sergio Armstrong",
                         "editor": "Andrea Chignoli",
                         "composer": "Carlos Cabezas",
-                        "studio": "Participant, Fabula, Funny Balloons",
-                        "poster": "https://image.tmdb.org/t/p/w500/Aqp4PH27zI4Uqqag41y2gXwmXma.jpg",
-                        "focus": "1988 advertising referendum, U-matic video look, and rainbow political campaign",
-                        "plot": "Agent 007 battles mysterious Dr. No, a scientific genius bent on destroying the U.S. space program. As the countdown to disaster begins, Bond must go to Jamaica, where he encounters beautiful Honey Ryder, to confront a megalomaniacal villain in his massive island headquarters."
+                        "studio": "Fábula / Funny Balloons",
+                        "country": "Chile / Chile / France",
+                        "poster": "assets/images/no_2012_poster.png",
+                        "plot": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+                        "focus": "Political campaigning, media satire, and U-matic video aesthetics"
                     },
                     {
-                        "id": 376866,
-                        "title": "Jackie",
-                        "original_title": "Jackie",
-                        "year": 2016,
-                        "releaseDate": "December 2, 2016",
-                        "writer": "Noah Oppenheim",
-                        "cinematographer": "Stéphane Fontaine",
-                        "editor": "Sebastián Sepúlveda",
-                        "composer": "Mica Levi",
-                        "studio": "LD Entertainment, Protozoa Pictures, Fabula",
-                        "poster": "https://image.tmdb.org/t/p/w500/nF9N33PfhizMEzbfxHoxXBo2vx9.jpg",
-                        "focus": "Air Force One blood dress, grainy 16mm portraiture, and grief performance",
-                        "plot": "An account of the days of First Lady, Jacqueline Kennedy, in the immediate aftermath of John F. Kennedy's assassination in 1963."
+                        "title": "The Club",
+                        "year": 2015,
+                        "releaseDate": "February 9, 2015",
+                        "director": "Pablo Larraín",
+                        "writer": "Pablo Larraín / Guillermo Calderón / Daniel Villalobos",
+                        "cinematographer": "Sergio Armstrong",
+                        "editor": "Sebastian Sepúlveda",
+                        "studio": "Fábula",
+                        "country": "Chile",
+                        "poster": "assets/images/the_club_2015_poster.png",
+                        "plot": "Two first-year students at Oxford University join a secret society and learn that their reputations can be made or destroyed over the course of one evening.",
+                        "focus": "Religious hypocrisy, institutional cover-ups, and moral ambiguity"
                     }
                 ],
                 "scenes": [
@@ -7844,34 +7611,33 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 160068,
                         "title": "Gloria",
-                        "original_title": "Gloria",
                         "year": 2013,
-                        "releaseDate": "May 8, 2013",
-                        "writer": "Sebastián Lelio, Gonzalo Maza",
-                        "cinematographer": "Benjamín Echazarreta",
-                        "editor": "Sebastián Lelio",
-                        "composer": "None",
-                        "studio": "Nephilim Producciones, Forastero, Fabula",
+                        "releaseDate": "February 10, 2013",
+                        "director": "Sebastián Lelio",
+                        "writer": "Sebastián Lelio / Gonzalo Maza",
+                        "cinematographer": "Benjamin Echazarreta",
+                        "editor": "Soledad Salfate",
+                        "studio": "Fábula",
+                        "country": "Chile / Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/t1copJu3ecVx7zVCBA1o6z02WcZ.jpg",
-                        "focus": "Aging romance, middle-class disco dancing, and personal liberation",
-                        "plot": "Gloria is a 58-year-old divorcée. Her children have all left home but she has no desire to spend her days and nights alone. Determined to defy old age and loneliness, she rushes headlong into a whirl of singles’ parties on the hunt for instant gratification – which only leads to repeated disappointment and enduring emptiness. But when Gloria meets Rodolfo, an ex-naval officer seven years her senior, she begins to imagine the possibility of a permanent relationship."
+                        "plot": "Gloria is a 58-year-old divorcée. Her children have all left home but she has no desire to spend her days and nights alone. Determined to defy old age and loneliness, she rushes headlong into a whirl of singles’ parties on the hunt for instant gratification – which only leads to repeated disappointment and enduring emptiness. But when Gloria meets Rodolfo, an ex-naval officer seven years her senior, she begins to imagine the possibility of a permanent relationship.",
+                        "focus": "Female aging, personal liberation, and poignant character study"
                     },
                     {
-                        "id": 429191,
                         "title": "A Fantastic Woman",
-                        "original_title": "Una mujer fantástica",
                         "year": 2017,
-                        "releaseDate": "April 6, 2017",
-                        "writer": "Sebastián Lelio, Gonzalo Maza",
-                        "cinematographer": "Benjamín Echazarreta",
+                        "releaseDate": "February 12, 2017",
+                        "director": "Sebastián Lelio",
+                        "writer": "Sebastián Lelio / Gonzalo Maza",
+                        "cinematographer": "Benjamin Echazarreta",
                         "editor": "Soledad Salfate",
                         "composer": "Matthew Herbert",
-                        "studio": "Komplizen Film, Participant, Fabula",
+                        "studio": "Fábula / Komplizen Film",
+                        "country": "Chile / Germany / Spain / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/x2yNruMR8bAJOIQ3wd7HR9qWjW3.jpg",
-                        "focus": "Santiago wind storm metaphor, trans resilience, and opera vocals",
-                        "plot": "Marina's life is thrown into turmoil following the death of her partner. Mourning the loss of the man she loved, she finds herself under intense scrutiny from those with no regard for her privacy."
+                        "plot": "Marina's life is thrown into turmoil following the death of her partner. Mourning the loss of the man she loved, she finds herself under intense scrutiny from those with no regard for her privacy.",
+                        "focus": "Transgender identity, systemic prejudice, and resilient dignity"
                     }
                 ],
                 "scenes": [
@@ -7910,19 +7676,19 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 47576,
                         "title": "Memories of Underdevelopment",
-                        "original_title": "Memorias del subdesarrollo",
                         "year": 1968,
                         "releaseDate": "August 19, 1968",
+                        "director": "Tomás Gutiérrez Alea",
                         "writer": "Tomás Gutiérrez Alea",
                         "cinematographer": "Ramón F. Suárez",
                         "editor": "Nelson Rodríguez",
                         "composer": "Leo Brouwer",
-                        "studio": "ICAIC, Cuban State Film",
+                        "studio": "ICAIC (Instituto Cubano del Arte e Industria Cinematográficos)",
+                        "country": "Cuba",
                         "poster": "https://image.tmdb.org/t/p/w500/av7zEHpOyzmm86VPRa68zOLaBqf.jpg",
-                        "focus": "Havana balcony telescope, collage editing structure, and post-revolution alienation",
-                        "plot": "In the aftermath of the Bay of Pigs incident, Sergio chooses to stay behind in Cuba while his wife and family escape to neighboring Miami. Alone in a brave new world, Sergio observes the constant threat of foreign invasion while chasing young women all over Havana. He finally meets Elena, a young girl he seeks to mould into the image of his ex-wife, but at what cost to himself?"
+                        "plot": "In the aftermath of the Bay of Pigs incident, Sergio chooses to stay behind in Cuba while his wife and family escape to neighboring Miami. Alone in a brave new world, Sergio observes the constant threat of foreign invasion while chasing young women all over Havana. He finally meets Elena, a young girl he seeks to mould into the image of his ex-wife, but at what cost to himself?",
+                        "focus": "Post-revolutionary alienation, subjective narrative, and documentary blending"
                     }
                 ],
                 "scenes": [
@@ -7955,19 +7721,19 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "id": 336808,
                         "title": "Embrace of the Serpent",
-                        "original_title": "El abrazo de la serpiente",
                         "year": 2015,
-                        "releaseDate": "May 25, 2015",
-                        "writer": "Jacques Toulemonde, Ciro Guerra",
+                        "releaseDate": "May 15, 2015",
+                        "director": "Ciro Guerra",
+                        "writer": "Ciro Guerra / Jacques Toulemonde Vidal",
                         "cinematographer": "David Gallego",
                         "editor": "Etienne Boussac",
                         "composer": "Nascuy Linares",
-                        "studio": "Nortesur Producciones, Buffalo Films, Caracol Televisión",
+                        "studio": "Ciudad Lunar Producciones / Cine Ojo",
+                        "country": "Colombia / Venezuela / Argentina",
                         "poster": "https://image.tmdb.org/t/p/w500/t3Lmw8jvm7tpik0lSkub8hU4oRW.jpg",
-                        "focus": "Amazon widescreen chiaroscuro, shaman memory journey, and rubber extraction scars",
-                        "plot": "The epic story of the first contact, encounter, approach, betrayal and, eventually, life-transcending friendship, between Karamakate, an Amazonian shaman, last survivor of his people, and two scientists that, over the course of 40 years, travel through the Amazon in search of a sacred plant that can heal them. Inspired by the journals of the first explorers of the Colombian Amazon, Theodor Koch-Grunberg and Richard Evans Schultes."
+                        "plot": "The epic story of the first contact, encounter, approach, betrayal and, eventually, life-transcending friendship, between Karamakate, an Amazonian shaman, last survivor of his people, and two scientists that, over the course of 40 years, travel through the Amazon in search of a sacred plant that can heal them. Inspired by the journals of the first explorers of the Colombian Amazon, Theodor Koch-Grunberg and Richard Evans Schultes.",
+                        "focus": "Colonial exploitation, indigenous perspectives, and surreal jungle journeys"
                     }
                 ],
                 "scenes": [
@@ -8292,8 +8058,8 @@ const FILMS_DATA = {
                         "editor": "Reginald Mills",
                         "composer": "Brian Easdale",
                         "studio": "The Archers",
-                        "focus": "Dazzling Technicolor expressionism, the fluid integration of surrealist ballet sequences as psychological manifestations, and total cinematic aestheticism.",
-                        "plot": "A young ballerina is torn between the demanding, obsessive impresario of a ballet company and the struggling composer she loves.",
+                        "focus": "Dazzling Technicolor expressionism, the fluid integration of surrealist balvar sequences as psychological manifestations, and total cinematic aestheticism.",
+                        "plot": "A young ballerina is torn between the demanding, obsessive impresario of a balvar company and the struggling composer she loves.",
                         "releaseDate": "September 6, 1948",
                         "country": "United Kingdom",
                         "poster": "assets/images/the-red-shoes.jpg"
@@ -8683,7 +8449,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Subvert authority: Use film to satirize the systems of power that govern daily life.",
-                    "Break the narrative illusion: Do not let the audience get too comfortable with realism. Shake them up with surrealism."
+                    "Break the narrative illusion: Do not var the audience get too comfortable with realism. Shake them up with surrealism."
                 ],
                 "mustWatch": [
                     {
@@ -9579,7 +9345,7 @@ const FILMS_DATA = {
                     "Political Humanism: Intertwines large socio-political conflicts with personal family relationships."
                 ],
                 "lessons": [
-                    "Focus on the actor: Direct the performance first; let the camera follow the emotional truth.",
+                    "Focus on the actor: Direct the performance first; var the camera follow the emotional truth.",
                     "Make the political personal: Show how historical events affect the dining table, not just the senate."
                 ],
                 "mustWatch": [
@@ -9826,7 +9592,7 @@ const FILMS_DATA = {
                         "editor": "Jon Gregory",
                         "composer": "Carter Burwell",
                         "studio": "Blueprint Pictures / Fox Searchlight Pictures",
-                        "focus": "Grounded midwestern aesthetic, static mid-shots that let rapid-fire dialogue breathe, and an uncompromising blend of bleak comedy and tragedy.",
+                        "focus": "Grounded midwestern aesthetic, static mid-shots that var rapid-fire dialogue breathe, and an uncompromising blend of bleak comedy and tragedy.",
                         "plot": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit, renting three provocative billboards to force their hand.",
                         "releaseDate": "November 10, 2017",
                         "country": "United States / United Kingdom",
@@ -10090,7 +9856,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Reject standard 3D realism: Use 2D styling, flat perspective, and ornate patterns to evoke mythic history.",
-                    "Color the contrast: Use structured monochrome for the mundane world, and let watercolors bleed and swirl for magical spaces."
+                    "Color the contrast: Use structured monochrome for the mundane world, and var watercolors bleed and swirl for magical spaces."
                 ],
                 "mustWatch": [
                     {
@@ -10158,7 +9924,7 @@ const FILMS_DATA = {
                     "Tonal Fluidity: Shifts effortlessly between light social comedy and tragic drama within the same scene."
                 ],
                 "lessons": [
-                    "Accept the environment: Shoot in real locations and let natural weather or local color shape the scene's mood.",
+                    "Accept the environment: Shoot in real locations and var natural weather or local color shape the scene's mood.",
                     "Empathize with all characters: Show that even antagonists have complex, human motivations."
                 ],
                 "mustWatch": [
@@ -10396,7 +10162,7 @@ const FILMS_DATA = {
                 "style": "Minimalist, rigorous, and spiritual, featuring flat actor performances, close-ups of hands and feet, expressive sound effects, and elliptical editing.",
                 "techniques": [
                     "Model De-dramatization: Forces actors to repeat lines until they speak without inflection, stripping away theatricality.",
-                    "Sound over Sight: Replaces visual action with off-screen sound effects to let the audience's imagination fill the space.",
+                    "Sound over Sight: Replaces visual action with off-screen sound effects to var the audience's imagination fill the space.",
                     "Elliptical Hand Close-ups: Uses tight close-ups of hands opening doors, counting money, or touching objects to advance the narrative."
                 ],
                 "lessons": [
@@ -10503,7 +10269,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "A story should have a beginning, middle, and end, but not necessarily in that order.",
-                    "Reject standard continuity: let the camera and editing draw attention to the medium."
+                    "Reject standard continuity: var the camera and editing draw attention to the medium."
                 ],
                 "mustWatch": [
                     {
@@ -11121,7 +10887,7 @@ const FILMS_DATA = {
                 "techniques": [
                     "Historical Realism: Researches and builds sets to match historical periods down to the smallest detail.",
                     "Sweeping Humanist Crane Shots: Uses elegant crane movements to connect individual characters to their larger social settings.",
-                    "Literary Conversation Pacing: Edits scenes to let intellectual and political arguments play out in full."
+                    "Literary Conversation Pacing: Edits scenes to var intellectual and political arguments play out in full."
                 ],
                 "lessons": [
                     "Respect history: Do not modernize the past. Show historical characters with their actual, contemporary beliefs.",
@@ -12649,7 +12415,7 @@ const FILMS_DATA = {
                     "Subjective Pacing: Edits sequences to match the internal emotional tempo of characters, using superimpositions and dissolve transitions."
                 ],
                 "lessons": [
-                    "Free your camera: Do not let the camera stay static. Mount it, track it, and let it float to tell the story visually.",
+                    "Free your camera: Do not var the camera stay static. Mount it, track it, and var it float to tell the story visually.",
                     "Use negative space and shadows: Let giant silhouettes and dark corners evoke suspense rather than showing the monster directly."
                 ],
                 "mustWatch": [
@@ -13454,7 +13220,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Embrace constraints: Restricting yourself to static frames, black-and-white, and a square aspect ratio can focus the viewer's attention on composition.",
-                    "Leave room for silence: Avoid explanatory dialogue and let the quiet, pictorial beauty of your shots carry the narrative."
+                    "Leave room for silence: Avoid explanatory dialogue and var the quiet, pictorial beauty of your shots carry the narrative."
                 ],
                 "mustWatch": [
                     {
@@ -14308,7 +14074,7 @@ const FILMS_DATA = {
                     "Emotional Handheld Swirls: Moves the camera in fast, circular tracking loops around characters during moments of panic or ecstasy."
                 ],
                 "lessons": [
-                    "Unleash your camera: Do not let walls or geography stop your camera movement. Design paths through windows or crowds to express emotional vertigo.",
+                    "Unleash your camera: Do not var walls or geography stop your camera movement. Design paths through windows or crowds to express emotional vertigo.",
                     "Use wide-angle close-ups: Position a wide-angle lens close to your actor's face to distort the background and emphasize their connection to the setting."
                 ],
                 "mustWatch": [
@@ -14694,22 +14460,7 @@ const FILMS_DATA = {
                     "Keep it raw: Avoid over-stylizing your lighting or sets. Simple handheld tracks and natural light can make your world feel incredibly authentic."
                 ],
                 "mustWatch": [
-                    {
-                        "title": "Brother",
-                        "year": 1997,
-                        "director": "Aleksei Balabanov",
-                        "writer": "Aleksei Balabanov",
-                        "cinematographer": "Sergei Astakhov",
-                        "editor": "Marina Lipartiya",
-                        "composer": "Vyacheslav Butusov",
-                        "studio": "STW Film Company",
-                        "focus": "A gritty, defining masterpiece of 1990s post-Soviet cinema. Balabanov utilizes a raw, naturalistic shooting style, pervasive rock music, and a bleak, decaying St. Petersburg to capture a lost, morally adrift generation.",
-                        "plot": "After being discharged from the army, a quiet, music-loving young man travels to St. Petersburg to find his older brother, only to discover that he is a professional hitman for the Russian mob, drawing him into a brutal life of crime.",
-                        "releaseDate": "May 17, 1997",
-                        "country": "Russia",
-                        "id": "brother",
-                        "poster": "assets/images/brother.jpg"
-                    },
+
                     {
                         "title": "Brother 2",
                         "year": 2000,
@@ -15873,7 +15624,7 @@ const FILMS_DATA = {
                     "Metaphorical Realism: Integrates subtle, invisible metaphors (like sunlight, phone rings, or greenhouses) that reflect characters' internal search."
                 ],
                 "lessons": [
-                    "Prioritize Emotional Authenticity: Avoid manipulative scores or flashy camera movements; let the raw performance and real-time observation build the tragedy.",
+                    "Prioritize Emotional Authenticity: Avoid manipulative scores or flashy camera movements; var the raw performance and real-time observation build the tragedy.",
                     "Novelist's Character Depth: Write complex, flawed, and deeply human protagonists whose motives are layered and difficult to pin down."
                 ],
                 "mustWatch": [
@@ -15950,7 +15701,7 @@ const FILMS_DATA = {
                 "years": "1960 - Present",
                 "region": "korean",
                 "era": "contemporary-korean-masters",
-                "quote": "I don't plan. I just start with a location, two actors, and let the everyday repetition find its own structure.",
+                "quote": "I don't plan. I just start with a location, two actors, and var the everyday repetition find its own structure.",
                 "bio": "Hong Sang-soo is an exceptionally prolific minimalist director who crafts low-budget, dialogue-driven films about awkward social interactions, drinking sessions, and relationship repetitions.",
                 "style": "Hong's style is famous for its extreme simplicity: sudden camera zooms, long takes, conversational table shots, and repetitive, parallel narrative structures.",
                 "techniques": [
@@ -16276,7 +16027,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Let environment speak. Natural light, wind, and geographical spaces can express the inner psychology of characters more than dialogue.",
-                    "Observe without judgment. Use a detached, quiet camera style to let viewers feel the moral and cultural weight of the events."
+                    "Observe without judgment. Use a detached, quiet camera style to var viewers feel the moral and cultural weight of the events."
                 ],
                 "mustWatch": [
                     {
@@ -16344,7 +16095,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Examine the margins of society. Tell stories of characters who do not fit into the official narrative of progress and wealth.",
-                    "Embrace the real world. Shoot in actual, changing locations and let the sounds, people, and visual textures of reality shape your film."
+                    "Embrace the real world. Shoot in actual, changing locations and var the sounds, people, and visual textures of reality shape your film."
                 ],
                 "mustWatch": [
                     {
@@ -16631,7 +16382,7 @@ const FILMS_DATA = {
                     "Poetic Narrative Layering: Uses elliptical editing and voiceovers reciting abstract poetry to create a state of consciousness where past and present merge."
                 ],
                 "lessons": [
-                    "Treat time as a fluid medium. You do not need to follow linear logic; let memory, dreams, and reality exist in the same visual space.",
+                    "Treat time as a fluid medium. You do not need to follow linear logic; var memory, dreams, and reality exist in the same visual space.",
                     "Push the boundaries of the long take. Use long takes not just for realism, but to create a hypnotic, trancelike experience for the audience."
                 ],
                 "mustWatch": [
@@ -16989,10 +16740,10 @@ const FILMS_DATA = {
                 "region": "hong-kong",
                 "era": "heroic-bloodshed-action",
                 "quote": "Action is music. It is a dance between life and death, choreographed to express the inner soul.",
-                "bio": "John Woo is a legendary pioneer of action cinema, celebrated for inventing the 'Heroic Bloodshed' genre, bringing operatic style, bullet ballet, and moral brotherhood to martial arts action.",
+                "bio": "John Woo is a legendary pioneer of action cinema, celebrated for inventing the 'Heroic Bloodshed' genre, bringing operatic style, bulvar ballet, and moral brotherhood to martial arts action.",
                 "style": "Double-handgun gunplay, slow-motion combat, religious iconography (doves, churches), dual-character reflections, and kinetic parallel editing.",
                 "techniques": [
-                    "Bullet Ballet Choreography: Directs gunfights like musicals, with actors diving, sliding, and firing two handguns in continuous, rhythmic motion.",
+                    "Bulvar Balvar Choreography: Directs gunfights like musicals, with actors diving, sliding, and firing two handguns in continuous, rhythmic motion.",
                     "Symbolic White Doves: Releases white doves in slow-motion during key moments of moral clarity or impending violence to represent innocence and doom.",
                     "Brotherhood Mirror Blocking: Frames protagonists and antagonists pointing guns at each other's faces (the Mexican Standoff) to reflect their shared moral code."
                 ],
@@ -17079,7 +16830,7 @@ const FILMS_DATA = {
                 "region": "hong-kong",
                 "era": "heroic-bloodshed-action",
                 "quote": "I don't make romantic action. Action in the real world is dirty, violent, and hurts.",
-                "bio": "Ringo Lam was a master of Hong Kong action cinema, renowned for his gritty, hard-boiled, and realistic thrillers that contrasted with John Woo's stylized bullet ballets, focusing on urban corruption and undercover psychology.",
+                "bio": "Ringo Lam was a master of Hong Kong action cinema, renowned for his gritty, hard-boiled, and realistic thrillers that contrasted with John Woo's stylized bulvar ballets, focusing on urban corruption and undercover psychology.",
                 "style": "Gritty urban realism, handheld camera work, visceral, unstylized violence, and a cynical, high-tension atmosphere.",
                 "techniques": [
                     "Gritty Urban Handheld: Uses jittery, close handheld tracking shots in real Hong Kong streets to capture realistic tension.",
@@ -17134,7 +16885,7 @@ const FILMS_DATA = {
                     {
                         "title": "Full Contact: Bullet-POV Gunfight",
                         "time": "01:05:40",
-                        "description": "A bullet is fired in a nightclub, and the camera tracks alongside it in a kinetic subjective perspective.",
+                        "description": "A bulvar is fired in a nightclub, and the camera tracks alongside it in a kinetic subjective perspective.",
                         "analysis": "Lam mounts the camera to follow the bullet's trajectory through the air, passing objects and cutting through neon-lit club smoke. This innovative, hyper-stylized shot became a signature action technique copied worldwide."
                     }
                 ],
@@ -17239,7 +16990,7 @@ const FILMS_DATA = {
                     "Saturated Neon Palette: Employs intense greens, blues, and warm red tones to reflect the humid, electric energy of nocturnal Hong Kong."
                 ],
                 "lessons": [
-                    "Let mood dictate pacing. You do not need rapid plot movements; let characters smoke, walk down stairs, or sit in diners, letting the camera capture their longing.",
+                    "Let mood dictate pacing. You do not need rapid plot movements; var characters smoke, walk down stairs, or sit in diners, letting the camera capture their longing.",
                     "Use popular music loops as emotional anchors, repeating a single song to signal recurring desire."
                 ],
                 "mustWatch": [
@@ -17590,7 +17341,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Use architecture to map alienation. Let the structures of modern cities frame and divide your characters, reflecting their internal distance.",
-                    "Build novelistic narrative layers. Do not rush to resolve plots; let multiple threads build a deeper, systemic social picture."
+                    "Build novelistic narrative layers. Do not rush to resolve plots; var multiple threads build a deeper, systemic social picture."
                 ],
                 "mustWatch": [
                     {
@@ -19179,7 +18930,7 @@ const FILMS_DATA = {
                         "studio": "Government of West Bengal",
                         "poster": "assets/images/pather_panchali.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A poignant coming-of-age story of a young boy, Apu, and his family struggling with extreme poverty in a rural Bengali village.",
                         "releaseDate": "August 26, 1955"
                     },
                     {
@@ -19194,7 +18945,7 @@ const FILMS_DATA = {
                         "studio": "Epic Films Pvt. Ltd.",
                         "poster": "assets/images/aparajito.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "The second part of the Apu Trilogy, following Apu's journey from his village to study in Kolkata, creating a rift with his mother.",
                         "releaseDate": "December 11, 1956"
                     },
                     {
@@ -19209,7 +18960,7 @@ const FILMS_DATA = {
                         "studio": "Satyajit Ray Productions",
                         "poster": "assets/images/the_music_room.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A fading aristocratic landlord in rural Bengal desperately tries to hold onto his past wealth and prestige through lavish musical concerts.",
                         "releaseDate": "October 24, 1958"
                     },
                     {
@@ -19224,7 +18975,7 @@ const FILMS_DATA = {
                         "studio": "Satyajit Ray Productions",
                         "poster": "assets/images/the_world_of_apu.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "The final chapter of the Apu trilogy, exploring adult Apu's struggles with unemployment, an unexpected marriage, and eventual fatherhood.",
                         "releaseDate": "May 1, 1959"
                     },
                     {
@@ -19239,7 +18990,7 @@ const FILMS_DATA = {
                         "studio": "R.D. Bansal & Co.",
                         "poster": "assets/images/charulata.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A lonely, intellectual wife in 19th-century Bengal forms a deep emotional and creative bond with her husband's visiting cousin.",
                         "releaseDate": "April 17, 1964"
                     }
                 ],
@@ -19274,7 +19025,7 @@ const FILMS_DATA = {
                     "Polyphonic Soundtrack: Mixes folk songs, natural sounds, and sudden sound effects at varying volumes to create psychological tension."
                 ],
                 "lessons": [
-                    "Cinema is a tool for social awareness; never let aesthetic beauty mask political and human truth.",
+                    "Cinema is a tool for social awareness; never var aesthetic beauty mask political and human truth.",
                     "Staging should highlight separation and distance to visually communicate the displacement of characters."
                 ],
                 "mustWatch": [
@@ -19290,7 +19041,7 @@ const FILMS_DATA = {
                         "studio": "Chitrakalpa",
                         "poster": "assets/images/the_cloud_capped_star.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "The tragic tale of Nita, a young woman in post-partition Bengal who sacrifices her own happiness and life to support her ungrateful refugee family.",
                         "releaseDate": "April 14, 1960"
                     },
                     {
@@ -19305,7 +19056,7 @@ const FILMS_DATA = {
                         "studio": "Chitramala",
                         "poster": "assets/images/e_flat.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A fragmented theatre troupe struggles with internal conflicts and the overarching trauma of the Bengal partition.",
                         "releaseDate": "April 11, 1961"
                     },
                     {
@@ -19320,7 +19071,7 @@ const FILMS_DATA = {
                         "studio": "J.J. Films Corporation",
                         "poster": "assets/images/subarnarekha.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A haunting story of a brother and his adopted sister, whose lives are repeatedly torn apart by caste, class, and the tragedy of displacement after the partition.",
                         "releaseDate": "October 1, 1965"
                     },
                     {
@@ -19335,7 +19086,7 @@ const FILMS_DATA = {
                         "studio": "Ritwik Cinema",
                         "poster": "assets/images/a_river_called_titas.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A multi-narrative saga depicting the vibrant life, gradual decay, and tragic destruction of a fishing community on the banks of the Titas river.",
                         "releaseDate": "July 27, 1973"
                     },
                     {
@@ -19350,7 +19101,7 @@ const FILMS_DATA = {
                         "studio": "Ritwik Chitram",
                         "poster": "assets/images/reason_debate_and_a_story.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An alcoholic intellectual, his estranged wife, and a group of marginalized youths wander through Bengal discussing philosophy, politics, and despair.",
                         "releaseDate": "September 30, 1977"
                     }
                 ],
@@ -19401,7 +19152,7 @@ const FILMS_DATA = {
                         "studio": "Mrinal Sen Productions",
                         "poster": "assets/images/bhuvan_shome.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A strict, lonely railway bureaucrat's rigid worldview is permanently softened during a duck-hunting trip to a rural village in Gujarat.",
                         "releaseDate": "May 12, 1969"
                     },
                     {
@@ -19416,7 +19167,7 @@ const FILMS_DATA = {
                         "studio": "Mrinal Sen Productions",
                         "poster": "assets/images/chorus.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An allegorical critique of capitalist exploitation, portraying striking workers, rural revolutionaries, and a fantastical corporate board.",
                         "releaseDate": "January 1, 1974"
                     },
                     {
@@ -19431,7 +19182,7 @@ const FILMS_DATA = {
                         "studio": "Amal Sarkar Productions",
                         "poster": "assets/images/and_quiet_flows_the_dawn.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A middle-class family faces severe moral panic and societal judgment when their primary breadwinner, a young unmarried daughter, fails to return home one night.",
                         "releaseDate": "May 14, 1979"
                     },
                     {
@@ -19446,7 +19197,7 @@ const FILMS_DATA = {
                         "studio": "D.K. Films",
                         "poster": "assets/images/in_search_of_famine.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A modern film crew arrives in a village to make a movie about the 1943 Bengal famine, only to trigger the unresolved trauma of the locals.",
                         "releaseDate": "February 1, 1981"
                     },
                     {
@@ -19461,7 +19212,7 @@ const FILMS_DATA = {
                         "studio": "Neem Films",
                         "poster": "assets/images/the_case_is_closed.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A middle-class family's comfortable existence is shaken when their underage servant boy dies from carbon monoxide poisoning, revealing their profound apathy.",
                         "releaseDate": "May 14, 1982"
                     }
                 ],
@@ -19512,7 +19263,7 @@ const FILMS_DATA = {
                         "studio": "Film Valas",
                         "poster": "assets/images/36_chowringhee_lane.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An aging, lonely Anglo-Indian teacher in Kolkata finds temporary joy when she befriends a young Bengali couple, only to be ultimately used and discarded.",
                         "releaseDate": "August 29, 1981"
                     },
                     {
@@ -19527,7 +19278,7 @@ const FILMS_DATA = {
                         "studio": "Triplecom Media Pvt. Ltd.",
                         "poster": "assets/images/mr_and_mrs_iyer.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A devout Hindu woman and a Muslim man must pose as a married couple to survive a horrific outbreak of communal violence during a bus journey.",
                         "releaseDate": "July 23, 2002"
                     },
                     {
@@ -19542,7 +19293,7 @@ const FILMS_DATA = {
                         "studio": "Zee Motion Pictures",
                         "poster": "assets/images/15_park_avenue.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An exploration of schizophrenia through the eyes of a woman who believes she has a family living at a non-existent address, cared for by her older sister.",
                         "releaseDate": "January 6, 2006"
                     },
                     {
@@ -19557,7 +19308,7 @@ const FILMS_DATA = {
                         "studio": "Saregama India Ltd.",
                         "poster": "assets/images/the_japanese_wife.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A shy Bengali village schoolteacher conducts a long-distance, unconsummated marriage through letters with a Japanese woman for over a decade.",
                         "releaseDate": "April 9, 2010"
                     },
                     {
@@ -19572,7 +19323,7 @@ const FILMS_DATA = {
                         "studio": "Shree Venkatesh Films",
                         "poster": "assets/images/goynar_baksho.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A dark comedy spanning three generations of women and their relationship to a cursed box of ancestral jewelry, haunted by a fiercely possessive ghost.",
                         "releaseDate": "April 12, 2013"
                     }
                 ],
@@ -19580,7 +19331,7 @@ const FILMS_DATA = {
                     {
                         "title": "36 Chowringhee Lane: The Empty Room",
                         "time": "01:22:15",
-                        "description": "Violet Stoneham sits alone in her dusty, dark apartment, realizing her former students have abandoned her.",
+                        "description": "Viovar Stoneham sits alone in her dusty, dark apartment, realizing her former students have abandoned her.",
                         "analysis": "Sen uses a static, low-key lit composition. The empty chairs and long silence externalize Violet's absolute cultural and emotional isolation."
                     },
                     {
@@ -19623,7 +19374,7 @@ const FILMS_DATA = {
                         "studio": "Spandan Films",
                         "poster": "assets/images/unishe_april.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A tense, emotionally volatile reunion between a celebrated dancer and her estranged, bitter daughter on the anniversary of the father's death.",
                         "releaseDate": "April 19, 1994"
                     },
                     {
@@ -19638,7 +19389,7 @@ const FILMS_DATA = {
                         "studio": "Shree Venkatesh Films",
                         "poster": "assets/images/chokher_bali.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "Based on Tagore's novel, a young, educated, and rebellious widow disrupts the lives of her friend and a young married couple when she moves into their household.",
                         "releaseDate": "October 10, 2003"
                     },
                     {
@@ -19653,7 +19404,7 @@ const FILMS_DATA = {
                         "studio": "Shree Venkatesh Films",
                         "poster": "assets/images/raincoat.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "Two former lovers, now leading separate, desperate lives, reunite on a rainy afternoon in Kolkata and weave elaborate lies to hide their respective misery.",
                         "releaseDate": "August 13, 2004"
                     },
                     {
@@ -19668,7 +19419,7 @@ const FILMS_DATA = {
                         "studio": "Planman Motion Pictures",
                         "poster": "assets/images/the_last_lear.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An aging, eccentric Shakespearean actor finally agrees to perform in a modern cinematic film, leading to clashes with the director and tragic consequences.",
                         "releaseDate": "September 9, 2007"
                     },
                     {
@@ -19683,7 +19434,7 @@ const FILMS_DATA = {
                         "studio": "Reliance Big Pictures",
                         "poster": "assets/images/abohomaan.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A celebrated director forms an intense, scandalous emotional bond with an actress who strongly resembles his wife from their youth.",
                         "releaseDate": "January 22, 2010"
                     }
                 ],
@@ -19734,7 +19485,7 @@ const FILMS_DATA = {
                         "studio": "NFDC",
                         "poster": "assets/images/bagh_bahadur.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An aging folk artist who dances as a tiger faces obsolescence and tragedy when a real circus tiger comes to his village.",
                         "releaseDate": "December 15, 1989"
                     },
                     {
@@ -19749,7 +19500,7 @@ const FILMS_DATA = {
                         "studio": "Gope Films",
                         "poster": "assets/images/the_shelter_of_the_wings.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A bird catcher feels profound empathy for his prey, choosing to set them free despite his family's resulting descent into poverty.",
                         "releaseDate": "February 11, 1994"
                     },
                     {
@@ -19764,7 +19515,7 @@ const FILMS_DATA = {
                         "studio": "Dulal Roy Productions",
                         "poster": "assets/images/the_wrestlers.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "Two obsessively competitive wrestlers ignore the increasing presence of violent religious extremism in their village and the abuse of a young woman they both covet.",
                         "releaseDate": "August 30, 2000"
                     },
                     {
@@ -19779,7 +19530,7 @@ const FILMS_DATA = {
                         "studio": "Arya Films",
                         "poster": "assets/images/a_tale_of_a_naughty_girl.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A young girl in a brothel desperately attempts to escape her predetermined fate through education and an obsession with the moon landing.",
                         "releaseDate": "September 7, 2002"
                     },
                     {
@@ -19794,7 +19545,7 @@ const FILMS_DATA = {
                         "studio": "AVA Film Productions",
                         "poster": "assets/images/tope.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A surreal exploration of exploitation where a wealthy aristocrat, a tightrope walker, and a documentary filmmaker cross paths in a rural village.",
                         "releaseDate": "September 9, 2016"
                     }
                 ],
@@ -19845,7 +19596,7 @@ const FILMS_DATA = {
                         "studio": "Brand Value Communications",
                         "poster": "assets/images/shabdo.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A Foley artist becomes so obsessed with background sounds and ambient noise that he begins losing his grip on human speech and reality.",
                         "releaseDate": "April 12, 2013"
                     },
                     {
@@ -19860,7 +19611,7 @@ const FILMS_DATA = {
                         "studio": "Shree Venkatesh Films",
                         "poster": "assets/images/chotoder_chobi.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A deeply humanistic love story between two individuals born with dwarfism, highlighting their daily struggles against societal apathy and mockery.",
                         "releaseDate": "January 23, 2015"
                     },
                     {
@@ -19875,7 +19626,7 @@ const FILMS_DATA = {
                         "studio": "Shree Venkatesh Films",
                         "poster": "assets/images/cinemawala.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An aging proprietor of a declining single-screen cinema hall faces ruin due to digital piracy, secretly orchestrated by his own son.",
                         "releaseDate": "May 13, 2016"
                     },
                     {
@@ -19890,7 +19641,7 @@ const FILMS_DATA = {
                         "studio": "Acropoliis Entertainment",
                         "poster": "assets/images/nagarkirtan.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A poignant and heartbreaking love story between a flute player and a transgender woman, navigating the brutal realities of marginalization in Kolkata.",
                         "releaseDate": "February 15, 2019"
                     },
                     {
@@ -19905,7 +19656,7 @@ const FILMS_DATA = {
                         "studio": "Surinder Films",
                         "poster": "assets/images/jyeshthoputro.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A famous superstar returns to his ancestral village following his father's death, clashing with his resentful younger brother who stayed behind to manage the family.",
                         "releaseDate": "April 26, 2019"
                     }
                 ],
@@ -19956,7 +19707,7 @@ const FILMS_DATA = {
                         "studio": "Shree Venkatesh Films",
                         "poster": "assets/images/autograph.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A Foley artist becomes so obsessed with background sounds and ambient noise that he begins losing his grip on human speech and reality.",
                         "releaseDate": "October 14, 2010"
                     },
                     {
@@ -19971,7 +19722,7 @@ const FILMS_DATA = {
                         "studio": "Shree Venkatesh Films",
                         "poster": "assets/images/22_shey_srabon.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A suspended, eccentric police officer is brought back to help catch a serial killer who murders people based on the poetry of Bengali literature.",
                         "releaseDate": "September 30, 2011"
                     },
                     {
@@ -19986,7 +19737,7 @@ const FILMS_DATA = {
                         "studio": "Reliance Entertainment",
                         "poster": "assets/images/jaatishwar.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A Portuguese-origin man believes he is the reincarnation of Hensman Anthony, a famous 19th-century Bengali folk poet, blending two distinct timelines.",
                         "releaseDate": "January 17, 2014"
                     },
                     {
@@ -20001,7 +19752,7 @@ const FILMS_DATA = {
                         "studio": "Shree Venkatesh Films",
                         "poster": "assets/images/chotushkone.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "Four rival film directors reunite to create an anthology film about death, leading to a suspenseful journey filled with hidden agendas and past grudges.",
                         "releaseDate": "September 26, 2014"
                     },
                     {
@@ -20016,7 +19767,7 @@ const FILMS_DATA = {
                         "studio": "Shree Venkatesh Films",
                         "poster": "assets/images/rajkahini.jpg",
                         "focus": "A masterclass in Bengali cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "During the 1947 partition, a fierce brothel madam and her prostitutes violently defend their home when the new India-Pakistan border is drawn straight through it.",
                         "releaseDate": "October 16, 2015"
                     }
                 ],
@@ -20067,7 +19818,7 @@ const FILMS_DATA = {
                         "studio": "Chitralekha Film Cooperative",
                         "poster": "assets/images/swayamvaram.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A young couple elopes to the city against their parents' wishes, facing crushing poverty and disillusionment as their romantic ideals are tested.",
                         "releaseDate": "November 11, 1972"
                     },
                     {
@@ -20082,7 +19833,7 @@ const FILMS_DATA = {
                         "studio": "General Pictures",
                         "poster": "assets/images/elippathayam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A decaying, feudal patriarchal landlord in Kerala is unable to adapt to changing social realities, gradually descending into severe paranoia and isolation.",
                         "releaseDate": "January 25, 1982"
                     },
                     {
@@ -20097,7 +19848,7 @@ const FILMS_DATA = {
                         "studio": "General Pictures",
                         "poster": "assets/images/anantaram.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A complex psychological exploration of a young man's fragmented memory and inner struggles, presented through a non-linear, introspective narrative.",
                         "releaseDate": "November 20, 1987"
                     },
                     {
@@ -20112,7 +19863,7 @@ const FILMS_DATA = {
                         "studio": "Doordarshan / Adoor Gopalakrishnan Productions",
                         "poster": "assets/images/mathilukal.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "Based on a true story, an imprisoned writer falls deeply in love with a female inmate he can only hear but never see across a high prison wall.",
                         "releaseDate": "April 20, 1990"
                     },
                     {
@@ -20127,7 +19878,7 @@ const FILMS_DATA = {
                         "studio": "General Pictures",
                         "poster": "assets/images/vidheyan.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A submissive migrant worker becomes a terrified, unwilling accomplice to the brutal tyranny and violence of a deeply sadistic local landlord.",
                         "releaseDate": "February 18, 1994"
                     }
                 ],
@@ -20178,7 +19929,7 @@ const FILMS_DATA = {
                         "studio": "Pavanathma Productions",
                         "poster": "assets/images/uttarayanam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A disillusioned, unemployed young man wanders through post-independence Kerala, struggling with existential dread and the corrupt societal systems around him.",
                         "releaseDate": "January 24, 1975"
                     },
                     {
@@ -20193,7 +19944,7 @@ const FILMS_DATA = {
                         "studio": "General Pictures",
                         "poster": "assets/images/kanchana_sita.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A poetic, mythical retelling of the Ramayana that focuses on the deep psychological trauma and absent presence of Sita during Rama's rule.",
                         "releaseDate": "September 23, 1977"
                     },
                     {
@@ -20208,7 +19959,7 @@ const FILMS_DATA = {
                         "studio": "General Pictures",
                         "poster": "assets/images/thampu.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A wandering circus arrives in a quiet village, briefly disrupting the monotony of rural life before packing up and leaving behind lingering emotional impacts.",
                         "releaseDate": "May 19, 1978"
                     },
                     {
@@ -20223,7 +19974,7 @@ const FILMS_DATA = {
                         "studio": "General Pictures",
                         "poster": "assets/images/kummatty.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A mystical, Pied Piper-like figure visits a village and magically transforms the local children into animals, exploring themes of innocence and nature.",
                         "releaseDate": "August 17, 1979"
                     },
                     {
@@ -20238,7 +19989,7 @@ const FILMS_DATA = {
                         "studio": "Suryakanthi Film Society",
                         "poster": "assets/images/chidambaram.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A deeply poetic exploration of guilt, betrayal, and redemption after a rural estate worker discovers his wife's affair with his friend and employer.",
                         "releaseDate": "December 12, 1985"
                     }
                 ],
@@ -20289,7 +20040,7 @@ const FILMS_DATA = {
                         "studio": "Chithralekha Film Cooperative",
                         "poster": "assets/images/vidyarthikale_ithile_ithile.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A thought-provoking narrative that explores the educational system and the lives of students in Kerala.",
                         "releaseDate": "October 29, 1971"
                     },
                     {
@@ -20304,7 +20055,7 @@ const FILMS_DATA = {
                         "studio": "Nirmala Films",
                         "poster": "assets/images/agraharathil_kazhuthai.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A highly satirical critique of upper-caste Brahmin orthodoxy when a stray donkey is taken in by a professor, leading to chaotic religious misunderstandings.",
                         "releaseDate": "December 2, 1977"
                     },
                     {
@@ -20319,7 +20070,7 @@ const FILMS_DATA = {
                         "studio": "Odessa Movies",
                         "poster": "assets/images/cheriyachante_kroorakrityangal.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An obedient, deeply traditional man slowly descends into violence and psychological collapse due to the changing social hierarchies of feudal Kerala.",
                         "releaseDate": "December 14, 1979"
                     },
                     {
@@ -20334,7 +20085,7 @@ const FILMS_DATA = {
                         "studio": "Odessa Film Society",
                         "poster": "assets/images/amma_ariyan.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A young man travels across Kerala to inform a mother of her son's death, turning into a profound documentary-style political journey.",
                         "releaseDate": "November 25, 1986"
                     }
                 ],
@@ -20385,7 +20136,7 @@ const FILMS_DATA = {
                         "studio": "Liberty Productions",
                         "poster": "assets/images/oridathoru_phayalvaan.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A comedic yet tragic tale of a wandering wrestler whose arrival in a village brings both admiration and unexpected chaos.",
                         "releaseDate": "November 12, 1981"
                     },
                     {
@@ -20400,7 +20151,7 @@ const FILMS_DATA = {
                         "studio": "Modern Movies",
                         "poster": "assets/images/koodevide.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A tragic psychological drama about a possessive, jealous school teacher whose obsessive nature leads to the accidental death of his lover's favorite student.",
                         "releaseDate": "November 4, 1983"
                     },
                     {
@@ -20415,7 +20166,7 @@ const FILMS_DATA = {
                         "studio": "Grihalakshmi Productions",
                         "poster": "assets/images/namukku_parkkan_munthirithoppukal.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A rich vineyard owner falls in love with his neighbor's stepdaughter, fighting against societal expectations and her deeply abusive stepfather to protect her.",
                         "releaseDate": "November 14, 1986"
                     },
                     {
@@ -20430,7 +20181,7 @@ const FILMS_DATA = {
                         "studio": "Grihalakshmi Productions",
                         "poster": "assets/images/thoovanathumbikal.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A complex, deeply atmospheric romance about a man torn between his pure love for a village girl and his obsessive passion for an enigmatic sex worker.",
                         "releaseDate": "July 31, 1987"
                     },
                     {
@@ -20445,7 +20196,7 @@ const FILMS_DATA = {
                         "studio": "Goodnight Films",
                         "poster": "assets/images/njan_gandharvan.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A mesmerizing fantasy romance about a celestial being (Gandharvan) who descends to Earth and falls passionately in love with a mortal woman.",
                         "releaseDate": "February 15, 1991"
                     }
                 ],
@@ -20496,7 +20247,7 @@ const FILMS_DATA = {
                         "studio": "Pipeline Movies Group",
                         "poster": "assets/images/prayanam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A subtle, deeply atmospheric exploration of human relationships, suppressed desires, and societal constraints within a traditional Kerala setting.",
                         "releaseDate": "September 19, 1975"
                     },
                     {
@@ -20511,7 +20262,7 @@ const FILMS_DATA = {
                         "studio": "Voltas Films",
                         "poster": "assets/images/thakara.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A raw, highly emotional tragedy about a mentally slow young man whose innocent love for a village girl is manipulated and brutally destroyed by society.",
                         "releaseDate": "September 26, 1979"
                     },
                     {
@@ -20526,7 +20277,7 @@ const FILMS_DATA = {
                         "studio": "Navodaya Studios",
                         "poster": "assets/images/chamaram.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An intense, tragic romance between an older college lecturer and her younger student, challenging social norms and conventional morality.",
                         "releaseDate": "May 23, 1980"
                     },
                     {
@@ -20541,7 +20292,7 @@ const FILMS_DATA = {
                         "studio": "Atlas Films",
                         "poster": "assets/images/vaishali.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An epic, visually stunning adaptation of a Mahabharata episode where a seductress is sent to lure a celibate sage to bring rain to a drought-stricken kingdom.",
                         "releaseDate": "September 23, 1988"
                     },
                     {
@@ -20556,7 +20307,7 @@ const FILMS_DATA = {
                         "studio": "Babu Films",
                         "poster": "assets/images/amaram.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A deeply emotional family drama about an uneducated fisherman's fierce ambition and ultimate heartbreak regarding his beloved daughter's future and choices.",
                         "releaseDate": "January 25, 1991"
                     }
                 ],
@@ -20592,7 +20343,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Find humor in tragedy. Use satire to address serious socio-political issues like unemployment and political divide without losing warmth.",
-                    "Focus on character chemistry. Block actors in simple group shots to let their natural banter and relationships drive the narrative."
+                    "Focus on character chemistry. Block actors in simple group shots to var their natural banter and relationships drive the narrative."
                 ],
                 "mustWatch": [
                     {
@@ -20607,7 +20358,7 @@ const FILMS_DATA = {
                         "studio": "Casino Productions",
                         "poster": "assets/images/nadodikkattu.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "Two unemployed, optimistic friends try to illegally migrate to the Middle East, but accidentally land in Chennai, sparking a hilarious series of adventures.",
                         "releaseDate": "August 28, 1987"
                     },
                     {
@@ -20622,7 +20373,7 @@ const FILMS_DATA = {
                         "studio": "Dynamic Films",
                         "poster": "assets/images/pappan_priyappetta_pappan.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A fantastical comedy about a deceased singer whose spirit is mistakenly put into the bodies of various living individuals by the God of Death.",
                         "releaseDate": "January 3, 1986"
                     },
                     {
@@ -20637,7 +20388,7 @@ const FILMS_DATA = {
                         "studio": "Highline Productions",
                         "poster": "assets/images/sandhesam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A brilliant, timeless political satire focusing on a middle-class family torn apart by the aggressive, opposing political ideologies of two brothers.",
                         "releaseDate": "September 5, 1991"
                     },
                     {
@@ -20652,7 +20403,7 @@ const FILMS_DATA = {
                         "studio": "Grihalakshmi Productions",
                         "poster": "assets/images/veendum_chila_veetukaryangal.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A heartwarming family drama detailing the ideological clashes and deep bond between a passionate theater-actor father and his pragmatic son.",
                         "releaseDate": "April 23, 1999"
                     },
                     {
@@ -20667,7 +20418,7 @@ const FILMS_DATA = {
                         "studio": "Central Productions",
                         "poster": "assets/images/manassinakkare.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A grumpy, alienated elderly woman finds a new lease on life and joy when she befriends a cheerful, optimistic young man in her village.",
                         "releaseDate": "December 25, 2003"
                     }
                 ],
@@ -20718,7 +20469,7 @@ const FILMS_DATA = {
                         "studio": "Navodaya Studios",
                         "poster": "assets/images/manjil_virinja_pookkal.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A tragic romantic thriller where a young man falls in love with a woman, only to discover she is married to a sadistic, abusive husband.",
                         "releaseDate": "December 25, 1980"
                     },
                     {
@@ -20733,7 +20484,7 @@ const FILMS_DATA = {
                         "studio": "Ousephachan Movie House",
                         "poster": "assets/images/nokketha_doorathu_kannum_nattu.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A spirited young girl brings immense joy to her grumpy, estranged grandmother's life, while hiding a deeply tragic secret about her own health.",
                         "releaseDate": "December 25, 1984"
                     },
                     {
@@ -20748,7 +20499,7 @@ const FILMS_DATA = {
                         "studio": "Casino Productions",
                         "poster": "assets/images/poovinu_puthiya_poonthennal.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A deaf-mute man becomes the sole protector of an orphaned boy targeted by ruthless killers who murdered his mother.",
                         "releaseDate": "September 12, 1986"
                     },
                     {
@@ -20763,7 +20514,7 @@ const FILMS_DATA = {
                         "studio": "Swargachitra",
                         "poster": "assets/images/manichitrathazhu.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A masterful psychological thriller about a young bride who becomes possessed by the vengeful spirit of an ancient dancer in a haunted ancestral mansion.",
                         "releaseDate": "December 25, 1993"
                     },
                     {
@@ -20778,7 +20529,7 @@ const FILMS_DATA = {
                         "studio": "Swargachitra",
                         "poster": "assets/images/aniyathipraavu.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A highly influential romantic drama detailing the profound struggles of a young interfaith couple facing intense opposition from their respective, deeply loving families.",
                         "releaseDate": "March 21, 1997"
                     }
                 ],
@@ -20829,7 +20580,7 @@ const FILMS_DATA = {
                         "studio": "Central Productions",
                         "poster": "assets/images/poochakkoru_mookkuthi.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A brilliant, chaotic screwball comedy revolving around mistaken identities, eccentric characters, and a desperate search for a missing wife.",
                         "releaseDate": "March 17, 1984"
                     },
                     {
@@ -20844,7 +20595,7 @@ const FILMS_DATA = {
                         "studio": "Shirdi Sai Creations",
                         "poster": "assets/images/chithram.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A desperate father hires a con man to pretend to be his daughter's husband for the sake of his dying father-in-law, leading to unexpected emotional bonds.",
                         "releaseDate": "December 23, 1988"
                     },
                     {
@@ -20859,7 +20610,7 @@ const FILMS_DATA = {
                         "studio": "Chetna Flims",
                         "poster": "assets/images/kilukkam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A hilarious, beloved comedy about a tourist guide and a photographer whose lives are turned upside down by the arrival of a seemingly mentally unstable young woman.",
                         "releaseDate": "August 15, 1991"
                     },
                     {
@@ -20874,7 +20625,7 @@ const FILMS_DATA = {
                         "studio": "His Grace Productions",
                         "poster": "assets/images/thenmavin_kombath.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A visually spectacular romantic comedy centered on the fierce rivalry between two close friends who unknowingly fall in love with the same fiery village woman.",
                         "releaseDate": "May 13, 1994"
                     },
                     {
@@ -20889,7 +20640,7 @@ const FILMS_DATA = {
                         "studio": "Pranavam Arts",
                         "poster": "assets/images/kaalapani.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An epic, harrowing historical drama detailing the brutal, horrific torture faced by Indian independence activists imprisoned in the infamous Cellular Jail in the Andaman Islands.",
                         "releaseDate": "April 5, 1996"
                     }
                 ],
@@ -20940,7 +20691,7 @@ const FILMS_DATA = {
                         "studio": "Whiterose Movie Makers",
                         "poster": "assets/images/kazcha.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A heartwarming, tragic story of a rural film operator in Kerala who adopts an orphaned boy from the devastating Gujarat earthquake.",
                         "releaseDate": "August 27, 2004"
                     },
                     {
@@ -20955,7 +20706,7 @@ const FILMS_DATA = {
                         "studio": "Century Films",
                         "poster": "assets/images/thanmatra.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A deeply devastating, highly emotional portrayal of a loving, brilliant government employee and his family's heartbreaking struggle after he is diagnosed with early-onset Alzheimer's.",
                         "releaseDate": "December 16, 2005"
                     },
                     {
@@ -20970,7 +20721,7 @@ const FILMS_DATA = {
                         "studio": "Fragrant Nature Film Creations",
                         "poster": "assets/images/pranayam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A profound, deeply mature exploration of complex love, exploring the intricate emotional dynamics between a woman, her paralyzed husband, and her former lover.",
                         "releaseDate": "August 31, 2011"
                     },
                     {
@@ -20985,7 +20736,7 @@ const FILMS_DATA = {
                         "studio": "One 2 One Media",
                         "poster": "assets/images/kalimannu.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A socially relevant, highly controversial drama exploring the deep emotional bond of motherhood and a woman's right to artificial insemination and childbirth.",
                         "releaseDate": "August 23, 2013"
                     },
                     {
@@ -21000,7 +20751,7 @@ const FILMS_DATA = {
                         "studio": "Visual Romance Image Makers",
                         "poster": "assets/images/aadujeevitham.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "Based on a true story, an Indian migrant worker is brutally forced into modern-day slavery, herding goats in the horrific, isolating deserts of Saudi Arabia.",
                         "releaseDate": "March 28, 2024"
                     }
                 ],
@@ -21051,7 +20802,7 @@ const FILMS_DATA = {
                         "studio": "White Sands Media House",
                         "poster": "assets/images/amen.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A magical realist musical comedy set in a picturesque Kerala village, centering on a struggling church band and a divine musical competition.",
                         "releaseDate": "March 22, 2013"
                     },
                     {
@@ -21066,7 +20817,7 @@ const FILMS_DATA = {
                         "studio": "Friday Film House",
                         "poster": "assets/images/angamaly_diaries.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A hyper-kinetic, incredibly raw crime drama chronicling the chaotic lives, gang rivalries, and pork business of youths in the bustling town of Angamaly.",
                         "releaseDate": "March 3, 2017"
                     },
                     {
@@ -21081,7 +20832,7 @@ const FILMS_DATA = {
                         "studio": "OPM Cinematic Inventions",
                         "poster": "assets/images/ee_ma_yau.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A deeply atmospheric, darkly comedic tragedy detailing a son's desperate, increasingly chaotic efforts to organize a grand, respectful funeral for his deceased father.",
                         "releaseDate": "May 4, 2018"
                     },
                     {
@@ -21096,7 +20847,7 @@ const FILMS_DATA = {
                         "studio": "Opus Penta",
                         "poster": "assets/images/jallikattu.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A visually astonishing, deeply primal thriller where a village descends into absolute, violent chaos as they attempt to hunt down a wild buffalo that has escaped.",
                         "releaseDate": "October 4, 2019"
                     },
                     {
@@ -21111,7 +20862,7 @@ const FILMS_DATA = {
                         "studio": "Movie Monastery / Chembosky Motion Pictures",
                         "poster": "assets/images/churuli.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A deeply surreal, mind-bending mystery about two undercover cops who enter a mysterious, foul-mouthed forest village where time, logic, and identity collapse.",
                         "releaseDate": "November 19, 2021"
                     }
                 ],
@@ -21162,7 +20913,7 @@ const FILMS_DATA = {
                         "studio": "OPM Dream Mill Cinemas",
                         "poster": "assets/images/maheshinte_prathikaaram.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A mild-mannered rural photographer takes a solemn vow never to wear slippers again until he avenges a humiliating public beating.",
                         "releaseDate": "February 5, 2016"
                     },
                     {
@@ -21177,7 +20928,7 @@ const FILMS_DATA = {
                         "studio": "Urvasi Theatres",
                         "poster": "assets/images/thondimuthalum_driksakshiyum.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A brilliant, highly grounded realistic drama centering on a petty thief who swallows a stolen gold chain, leading to a tense, psychological standoff in a rural police station.",
                         "releaseDate": "June 30, 2017"
                     },
                     {
@@ -21192,7 +20943,7 @@ const FILMS_DATA = {
                         "studio": "Bhavana Studios",
                         "poster": "assets/images/joji.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A dark, highly cynical modern adaptation of Macbeth set in a wealthy, deeply dysfunctional Kerala plantation family during the COVID-19 pandemic.",
                         "releaseDate": "April 7, 2021"
                     }
                 ],
@@ -21243,7 +20994,7 @@ const FILMS_DATA = {
                         "studio": "D_Company",
                         "poster": "assets/images/annayum_rasoolum.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A deeply realistic, tragically poetic love story between a Muslim taxi driver and a Christian salesgirl set in the gritty streets of Kochi.",
                         "releaseDate": "January 4, 2013"
                     },
                     {
@@ -21258,7 +21009,7 @@ const FILMS_DATA = {
                         "studio": "Collective Phase One",
                         "poster": "assets/images/njan_steve_lopez.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A coming-of-age crime drama about an innocent college student whose life spirals out of control when he inadvertently witnesses a violent gang conflict.",
                         "releaseDate": "August 8, 2014"
                     },
                     {
@@ -21273,7 +21024,7 @@ const FILMS_DATA = {
                         "studio": "Global United Media",
                         "poster": "assets/images/kammatipaadam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An epic, gritty saga exploring the deep, violent history of real estate mafia and the brutal marginalization of Dalit communities during the rapid urbanization of Kochi.",
                         "releaseDate": "May 20, 2016"
                     },
                     {
@@ -21288,7 +21039,7 @@ const FILMS_DATA = {
                         "studio": "Film Roll Productions",
                         "poster": "assets/images/kuttavum_shikshayum.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A tense, highly procedural police drama tracking a team of Kerala cops as they travel to a hostile North Indian village to catch a gang of jewelry thieves.",
                         "releaseDate": "May 27, 2022"
                     },
                     {
@@ -21303,7 +21054,7 @@ const FILMS_DATA = {
                         "studio": "Collective Phase One / Thejus Pictures",
                         "poster": "assets/images/thuramukham.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A sprawling, deeply political historical epic detailing the intense labor struggles, union conflicts, and profound exploitation of workers at the Mattancherry harbor.",
                         "releaseDate": "March 10, 2023"
                     }
                 ],
@@ -21354,7 +21105,7 @@ const FILMS_DATA = {
                         "studio": "Anantha Vision",
                         "poster": "assets/images/memories.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A brilliant, grief-stricken, alcoholic police officer is forced to confront his tragic past when he investigates a series of bizarre serial murders.",
                         "releaseDate": "August 9, 2013"
                     },
                     {
@@ -21369,7 +21120,7 @@ const FILMS_DATA = {
                         "studio": "Aashirvad Cinemas",
                         "poster": "assets/images/drishyam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A brilliant, incredibly tense thriller about a common man who uses knowledge gained from movies to execute an elaborate cover-up after his family accidentally commits a murder.",
                         "releaseDate": "December 19, 2013"
                     },
                     {
@@ -21384,7 +21135,7 @@ const FILMS_DATA = {
                         "studio": "Aashirvad Cinemas",
                         "poster": "assets/images/drishyam_2.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A masterful sequel where the protagonist must defensively navigate the reopened murder investigation, relying on an even more complex, brilliant long-term strategy.",
                         "releaseDate": "February 19, 2021"
                     },
                     {
@@ -21399,7 +21150,7 @@ const FILMS_DATA = {
                         "studio": "Ananya Films / Magic Frames",
                         "poster": "assets/images/kooman.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A psychological thriller about an intensely jealous, highly observant police officer whose obsession with proving his superiority leads him into a deeply dark criminal path.",
                         "releaseDate": "November 4, 2022"
                     },
                     {
@@ -21414,7 +21165,7 @@ const FILMS_DATA = {
                         "studio": "Aashirvad Cinemas",
                         "poster": "assets/images/neru.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A gripping courtroom drama focusing on a blind sculptor seeking justice after a horrific assault, and the brilliant, deeply strategic lawyer who defends her.",
                         "releaseDate": "December 21, 2023"
                     }
                 ],
@@ -21465,7 +21216,7 @@ const FILMS_DATA = {
                         "studio": "Marikar Films",
                         "poster": "assets/images/big_b.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "Four adopted brothers reunite to fiercely avenge the brutal murder of their beloved foster mother, adopting a highly stylized, explosive form of vigilante justice.",
                         "releaseDate": "April 13, 2007"
                     },
                     {
@@ -21480,7 +21231,7 @@ const FILMS_DATA = {
                         "studio": "Amal Neerad Productions / Fahadh Faasil and Friends",
                         "poster": "assets/images/iyobinte_pusthakam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A visually spectacular, deeply violent period drama set in the Munnar tea estates, focusing on family betrayal, sibling rivalry, and the changing political landscape of the 1940s.",
                         "releaseDate": "November 7, 2014"
                     },
                     {
@@ -21495,7 +21246,7 @@ const FILMS_DATA = {
                         "studio": "Amal Neerad Productions / Fahadh Faasil and Friends",
                         "poster": "assets/images/varathan.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A highly intense, slow-burn survival thriller where a young urban couple's peaceful retreat to a rural estate turns into a terrifying, violent standoff against local goons.",
                         "releaseDate": "September 20, 2018"
                     },
                     {
@@ -21510,7 +21261,7 @@ const FILMS_DATA = {
                         "studio": "Amal Neerad Productions",
                         "poster": "assets/images/bheeshma_parvam.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "An epic, incredibly stylish gangster drama about a powerful, deeply respected patriarch who violently defends his family empire from internal betrayal and external enemies.",
                         "releaseDate": "March 3, 2022"
                     },
                     {
@@ -21525,7 +21276,7 @@ const FILMS_DATA = {
                         "studio": "Amal Neerad Productions / Kyna Films",
                         "poster": "assets/images/bougainvillea.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "A suspenseful psychological thriller tracking a deeply troubled family dealing with severe mental trauma and their entanglement in a terrifying, deadly series of mysterious events.",
                         "releaseDate": "October 17, 2024"
                     }
                 ],
@@ -21576,7 +21327,7 @@ const FILMS_DATA = {
                         "studio": "Working Class Hero / Fahadh Faasil and Friends",
                         "poster": "assets/images/kumbalangi_nights.jpg",
                         "focus": "A masterclass in Malayalam cinema.",
-                        "plot": "Plot details to be updated.",
+                        "plot": "Four deeply flawed, estranged brothers living in a dilapidated shack in Kumbalangi must confront their toxic masculinity to protect the women they love.",
                         "releaseDate": "February 7, 2019"
                     }
                 ],
@@ -21612,7 +21363,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Write dialogue that sounds stolen from real life. Overlapping, incomplete sentences create the illusion of truth.",
-                    "Never moralize. Present social contradictions and let the audience reach their own uncomfortable conclusions."
+                    "Never moralize. Present social contradictions and var the audience reach their own uncomfortable conclusions."
                 ],
                 "mustWatch": [
                     {
@@ -24325,7 +24076,7 @@ const FILMS_DATA = {
                 "bio": "Vishal Bhardwaj is Hindi cinema's foremost literary adaptor, transposing Shakespeare's tragedies into Indian political and geographical landscapes with formal rigour, dark humour and an unfailing instinct for the music that lives inside violence.",
                 "style": "Shakespearean tragedy adaptation, dark comedic tonality, Kashmir/UP political landscape embedding, and score-as-atmosphere design.",
                 "techniques": [
-                    "Landscape-as-Tragedy Architecture: Maps each Shakespeare adaptation onto a specific Indian political geography that amplifies the original's themes — Macbeth in UP gangster politics, Othello in Chambal caste culture, Hamlet in Kashmir.",
+                    "Landscape-as-Tragedy Architecture: Maps each Shakespeare adaptation onto a specific Indian political geography that amplifies the original's themes — Macbeth in UP gangster politics, Othello in Chambal caste culture, Hamvar in Kashmir.",
                     "Dark Comedy as Tragic Relief: Introduces grotesque humour inside the tragedy, making the violence more devastating by contrast.",
                     "Score as Emotional Architecture: Composes his own scores to drive the emotional rhythm of each scene from within rather than underlining action from outside."
                 ],
@@ -24376,7 +24127,7 @@ const FILMS_DATA = {
                         "editor": "Aarif Sheikh",
                         "composer": "Vishal Bhardwaj",
                         "studio": "VB Pictures",
-                        "focus": "Hamlet adaptation Kashmir landscape integration, cold desaturated color design, and physical production scale.",
+                        "focus": "Hamvar adaptation Kashmir landscape integration, cold desaturated color design, and physical production scale.",
                         "plot": "A young man returns to Kashmir during the peak of conflict to search for his missing father, confronting his mother's betrayal.",
                         "releaseDate": "October 2, 2014",
                         "country": "India",
@@ -24426,7 +24177,7 @@ const FILMS_DATA = {
                         "title": "Haider: The Graveyard Dance",
                         "time": "01:55:30",
                         "description": "Haider's soliloquy transforms into a mass dance with grave-diggers in a snowbound cemetery.",
-                        "analysis": "Bhardwaj stages 'To be or not to be' as collective catharsis. The snow-covered graves, the stamping feet, the rising political anger — the Hamlet existential question becomes a Kashmiri political assertion."
+                        "analysis": "Bhardwaj stages 'To be or not to be' as collective catharsis. The snow-covered graves, the stamping feet, the rising political anger — the Hamvar existential question becomes a Kashmiri political assertion."
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/tvklRNVoX8ZAt91OQ9xP6QvNIIK.jpg"
@@ -28145,28 +27896,32 @@ const FILMS_DATA = {
                     {
                         "title": "Touki Bouki",
                         "year": 1973,
-                        "releaseDate": "May 10, 1973",
+                        "releaseDate": "May 1, 1973",
+                        "director": "Djibril Diop Mambéty",
                         "writer": "Djibril Diop Mambéty",
                         "cinematographer": "Georges Bracher",
                         "editor": "Siro Asteni",
-                        "composer": "None",
-                        "studio": "Studio Kankourama, Cinegrit",
+                        "composer": "Mady Kasem",
+                        "studio": "Cineast Associates",
+                        "country": "Senegal",
                         "poster": "https://image.tmdb.org/t/p/w500/kcBYKHyg9GcQqa6DWq0AuQDhtPI.jpg",
-                        "focus": "Stolen bull skull motorcycle, Dakar escape fantasy, and French pop music as colonialism",
-                        "plot": "Mory, a cowherd, and Anta, a university student, try to make money in order to go to Paris and leave their boring past behind."
+                        "plot": "Mory, a cowherd, and Anta, a university student, try to make money in order to go to Paris and leave their boring past behind.",
+                        "focus": "Avant-garde editing, post-colonial identity, and vivid visual poetry"
                     },
                     {
                         "title": "Hyenas",
                         "year": 1992,
-                        "releaseDate": "September 18, 1992",
+                        "releaseDate": "May 12, 1992",
+                        "director": "Djibril Diop Mambéty",
                         "writer": "Djibril Diop Mambéty",
                         "cinematographer": "Matthias Kälin",
                         "editor": "Loredana Cristelli",
                         "composer": "Wasis Diop",
-                        "studio": "ADR Productions, Thelma Film, Maag Daan",
+                        "studio": "Maag Daan / ADR Productions / Thelma Film",
+                        "country": "Senegal / France / Switzerland / United Kingdom",
                         "poster": "https://image.tmdb.org/t/p/w500/or2P5W4SHTOYS40F2LifY8wm1e4.jpg",
-                        "focus": "Dürrenmatt adaptation, Colobane village gold teeth, and global consumerism corrupting community",
-                        "plot": "A now-rich woman returns to her poor desert hometown to propose a deal to the populace: her fortune, in exchange for the death of the man who years earlier abandoned her and left her with his child."
+                        "plot": "A now-rich woman returns to her poor desert hometown to propose a deal to the populace: her fortune, in exchange for the death of the man who years earlier abandoned her and left her with his child.",
+                        "focus": "Anti-colonial satire, consumerism critique, and dark comedy"
                     }
                 ],
                 "scenes": [
@@ -28205,17 +27960,33 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Yeelen",
+                        "title": "Yeelen (Brightness)",
                         "year": 1987,
-                        "releaseDate": "July 1, 1987",
+                        "releaseDate": "May 7, 1987",
+                        "director": "Souleymane Cissé",
                         "writer": "Souleymane Cissé",
-                        "cinematographer": "Jean-Noël Ferragut",
-                        "editor": "Seipati N'Xumalo",
-                        "composer": "Salif Keita",
-                        "studio": "Les Films du Carrosse, Atriascop Paris",
+                        "cinematographer": "Jean-Noël Ferragut / Jean-Michel Humeau",
+                        "editor": "Dounamba Coulibaly / Andrée Davanture / Marie-Catherine Miqueau",
+                        "composer": "Michel Portal / Salif Keita",
+                        "studio": "Les Films Cissé / Atriascop / Mfproductions",
+                        "country": "Mali / Burkina Faso / France / West Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/xjckmcnKK6Ex6wHrVydu4F21h3t.jpg",
-                        "focus": "Ancient Bambara sorcery, the Father's pursuit, and the blinding light of knowledge",
-                        "plot": "A young man with magical powers journeys to his uncle to request help in fighting his sorcerer father."
+                        "plot": "A young man with magical powers journeys to his uncle to request help in fighting his sorcerer father.",
+                        "focus": "Bambara mythology, slow cinema, and mystical landscapes"
+                    },
+                    {
+                        "title": "Baara (Work)",
+                        "year": 1978,
+                        "releaseDate": "October 1, 1978",
+                        "director": "Souleymane Cissé",
+                        "writer": "Souleymane Cissé",
+                        "cinematographer": "Étienne de Grammont",
+                        "editor": "Andrée Davanture",
+                        "studio": "Les Films Cissé",
+                        "country": "Mali",
+                        "poster": "https://image.tmdb.org/t/p/w500/ovP0fh0WpjPemxlXkmbCwcSr1fj.jpg",
+                        "plot": "A young manager of a factory encounters a man walking along a road who says his family traditionally are servants to the manager's family. The manager offers him a job, and as he watches out for the other man's welfare, begins to see how the company mistreats its workers. The manager is challenged between his ethics and the pressure from others to protect his own interests as dire problems surface at the factory",
+                        "focus": "Class consciousness, labor exploitation, and early West African social realism"
                     }
                 ],
                 "scenes": [
@@ -28248,17 +28019,34 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Soleil O",
-                        "year": 1973,
-                        "releaseDate": "January 1, 1970",
+                        "title": "Soleil Ô",
+                        "year": 1967,
+                        "releaseDate": "May 1, 1967",
+                        "director": "Med Hondo",
                         "writer": "Med Hondo",
-                        "cinematographer": "Jean-Claude Rahaga",
+                        "cinematographer": "François Catonné",
                         "editor": "Michèle Masnier",
-                        "composer": "None",
-                        "studio": "Shango Films, Grey Films",
+                        "composer": "Georges Anderson",
+                        "studio": "Les Films Soleil Ô",
+                        "country": "Mauritania / France",
                         "poster": "https://image.tmdb.org/t/p/w500/7M2tN7WYcFbB15I3UcOmdM854uJ.jpg",
-                        "focus": "African immigrant rage in Paris, colonial flashbacks, and Brechtian theatrical fury",
-                        "plot": "An educated native of Mauritania tries to find work in Paris but encounters difficulty because of his race."
+                        "plot": "An educated native of Mauritania tries to find work in Paris but encounters difficulty because of his race.",
+                        "focus": "Anti-colonial critique, immigrant alienation, and stylised docufiction"
+                    },
+                    {
+                        "title": "Sarraounia",
+                        "year": 1986,
+                        "releaseDate": "November 26, 1986",
+                        "director": "Med Hondo",
+                        "writer": "Med Hondo",
+                        "cinematographer": "Jean-Monsigny",
+                        "editor": "Marie-Thérèse Boiche",
+                        "composer": "Pierre Akendengué",
+                        "studio": "Les Films Soleil Ô / Compagnie Africaine Cinématographique Industrielle",
+                        "country": "Mauritania / Burkina Faso / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/cq1oZW3y0naFBZapo8c7RlwpbsY.jpg",
+                        "plot": "On 2 January 1899, starting from the French Sudan, a French column under the command of the captains Vouvar and Chanoine is sent against the black Sultan Rabah in what is now the Cameroon. Those captains and their African mercenary troops destroy and kill everything they find on their path. The French authorities try to stop them sending orders and a second troop but the captains kill the emissaries who reach them. Sarraounia, queen of the Aznas, have heard about the exactions. Clever in war tactics and in witchcraft, she decides to resist and stop those mad men.",
+                        "focus": "Anti-colonial resistance, historical epic, and feminist leadership"
                     }
                 ],
                 "scenes": [
@@ -28291,17 +28079,34 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Wanderers of the Desert",
-                        "year": 1986,
-                        "releaseDate": "December 31, 1984",
+                        "title": "The Wanderers of the Desert",
+                        "year": 1984,
+                        "releaseDate": "May 22, 1984",
+                        "director": "Nacer Khemir",
                         "writer": "Nacer Khemir",
-                        "cinematographer": "None",
+                        "cinematographer": "Georges Barsky",
                         "editor": "Moufida Tlatli",
-                        "composer": "None",
-                        "studio": "SATPEC, France Média, LATIF",
+                        "composer": "Fethi Zghonda",
+                        "studio": "France Media International / SATPEC",
+                        "country": "Tunisia / France",
                         "poster": "https://image.tmdb.org/t/p/w500/fCBbYcQVwc718OVcDhkwx7Vu6Fn.jpg",
-                        "focus": "Saharan village forgotten children, ancient legends, and disappearing fathers",
-                        "plot": "A young teacher arrives to take over a village school isolated in the shimmering desert. Legendary figures materialize out of wells and the desert itself, groups of children hurry through a labyrinth of underground corridors, and the teacher is whisked away to a mysterious rendezvous and never returns."
+                        "plot": "A young teacher arrives to take over a village school isolated in the shimmering desert. Legendary figures materialize out of wells and the desert itself, groups of children hurry through a labyrinth of underground corridors, and the teacher is whisked away to a mysterious rendezvous and never returns.",
+                        "focus": "Sufi mysticism, visual poetry, and allegorical desert landscapes"
+                    },
+                    {
+                        "title": "Bab'Aziz - The Prince That Contemplated His Soul",
+                        "year": 2005,
+                        "releaseDate": "February 10, 2005",
+                        "director": "Nacer Khemir",
+                        "writer": "Nacer Khemir / Tonino Guerra",
+                        "cinematographer": "Mahmoud Kalari",
+                        "editor": "Isabelle Rathery",
+                        "composer": "Armand Amar",
+                        "studio": "Cygnus Productions / Type Film / Zephyr Films",
+                        "country": "Tunisia / France / Germany / Iran / United Kingdom",
+                        "plot": "Plot details not available.",
+                        "focus": "Sufi philosophy, non-linear storytelling, and spiritual journeys",
+                        "poster": "assets/images/bab_aziz_poster.png"
                     }
                 ],
                 "scenes": [
@@ -28334,30 +28139,33 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Waiting for Happiness",
-                        "year": 2002,
-                        "releaseDate": "May 19, 2002",
-                        "writer": "Abderrahmane Sissako",
-                        "cinematographer": "Jacques Besse",
-                        "editor": "Nadia ben Rachid",
-                        "composer": "Oumou Sangaré",
-                        "studio": "Duo Films, ARTE France Cinéma",
-                        "poster": "https://image.tmdb.org/t/p/w500/zmGW0vR7yaiyo9dAaxD26PuY33n.jpg",
-                        "focus": "Mauritanian coastal border town, migratory limbo, and electric light learning",
-                        "plot": "Before immigrating to the West, Abdallah travels to the coastal city of Nouadhibou, Mauritania, to visit his mother. Although he grew up there, Abdallah feels anything but at home in his old neighborhood: he can no longer speak the local dialect and he wears western clothes that immediately cast him as an outsider. But, as Abdallah spends time with a young boy and an elderly electrician, he can't help but feel a sense of loss for the life he's abandoning."
-                    },
-                    {
                         "title": "Timbuktu",
                         "year": 2014,
-                        "releaseDate": "December 10, 2014",
-                        "writer": "Abderrahmane Sissako, Kessen Tall",
+                        "releaseDate": "May 15, 2014",
+                        "director": "Abderrahmane Sissako",
+                        "writer": "Abderrahmane Sissako / Kessen Tall",
                         "cinematographer": "Sofian El Fani",
-                        "editor": "Nadia ben Rachid",
+                        "editor": "Nadia Ben Rachid",
                         "composer": "Amine Bouhafa",
-                        "studio": "Les films du Worso, Orange Studio, Arches Films",
+                        "studio": "Les Films du Worso / Dune Vision",
+                        "country": "Mauritania / France",
                         "poster": "https://image.tmdb.org/t/p/w500/tCpHpn8msgonS9HVDMkrcSZh4an.jpg",
-                        "focus": "Jihadist occupation of Timbuktu, banned music and football, and cattle herder's dignity",
-                        "plot": "Just outside of the Malian city of Timbuktu, now occupied by militant Islamic rebels who impose the Sharia on civilians and inconvenience their daily life, a cattleman kills a fisherman."
+                        "plot": "Just outside of the Malian city of Timbuktu, now occupied by militant Islamic rebels who impose the Sharia on civilians and inconvenience their daily life, a cattleman kills a fisherman.",
+                        "focus": "Religious extremism, quiet resistance, and striking composition"
+                    },
+                    {
+                        "title": "Bamako",
+                        "year": 2006,
+                        "releaseDate": "May 21, 2006",
+                        "director": "Abderrahmane Sissako",
+                        "writer": "Abderrahmane Sissako",
+                        "cinematographer": "Jacques Besse",
+                        "editor": "Nadia Ben Rachid",
+                        "studio": "Chinguitty Films / Archipel 35",
+                        "country": "Mauritania / Mali / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/5QC4URE5MKnzBwk8vNNtvMoLIxl.jpg",
+                        "plot": "Caught in the stranglehold of debt and structural adjustment, Africa is fighting for its survival. In the face of disaster, representatives of African society bring an action against international financial institutions. The trial takes place in Bamako, in the yard of a house, among its inhabitants.",
+                        "focus": "Globalization critique, political trial, and courtyard micro-society"
                     }
                 ],
                 "scenes": [
@@ -28386,7 +28194,7 @@ const FILMS_DATA = {
                 "bio": "Chad's most internationally acclaimed director, Haroun makes austere, devastatingly human dramas about fathers and sons, forgiveness and survival, set against the backdrop of civil war and poverty in N'Djamena.",
                 "style": "Austere minimalism, tight close-up portraiture, restrained performances, and slow-burning confrontations that compress enormous historical pain into intimate domestic dramas.",
                 "techniques": [
-                    "Minimal Melodrama: Strips away conventional dramatic scoring and dialogue to let the audience experience grief and moral conflict through pure behavior and silence.",
+                    "Minimal Melodrama: Strips away conventional dramatic scoring and dialogue to var the audience experience grief and moral conflict through pure behavior and silence.",
                     "Intergenerational Confrontation: Stages stories as encounters between different generations, using their conflict to embody Chad's social and historical ruptures.",
                     "Documentary Restraint: Shoots in actual N'Djamena locations with long, observational takes that give fiction the grounded truth of documentary."
                 ],
@@ -28396,30 +28204,34 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Dry Season (Daratt)",
-                        "year": 2006,
-                        "releaseDate": "September 1, 2006",
-                        "writer": "Mahamat-Saleh Haroun",
-                        "cinematographer": "Laurent Brunet",
-                        "editor": "Marie-Hélène Dozo",
-                        "composer": "Wasis Diop",
-                        "studio": "Chinguitty Films, Göi-Göi Productions, ARTE France Cinéma",
-                        "poster": "https://image.tmdb.org/t/p/w500/1IVVcLMQn9Ur3hjerOF5EfWoNMC.jpg",
-                        "focus": "Young man sent to kill father's murderer, mentor-apprentice bond, and Chadian civil war forgiveness",
-                        "plot": "Chad, 2006. After a forty-year civil war, the radio announces the government has just amnestied the war criminals. Outraged by the news, Gumar Abatcha orders his grandson Atim, a sixteen-year-old youth, to trace the man who killed his father and to execute him. Atim obeys him and, armed with his father's own gun, he goes in search of Nassara, the man who made him an orphan. It does not take long before he finds him. Nassara, who now goes straight, is married, goes to the mosque and owns a small bakery. After some hesitation Atim offers him his services as an apprentice. He is hired then it will be easy for him to gun down the murderer of his father. At least, that is what he thinks..."
-                    },
-                    {
                         "title": "A Screaming Man",
                         "year": 2010,
-                        "releaseDate": "September 29, 2010",
+                        "releaseDate": "May 17, 2010",
+                        "director": "Mahamat-Saleh Haroun",
                         "writer": "Mahamat-Saleh Haroun",
                         "cinematographer": "Laurent Brunet",
                         "editor": "Marie-Hélène Dozo",
                         "composer": "Wasis Diop",
-                        "studio": "Entre Chien et Loup, Göi-Göi Productions, Pili Films",
+                        "studio": "Pili Films / Entre Chien et Loup",
+                        "country": "Chad / France / Belgium",
                         "poster": "https://image.tmdb.org/t/p/w500/q90ysGM6CQmHnUTGGU4x5TBv4hn.jpg",
-                        "focus": "Retired champion swimmer sacrifices son to army, N'Djamena hotel pool, and paternal shame",
-                        "plot": "Adam Ousmane is a pool attendant at a local resort. When the new managers decide to downsize, Adam loses his job to his own son, Abdel. Shattered by the turn of events, Adam is pressured into contributing to the Chadian war effort. With no money to speak of, the only asset he can donate is his son."
+                        "plot": "Adam Ousmane is a pool attendant at a local resort. When the new managers decide to downsize, Adam loses his job to his own son, Abdel. Shattered by the turn of events, Adam is pressured into contributing to the Chadian war effort. With no money to speak of, the only asset he can donate is his son.",
+                        "focus": "Civil war trauma, father-son conflict, and minimalist tension"
+                    },
+                    {
+                        "title": "Daratt (Dry Season)",
+                        "year": 2006,
+                        "releaseDate": "September 1, 2006",
+                        "director": "Mahamat-Saleh Haroun",
+                        "writer": "Mahamat-Saleh Haroun",
+                        "cinematographer": "Laurent Brunet",
+                        "editor": "Marie-Hélène Dozo",
+                        "composer": "Wasis Diop",
+                        "studio": "Chinguitty Films / Goï-Goï Productions",
+                        "country": "Chad / France / Belgium / Austria",
+                        "poster": "https://image.tmdb.org/t/p/w500/1IVVcLMQn9Ur3hjerOF5EfWoNMC.jpg",
+                        "plot": "Chad, 2006. After a forty-year civil war, the radio announces the government has just amnestied the war criminals. Outraged by the news, Gumar Abatcha orders his grandson Atim, a sixteen-year-old youth, to trace the man who killed his father and to execute him. Atim obeys him and, armed with his father's own gun, he goes in search of Nassara, the man who made him an orphan. It does not take long before he finds him. Nassara, who now goes straight, is married, goes to the mosque and owns a small bakery. After some hesitation Atim offers him his services as an apprentice. He is hired then it will be easy for him to gun down the murderer of his father. At least, that is what he thinks...",
+                        "focus": "Post-war reconciliation, revenge, and sparse dialogue"
                     }
                 ],
                 "scenes": [
@@ -28454,15 +28266,16 @@ const FILMS_DATA = {
                     {
                         "title": "Rafiki",
                         "year": 2018,
-                        "releaseDate": "September 26, 2018",
-                        "writer": "Wanuri Kahiu, Jenna Cato Bass",
+                        "releaseDate": "May 9, 2018",
+                        "director": "Wanuri Kahiu",
+                        "writer": "Wanuri Kahiu / Jenna Bass",
                         "cinematographer": "Christopher Wessels",
                         "editor": "Isabelle Dedieu",
-                        "composer": "None",
-                        "studio": "Big World Cinema, MPM Film, AFROBUBBLEGUM",
+                        "studio": "Big World Cinema / Afrobubblegum",
+                        "country": "Kenya / South Africa / France / Lebanon / Norway / Netherlands / Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/letzgJyVmYYahcYNCYhzn75TyyE.jpg",
-                        "focus": "Nairobi neighborhood daughters' love, political families' opposition, and braid salon intimacy",
-                        "plot": "Kena and Ziki long for something more. Despite the political rivalry between their families, the girls resist and remain close friends, supporting each other to pursue their dreams in a conservative society. When love blossoms between them, the two girls will be forced to choose between happiness and safety."
+                        "plot": "Kena and Ziki long for something more. Despite the political rivalry between their families, the girls resist and remain close friends, supporting each other to pursue their dreams in a conservative society. When love blossoms between them, the two girls will be forced to choose between happiness and safety.",
+                        "focus": "Queer romance, vibrant color palettes, and Afrobubblegum aesthetic"
                     }
                 ],
                 "scenes": [
@@ -28497,15 +28310,17 @@ const FILMS_DATA = {
                     {
                         "title": "Félicité",
                         "year": 2017,
-                        "releaseDate": "March 29, 2017",
-                        "writer": "Alain Gomis, Olivier Loustau, Delphine Zingg",
+                        "releaseDate": "February 11, 2017",
+                        "director": "Alain Gomis",
+                        "writer": "Alain Gomis / Olivier Loustau / Delphine Zingg",
                         "cinematographer": "Céline Bozon",
-                        "editor": "Alain Gomis",
-                        "composer": "None",
-                        "studio": "Granit Films, Cinekap, Andolfi",
+                        "editor": "Fabrice Rouaud",
+                        "composer": "Kasai Allstars",
+                        "studio": "Andolfi / Granit Films / Cinekap",
+                        "country": "Senegal / France / Germany / Belgium / Lebanon",
                         "poster": "https://image.tmdb.org/t/p/w500/qxODnuQgjj8N5ZKHLYCrSpz8tJx.jpg",
-                        "focus": "Kinshasa bar singer, motorcycle accident son, and Kasai Allstars' live orchestral score",
-                        "plot": "Félicité, a strong and proud woman, sings in bars in Kinshasa. She drifts away from reality when her 14-year-old son gets into an accident. In electric Kinshasa, she wanders in a world of music & dreams... until love unexpectedly brings her back to life."
+                        "plot": "Félicité, a strong and proud woman, sings in bars in Kinshasa. She drifts away from reality when her 14-year-old son gets into an accident. In electric Kinshasa, she wanders in a world of music & dreams... until love unexpectedly brings her back to life.",
+                        "focus": "Kinshasa street life, musical interludes, and raw emotional resilience"
                     }
                 ],
                 "scenes": [
@@ -28540,15 +28355,17 @@ const FILMS_DATA = {
                     {
                         "title": "Atlantics",
                         "year": 2019,
-                        "releaseDate": "October 2, 2019",
-                        "writer": "Olivier Demangel, Mati Diop",
+                        "releaseDate": "May 16, 2019",
+                        "director": "Mati Diop",
+                        "writer": "Mati Diop / Olivier Demangel",
                         "cinematographer": "Claire Mathon",
                         "editor": "Aël Dallier Vega",
                         "composer": "Fatima Al Qadiri",
-                        "studio": "Les Films du Bal, Cinekap, Frakas Productions",
+                        "studio": "Les Films du Bal / Cinekap / Frakas Productions",
+                        "country": "Senegal / France / Belgium",
                         "poster": "https://image.tmdb.org/t/p/w500/zRnZM6HqglFK31MYyrTSQVlj1dQ.jpg",
-                        "focus": "Dakar construction workers' Atlantic crossing, ghost possession romance, and oceanic grief",
-                        "plot": "Arranged to marry a rich man, young Ada is crushed when her true love goes missing at sea during a migration attempt — until a miracle reunites them."
+                        "plot": "Arranged to marry a rich man, young Ada is crushed when her true love goes missing at sea during a migration attempt — until a miracle reunites them.",
+                        "focus": "Migration trauma, supernatural romance, and evocative cinematography"
                     }
                 ],
                 "scenes": [
@@ -28583,15 +28400,17 @@ const FILMS_DATA = {
                     {
                         "title": "Tsotsi",
                         "year": 2005,
-                        "releaseDate": "December 23, 2005",
+                        "releaseDate": "August 18, 2005",
+                        "director": "Gavin Hood",
                         "writer": "Gavin Hood",
                         "cinematographer": "Lance Gewer",
                         "editor": "Megan Gill",
-                        "composer": "Paul Hepker",
-                        "studio": "Movieworld Productions, National Film & Video Foundation of South Africa",
+                        "composer": "Mark Kilian / Paul Hepker",
+                        "studio": "The UK Film Council / Moviworld",
+                        "country": "South Africa / United Kingdom",
                         "poster": "https://image.tmdb.org/t/p/w500/r3ebTJFcDZ35GaKcuUQQe243z4f.jpg",
-                        "focus": "Johannesburg township car hijacking, baby in backseat, and criminal's forced redemption",
-                        "plot": "A young South African boy from the Johannesburg ghetto named Tsotsi, meaning Gangster, leaves home as a child to get away from his helpless parents. Now a teenage thug, Tsotsi finds a baby in the back seat of a car he's just stolen. He decides that it is his responsibility to care for the infant and in the process learns that maybe the criminal life isn’t the best way."
+                        "plot": "A young South African boy from the Johannesburg ghetto named Tsotsi, meaning Gangster, leaves home as a child to get away from his helpless parents. Now a teenage thug, Tsotsi finds a baby in the back seat of a car he's just stolen. He decides that it is his responsibility to care for the infant and in the process learns that maybe the criminal life isn’t the best way.",
+                        "focus": "Post-apartheid inequality, redemption arcs, and township realism"
                     }
                 ],
                 "scenes": [
@@ -28599,7 +28418,7 @@ const FILMS_DATA = {
                         "title": "Tsotsi: The Baby in the Car",
                         "time": "00:24:10",
                         "description": "Tsotsi discovers a baby in the backseat of the car he has hijacked, and instead of abandoning it, carries it home.",
-                        "analysis": "Hood uses a close, intimate handheld shot to follow Tsotsi's face as he discovers the infant. The hardened criminal's confusion — he does not know what to do with this helpless creature — is the film's moral pivot. The camera stays close and refuses to let the audience look away from his uncertainty."
+                        "analysis": "Hood uses a close, intimate handheld shot to follow Tsotsi's face as he discovers the infant. The hardened criminal's confusion — he does not know what to do with this helpless creature — is the film's moral pivot. The camera stays close and refuses to var the audience look away from his uncertainty."
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/2y2eX4m7qsDgbo51XAK6TE6dJon.jpg"
@@ -28626,15 +28445,17 @@ const FILMS_DATA = {
                     {
                         "title": "Mapantsula",
                         "year": 1988,
-                        "releaseDate": "May 21, 1988",
-                        "writer": "Oliver Schmitz, Thomas Mogotlane",
+                        "releaseDate": "May 18, 1988",
+                        "director": "Oliver Schmitz",
+                        "writer": "Oliver Schmitz / Thomas Mogotlane",
                         "cinematographer": "Rod Stewart",
                         "editor": "Mark Baard",
                         "composer": "The Ouens",
-                        "studio": "David Hannay Productions, Haverbeam, One Look Productions",
+                        "studio": "One World Productions",
+                        "country": "South Africa / Australia / United Kingdom",
                         "poster": "https://image.tmdb.org/t/p/w500/9yOh2ww2EZ1h5fEGNuFrTbiz2w.jpg",
-                        "focus": "Soweto tsotsi gangster's radicalization, police interrogation structure, and apartheid solidarity",
-                        "plot": "A petty gangster inevitably becomes involved in the growing anti-apartheid struggle and is forced to choose between individual gain and a united stand against the system."
+                        "plot": "A petty gangster inevitably becomes involved in the growing anti-apartheid struggle and is forced to choose between individual gain and a united stand against the system.",
+                        "focus": "Anti-apartheid resistance, structural racism, and kinetic urban storytelling"
                     }
                 ],
                 "scenes": [
@@ -28645,7 +28466,7 @@ const FILMS_DATA = {
                         "analysis": "Schmitz uses tight, claustrophobic framing. The interrogation room's white walls and harsh fluorescent light make it feel like a system designed to strip away identity. Panic's refusal to speak — though he is no ideologue — gradually becomes the film's act of heroism."
                     }
                 ],
-                "image": "https://image.tmdb.org/t/p/w500/yI5T7h3Q3W888f4cO9yU5mP6YhS.jpg"
+                "image": "assets/images/oliver_schmitz_profile.png"
             },
             {
                 "id": "ousmane-sembene",
@@ -28659,7 +28480,7 @@ const FILMS_DATA = {
                 "techniques": [
                     "Decolonized Language: Films primarily in Wolof and other African languages rather than French, asserting cultural sovereignty and addressing his own people directly.",
                     "Satirical Allegory: Embeds biting political critique within seemingly simple domestic or social narratives, using allegory to expose post-colonial hypocrisy.",
-                    "Long Observational Takes: Uses patient, frontal staging and long takes to let social dynamics and power imbalances reveal themselves through behavior."
+                    "Long Observational Takes: Uses patient, frontal staging and long takes to var social dynamics and power imbalances reveal themselves through behavior."
                 ],
                 "lessons": [
                     "Film in your language. Sembène insisted on Wolof-language cinema as a political act — address your own community first, not a foreign audience.",
@@ -28667,43 +28488,48 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Black Girl",
+                        "title": "Black Girl (La Noire de...)",
                         "year": 1966,
-                        "releaseDate": "March 17, 1966",
+                        "releaseDate": "June 4, 1966",
+                        "director": "Ousmane Sembène",
                         "writer": "Ousmane Sembène",
                         "cinematographer": "Christian Lacoste",
                         "editor": "André Gaudier",
-                        "composer": "None",
-                        "studio": "Filmi Domirev, Les Actualités Françaises",
+                        "studio": "Les Actualités Françaises / Filmi Domirev",
+                        "country": "Senegal / France",
                         "poster": "https://image.tmdb.org/t/p/w500/hYYAk9I9KkscSr8DC30KyDjzsVu.jpg",
-                        "focus": "Dakar domestic isolation, the mask motif, and maid's silent rebellion",
-                        "plot": "Eager to find a better life abroad, a Senegalese woman becomes a mere governess to a family in southern France, suffering from discrimination and marginalization."
+                        "plot": "Eager to find a better life abroad, a Senegalese woman becomes a mere governess to a family in southern France, suffering from discrimination and marginalization.",
+                        "focus": "Post-colonial exploitation, silence as resistance, and stark black-and-white visuals"
                     },
                     {
                         "title": "Xala",
                         "year": 1975,
-                        "releaseDate": "October 1, 1975",
+                        "releaseDate": "March 12, 1975",
+                        "director": "Ousmane Sembène",
                         "writer": "Ousmane Sembène",
-                        "cinematographer": "Seydina Dominique Gadiaga",
+                        "cinematographer": "Georges Caristan / Orlando López",
                         "editor": "Florence Eymon",
-                        "composer": "Samba Diabare Samb",
-                        "studio": "Ste. Me. Production du Senegal, Filmi Domirev",
+                        "composer": "Samba Diabaré Samb",
+                        "studio": "Société Nationale de Cinématographie (SNC) / Domirev",
+                        "country": "Senegal",
                         "poster": "https://image.tmdb.org/t/p/w500/4bx6Wceii1OZf0e3qp4EurUFoK7.jpg",
-                        "focus": "Curse of impotence as anti-corruption satire, beggars' revolt, and Senegalese elite",
-                        "plot": "A rich businessman in Senegal is cursed with crippling erectile dysfunction upon the day of his marriage to his third wife; the only cure is brutal public humiliation."
+                        "plot": "A rich businessman in Senegal is cursed with crippling erectile dysfunction upon the day of his marriage to his third wife; the only cure is brutal public humiliation.",
+                        "focus": "Political satire, bourgeois hypocrisy, and cultural impotence"
                     },
                     {
-                        "title": "Camp de Thiaroye",
-                        "year": 1988,
-                        "releaseDate": "September 6, 1988",
-                        "writer": "Ousmane Sembène, Thierno Faty Sow",
-                        "cinematographer": "Smaïl Lakhdar-Hamina",
-                        "editor": "Kahéna Attia",
-                        "composer": "Ismaël Lô",
-                        "studio": "Films Kajoor, ENAPROC, Filmi Domirev",
-                        "poster": "https://image.tmdb.org/t/p/w500/oKfFcrlQCTKaB6KU5VuJVt0yBc5.jpg",
-                        "focus": "Returning soldiers' betrayal, colonial massacre, and Franco-African political fury",
-                        "plot": "A Senegalese platoon of soldiers from the French Free Army are returned from combat in France and held for a temporary time in a military encampment with barbed wire fences and guard towers in the desert. Among their numbers are Sergeant Diatta, the charismatic leader of the troop who was educated in Paris and has a French wife and child, and Pays, a Senegalese soldier left in a state of shock from the war and concentration camps and who can only speak in guttural screams and grunts."
+                        "title": "Moolaadé",
+                        "year": 2004,
+                        "releaseDate": "May 15, 2004",
+                        "director": "Ousmane Sembène",
+                        "writer": "Ousmane Sembène",
+                        "cinematographer": "Dominique Gentil",
+                        "editor": "Nadia Ben Rachid",
+                        "composer": "Boncana Maïga",
+                        "studio": "Direction de la Cinématographie Nationale (Burkina Faso) / Filmi Domirev",
+                        "country": "Senegal / Burkina Faso / France / Cameroon / Morocco / Tunisia",
+                        "poster": "https://image.tmdb.org/t/p/w500/9S7lWdLExHw6LP3Vq7smiyGY5MR.jpg",
+                        "plot": "When a woman shelters a group of girls from suffering female genital mutilation, she starts a conflict that tears her village apart.",
+                        "focus": "Female genital mutilation, traditional vs modern values, and protective sanctuary"
                     }
                 ],
                 "scenes": [
@@ -28742,43 +28568,49 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "Cairo Station",
+                        "title": "Cairo Station (The Iron Gate)",
                         "year": 1958,
-                        "releaseDate": "July 31, 1958",
-                        "writer": "Abdel Hai Adib",
-                        "cinematographer": "Alevise Orfanelli",
+                        "releaseDate": "January 26, 1958",
+                        "director": "Youssef Chahine",
+                        "writer": "Abdel Hai Adib / Mohamed Abu Seif",
+                        "cinematographer": "Alvise Orfanelli",
                         "editor": "Kamal Abul Ela",
-                        "composer": "Fouad El-Zahry",
-                        "studio": "Studio El Ahram, Aflam El Nil",
+                        "composer": "Fouad El Zahery",
+                        "studio": "Gabriel Film",
+                        "country": "Egypt",
                         "poster": "https://image.tmdb.org/t/p/w500/zm8ET6PSfPT6pozgvjR7htaZFjy.jpg",
-                        "focus": "Obsessive newspaper seller, working-class Cairo station, and social bottled frustration",
-                        "plot": "Qinawi, a physically challenged peddler who makes his living selling newspapers in the central Cairo train station, is obsessed with Hanuma, an attractive young woman who sells drinks. While she jokes with him about a possible relationship, she is actually in love with Abu Siri, a strong and respected porter at the station who is struggling to unionize his fellow workers to combat their boss' exploitative and abusive treatment."
+                        "plot": "Qinawi, a physically challenged peddler who makes his living selling newspapers in the central Cairo train station, is obsessed with Hanuma, an attractive young woman who sells drinks. While she jokes with him about a possible relationship, she is actually in love with Abu Siri, a strong and respected porter at the station who is struggling to unionize his fellow workers to combat their boss' exploitative and abusive treatment.",
+                        "focus": "Neorealism, sexual repression, and psychological thriller elements"
                     },
                     {
-                        "title": "The Land",
-                        "year": 1969,
-                        "releaseDate": "January 1, 1969",
-                        "writer": "Hassan Fouad, Youssef Chahine",
-                        "cinematographer": "Abdelaziz Fahmy",
+                        "title": "The Sparrow",
+                        "year": 1972,
+                        "releaseDate": "November 14, 1972",
+                        "director": "Youssef Chahine",
+                        "writer": "Youssef Chahine",
+                        "cinematographer": "Mustapha Abdelatif",
                         "editor": "Rashida Abdel Salam",
-                        "composer": "Ali Ismail",
-                        "studio": "MISR International Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/sFfE3N6r4sJuBNlSGGXAJ1sQsNj.jpg",
-                        "focus": "Egyptian peasant land resistance, colonial water access, and agrarian community solidarity",
-                        "plot": "After his witch guardian threatens to turn him into a statue, young Tip runs off to Emerald City with his newly-animated companion, Jack. Along the way, he meets up with Genral Jinjur, leader of the Army of Revolt, who takes Tip prisoner as she marches her troops to take over the Emerald City."
+                        "composer": "Ali Ismael",
+                        "studio": "Misr International Films / ONCIC",
+                        "country": "Egypt / Algeria",
+                        "poster": "https://image.tmdb.org/t/p/w500/lsUoKrhvUA3Z0w8obJbjWZY0l9h.jpg",
+                        "plot": "Set shortly before and during the Six Day War in June of 1967, The Sparrow follows a young police officer stationed in a small village in Upper Egypt whose inhabitants suffer from the harassment of a corrupt businessman.",
+                        "focus": "Six-Day War trauma, political corruption, and national disillusionment"
                     },
                     {
-                        "title": "Alexandria… Why?",
+                        "title": "Alexandria... Why?",
                         "year": 1979,
-                        "releaseDate": "August 23, 1979",
-                        "writer": "Mohsen Zayed, Youssef Chahine",
+                        "releaseDate": "February 1, 1979",
+                        "director": "Youssef Chahine",
+                        "writer": "Youssef Chahine / Mohsen Zayed",
                         "cinematographer": "Mohsen Nasr",
                         "editor": "Rashida Abdel Salam",
-                        "composer": "Fouad El-Zahry",
-                        "studio": "MISR International Films, Algerian Television",
+                        "composer": "Fouad El Zahery",
+                        "studio": "Misr International Films / ONCIC",
+                        "country": "Egypt / Algeria",
                         "poster": "https://image.tmdb.org/t/p/w500/k68nAl2BJpX9405UCqs4Xhw2S7n.jpg",
-                        "focus": "WWII Alexandria, autobiographical coming-of-age, and Egyptian-Jewish friendship",
-                        "plot": "Amid the poverty, death, and suffering caused by World War II, 18-year-old Yehia retreats into a private world of fantasy and longing. Obsessed with Hollywood, he dreams of studying filmmaking in America but struggles to pursue his dream, given the constraints of his life in the middle class and the horrors of war."
+                        "plot": "Amid the poverty, death, and suffering caused by World War II, 18-year-old Yehia retreats into a private world of fantasy and longing. Obsessed with Hollywood, he dreams of studying filmmaking in America but struggles to pursue his dream, given the constraints of his life in the middle class and the horrors of war.",
+                        "focus": "Autobiographical memory, World War II backdrop, and cultural cosmopolitanism"
                     }
                 ],
                 "scenes": [
@@ -28819,28 +28651,32 @@ const FILMS_DATA = {
                     {
                         "title": "Breaker Morant",
                         "year": 1980,
-                        "focus": "Anti-war courtroom drama, Boer War historical critique, and colonial hypocrisy",
-                        "releaseDate": "1980-05-16",
-                        "writer": "Jonathan Hardy, Bruce Beresford",
+                        "releaseDate": "May 16, 1980",
+                        "director": "Bruce Beresford",
+                        "writer": "Jonathan Hardy / David Stevens / Bruce Beresford",
                         "cinematographer": "Donald McAlpine",
-                        "editor": "William M. Anderson",
+                        "editor": "William Anderson",
                         "composer": "Phil Cuneen",
                         "studio": "South Australian Film Corporation",
-                        "poster": "https://image.tmdb.org/t/p/w500/Nr46BDNjBtz3s0wRvm84eK3PXl.jpg",
-                        "plot": "During the Boer War, three Australian lieutenants are on trial for shooting Boer prisoners. Though they acted under orders, they are being used as scapegoats by the General Staff, who hopes to distance themselves from the irregular practices of the war. The trial does not progress as smoothly as expected by the General Staff, as the defence puts up a strong fight in the courtroom."
+                        "country": "Australia",
+                        "plot": "Plot details not available.",
+                        "focus": "Anti-war sentiment, imperial injustice, and courtroom drama",
+                        "poster": "assets/images/breaker_morant_poster.png"
                     },
                     {
-                        "title": "Tender Mercies",
-                        "year": 1983,
-                        "focus": "Understated character study, rural American setting, and themes of redemption",
-                        "releaseDate": "1983-03-04",
-                        "writer": "Horton Foote",
-                        "cinematographer": "Russell Boyd",
-                        "editor": "William M. Anderson",
-                        "composer": "George Dreyfus",
-                        "studio": "Antron Media Production",
-                        "poster": "https://image.tmdb.org/t/p/w500/fBP6uK0K4EnV8dtt4SJQrMdX0wb.jpg",
-                        "plot": "Alcoholic former country singer Mac Sledge makes friends with a young widow and her son. The friendship enables him to find inspiration to resume his career."
+                        "title": "The Getting of Wisdom",
+                        "year": 1977,
+                        "releaseDate": "August 17, 1977",
+                        "director": "Bruce Beresford",
+                        "writer": "Eleanor Witcombe",
+                        "cinematographer": "Donald McAlpine",
+                        "editor": "William Anderson",
+                        "composer": "Sigismund Thalberg (Adapted)",
+                        "studio": "Southern Cross Productions",
+                        "country": "Australia",
+                        "poster": "https://image.tmdb.org/t/p/w500/hkt62WcwW11iknPSYHpzmkK4pnE.jpg",
+                        "plot": "Based on the 1910 novel by Henry Handel Richardson, thought to be an account of her own schooldays at the Presbyterian Ladies College in Melbourne. A young girl, Laura Tweedle-Rambotham who grew up in the outback, and at around the age of 14, is sent off by her poor mother who has scrimped and saved for her to go to a prestigious women’s private college in Melbourne, the Presbyterian Ladies College.",
+                        "focus": "Coming-of-age, social class, and female independence"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/p5p1YhKTh1EOSvf1NO96oBQI2Ll.jpg"
@@ -28867,15 +28703,17 @@ const FILMS_DATA = {
                     {
                         "title": "The Chant of Jimmie Blacksmith",
                         "year": 1978,
-                        "focus": "Aboriginal marginalization, colonial violence, and tragic inevitability",
-                        "releaseDate": "1978-06-21",
+                        "releaseDate": "June 21, 1978",
+                        "director": "Fred Schepisi",
                         "writer": "Fred Schepisi",
                         "cinematographer": "Ian Baker",
                         "editor": "Brian Kavanagh",
                         "composer": "Bruce Smeaton",
-                        "studio": "The Film House",
+                        "studio": "Film House",
+                        "country": "Australia",
                         "poster": "https://image.tmdb.org/t/p/w500/rbyEtX16Tk58WMeii5rVEfB1OUm.jpg",
-                        "plot": "The true story of a part Aboriginal man who finds the pressure of adapting to white culture intolerable, and as a result snaps in a violent and horrific manner."
+                        "plot": "The true story of a part Aboriginal man who finds the pressure of adapting to white culture intolerable, and as a result snaps in a violent and horrific manner.",
+                        "focus": "Systemic racism, indigenous dispossession, and inevitable violence"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/9W1St7ZYiMY8tsx2vx4bPfy1TaY.jpg"
@@ -28900,56 +28738,49 @@ const FILMS_DATA = {
                 ],
                 "mustWatch": [
                     {
-                        "title": "An Angel at My Table",
-                        "year": 1990,
-                        "focus": "Creative awakening, mental health institutionalization, and authorial subjectivity",
-                        "releaseDate": "1990-09-20",
-                        "writer": "Laura Jones",
-                        "cinematographer": "Stuart Dryburgh",
-                        "editor": "Veronika Jenet",
-                        "composer": "Don McGlashan",
-                        "studio": "Australian Broadcasting Corporation",
-                        "poster": "https://image.tmdb.org/t/p/w500/sDICHxQRDkS4TvIDcUgO9URJxu1.jpg",
-                        "plot": "Based on the autobiographical work of New Zealand writer Janet Frame, this production depicts the author at various stage of her life. Afflicted with mental and emotional issues, Frame grows up in an impoverished family and experiences numerous tragedies while still in her youth, including the deaths of two of her siblings. Portrayed as an adult by Kerry Fox, Frame finds acclaim for her writing while still in a mental institution, and her success helps her move on with her life."
-                    },
-                    {
                         "title": "The Piano",
                         "year": 1993,
-                        "focus": "Mute female expression, Gothic romance, and the tactile cinematography of the New Zealand bush",
-                        "releaseDate": "1993-05-18",
+                        "releaseDate": "May 15, 1993",
+                        "director": "Jane Campion",
                         "writer": "Jane Campion",
                         "cinematographer": "Stuart Dryburgh",
                         "editor": "Veronika Jenet",
                         "composer": "Michael Nyman",
-                        "studio": "CiBy 2000",
+                        "studio": "Ciby 2000 / Jan Chapman Productions",
+                        "country": "New Zealand / Australia / France",
                         "poster": "https://image.tmdb.org/t/p/w500/dUxjG6baSzGIgP7R8BQI5rpMuET.jpg",
-                        "plot": "When an arranged marriage brings Ada and her spirited daughter to the wilderness of nineteenth-century New Zealand, she finds herself locked in a battle of wills with both her controlling husband and a rugged frontiersman to whom she develops a forbidden attraction."
+                        "plot": "When an arranged marriage brings Ada and her spirited daughter to the wilderness of nineteenth-century New Zealand, she finds herself locked in a battle of wills with both her controlling husband and a rugged frontiersman to whom she develops a forbidden attraction.",
+                        "focus": "Female desire, colonial isolation, and gothic romance"
                     },
                     {
-                        "title": "Bright Star",
-                        "year": 2009,
-                        "focus": "Poetic romance, tactile intimacy, and the female perspective of John Keats' life",
-                        "releaseDate": "2009-09-18",
-                        "writer": "Jane Campion",
-                        "cinematographer": "Greig Fraser",
-                        "editor": "Alexandre de Franceschi",
-                        "composer": "Mark Bradshaw",
-                        "studio": "Pathe",
-                        "poster": "https://image.tmdb.org/t/p/w500/fHea3yuHjpxSQc9X8LDSMobunz4.jpg",
-                        "plot": "In 1818, high-spirited young Fanny Brawne finds herself increasingly intrigued by the handsome but aloof poet John Keats, who lives next door to her family friends the Dilkes. After reading a book of his poetry, she finds herself even more drawn to the taciturn Keats. Although he agrees to teach her about poetry, Keats cannot act on his reciprocated feelings for Fanny, since as a struggling poet he has no money to support a wife."
+                        "title": "An Angel at My Table",
+                        "year": 1990,
+                        "releaseDate": "September 6, 1990",
+                        "director": "Jane Campion",
+                        "writer": "Laura Jones",
+                        "cinematographer": "Stuart Dryburgh",
+                        "editor": "Veronika Jenet",
+                        "composer": "Don McGlashan",
+                        "studio": "Hibiscus Films",
+                        "country": "New Zealand / Australia / United Kingdom",
+                        "poster": "https://image.tmdb.org/t/p/w500/sDICHxQRDkS4TvIDcUgO9URJxu1.jpg",
+                        "plot": "Based on the autobiographical work of New Zealand writer Janet Frame, this production depicts the author at various stage of her life. Afflicted with mental and emotional issues, Frame grows up in an impoverished family and experiences numerous tragedies while still in her youth, including the deaths of two of her siblings. Portrayed as an adult by Kerry Fox, Frame finds acclaim for her writing while still in a mental institution, and her success helps her move on with her life.",
+                        "focus": "Literary biography, mental health, and artistic salvation"
                     },
                     {
-                        "title": "The Power of the Dog",
-                        "year": 2021,
-                        "focus": "Deconstructed western masculinity, psychological warfare, and toxic repression",
-                        "releaseDate": "2021-10-25",
-                        "writer": "Jane Campion",
-                        "cinematographer": "Ari Wegner",
-                        "editor": "Peter Sciberras",
-                        "composer": "Jonny Greenwood",
-                        "studio": "See-Saw Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/kEy48iCzGnp0ao1cZbNeWR6yIhC.jpg",
-                        "plot": "A domineering but charismatic rancher wages a war of intimidation on his brother's new wife and her teen son, until long-hidden secrets come to light."
+                        "title": "Sweetie",
+                        "year": 1989,
+                        "releaseDate": "May 14, 1989",
+                        "director": "Jane Campion",
+                        "writer": "Jane Campion / Gerard Lee",
+                        "cinematographer": "Sally Bongers",
+                        "editor": "Veronika Jenet",
+                        "composer": "Martin Armiger",
+                        "studio": "Arenafilm",
+                        "country": "Australia",
+                        "poster": "https://image.tmdb.org/t/p/w500/25lpQtxNWXzOimnXmbwF0Y0GYej.jpg",
+                        "plot": "The buttoned-down, superstitious Kay is attempting to lead a normal existence with her new boyfriend Louis. That’s until Sweetie, her rampaging, devil-may-care sister, returns home after an absence, exposing the rotten roots of their family and placing a strain on Kay and Louis’ relationship.",
+                        "focus": "Dysfunctional families, suburban surrealism, and mental illness"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/zAkrfMl6m940Ja46ofWaM94gTNj.jpg"
@@ -28976,28 +28807,17 @@ const FILMS_DATA = {
                     {
                         "title": "Chopper",
                         "year": 2000,
-                        "focus": "Unreliable narrator, true-crime celebrity myth, and volatile criminal psychology",
-                        "releaseDate": "2000-06-21",
-                        "writer": "Mark Brandon Read, Andrew Dominik",
-                        "cinematographer": "Geoffrey Hall, Kevin Hayward",
+                        "releaseDate": "August 3, 2000",
+                        "director": "Andrew Dominik",
+                        "writer": "Andrew Dominik",
+                        "cinematographer": "Kevin Hayward / Geoffrey Hall",
                         "editor": "Ken Sallows",
                         "composer": "Mick Harvey",
                         "studio": "Mushroom Pictures",
+                        "country": "Australia",
                         "poster": "https://image.tmdb.org/t/p/w500/8Ua4voSMwqzlL8DzYi6dOOe1Dxw.jpg",
-                        "plot": "The true and infamous story of Australia's notorious criminal Mark 'Chopper' Read and his years of crime, interest in violence, drugs and prostitutes."
-                    },
-                    {
-                        "title": "The Assassination of Jesse James by the Coward Robert Ford",
-                        "year": 2007,
-                        "focus": "Mythological deconstruction, poetic cinematography by Roger Deakins, and celebrity obsession",
-                        "releaseDate": "2007-09-20",
-                        "writer": "Andrew Dominik",
-                        "cinematographer": "Roger Deakins",
-                        "editor": "Curtiss Clayton, Dylan Tichenor",
-                        "composer": "Nick Cave, Warren Ellis",
-                        "studio": "Plan B Entertainment",
-                        "poster": "https://image.tmdb.org/t/p/w500/xMKn6EQS7eR5ubhPJbw5pQSBZMw.jpg",
-                        "plot": "Outlaw Jesse James is rumored to be the 'fastest gun in the West'. An eager recruit into James' notorious gang, Robert Ford eventually grows jealous of the famed outlaw and, when Robert and his brother sense an opportunity to kill James, their murderous action elevates their target to near mythical status."
+                        "plot": "The true and infamous story of Australia's notorious criminal Mark 'Chopper' Read and his years of crime, interest in violence, drugs and prostitutes.",
+                        "focus": "True crime, unreliable narrators, and darkly comedic violence"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/blo8doyYK1Swsa4ThRgq3OT62J1.jpg"
@@ -29024,41 +28844,17 @@ const FILMS_DATA = {
                     {
                         "title": "Strictly Ballroom",
                         "year": 1992,
-                        "focus": "Dance competition satire, outsider rebellion, and vibrant theatricality",
-                        "releaseDate": "1992-08-20",
-                        "writer": "Baz Luhrmann, Craig Pearce",
+                        "releaseDate": "May 15, 1992",
+                        "director": "Baz Luhrmann",
+                        "writer": "Baz Luhrmann / Craig Pearce",
                         "cinematographer": "Steve Mason",
                         "editor": "Jill Bilcock",
                         "composer": "David Hirschfelder",
-                        "studio": "Beyond Films",
+                        "studio": "M&A Film Corporation",
+                        "country": "Australia",
                         "poster": "https://image.tmdb.org/t/p/w500/f6vs4DQGuNpLuA5Z7k69uuKpbVG.jpg",
-                        "plot": "Brave new steps put Scott's career in jeopardy. With a new partner and determination, can he still succeed?"
-                    },
-                    {
-                        "title": "Romeo + Juliet",
-                        "year": 1996,
-                        "focus": "Kinetic MTV editing, Shakespearean dialogue in modern settings, and pop-music integration",
-                        "releaseDate": "1996-11-01",
-                        "writer": "Craig Pearce, Baz Luhrmann",
-                        "cinematographer": "Donald McAlpine",
-                        "editor": "Jill Bilcock",
-                        "composer": "Nellee Hooper, Craig Armstrong",
-                        "studio": "20th Century Fox",
-                        "poster": "https://image.tmdb.org/t/p/w500/eLf4jclPijOqfEp6bDAmezRFxk5.jpg",
-                        "plot": "In this contemporary take on William Shakespeare's classic tragedy, the Montagues and Capulets have moved their ongoing feud to the sweltering suburb of Verona Beach, where Romeo and Juliet fall in love and secretly wed. Though the film is visually modern, the bard's dialogue remains."
-                    },
-                    {
-                        "title": "Moulin Rouge!",
-                        "year": 2001,
-                        "focus": "Jukebox musical maximalism, frenetic romantic tragedy, and extreme production design",
-                        "releaseDate": "2001-05-09",
-                        "writer": "Baz Luhrmann, Craig Pearce",
-                        "cinematographer": "Donald M. McAlpine",
-                        "editor": "Jill Bilcock",
-                        "composer": "Craig Armstrong",
-                        "studio": "20th Century Fox",
-                        "poster": "https://image.tmdb.org/t/p/w500/2kjM5CUZRIU5yOANUowrbJcRL9L.jpg",
-                        "plot": "A celebration of love and creative inspiration takes place in the infamous, gaudy and glamorous Parisian nightclub, at the cusp of the 20th century. A young poet, who is plunged into the heady world of Moulin Rouge, begins a passionate affair with the club's most notorious and beautiful star."
+                        "plot": "Brave new steps put Scott's career in jeopardy. With a new partner and determination, can he still succeed?",
+                        "focus": "Camp aesthetics, defying tradition, and exuberant choreography"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/8K8ih7uFyGanOApYYzlzdxzcfDF.jpg"
@@ -29085,28 +28881,17 @@ const FILMS_DATA = {
                     {
                         "title": "Animal Kingdom",
                         "year": 2010,
-                        "focus": "Suburban crime family dysfunction, suffocating tension, and the survival of the fittest",
-                        "releaseDate": "2010-06-03",
+                        "releaseDate": "June 3, 2010",
+                        "director": "David Michôd",
                         "writer": "David Michôd",
                         "cinematographer": "Adam Arkapaw",
                         "editor": "Luke Doolan",
                         "composer": "Antony Partos",
-                        "studio": "Porchlight Films",
+                        "studio": "Screen Australia / Porchlight Films",
+                        "country": "Australia",
                         "poster": "https://image.tmdb.org/t/p/w500/zhj8YPQKuRev5N3KoHacsPnF4mB.jpg",
-                        "plot": "Joshua “J” is taken in by his extended family after his mother dies of an overdose. The clan, ruled by J’s scheming grandmother, is heavily involved in criminal activities, and J is soon indoctrinated into their way of life. But J is given a chance to take another path when a cop seeks to help him."
-                    },
-                    {
-                        "title": "The Rover",
-                        "year": 2014,
-                        "focus": "Post-collapse outback setting, nihilistic survival, and bleak minimalist action",
-                        "releaseDate": "2014-06-04",
-                        "writer": "David Michôd",
-                        "cinematographer": "Natasha Braier",
-                        "editor": "Peter Sciberras",
-                        "composer": "Antony Partos",
-                        "studio": "Porchlight Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/734OOkr69mt8lyPk8iw3TwgQ90R.jpg",
-                        "plot": "Ten years after a severe economic collapse in the western world, lawlessness reigns and life is cheap. Eric is a lone drifter, and his car is his only possession. When a gang steals it, Eric comes across the injured Rey, left behind by the car thieves. The pair form an unlikely and uneasy alliance."
+                        "plot": "Joshua “J” is taken in by his extended family after his mother dies of an overdose. The clan, ruled by J’s scheming grandmother, is heavily involved in criminal activities, and J is soon indoctrinated into their way of life. But J is given a chance to take another path when a cop seeks to help him.",
+                        "focus": "Crime family dynamics, moral ambiguity, and Melbourne underworld"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/quitkLI98GpeMaqZI4ZSy8s9YWX.jpg"
@@ -29133,28 +28918,32 @@ const FILMS_DATA = {
                     {
                         "title": "The Babadook",
                         "year": 2014,
-                        "focus": "Maternal depression as horror, claustrophobic domestic staging, and pop-up book aesthetics",
-                        "releaseDate": "2014-05-22",
+                        "releaseDate": "January 17, 2014",
+                        "director": "Jennifer Kent",
                         "writer": "Jennifer Kent",
-                        "cinematographer": "Radek Ładczuk",
+                        "cinematographer": "Radek Ladczuk",
                         "editor": "Simon Njoo",
                         "composer": "Jed Kurzel",
-                        "studio": "Screen Australia",
+                        "studio": "Causeway Films",
+                        "country": "Australia / Canada",
                         "poster": "https://image.tmdb.org/t/p/w500/qt3fqapeo94TfvMyld8P7gkpXLz.jpg",
-                        "plot": "A grieving single mother and her child fall into a deep well of paranoia when an eerie children's book manifests in their home."
+                        "plot": "A grieving single mother and her child fall into a deep well of paranoia when an eerie children's book manifests in their home.",
+                        "focus": "Maternal grief, psychological horror, and storybook aesthetics"
                     },
                     {
                         "title": "The Nightingale",
                         "year": 2018,
-                        "focus": "Tasmanian colonial brutality, relentless revenge narrative, and the shared trauma of the marginalized",
-                        "releaseDate": "2018-09-23",
+                        "releaseDate": "September 6, 2018",
+                        "director": "Jennifer Kent",
                         "writer": "Jennifer Kent",
-                        "cinematographer": "Radek Ładczuk",
+                        "cinematographer": "Radek Ladczuk",
                         "editor": "Simon Njoo",
                         "composer": "Jed Kurzel",
-                        "studio": "Made Up Stories",
+                        "studio": "Causeway Films / Made Up Stories",
+                        "country": "Australia",
                         "poster": "https://image.tmdb.org/t/p/w500/wEzqFiatOJSbGBu6pb8z5sQuZt1.jpg",
-                        "plot": "In 1825, Clare, a 21-year-old Irish convict, chases a British soldier through the rugged Tasmanian wilderness, bent on revenge for a terrible act of violence he committed against her family. She enlists the services of an Aboriginal tracker who is also marked by trauma from his own violence-filled past."
+                        "plot": "In 1825, Clare, a 21-year-old Irish convict, chases a British soldier through the rugged Tasmanian wilderness, bent on revenge for a terrible act of violence he committed against her family. She enlists the services of an Aboriginal tracker who is also marked by trauma from his own violence-filled past.",
+                        "focus": "Colonial violence, female revenge, and Tasmanian wilderness"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/neV1Pc9Ed051WmQ4jahjEHuIbRg.jpg"
@@ -29180,42 +28969,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Boy",
-                        "year": 2009,
-                        "focus": "Maori coming-of-age, Michael Jackson obsession, and the disappointment of idolizing a flawed father",
-                        "releaseDate": "2008-05-07",
-                        "writer": "Mark Herman",
-                        "cinematographer": "Benoît Delhomme",
-                        "editor": "Michael Ellis",
-                        "composer": "James Horner",
-                        "studio": "BBC Film",
+                        "year": 2010,
+                        "releaseDate": "January 22, 2010",
+                        "director": "Taika Waititi",
+                        "writer": "Taika Waititi",
+                        "cinematographer": "Adam Clark",
+                        "editor": "Yana Gorskaya / Chris Plummer",
+                        "composer": "The Phoenix Foundation",
+                        "studio": "Unreasonable Filmmakers / Whenua Films",
+                        "country": "New Zealand",
                         "poster": "https://image.tmdb.org/t/p/w500/6AK3uOHaIbl6EDaytHYe4FinZMu.jpg",
-                        "plot": "When his family moves from their home in Berlin to a strange new house in Poland, young Bruno befriends Shmuel, a boy who lives on the other side of the fence where everyone seems to be wearing striped pajamas. Unaware of Shmuel's fate as a Jewish prisoner or the role his own Nazi father plays in his imprisonment, Bruno embarks on a dangerous journey inside the camp's walls."
+                        "plot": "Set in the futuristic Metro City, Astro Boy (Atom) is a young robot with incredible powers created by a brilliant scientist in the image of the son he had lost. Unable to fulfill his creator's expectations, Astro embarks on a journey in search of acceptance, experiencing betrayal and a netherworld of robot gladiators, before returning to save Metro City and reconcile with the father who rejected him.",
+                        "focus": "Coming-of-age comedy, pop culture obsession, and absentee fathers"
                     },
                     {
                         "title": "Hunt for the Wilderpeople",
                         "year": 2016,
-                        "focus": "Odd-couple dynamic, New Zealand bush adventure, and deadpan comedic pacing",
-                        "releaseDate": "2016-01-22",
+                        "releaseDate": "January 22, 2016",
+                        "director": "Taika Waititi",
                         "writer": "Taika Waititi",
                         "cinematographer": "Lachlan Milne",
-                        "editor": "Tom Eagles, Luke Haigh",
-                        "composer": "Conrad Wedde, Lukasz Pawel Buda",
-                        "studio": "Defender Films",
+                        "editor": "Luke Haigh / Yana Gorskaya / Tom Eagles",
+                        "composer": "Lukasz Buda / Samuel Scott / Conrad Wedde",
+                        "studio": "Defender Films / Piki Films",
+                        "country": "New Zealand",
                         "poster": "https://image.tmdb.org/t/p/w500/hkmz9rxgcweizXNElozGeKwmAJE.jpg",
-                        "plot": "Ricky is a defiant young city kid who finds himself on the run with his cantankerous foster uncle in the wild New Zealand bush. A national manhunt ensues, and the two are forced to put aside their differences and work together to survive."
-                    },
-                    {
-                        "title": "Jojo Rabbit",
-                        "year": 2019,
-                        "focus": "Satire of fanaticism, imaginary Hitler mechanism, and the tragic loss of innocence",
-                        "releaseDate": "2019-10-18",
-                        "writer": "Taika Waititi",
-                        "cinematographer": "Mihai Malaimare Jr.",
-                        "editor": "Tom Eagles",
-                        "composer": "Michael Giacchino",
-                        "studio": "Fox Searchlight Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/7GsM4mtM0worCtIVeiQt28HieeN.jpg",
-                        "plot": "Jojo, a lonely German boy during World War II has his world shaken when he learns that his single mother is hiding a Jewish girl in their home. Influenced by a buffoonish imaginary version of Adolf Hitler, he begins to question his beliefs and confront the conflict between propaganda and his own humanity."
+                        "plot": "Ricky is a defiant young city kid who finds himself on the run with his cantankerous foster uncle in the wild New Zealand bush. A national manhunt ensues, and the two are forced to put aside their differences and work together to survive.",
+                        "focus": "Found family, quirky humor, and New Zealand bush survival"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/ww6L2ksfJNMbuiIdDuvVKndUHsv.jpg"
@@ -29242,15 +29022,17 @@ const FILMS_DATA = {
                     {
                         "title": "Once Were Warriors",
                         "year": 1994,
-                        "focus": "Urban Maori poverty, visceral domestic violence, and the struggle for cultural pride",
-                        "releaseDate": "1994-09-02",
-                        "writer": "Alan Duff, Riwia Brown",
+                        "releaseDate": "September 2, 1994",
+                        "director": "Lee Tamahori",
+                        "writer": "Riwia Brown",
                         "cinematographer": "Stuart Dryburgh",
                         "editor": "Michael Horton",
-                        "composer": "Murray McNabb, Murray Grindlay",
-                        "studio": "Avalon Studios",
+                        "composer": "Murray Grindlay / Murray McNabb",
+                        "studio": "Communicado Productions",
+                        "country": "New Zealand",
                         "poster": "https://image.tmdb.org/t/p/w500/kRNANrGG50AaU2TwN0kg7tkYqlQ.jpg",
-                        "plot": "In a violent relationship, it takes a mother’s strength to save herself and her children from the man she loved. Once Were Warriors is a violent love story set against a contemporary urban backdrop."
+                        "plot": "In a violent relationship, it takes a mother’s strength to save herself and her children from the man she loved. Once Were Warriors is a violent love story set against a contemporary urban backdrop.",
+                        "focus": "Domestic violence, Maori identity, and urban poverty"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/lkivtT9U7gLXVnhq5qF9GL3k7NN.jpg"
@@ -29277,15 +29059,32 @@ const FILMS_DATA = {
                     {
                         "title": "Smash Palace",
                         "year": 1981,
-                        "focus": "Marital breakdown, obsessive male ego, and escalating thriller tension in a junkyard setting",
-                        "releaseDate": "1981-05-01",
-                        "writer": "Roger Donaldson, Peter Hansard",
+                        "releaseDate": "November 1, 1981",
+                        "director": "Roger Donaldson",
+                        "writer": "Roger Donaldson",
                         "cinematographer": "Graeme Cowley",
                         "editor": "Michael Horton",
                         "composer": "Sharon O'Neill",
-                        "studio": "New Zealand Film Commission",
+                        "studio": "Aardvark Films",
+                        "country": "New Zealand",
                         "poster": "https://image.tmdb.org/t/p/w500/84u6i9r8jsqTYVG6SRd0CvlaoP6.jpg",
-                        "plot": "Al Shaw's life revolves around motor racing and his back country junkyard, the \"Smash Palace\". His French wife, Jacqui, doesn't appreciate the lack of attention due to Al's obsession with cars. When Al finds her in the arms of another man, he takes his daughter, Georgie and heads for the bush, desperately hoping to hold on to the only family he has left."
+                        "plot": "Al Shaw's life revolves around motor racing and his back country junkyard, the \"Smash Palace\". His French wife, Jacqui, doesn't appreciate the lack of attention due to Al's obsession with cars. When Al finds her in the arms of another man, he takes his daughter, Georgie and heads for the bush, desperately hoping to hold on to the only family he has left.",
+                        "focus": "Marital breakdown, toxic masculinity, and isolation"
+                    },
+                    {
+                        "title": "Sleeping Dogs",
+                        "year": 1977,
+                        "releaseDate": "October 6, 1977",
+                        "director": "Roger Donaldson",
+                        "writer": "Ian Mune / Arthur Baysting",
+                        "cinematographer": "Michael Seresin",
+                        "editor": "Ian John",
+                        "composer": "Mathew Brown / David Calder",
+                        "studio": "Aardvark Films",
+                        "country": "New Zealand",
+                        "poster": "https://image.tmdb.org/t/p/w500/u1gKAfqLMvz1uH3HQmz9HdJ9DBw.jpg",
+                        "plot": "Recluse Smith is drawn into a revolutionary struggle between guerrillas and right-wingers in New Zealand. Implicated in a murder and framed as a revolutionary conspirator, Smith tries to maintain an attitude of non-violence while caught between warring factions.",
+                        "focus": "Fascist dystopia, political paranoia, and reluctant heroes"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/qh19qXD1JpFSNhRKtg2vm9nDTwY.jpg"
@@ -29311,16 +29110,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Utu",
-                        "year": 1984,
-                        "focus": "The 'Puha Western', Maori colonial resistance, and explosive, anarchic historical action",
-                        "releaseDate": "1984-06-27",
-                        "writer": "Geoff Murphy, Keith Aberdein",
-                        "cinematographer": "Unknown",
-                        "editor": "Michael Horton, Ian John",
+                        "year": 1983,
+                        "releaseDate": "May 13, 1983",
+                        "director": "Geoff Murphy",
+                        "writer": "Geoff Murphy / Keith Aberdein",
+                        "cinematographer": "Graeme Cowley",
+                        "editor": "Michael Horton",
                         "composer": "John Charles",
-                        "studio": "Utu Productions",
+                        "studio": "Glitteron Film",
+                        "country": "New Zealand",
                         "poster": "https://image.tmdb.org/t/p/w500/jSPTs6c9MQrd2rsrnqMJXQ0o3xz.jpg",
-                        "plot": "In New Zealand in the 1860s the native Māori people fought the British colonials to keep the land guaranteed to them by treaty. The warrior Te Wheke fights for the British until betrayal leads him to seek utu (revenge). The settler Williamson in turn seeks revenge after Te Wheke attacks his homestead. Meanwhile Wiremu, an officer for the British, seems to think that resistance is futile."
+                        "plot": "In New Zealand in the 1860s the native Māori people fought the British colonials to keep the land guaranteed to them by treaty. The warrior Te Wheke fights for the British until betrayal leads him to seek utu (revenge). The settler Williamson in turn seeks revenge after Te Wheke attacks his homestead. Meanwhile Wiremu, an officer for the British, seems to think that resistance is futile.",
+                        "focus": "Maori resistance, colonial warfare, and vengeance"
+                    },
+                    {
+                        "title": "The Quiet Earth",
+                        "year": 1985,
+                        "releaseDate": "September 5, 1985",
+                        "director": "Geoff Murphy",
+                        "writer": "Bill Baer / Bruno Lawrence / Sam Pillsbury",
+                        "cinematographer": "James Bartle",
+                        "editor": "Michael Horton",
+                        "composer": "John Charles",
+                        "studio": "Cinepro / Pillbury Films",
+                        "country": "New Zealand",
+                        "poster": "https://image.tmdb.org/t/p/w500/h0X2luIgPtN4LHH9s9so48jMuss.jpg",
+                        "plot": "After a top-secret experiment misfires, a scientist may be the only man left alive in the world.",
+                        "focus": "Post-apocalyptic isolation, sci-fi minimalism, and existential dread"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/AtNod4v6Nzq9wXKXejIiOn4TAsW.jpg"
@@ -29347,80 +29163,47 @@ const FILMS_DATA = {
                     {
                         "title": "Picnic at Hanging Rock",
                         "year": 1975,
-                        "focus": "Ethereal atmosphere, Australian outback mystique, and unresolved narrative tension",
-                        "releaseDate": "1975-09-02",
+                        "releaseDate": "August 8, 1975",
+                        "director": "Peter Weir",
                         "writer": "Cliff Green",
                         "cinematographer": "Russell Boyd",
                         "editor": "Max Lemon",
                         "composer": "Bruce Smeaton",
-                        "studio": "McElroy & McElroy",
+                        "studio": "South Australian Film Corporation / McElroy & McElroy",
+                        "country": "Australia",
                         "poster": "https://image.tmdb.org/t/p/w500/7BAXwmFN4pZDNb9N6kzmAAwdssi.jpg",
-                        "plot": "In the early 1900s, Miranda attends a girls boarding school in Australia. One Valentine's Day, the school's typically strict headmistress treats the girls to a picnic field trip to an unusual but scenic volcanic formation called Hanging Rock. Despite rules against it, Miranda and several other girls venture off. It's not until the end of the day that the faculty realizes the girls and one of the teachers have disappeared mysteriously."
-                    },
-                    {
-                        "title": "The Last Wave",
-                        "year": 1977,
-                        "focus": "Aboriginal mysticism, apocalyptic dread, and urban alienation",
-                        "releaseDate": "1977-12-15",
-                        "writer": "Peter Weir, Petru Popescu",
-                        "cinematographer": "Russell Boyd",
-                        "editor": "Max Lemon",
-                        "composer": "Charles Wain, Groove Myers",
-                        "studio": "Australian Film Commission",
-                        "poster": "https://image.tmdb.org/t/p/w500/7UwdJ0EMXirUuNFaohfK023Nuyr.jpg",
-                        "plot": "A Sydney lawyer defends five Aboriginal people in a ritualised taboo murder and in the process learns disturbing truths about himself and premonitions."
+                        "plot": "In the early 1900s, Miranda attends a girls boarding school in Australia. One Valentine's Day, the school's typically strict headmistress treats the girls to a picnic field trip to an unusual but scenic volcanic formation called Hanging Rock. Despite rules against it, Miranda and several other girls venture off. It's not until the end of the day that the faculty realizes the girls and one of the teachers have disappeared mysteriously.",
+                        "focus": "Ethereal mystery, repressed sexuality, and the Australian outback"
                     },
                     {
                         "title": "Gallipoli",
                         "year": 1981,
-                        "focus": "Anti-war tragedy, mateship themes, and devastating slow-motion climax",
-                        "releaseDate": "1981-08-13",
+                        "releaseDate": "August 13, 1981",
+                        "director": "Peter Weir",
                         "writer": "David Williamson",
                         "cinematographer": "Russell Boyd",
-                        "editor": "William M. Anderson",
-                        "composer": "Brian May, Tommaso Albinoni",
-                        "studio": "R & R Films",
+                        "editor": "William Anderson",
+                        "composer": "Brian May (With Albinoni's Adagio)",
+                        "studio": "Associated R&R Films",
+                        "country": "Australia",
                         "poster": "https://image.tmdb.org/t/p/w500/un7VCqTmjrq3u75mQ204a8tofD4.jpg",
-                        "plot": "Two Australian sprinters face the brutal realities of war when they are sent to fight in the Gallipoli campaign in the Ottoman Empire during World War I."
+                        "plot": "Two Australian sprinters face the brutal realities of war when they are sent to fight in the Gallipoli campaign in the Ottoman Empire during World War I.",
+                        "focus": "Australian identity, loss of innocence, and the tragedy of war"
                     },
                     {
-                        "title": "Witness",
-                        "year": 1985,
-                        "focus": "Cultural immersion, romantic restraint, and thriller mechanics in an Amish setting",
-                        "releaseDate": "1985-02-08",
-                        "writer": "William Kelley, Earl W. Wallace",
-                        "cinematographer": "John Seale",
-                        "editor": "Thom Noble",
-                        "composer": "Maurice Jarre",
-                        "studio": "Paramount Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/kOymD1rChAMykmDVEzJpIh4OYS7.jpg",
-                        "plot": "While protecting an Amish boy—the sole witness to a brutal murder—and his mother, a detective is forced to seek refuge within their community when his own life comes under threat."
-                    },
-                    {
-                        "title": "Dead Poets Society",
-                        "year": 1989,
-                        "focus": "Inspirational pedagogy, tragic coming-of-age, and autumnal New England cinematography",
-                        "releaseDate": "1989-06-02",
-                        "writer": "Tom Schulman",
-                        "cinematographer": "John Seale",
-                        "editor": "William M. Anderson",
-                        "composer": "Maurice Jarre",
-                        "studio": "A Steven Haft Production",
-                        "poster": "https://image.tmdb.org/t/p/w500/erzbMlcNHOdx24AXOcn2ZKA7R1q.jpg",
-                        "plot": "At an elite, old-fashioned boarding school in New England, a passionate English teacher inspires his students to rebel against convention and seize the potential of every day, courting the disdain of the stern headmaster."
-                    },
-                    {
-                        "title": "The Truman Show",
-                        "year": 1998,
-                        "focus": "Existential satire, constructed reality set design, and media surveillance themes",
-                        "releaseDate": "1998-06-04",
-                        "writer": "Andrew Niccol",
-                        "cinematographer": "Peter Biziou",
-                        "editor": "William M. Anderson, Lee Smith",
-                        "composer": "Burkhard von Dallwitz",
-                        "studio": "Paramount Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
-                        "plot": "In a picture-perfect seaside town, an insurance salesman begins to realize that his entire existence may be staged and observed by a vast unseen audience as part of a long-running real-time reality TV show."
+                        "title": "The Last Wave",
+                        "year": 1977,
+                        "releaseDate": "November 11, 1977",
+                        "director": "Peter Weir",
+                        "writer": "Peter Weir / Tony Morphett / Petru Popescu",
+                        "cinematographer": "Russell Boyd",
+                        "editor": "Max Lemon",
+                        "composer": "Charles Wain",
+                        "studio": "South Australian Film Corporation",
+                        "country": "Australia",
+                        "poster": "https://image.tmdb.org/t/p/w500/7UwdJ0EMXirUuNFaohfK023Nuyr.jpg",
+                        "plot": "A Sydney lawyer defends five Aboriginal people in a ritualised taboo murder and in the process learns disturbing truths about himself and premonitions.",
+                        "focus": "Apocalyptic visions, indigenous mysticism, and environmental dread"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/4GxIZX5gtbMpW4ZgHwvGmLSIHOE.jpg"
@@ -29441,47 +29224,53 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Clarity in chaos. No matter how fast you cut, the audience must instantly know where to look. Use center-framing for rapid action sequences.",
-                    "World-build through details. You don't need exposition dumps; let the audience infer the world through costumes, scarred props, and weird vehicular modifications."
+                    "World-build through details. You don't need exposition dumps; var the audience infer the world through costumes, scarred props, and weird vehicular modifications."
                 ],
                 "mustWatch": [
                     {
                         "title": "Mad Max",
                         "year": 1979,
-                        "focus": "Low-budget ingenuity, dystopian onset, and high-speed road pursuit",
-                        "releaseDate": "1979-04-12",
-                        "writer": "James McCausland, George Miller",
+                        "releaseDate": "April 12, 1979",
+                        "director": "George Miller",
+                        "writer": "James McCausland / George Miller",
                         "cinematographer": "David Eggby",
-                        "editor": "Cliff Hayes, Tony Paterson",
+                        "editor": "Tony Paterson / Cliff Hayes",
                         "composer": "Brian May",
-                        "studio": "Kennedy Miller Productions",
+                        "studio": "Kennedy Miller Productions / Crossroads Trading Co.",
+                        "country": "Australia",
                         "poster": "https://image.tmdb.org/t/p/w500/5LrI4GiCSrChgkdskVZiwv643Kg.jpg",
-                        "plot": "In the ravaged near-future, a savage motorcycle gang rules the road. Terrorizing innocent civilians while tearing up the streets, the ruthless gang laughs in the face of a police force hell-bent on stopping them."
+                        "plot": "In the ravaged near-future, a savage motorcycle gang rules the road. Terrorizing innocent civilians while tearing up the streets, the ruthless gang laughs in the face of a police force hell-bent on stopping them.",
+                        "focus": "Dystopian lawlessness, revenge, and highway violence"
                     },
                     {
-                        "title": "Mad Max 2: The Road Warrior",
-                        "year": 1981,
-                        "focus": "Post-apocalyptic world-building, mythic storytelling, and relentless vehicular combat",
-                        "releaseDate": "1981-12-24",
-                        "writer": "Terry Hayes, George Miller",
-                        "cinematographer": "Dean Semler",
-                        "editor": "Tim Wellburn, Michael Balson",
-                        "composer": "Brian May",
-                        "studio": "Kennedy Miller Productions",
+                        "title": "Mad Max 2 (The Road Warrior)",
+                        "year": 2015,
+                        "releaseDate": "May 14, 2015",
+                        "director": "George Miller",
+                        "writer": "George Miller / Brendan McCarthy / Nico Lathouris",
+                        "cinematographer": "John Seale",
+                        "editor": "Margaret Sixel",
+                        "composer": "Tom Holkenborg (Junkie XL)",
+                        "studio": "Kennedy Miller Mitchell / Village Roadshow Pictures",
+                        "country": "Australia / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/l1KVEhkGDpWRzQ0VqIhZqDDuOim.jpg",
-                        "plot": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape."
+                        "plot": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+                        "focus": "Post-apocalyptic survival, vehicular combat, and mythic heroes"
                     },
                     {
                         "title": "Mad Max: Fury Road",
                         "year": 2015,
-                        "focus": "Continuous motion narrative, center-framed editing, and practical stunt orchestration",
-                        "releaseDate": "2015-05-13",
-                        "writer": "George Miller, Nico Lathouris",
+                        "releaseDate": "May 14, 2015",
+                        "director": "George Miller",
+                        "writer": "George Miller / Brendan McCarthy / Nico Lathouris",
                         "cinematographer": "John Seale",
                         "editor": "Margaret Sixel",
-                        "composer": "Tom Holkenborg",
-                        "studio": "Warner Bros. Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
-                        "plot": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order."
+                        "composer": "Tom Holkenborg (Junkie XL)",
+                        "studio": "Kennedy Miller Mitchell / Village Roadshow Pictures",
+                        "country": "Australia / United States",
+                        "poster": "assets/images/mad_max_fury_road_poster.png",
+                        "plot": "Plot details not available.",
+                        "focus": "Feminist action, non-stop kinetic energy, and dystopian world-building"
                     }
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/35NQ8HjFXQlGYDz9UkhT08lKl5C.jpg"
@@ -29964,7 +29753,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Dialogue is a crutch. Try to tell your story purely through character action and environment before you write a single line of dialogue.",
-                    "Respect the audience's intelligence. Do not spoon-feed emotion; let them discover it through visual observation."
+                    "Respect the audience's intelligence. Do not spoon-feed emotion; var them discover it through visual observation."
                 ],
                 "mustWatch": [
                     {
@@ -31801,49 +31590,46 @@ const FILMS_DATA = {
                 "bestWork": "Goodfellas (1990), Raging Bull (1980), The Departed (2006)",
                 "mustWatch": [
                     {
-                        "title": "Goodfellas",
-                        "year": "1990",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1990-09-12",
-                        "writer": "Nicholas Pileggi, Martin Scorsese",
-                        "cinematographer": "Michael Ballhaus",
-                        "editor": "Thelma Schoonmaker",
-                        "composer": "Various Artists",
-                        "studio": "Winkler Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
-                        "plot": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
-                        "director": "Martin Scorsese",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
-                    },
-                    {
                         "title": "Raging Bull",
-                        "year": "1980",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1980-11-14",
-                        "writer": "Paul Schrader, Mardik Martin",
+                        "year": 1980,
+                        "releaseDate": "November 14, 1980",
+                        "director": "Martin Scorsese",
+                        "writer": "Paul Schrader / Mardik Martin",
                         "cinematographer": "Michael Chapman",
                         "editor": "Thelma Schoonmaker",
-                        "composer": "Pietro Mascagni",
-                        "studio": "United Artists",
+                        "studio": "Chartoff-Winkler Productions",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/1WV7WlTS8LI1L5NkCgjWT9GSW3O.jpg",
                         "plot": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+                        "focus": "Visceral, kinetic editing emphasizing the brutality of the boxing ring and the protagonist's psychological state."
+                    },
+                    {
+                        "title": "Goodfellas",
+                        "year": 1990,
+                        "releaseDate": "September 19, 1990",
                         "director": "Martin Scorsese",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "writer": "Nicholas Pileggi / Martin Scorsese",
+                        "cinematographer": "Michael Ballhaus",
+                        "editor": "Thelma Schoonmaker",
+                        "studio": "Warner Bros.",
+                        "country": "United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
+                        "plot": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+                        "focus": "Rapid, rhythmic pacing, masterful use of freeze-frames, and dynamic montage sequences."
                     },
                     {
                         "title": "The Departed",
-                        "year": "2006",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2006-10-04",
+                        "year": 2006,
+                        "releaseDate": "October 6, 2006",
+                        "director": "Martin Scorsese",
                         "writer": "William Monahan",
                         "cinematographer": "Michael Ballhaus",
                         "editor": "Thelma Schoonmaker",
-                        "composer": "Howard Shore",
-                        "studio": "Warner Bros. Pictures",
+                        "studio": "Plan B Entertainment / Initial Entertainment Group",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
                         "plot": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
-                        "director": "Martin Scorsese",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Tense, overlapping cross-cutting that builds immense suspense between parallel storylines."
                     }
                 ],
                 "scenes": []
@@ -31864,48 +31650,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Apocalypse Now",
-                        "year": "1979",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1979-05-19",
-                        "writer": "Francis Ford Coppola, John Milius",
+                        "year": 1979,
+                        "releaseDate": "August 15, 1979",
+                        "director": "Francis Ford Coppola",
+                        "writer": "John Milius / Francis Ford Coppola",
                         "cinematographer": "Vittorio Storaro",
-                        "editor": "Walter Murch",
-                        "composer": "Carmine Coppola, Francis Ford Coppola",
-                        "studio": "American Zoetrope",
+                        "editor": "Richard Marks / Walter Murch / Gerald B. Greenberg / Lisa Fruchtman",
+                        "composer": "Carmine Coppola / Francis Ford Coppola",
+                        "studio": "Omni Zoetrope",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
                         "plot": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
-                        "director": "Francis Ford Coppola",
-                        "streaming": "Streaming: Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Complex, hallucinatory sound and image montages that capture the descent into madness."
                     },
                     {
-                        "title": "The Godfather Part II",
-                        "year": "1974",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1974-12-20",
-                        "writer": "Mario Puzo, Francis Ford Coppola",
-                        "cinematographer": "Gordon Willis",
+                        "title": "The English Patient",
+                        "year": 1996,
+                        "releaseDate": "November 15, 1996",
+                        "director": "Anthony Minghella",
+                        "writer": "Anthony Minghella",
+                        "cinematographer": "John Seale",
                         "editor": "Walter Murch",
-                        "composer": "Nino Rota",
-                        "studio": "Paramount Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
-                        "plot": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
-                        "director": "Francis Ford Coppola",
-                        "streaming": "Streaming: Paramount Plus Premium (US), Paramount+ (US), YouTube (US), Disney+ Hotstar (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Gabriel Yared",
+                        "studio": "Tiger Moth Productions / Miramax",
+                        "country": "United States / United Kingdom",
+                        "poster": "https://image.tmdb.org/t/p/w500/8eHHqMg8qEYtVw8LQLygsHXSR2q.jpg",
+                        "plot": "In the 1930s, Count Almásy is a Hungarian map maker employed by the Royal Geographical Society to chart the vast expanses of the Sahara Desert along with several other prominent explorers. As World War II unfolds, Almásy enters into a world of love, betrayal, and politics.",
+                        "focus": "Lyrical, non-linear editing that weaves seamlessly between past and present timelines."
                     },
                     {
                         "title": "The Conversation",
-                        "year": "1974",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1974-04-12",
+                        "year": 1974,
+                        "releaseDate": "April 12, 1974",
+                        "director": "Francis Ford Coppola",
                         "writer": "Francis Ford Coppola",
-                        "cinematographer": "Bill Butler, Haskell Wexler",
-                        "editor": "Walter Murch",
+                        "cinematographer": "Bill Butler",
+                        "editor": "Richard Chew / Walter Murch",
                         "composer": "David Shire",
-                        "studio": "The Directors Company",
+                        "studio": "The Directors Company / American Zoetrope",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/dHqVBwcv1SGymOpUueRoKzcmdes.jpg",
                         "plot": "A paranoid, secretive surveillance expert has a crisis of conscience when he suspects that the couple he is spying on will be murdered.",
-                        "director": "Francis Ford Coppola",
-                        "streaming": "Streaming: Prime Video (US), MUBI (GB), Apple TV (GB), Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Meticulous audio-driven editing that perfectly mirrors the protagonist's paranoia."
                     }
                 ],
                 "scenes": []
@@ -31926,63 +31712,47 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Pulp Fiction",
-                        "year": "1994",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1994-09-10",
+                        "year": 2003,
+                        "releaseDate": "October 10, 2003",
+                        "director": "Quentin Tarantino",
                         "writer": "Quentin Tarantino",
-                        "cinematographer": "Andrzej Sekula",
+                        "cinematographer": "Robert Richardson",
                         "editor": "Sally Menke",
-                        "composer": "Various Artists",
-                        "studio": "Miramax",
+                        "composer": "RZA",
+                        "studio": "A Band Apart / Miramax",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
                         "plot": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-                        "director": "Quentin Tarantino",
-                        "streaming": "Streaming: Paramount Plus Premium (US), Paramount Plus Essential (US), Peacock (US), Apple TV (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Sharp, jagged editing with unconventional narrative structures and iconic music cues."
                     },
                     {
                         "title": "Kill Bill: Vol. 1",
-                        "year": "2003",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2003-10-10",
+                        "year": 2003,
+                        "releaseDate": "October 10, 2003",
+                        "director": "Quentin Tarantino",
                         "writer": "Quentin Tarantino",
                         "cinematographer": "Robert Richardson",
                         "editor": "Sally Menke",
-                        "composer": "RZA, Tomoyasu Hotei",
-                        "studio": "Miramax",
-                        "poster": "https://image.tmdb.org/t/p/w500/eQSVG04FhVAYGxOmXTcyZ0lvRK5.jpg",
-                        "plot": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
-                        "director": "Quentin Tarantino",
-                        "streaming": "Streaming: Netflix (IN), Lionsgate Play (IN), Netflix (GB), ITVX Premium (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "Kill Bill: Vol. 2",
-                        "year": "2004",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2004-04-16",
-                        "writer": "Quentin Tarantino",
-                        "cinematographer": "Robert Richardson",
-                        "editor": "Sally Menke",
-                        "composer": "Robert Rodriguez, RZA",
-                        "studio": "Super Cool ManChu",
-                        "poster": "https://image.tmdb.org/t/p/w500/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
-                        "plot": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
-                        "director": "Quentin Tarantino",
-                        "streaming": "Streaming: Netflix (IN), Lionsgate Play (IN), Netflix (GB), ITVX Premium (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "RZA",
+                        "studio": "A Band Apart / Miramax",
+                        "country": "United States",
+                        "focus": "Highly stylized, genre-blending action editing with visceral pacing.",
+                        "poster": "https://image.tmdb.org/t/p/w500/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
+                        "plot": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance."
                     },
                     {
                         "title": "Inglourious Basterds",
-                        "year": "2009",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2009-08-02",
+                        "year": 2009,
+                        "releaseDate": "August 21, 2009",
+                        "director": "Quentin Tarantino",
                         "writer": "Quentin Tarantino",
                         "cinematographer": "Robert Richardson",
                         "editor": "Sally Menke",
-                        "composer": "Various Artists",
-                        "studio": "Universal Pictures",
+                        "studio": "A Band Apart / Studio Babelsberg",
+                        "country": "United States / Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
                         "plot": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
-                        "director": "Quentin Tarantino",
-                        "streaming": "Streaming: Peacock (US), YouTube (US), Netflix (IN), Prime Video (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Masterful tension-building through prolonged, meticulously paced dialogue scenes."
                     }
                 ],
                 "scenes": []
@@ -32002,49 +31772,49 @@ const FILMS_DATA = {
                 "bestWork": "Schindler's List (1993), Saving Private Ryan (1998), Raiders of the Lost Ark (1981)",
                 "mustWatch": [
                     {
+                        "title": "Raiders of the Lost Ark",
+                        "year": 1981,
+                        "releaseDate": "June 12, 1981",
+                        "director": "Steven Spielberg",
+                        "writer": "Lawrence Kasdan",
+                        "cinematographer": "Douglas Slocombe",
+                        "editor": "Michael Kahn",
+                        "composer": "John Williams",
+                        "studio": "Lucasfilm Ltd.",
+                        "country": "United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+                        "plot": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+                        "focus": "Classic, rhythm-driven action editing that maximizes excitement and spatial clarity."
+                    },
+                    {
                         "title": "Schindler's List",
-                        "year": "1993",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1993-12-15",
+                        "year": 1993,
+                        "releaseDate": "December 15, 1993",
+                        "director": "Steven Spielberg",
                         "writer": "Steven Zaillian",
                         "cinematographer": "Janusz Kamiński",
                         "editor": "Michael Kahn",
                         "composer": "John Williams",
                         "studio": "Amblin Entertainment",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
                         "plot": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
-                        "director": "Steven Spielberg",
-                        "streaming": "Streaming: Netflix (US), Prime Video (IN), Disney+ Hotstar (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Restrained, emotionally devastating cuts that heighten the documentary-like realism."
                     },
                     {
                         "title": "Saving Private Ryan",
-                        "year": "1998",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1998-07-24",
+                        "year": 1998,
+                        "releaseDate": "July 24, 1998",
+                        "director": "Steven Spielberg",
                         "writer": "Robert Rodat",
                         "cinematographer": "Janusz Kamiński",
                         "editor": "Michael Kahn",
                         "composer": "John Williams",
-                        "studio": "DreamWorks Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/isSrJpZ5SuWr2za9OxowpjkfXhp.jpg",
+                        "studio": "Amblin Entertainment / Mutual Film Company",
+                        "country": "United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
                         "plot": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
-                        "director": "Steven Spielberg",
-                        "streaming": "Streaming: fuboTV (US), Paramount Plus Premium (US), Paramount+ (US), MGM Plus (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "Raiders of the Lost Ark",
-                        "year": "1981",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1981-06-12",
-                        "writer": "Lawrence Kasdan",
-                        "cinematographer": "Douglas Slocombe",
-                        "editor": "Michael Kahn",
-                        "composer": "John Williams, London Symphony Orchestra",
-                        "studio": "Paramount Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
-                        "plot": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
-                        "director": "Steven Spielberg",
-                        "streaming": "Streaming: Disney+ (US), fuboTV (US), Paramount Plus Premium (US), Paramount Plus Essential (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Chaotic, visceral, and groundbreaking combat editing that immerses the viewer."
                     }
                 ],
                 "scenes": []
@@ -32065,33 +31835,47 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Bonnie and Clyde",
-                        "year": "1967",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1967-08-13",
-                        "writer": "David Newman, Robert Benton",
+                        "year": 1967,
+                        "releaseDate": "August 13, 1967",
+                        "director": "Arthur Penn",
+                        "writer": "David Newman / Robert Benton",
                         "cinematographer": "Burnett Guffey",
                         "editor": "Dede Allen",
                         "composer": "Charles Strouse",
-                        "studio": "Tatira-Hiller Productions",
+                        "studio": "Warner Bros.-Seven Arts / Tatira Productions",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/psITX0BMm6BTKMZZjpcXO93yjbb.jpg",
                         "plot": "In the 1930s, bored European-American waitress Bonnie Parker falls in love with a European-American ex-con named Clyde Barrow and together they start a violent crime spree through the country, stealing cars and robbing banks.",
-                        "director": "Arthur Penn",
-                        "streaming": "Streaming: Max (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Revolutionary, rapid-fire editing in the climax that redefined violence in American cinema."
                     },
                     {
                         "title": "Dog Day Afternoon",
-                        "year": "1975",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1975-09-21",
+                        "year": 1975,
+                        "releaseDate": "September 21, 1975",
+                        "director": "Sidney Lumet",
                         "writer": "Frank Pierson",
                         "cinematographer": "Victor J. Kemper",
                         "editor": "Dede Allen",
-                        "composer": "None",
-                        "studio": "Artists Entertainment Complex",
+                        "studio": "Warner Bros. / Artists Entertainment Complex",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/mavrhr0ig2aCRR8d48yaxtD5aMQ.jpg",
                         "plot": "Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturile. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny's motives for the robbery are slowly revealed and things become more complicated, the heist turns into a media circus.",
-                        "director": "Sidney Lumet",
-                        "streaming": "Streaming: Sky Go (GB), Now TV Cinema (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Tense, high-energy pacing that captures the unpredictable volatility of a live hostage situation."
+                    },
+                    {
+                        "title": "Reds",
+                        "year": 1981,
+                        "releaseDate": "December 4, 1981",
+                        "director": "Warren Beatty",
+                        "writer": "Warren Beatty / Trevor Griffiths",
+                        "cinematographer": "Vittorio Storaro",
+                        "editor": "Dede Allen / Craig McKay",
+                        "composer": "Stephen Sondheim / Dave Grusin",
+                        "studio": "JRS Productions / Paramount Pictures",
+                        "country": "United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/AeiKdVVM93fwfQG1m3N0cgVZgHl.jpg",
+                        "plot": "An account of the revolutionary years of the legendary American journalist John Reed, who shared his adventurous professional life with his radical commitment to the socialist revolution in Russia, his dream of spreading its principles among the members of the American working class, and his troubled romantic relationship with the writer Louise Bryant.",
+                        "focus": "Sweeping, epic editing that balances intimate romance with massive historical movements."
                     }
                 ],
                 "scenes": []
@@ -32111,34 +31895,34 @@ const FILMS_DATA = {
                 "bestWork": "Star Wars: A New Hope (1977), One Flew Over the Cuckoo's Nest (1975)",
                 "mustWatch": [
                     {
-                        "title": "Star Wars: A New Hope",
-                        "year": "1977",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1977-05-25",
+                        "title": "Star Wars (Episode IV: A New Hope)",
+                        "year": 1977,
+                        "releaseDate": "May 25, 1977",
+                        "director": "George Lucas",
                         "writer": "George Lucas",
                         "cinematographer": "Gilbert Taylor",
-                        "editor": "Richard Chew",
+                        "editor": "Paul Hirsch / Marcia Lucas / Richard Chew",
                         "composer": "John Williams",
                         "studio": "Lucasfilm Ltd.",
+                        "country": "United States",
+                        "focus": "Pioneering, fast-paced cross-cutting that defined modern blockbuster pacing.",
                         "poster": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-                        "plot": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
-                        "director": "George Lucas",
-                        "streaming": "Streaming: Disney+ (US), Hulu (US), fuboTV (US), Disney+ Hotstar (IN) | Rent/Buy: Amazon Video, Google Play, YouTube"
+                        "plot": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire."
                     },
                     {
                         "title": "One Flew Over the Cuckoo's Nest",
-                        "year": "1975",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1975-11-19",
-                        "writer": "Bo Goldman, Lawrence Hauben",
+                        "year": 1975,
+                        "releaseDate": "November 19, 1975",
+                        "director": "Miloš Forman",
+                        "writer": "Lawrence Hauben / Bo Goldman",
                         "cinematographer": "Haskell Wexler",
-                        "editor": "Richard Chew",
+                        "editor": "Richard Chew / Lynzee Klingman / Sheldon Kahn",
                         "composer": "Jack Nitzsche",
                         "studio": "Fantasy Films",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/kjWsMh72V6d8KRLV4EOoSJLT1H7.jpg",
                         "plot": "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients—and an enemy to the cruel, domineering nurse who runs the ward.",
-                        "director": "Miloš Forman",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Incisive, character-driven cuts that highlight subtle psychological shifts and power dynamics."
                     }
                 ],
                 "scenes": []
@@ -32159,33 +31943,32 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Jaws",
-                        "year": "1975",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1975-06-20",
-                        "writer": "Carl Gottlieb, Peter Benchley",
+                        "year": 1975,
+                        "releaseDate": "June 20, 1975",
+                        "director": "Steven Spielberg",
+                        "writer": "Peter Benchley / Carl Gottlieb",
                         "cinematographer": "Bill Butler",
                         "editor": "Verna Fields",
                         "composer": "John Williams",
-                        "studio": "The Zanuck/Brown Company",
+                        "studio": "Zanuck/Brown Production / Universal Pictures",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
                         "plot": "When the seaside community of Amity finds itself under attack by a dangerous great white shark, the town's chief of police, a young marine biologist, and a grizzled shark hunter embark on a desperate quest to kill the beast before it strikes again.",
-                        "director": "Steven Spielberg",
-                        "streaming": "Streaming: Apple TV (US), Starz (US), Philo (US), Disney+ Hotstar (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Masterclass in building suspense through what is withheld, relying on precise timing and reaction shots."
                     },
                     {
                         "title": "American Graffiti",
-                        "year": "1973",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1973-08-11",
-                        "writer": "George Lucas, Gloria Katz, Willard Huyck",
-                        "cinematographer": "Jan D'Alquen, Ron Eveslage",
-                        "editor": "Verna Fields",
-                        "composer": "Various Artists",
-                        "studio": "Lucasfilm Ltd.",
+                        "year": 1973,
+                        "releaseDate": "August 11, 1973",
+                        "director": "George Lucas",
+                        "writer": "George Lucas / Gloria Katz / Willard Huyck",
+                        "cinematographer": "Jan d'Alquen / Ron Eveslage",
+                        "editor": "Verna Fields / Marcia Lucas",
+                        "studio": "Lucasfilm Ltd. / Coppola Company",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/1tjLivPad2PX8FAzWko7FPIb8d2.jpg",
                         "plot": "A couple of high school graduates spend one final night cruising the strip with their buddies before they go off to college.",
-                        "director": "George Lucas",
-                        "streaming": "Streaming: Netflix (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Seamless, energetic montage editing that interweaves multiple coming-of-age storylines."
                     }
                 ],
                 "scenes": []
@@ -32206,48 +31989,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Lawrence of Arabia",
-                        "year": "1962",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1962-12-11",
+                        "year": 1962,
+                        "releaseDate": "December 10, 1962",
                         "director": "David Lean",
-                        "writer": "Michael Wilson, Robert Bolt",
+                        "writer": "Robert Bolt / Michael Wilson",
                         "cinematographer": "Freddie Young",
                         "editor": "Anne V. Coates",
                         "composer": "Maurice Jarre",
                         "studio": "Horizon Pictures",
+                        "country": "United Kingdom / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg",
                         "plot": "During World War I, English officer Thomas Edward 'T.E.' Lawrence sets out to unite and lead the diverse, often warring, Arab tribes to fight the Turks.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Epic pacing and the most famous match-cut in cinema history (match to sunrise)."
                     },
                     {
                         "title": "The Elephant Man",
-                        "year": "1980",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1980-10-09",
+                        "year": 1980,
+                        "releaseDate": "October 3, 1980",
                         "director": "David Lynch",
-                        "writer": "David Lynch, Christopher De Vore, Eric Bergren",
+                        "writer": "Christopher De Vore / Eric Bergren / David Lynch",
                         "cinematographer": "Freddie Francis",
                         "editor": "Anne V. Coates",
                         "composer": "John Morris",
                         "studio": "Brooksfilms",
+                        "country": "United Kingdom / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/u0wpPYjuSt8DIe1Y3Vapnh8jcKE.jpg",
                         "plot": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
-                        "streaming": "Streaming: Criterion Channel (US), MUBI (GB), Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Dreamlike, rhythmic transitions and pacing that balance empathy and surrealism."
                     },
                     {
-                        "title": "The Limey",
-                        "year": "1999",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1999-10-08",
+                        "title": "Out of Sight",
+                        "year": 1998,
+                        "releaseDate": "June 26, 1998",
                         "director": "Steven Soderbergh",
-                        "writer": "Lem Dobbs",
-                        "cinematographer": "Edward Lachman",
+                        "writer": "Scott Frank",
+                        "cinematographer": "Elliot Davis",
                         "editor": "Anne V. Coates",
-                        "composer": "Cliff Martinez",
-                        "studio": "Artisan Entertainment",
-                        "poster": "https://image.tmdb.org/t/p/w500/efAnFInZYrenNvBlLIXN2oLYyNc.jpg",
-                        "plot": "The Limey follows Wilson, a tough English ex-con who travels to Los Angeles to avenge his daughter's death. Upon arrival, Wilson goes to task battling Valentine and an army of L.A.'s toughest criminals, hoping to find clues and piece together what happened. After surviving a near-death beating, getting thrown from a building and being chased down a dangerous mountain road, the Englishman decides to dole out some bodily harm of his own.",
-                        "streaming": "Streaming: Prime Video (US), Apple TV (US), Starz (US), Philo (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "David Holmes",
+                        "studio": "Jersey Films",
+                        "country": "United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/v49q7AMR3pB4M762woWB1NYMCLF.jpg",
+                        "plot": "Meet Jack Foley, a smooth criminal who bends the law and is determined to make one last heist. Karen Sisco is a federal marshal who chooses all the right moves … and all the wrong guys. Now they're willing to risk it all to find out if there's more between them than just the law.",
+                        "focus": "Slick, stylized non-linear editing with dynamic freeze-frames and chronological shifts."
                     }
                 ],
                 "scenes": []
@@ -32268,33 +32051,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Slumdog Millionaire",
-                        "year": "2008",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2008-11-12",
+                        "year": 2008,
+                        "releaseDate": "August 30, 2008",
                         "director": "Danny Boyle",
                         "writer": "Simon Beaufoy",
                         "cinematographer": "Anthony Dod Mantle",
                         "editor": "Chris Dickens",
-                        "composer": "A.R. Rahman",
-                        "studio": "Celador Films",
+                        "composer": "A. R. Rahman",
+                        "studio": "Celador Films / Film4 Productions",
+                        "country": "United Kingdom / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/5leCCi7ZF0CawAfM5Qo2ECKPprc.jpg",
                         "plot": "A teenager reflects on his life after being accused of cheating on the Indian version of \"Who Wants to be a Millionaire?\".",
-                        "streaming": "Rent/Buy: Apple TV, Rakuten TV, Amazon Video"
+                        "focus": "Kinetic, high-energy cross-cutting across multiple timelines."
                     },
                     {
-                        "title": "Hot Fuzz",
-                        "year": "2007",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2007-02-14",
+                        "title": "Shaun of the Dead",
+                        "year": 2004,
+                        "releaseDate": "April 9, 2004",
                         "director": "Edgar Wright",
-                        "writer": "Edgar Wright, Simon Pegg",
-                        "cinematographer": "Jess Hall",
+                        "writer": "Simon Pegg / Edgar Wright",
+                        "cinematographer": "David M. Dunlap",
                         "editor": "Chris Dickens",
-                        "composer": "David Arnold",
-                        "studio": "Big Talk Studios",
-                        "poster": "https://image.tmdb.org/t/p/w500/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",
-                        "plot": "Former London constable Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel smells something rotten in the idyllic village.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (IN), Disney+ (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Daniel Mudford / Pete Woodhead",
+                        "studio": "Working Title Films / Big Talk Studios",
+                        "country": "United Kingdom / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
+                        "plot": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
+                        "focus": "Hyper-stylized, comedic rapid-fire montage and precise audio-sync editing."
                     }
                 ],
                 "scenes": []
@@ -32314,34 +32097,34 @@ const FILMS_DATA = {
                 "bestWork": "The King's Speech (2010), American Beauty (1999)",
                 "mustWatch": [
                     {
+                        "title": "American Beauty",
+                        "year": 1999,
+                        "releaseDate": "September 8, 1999",
+                        "director": "Sam Mendes",
+                        "writer": "Alan Ball",
+                        "cinematographer": "Conrad L. Hall",
+                        "editor": "Tariq Anwar / Christopher Greenbury",
+                        "composer": "Thomas Newman",
+                        "studio": "Jinks/Cohen Company",
+                        "country": "United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/wby9315QzVKdW9BonAefg8jGTTb.jpg",
+                        "plot": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+                        "focus": "Lyrical, deliberate pacing that emphasizes emotional weight and dream sequences."
+                    },
+                    {
                         "title": "The King's Speech",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-11-26",
+                        "year": 2010,
+                        "releaseDate": "September 6, 2010",
                         "director": "Tom Hooper",
                         "writer": "David Seidler",
                         "cinematographer": "Danny Cohen",
                         "editor": "Tariq Anwar",
                         "composer": "Alexandre Desplat",
-                        "studio": "The Weinstein Company",
+                        "studio": "See-Saw Films / Bedlam Productions",
+                        "country": "United Kingdom / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/pVNKXVQFukBaCz6ML7GH3kiPlQP.jpg",
                         "plot": "The King's Speech tells the story of the man who became King George VI, the father of Queen Elizabeth II. After his brother abdicates, George ('Bertie') reluctantly assumes the throne. Plagued by a dreaded stutter and considered unfit to be king, Bertie engages the help of an unorthodox speech therapist named Lionel Logue. Through a set of unexpected techniques, and as a result of an unlikely friendship, Bertie is able to find his voice and boldly lead the country into war.",
-                        "streaming": "Streaming: Apple TV (US), Lionsgate+ Amazon Channels (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "American Beauty",
-                        "year": "1999",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1999-09-15",
-                        "director": "Sam Mendes",
-                        "writer": "Alan Ball",
-                        "cinematographer": "Conrad Hall",
-                        "editor": "Tariq Anwar",
-                        "composer": "Thomas Newman",
-                        "studio": "DreamWorks Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/wby9315QzVKdW9BonAefg8jGTTb.jpg",
-                        "plot": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
-                        "streaming": "Streaming: Prime Video (GB), Paramount Plus (GB), Paramount+ (GB), ITVX Premium (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Meticulous pacing that perfectly captures the rhythm and tension of speech and hesitation."
                     }
                 ],
                 "scenes": []
@@ -32361,49 +32144,34 @@ const FILMS_DATA = {
                 "bestWork": "The Descent (2005), 127 Hours (2010), Snatch (2000)",
                 "mustWatch": [
                     {
-                        "title": "The Descent",
-                        "year": "2005",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2005-07-08",
-                        "director": "Neil Marshall",
-                        "writer": "Neil Marshall",
-                        "cinematographer": "Sam McCurdy",
-                        "editor": "Jon Harris",
-                        "composer": "David Julyan",
-                        "studio": "Celador Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/mxFPI4KYBk5ri9cPteIS8jiDFgj.jpg",
-                        "plot": "After a personal tragedy, Sarah joins her friends on a caving expedition in the Appalachian Mountains. But when a rockfall traps them deep underground, their adventure turns into a nightmare. As they search for a way out, the group discovers they are not alone—lurking in the darkness are savage, cave-dwelling creatures. With rising tension and dwindling trust, the women must fight to survive against both the predators and each other.",
-                        "streaming": "Streaming: fuboTV (US), Philo (US), BFI Player Amazon Channel (US), MovieSphere+ Amazon Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
                         "title": "127 Hours",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-11-12",
+                        "year": 2010,
+                        "releaseDate": "September 4, 2010",
                         "director": "Danny Boyle",
-                        "writer": "Danny Boyle, Simon Beaufoy",
-                        "cinematographer": "Enrique Chediak, Anthony Dod Mantle",
+                        "writer": "Danny Boyle / Simon Beaufoy",
+                        "cinematographer": "Anthony Dod Mantle / Enrique Chediak",
                         "editor": "Jon Harris",
-                        "composer": "A.R. Rahman",
-                        "studio": "Fox Searchlight Pictures",
+                        "composer": "A. R. Rahman",
+                        "studio": "Pathé / Film4 Productions / Plan B Entertainment",
+                        "country": "United Kingdom / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/h0RMdn0rfl9l5hWXz3tUh6QVkhi.jpg",
                         "plot": "The true story of mountain climber Aron Ralston's remarkable adventure to save himself after a fallen boulder crashes on his arm and traps him in an isolated canyon in Utah.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "High-octane, hallucinatory editing utilizing split-screens to convey isolation and desperation."
                     },
                     {
                         "title": "Snatch",
-                        "year": "2000",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2000-09-01",
+                        "year": 2000,
+                        "releaseDate": "August 23, 2000",
                         "director": "Guy Ritchie",
                         "writer": "Guy Ritchie",
                         "cinematographer": "Tim Maurice-Jones",
                         "editor": "Jon Harris",
-                        "composer": "John Murphy, Noel Gallagher",
-                        "studio": "SKA Films",
+                        "composer": "John Murphy",
+                        "studio": "Ska Films",
+                        "country": "United Kingdom / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/kJZoAHq1SLDdWjeNGtlHAnGpmFV.jpg",
                         "plot": "Unscrupulous boxing promoters, violent bookies, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewellers fight to track down a priceless stolen diamond.",
-                        "streaming": "Streaming: Sony Pictures Amazon Channel (IN), Sky Go (GB), Now TV Cinema (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Ultra-fast, stylized, and chaotic rhythmic editing that defines modern British crime films."
                     }
                 ],
                 "scenes": []
@@ -32423,34 +32191,34 @@ const FILMS_DATA = {
                 "bestWork": "Pygmalion (1938), 49th Parallel (1941)",
                 "mustWatch": [
                     {
-                        "title": "Pygmalion",
-                        "year": "1938",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1938-10-06",
-                        "director": "Leslie Howard, Anthony Asquith",
-                        "writer": "George Bernard Shaw, Ian Dalrymple",
-                        "cinematographer": "Harry Stradling Sr.",
-                        "editor": "David Lean",
-                        "composer": "Arthur Honegger",
-                        "studio": "Gabriel Pascal Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/dIrQHvgSEAfpaz3fBnrRpvo0e8u.jpg",
-                        "plot": "When linguistics professor Henry Higgins boasts that he can pass off Cockney flower girl Eliza Doolittle as a princess with only six months' training, Colonel George Pickering takes him up on the bet. Eliza moves into Higgins's home and begins her rigorous training after the professor comes to a financial agreement with her dustman father, Alfred. But the plucky young woman is not the only one undergoing a transformation.",
-                        "streaming": "Streaming: fuboTV (US), Max (US), Criterion Channel (US), FlixFling (US) | Rent/Buy: Amazon Video, FlixFling"
-                    },
-                    {
                         "title": "49th Parallel",
-                        "year": "1941",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1941-11-24",
+                        "year": 1941,
+                        "releaseDate": "October 8, 1941",
                         "director": "Michael Powell",
-                        "writer": "Emeric Pressburger",
+                        "writer": "Rodney Ackland / Emeric Pressburger",
                         "cinematographer": "Freddie Young",
                         "editor": "David Lean",
                         "composer": "Ralph Vaughan Williams",
-                        "studio": "Ortus Films",
+                        "studio": "Ortus Productions",
+                        "country": "United Kingdom",
                         "poster": "https://image.tmdb.org/t/p/w500/m4YTQv9fHYB2nZ7M2Al6wzOmrYe.jpg",
                         "plot": "In the early days of World War II, a German U-boat is sunk in Canada's Hudson Bay. Hoping to evade capture, a small band of German soldiers led by commanding officer Lieutenant Hirth attempts to cross the border into the United States, which has not yet entered the war and is officially neutral. Along the way, the German soldiers encounter brave men such as a French-Canadian fur trapper, Johnnie, a leader of a Hutterite farming community, Peter, an author, Philip and a soldier, Andy Brock.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), Prime Video (GB), ITVX Premium (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Taut, suspenseful narrative pacing in an early WWII propaganda thriller."
+                    },
+                    {
+                        "title": "Pygmalion",
+                        "year": 1938,
+                        "releaseDate": "October 6, 1938",
+                        "director": "Anthony Asquith / Leslie Howard",
+                        "writer": "George Bernard Shaw",
+                        "cinematographer": "Harry Stradling Sr.",
+                        "editor": "David Lean",
+                        "composer": "Arthur Bliss",
+                        "studio": "Pascal Film Productions",
+                        "country": "United Kingdom",
+                        "poster": "https://image.tmdb.org/t/p/w500/dIrQHvgSEAfpaz3fBnrRpvo0e8u.jpg",
+                        "plot": "When linguistics professor Henry Higgins boasts that he can pass off Cockney flower girl Eliza Doolittle as a princess with only six months' training, Colonel George Pickering takes him up on the bet. Eliza moves into Higgins's home and begins her rigorous training after the professor comes to a financial agreement with her dustman father, Alfred. But the plucky young woman is not the only one undergoing a transformation.",
+                        "focus": "Sharp, fluid dialogue editing that flawlessly translates stage rhythms to the screen."
                     }
                 ],
                 "scenes": []
@@ -32471,33 +32239,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Room",
-                        "year": "2015",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2015-10-16",
+                        "year": 2015,
+                        "releaseDate": "September 4, 2015",
                         "director": "Lenny Abrahamson",
                         "writer": "Emma Donoghue",
                         "cinematographer": "Danny Cohen",
                         "editor": "Nathan Nugent",
                         "composer": "Stephen Rennicks",
-                        "studio": "Téléfilm Canada",
+                        "studio": "Element Pictures / No Trace Camping",
+                        "country": "Ireland / Canada / United Kingdom / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/2hHDMeYyZjbGWn0BeNH1cTMxuM7.jpg",
                         "plot": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
-                        "streaming": "Streaming: Lionsgate Play (IN), Apple TV (IN), Lionsgate Play Amazon Channel (IN), Netflix (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Claustrophobic, highly subjective editing that shifts drastically to convey a child's expanded worldview."
                     },
                     {
                         "title": "Frank",
-                        "year": "2014",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2014-05-09",
+                        "year": 2014,
+                        "releaseDate": "January 17, 2014",
                         "director": "Lenny Abrahamson",
-                        "writer": "Jon Ronson, Peter Straughan",
+                        "writer": "Jon Ronson / Peter Straughan",
                         "cinematographer": "James Mather",
                         "editor": "Nathan Nugent",
                         "composer": "Stephen Rennicks",
-                        "studio": "Runaway Fridge Productions",
+                        "studio": "Element Pictures / Film4 Productions",
+                        "country": "Ireland / United Kingdom",
                         "poster": "https://image.tmdb.org/t/p/w500/mGzqs4CHW8LomreoPATnyrTXk7j.jpg",
                         "plot": "A young wannabe musician discovers he has bitten off more than he can chew when he joins an eccentric pop band led by the mysterious and enigmatic Frank.",
-                        "streaming": "Streaming: Netflix (US), fuboTV (US), Magnolia Selects Amazon Channel (US), Curzon Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Quirky, rhythm-driven editing that balances off-beat comedy with deep psychological melancholy."
                     }
                 ],
                 "scenes": []
@@ -32517,34 +32285,34 @@ const FILMS_DATA = {
                 "bestWork": "Rosie (2018), The Crown (2016)",
                 "mustWatch": [
                     {
-                        "title": "Rosie",
-                        "year": "2018",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2018-10-19",
-                        "director": "Gail Maurice",
-                        "writer": "Roddy Doyle",
-                        "cinematographer": "Cathal Watters",
+                        "title": "Belfast",
+                        "year": 2021,
+                        "releaseDate": "September 2, 2021",
+                        "director": "Kenneth Branagh",
+                        "writer": "Kenneth Branagh",
+                        "cinematographer": "Haris Zambarloukos",
                         "editor": "Úna Ní Dhonghaíle",
-                        "composer": "Stephen Rennicks",
-                        "studio": "Element Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/8yzf0XjEprIt2WvaklyjhwbhXIN.jpg",
-                        "plot": "After her mother dies, a little Indigenous girl is forced to go live with her reluctant auntie and her two gender-bending best friends.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "composer": "Van Morrison",
+                        "studio": "TKBC",
+                        "country": "United Kingdom / Ireland",
+                        "poster": "https://image.tmdb.org/t/p/w500/3mInLZyPOVLsZRsBwNHi3UJXXnm.jpg",
+                        "plot": "Buddy is a young boy on the cusp of adolescence, whose life is filled with familial love, childhood hijinks, and a blossoming romance. Yet, with his beloved hometown caught up in increasing turmoil, his family faces a momentous choice: hope the conflict will pass or leave everything they know behind for a new life.",
+                        "focus": "Nostalgic, fluid memory-piece editing that interweaves intimate family moments with sudden societal violence."
                     },
                     {
-                        "title": "The Crown",
-                        "year": "2016",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2016-11-04",
-                        "director": "Peter Morgan",
-                        "writer": "Peter Morgan",
-                        "cinematographer": "Adriano Goldman",
+                        "title": "Stan & Ollie",
+                        "year": 2018,
+                        "releaseDate": "October 21, 2018",
+                        "director": "Jon S. Baird",
+                        "writer": "Jeff Pope",
+                        "cinematographer": "Laurie Rose",
                         "editor": "Úna Ní Dhonghaíle",
-                        "composer": "Lorne Balfe, Rupert Gregson-Williams, Martin Phipps",
-                        "studio": "Left Bank Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/1M876KPjulVwppEpldhdc8V4o68.jpg",
-                        "plot": "The gripping, decades-spanning inside story of Her Majesty Queen Elizabeth II and the Prime Ministers who shaped Britain's post-war destiny. \n\nThe Crown tells the inside story of two of the most famous addresses in the world – Buckingham Palace and 10 Downing Street – and the intrigues, love lives and machinations behind the great events that shaped the second half of the 20th century. Two houses, two courts, one Crown.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "composer": "Rolfe Kent",
+                        "studio": "BBC Film / Fable Pictures",
+                        "country": "United Kingdom / United States / Canada",
+                        "poster": "https://image.tmdb.org/t/p/w500/8qDBDXA8Od8gc4IQMnoXUKyj8Pf.jpg",
+                        "plot": "With their golden era long behind them, comedy duo Stan Laurel and Oliver Hardy embark on a variety hall tour of Britain and Ireland. Despite the pressures of a hectic schedule, and with the support of their wives Lucille and Ida – a formidable double act in their own right – the pair's love of performing, as well as for each other, endures as they secure their place in the hearts of their adoring public",
+                        "focus": "Seamless, precise comedic timing and tender pacing reflecting the enduring bond of the duo."
                     }
                 ],
                 "scenes": []
@@ -32564,34 +32332,32 @@ const FILMS_DATA = {
                 "bestWork": "The Queen of Ireland (2015), Gaza (2019)",
                 "mustWatch": [
                     {
-                        "title": "The Queen of Ireland",
-                        "year": "2015",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2015-10-22",
-                        "director": "Conor Horgan",
-                        "writer": "Conor Horgan",
-                        "cinematographer": "Conor Horgan",
-                        "editor": "Mick Mahon",
-                        "composer": "Michael Fleming",
-                        "studio": "Keeper Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/usbWqVpj9NEZccs414rvQK3Jq7Q.jpg",
-                        "plot": "Panti Bliss is many things: part glamorous aunt, part Jessica Rabbit, she's a wittily incisive performer with charisma to burn who is regarded as one of the best drag queens in the business. Created by Rory O'Neill, Panti is also an accidental activist and in her own words 'a court jester, whose duty is to say the un-sayable'. Over the last few years Rory has become a figurehead for LGBT rights in Ireland and since the recent scandal around Pantigate, his fight for equality and against homophobia has been recognised all around the world.",
-                        "streaming": "Streaming: Prime Video (US), Revry Amazon Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
                         "title": "Gaza",
-                        "year": "2019",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-01-29",
-                        "director": "Andrew McConnell, Garry Keane",
-                        "writer": "Garry Keane, Andrew McConnell",
+                        "year": 2019,
+                        "releaseDate": "January 29, 2019",
+                        "director": "Garry Keane / Andrew McConnell",
                         "cinematographer": "Andrew McConnell",
                         "editor": "Mick Mahon",
-                        "composer": "Ray Fabi",
-                        "studio": "Fine Point Films",
+                        "composer": "Ray Harman",
+                        "studio": "Real Films / Fine Point Films / Filmoption International",
+                        "country": "Ireland / Canada / Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/kEVxWlON82VVGtIcTQdMYgNXMD0.jpg",
                         "plot": "GAZA brings us into a unique place beyond the reach of television news reports to reveal a world rich with eloquent and resilient characters, offering us a cinematic and enriching portrait of a people attempting to lead meaningful lives against the rubble of perennial conflict.\r Throughout its entire history the Gaza Strip has been witness to conflict and upheaval. From ancient times this tiny coastal territory, located at a crossroads between continents, has been a pawn whose fate rested in the hands of powerful neighbours.",
-                        "streaming": "Streaming: Prime Video (US), DocAlliance Films (US), DocAlliance Films (IN) | Rent/Buy: Amazon Video, Google Play, YouTube"
+                        "focus": "Evocative, rhythmic documentary editing that juxtaposes everyday life against a backdrop of conflict."
+                    },
+                    {
+                        "title": "Nothing Compares",
+                        "year": 2022,
+                        "releaseDate": "January 21, 2022",
+                        "director": "Kathryn Ferguson",
+                        "cinematographer": "Luke Jacobs",
+                        "editor": "Mick Mahon",
+                        "composer": "John Reynolds / Clare Kenny",
+                        "studio": "Tara Films / Field of Vision / BFI",
+                        "country": "Ireland / United Kingdom / United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/u3lFwv2gLv49qckyiFNv21VYmv5.jpg",
+                        "plot": "Since the beginning of her career, Sinéad O’Connor has used her powerful voice to challenge the narratives she was surrounded by while growing up in predominantly Roman Catholic Ireland. Despite her agency, depth and perspective, O’Connor’s unflinching refusal to conform means that she has often been patronized and unfairly dismissed as an attention-seeking pop star.",
+                        "focus": "Sharp, incisive archival montage that recontextualizes a misunderstood icon's cultural impact."
                     }
                 ],
                 "scenes": []
@@ -32611,34 +32377,32 @@ const FILMS_DATA = {
                 "bestWork": "Three Identical Strangers (2018), Don't F**k With Cats (2019)",
                 "mustWatch": [
                     {
+                        "title": "Still: A Michael J. Fox Movie",
+                        "year": 2023,
+                        "releaseDate": "January 20, 2023",
+                        "director": "Davis Guggenheim",
+                        "cinematographer": "C. Kim Miles / Julia Liu",
+                        "editor": "Michael Harte",
+                        "composer": "John Powell",
+                        "studio": "Concordia Studio",
+                        "country": "United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/fDO4gYZxvdsIrHKzsSAbc3N7Wfg.jpg",
+                        "plot": "A short kid from a Canadian army base becomes the international pop culture darling of the 1980s—only to find the course of his life altered by a stunning diagnosis. What happens when an incurable optimist confronts an incurable disease?",
+                        "focus": "Kinetic, highly engaging documentary editing that masterfully blends archival footage, reenactments, and candid interviews."
+                    },
+                    {
                         "title": "Three Identical Strangers",
-                        "year": "2018",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2018-06-29",
+                        "year": 2018,
+                        "releaseDate": "January 19, 2018",
                         "director": "Tim Wardle",
-                        "writer": "Tim Wardle",
                         "cinematographer": "Tim Cragg",
                         "editor": "Michael Harte",
                         "composer": "Paul Saunderson",
-                        "studio": "RAW",
+                        "studio": "RAW / CNN Films / Channel 4",
+                        "country": "United Kingdom / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/esPoJNMBsgWXahv8gILIl5K6sFk.jpg",
                         "plot": "New York, 1980. Three complete strangers accidentally discover that they're identical triplets, separated at birth. The 19-year-olds' joyous reunion catapults them to international fame, but also unlocks an extraordinary and disturbing secret that goes beyond their own lives – and could transform our understanding of human nature forever.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "Don't F**k With Cats",
-                        "year": "2019",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-12-18",
-                        "director": "Mark Lewis",
-                        "writer": "Mark Lewis",
-                        "cinematographer": "Stefano Ferrari",
-                        "editor": "Michael Harte",
-                        "composer": "Andrew Skeet",
-                        "studio": "RAW",
-                        "poster": "https://image.tmdb.org/t/p/w500/Crc4XkhLddMTNJfj1iLca0w1Bb.jpg",
-                        "plot": "A twisted criminal's gruesome videos drive a group of amateur online sleuths to launch a risky manhunt that pulls them into a dark underworld.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Masterful suspense-building documentary editing that slowly unravels a shocking, multi-layered mystery."
                     }
                 ],
                 "scenes": []
@@ -32659,33 +32423,46 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Breathless",
-                        "year": "1960",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1960-03-16",
+                        "year": 1960,
+                        "releaseDate": "March 16, 1960",
                         "director": "Jean-Luc Godard",
-                        "writer": "Jean-Luc Godard",
+                        "writer": "Jean-Luc Godard / François Truffaut",
                         "cinematographer": "Raoul Coutard",
                         "editor": "Cécile Decugis",
-                        "composer": "Martial Solal",
-                        "studio": "Les Films Impéria",
+                        "studio": "Les Films Georges de Beauregard / Société Nouvelle de Cinématographie (SNC)",
+                        "country": "France",
                         "poster": "https://image.tmdb.org/t/p/w500/9Wx0Wdn2EOqeCZU4SP6tlS3LOml.jpg",
                         "plot": "A small-time thief steals a car and impulsively murders a motorcycle policeman. Wanted by the authorities, he attempts to persuade a girl to run away to Italy with him.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), Darkroom (US), Apple TV (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Pioneering jump-cut editing that shattered traditional continuity and defined the French New Wave."
+                    },
+                    {
+                        "title": "My Night at Maud's",
+                        "year": 1969,
+                        "releaseDate": "June 4, 1969",
+                        "director": "Éric Rohmer",
+                        "writer": "Éric Rohmer",
+                        "cinematographer": "Néstor Almendros",
+                        "editor": "Cécile Decugis",
+                        "studio": "Les Films du Losange / FFP / Renée Films",
+                        "country": "France",
+                        "poster": "https://image.tmdb.org/t/p/w500/9usKgth3ROn4LwPQ7tTvxKnpBGL.jpg",
+                        "plot": "The Catholic Jean-Louis runs into an old friend, the Marxist Vidal, in Clermont-Ferrand around Christmas. Vidal introduces Jean-Louis to the modestly libertine, recently divorced Maud and the three engage in conversation on religion, atheism, love, morality and Blaise Pascal's life and writings on philosophy, faith and mathematics. Jean-Louis ends up spending a night at Maud's. Jean-Louis' Catholic views on marriage, fidelity and obligation make his situation a dilemma, as he has already, at the very beginning of the film, proclaimed his love for a young woman whom, however, he has never yet spoken to.",
+                        "focus": "Deliberate, restrained pacing that emphasizes philosophical dialogue and intellectual tension."
                     },
                     {
                         "title": "Shoot the Piano Player",
-                        "year": "1960",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1960-11-25",
+                        "year": 1960,
+                        "releaseDate": "November 25, 1960",
                         "director": "François Truffaut",
-                        "writer": "François Truffaut, Marcel Moussy",
+                        "writer": "François Truffaut / Marcel Moussy",
                         "cinematographer": "Raoul Coutard",
-                        "editor": "Cécile Decugis",
+                        "editor": "Cécile Decugis / Claudine Bouché",
                         "composer": "Georges Delerue",
                         "studio": "Les Films de la Pléiade",
+                        "country": "France",
                         "poster": "https://image.tmdb.org/t/p/w500/6UhMIZaaoe2HUU7sEIwYpuYgugh.jpg",
                         "plot": "Charlie is a former classical pianist who has changed his name and now plays jazz in a grimy Paris bar. When Charlie's brothers, Richard and Chico, surface and ask for Charlie's help while on the run from gangsters they have scammed, he aids their escape. Soon Charlie and Lena, a waitress at the same bar, face trouble when the gangsters arrive, looking for his brothers.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), Darkroom (US) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Playful, unpredictable editing that wildly shifts tones between comedy, romance, and tragedy."
                     }
                 ],
                 "scenes": []
@@ -32706,48 +32483,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "The Diving Bell and the Butterfly",
-                        "year": "2007",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2007-05-23",
+                        "year": 2007,
+                        "releaseDate": "May 22, 2007",
                         "director": "Julian Schnabel",
                         "writer": "Ronald Harwood",
                         "cinematographer": "Janusz Kamiński",
                         "editor": "Juliette Welfling",
                         "composer": "Paul Cantelon",
-                        "studio": "Pathé Renn Productions",
+                        "studio": "Pathé Renn Productions / Kennedy/Marshall Company",
+                        "country": "France / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/6NkJ4gnLrvLj0PZDW6sNM85JMbj.jpg",
                         "plot": "Jean-Dominique Bauby, editor-in-chief of French fashion bible Elle magazine, has a devastating stroke at age 43. The damage to his brain stem results in locked-in syndrome, with which he is almost completely paralyzed and only able to communicate by blinking an eye. Bauby painstakingly dictates his memoir via the only means of expression left to him.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Highly subjective, fragmented editing that mirrors the protagonist's locked-in syndrome and vivid imagination."
                     },
                     {
                         "title": "A Prophet",
-                        "year": "2009",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2009-08-26",
+                        "year": 2009,
+                        "releaseDate": "May 16, 2009",
                         "director": "Jacques Audiard",
-                        "writer": "Jacques Audiard, Thomas Bidegain",
+                        "writer": "Jacques Audiard / Thomas Bidegain / Abdel Raouf Dafri / Nicolas Peufaillit",
                         "cinematographer": "Stéphane Fontaine",
                         "editor": "Juliette Welfling",
                         "composer": "Alexandre Desplat",
-                        "studio": "Why Not Productions",
+                        "studio": "Why Not Productions / Page 114 / Chic Films",
+                        "country": "France / Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/x9Jb8kewBHPzjTtgCQvoQoDsy4d.jpg",
                         "plot": "Sentenced to six years in prison, Malik El Djebena is alone in the world and can neither read nor write. On his arrival at the prison, he seems younger and more brittle than the others detained there. At once he falls under the sway of a group of Corsicans who enforce their rule in the prison. As the 'missions' go by, he toughens himself and wins the confidence of the Corsican group.",
-                        "streaming": "Streaming: Apple TV (GB), Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Gritty, visceral cross-cutting that traces a complex, brutal rise through the criminal underworld."
                     },
                     {
-                        "title": "Rust and Bone",
-                        "year": "2012",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2012-05-17",
-                        "director": "Jacques Audiard",
-                        "writer": "Jacques Audiard, Thomas Bidegain",
-                        "cinematographer": "Stéphane Fontaine",
+                        "title": "The Science of Sleep",
+                        "year": 2006,
+                        "releaseDate": "February 11, 2006",
+                        "director": "Michel Gondry",
+                        "writer": "Michel Gondry",
+                        "cinematographer": "Jean-Louis Bompoint",
                         "editor": "Juliette Welfling",
-                        "composer": "Alexandre Desplat",
-                        "studio": "Why Not Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/6bcerd7CeQ5y5Dilym1O2C8c8Gl.jpg",
-                        "plot": "Put in charge of his young son, Ali leaves Belgium for Antibes to live with his sister and her husband as a family. Ali's bond with Stephanie, a killer whale trainer, grows deeper after Stephanie suffers a horrible accident.",
-                        "streaming": "Streaming: Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Jean-Michel Bernard",
+                        "studio": "Partizan Films / Gaumont",
+                        "country": "France / Italy",
+                        "poster": "https://image.tmdb.org/t/p/w500/8bummqwU6MV65ZJvNtKx8Y3NIEk.jpg",
+                        "plot": "A man entranced by his dreams and imagination is lovestruck with a French woman and feels he can show her his world.",
+                        "focus": "Surreal, free-flowing transitions that seamlessly blend reality with handcrafted dream sequences."
                     }
                 ],
                 "scenes": []
@@ -32767,49 +32544,49 @@ const FILMS_DATA = {
                 "bestWork": "Pierrot le Fou (1965), Contempt (1963), Band of Outsiders (1964)",
                 "mustWatch": [
                     {
-                        "title": "Pierrot le Fou",
-                        "year": "1965",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1965-11-05",
-                        "director": "Jean-Luc Godard",
-                        "writer": "Rémo Forlani, Jean-Luc Godard",
-                        "cinematographer": "Raoul Coutard",
-                        "editor": "Agnès Guillemot",
-                        "composer": "Antoine Duhamel",
-                        "studio": "DDL Cinematografica",
-                        "poster": "https://image.tmdb.org/t/p/w500/i124H6iQB4CawrgFW9aZaZs7OBO.jpg",
-                        "plot": "Pierrot escapes his boring society and travels from Paris to the Mediterranean Sea with Marianne, a girl chased by hit-men from Algeria. They lead an unorthodox life, always on the run.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
-                    },
-                    {
                         "title": "Contempt",
-                        "year": "1963",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1963-10-29",
+                        "year": 1963,
+                        "releaseDate": "December 20, 1963",
                         "director": "Jean-Luc Godard",
                         "writer": "Jean-Luc Godard",
                         "cinematographer": "Raoul Coutard",
-                        "editor": "Agnès Guillemot",
-                        "composer": "Georges Delerue",
-                        "studio": "Rome-Paris Films",
+                        "editor": "Agnès Guillemot / Lila Lakshmanan",
+                        "composer": "Georges Delerue / Piero Piccioni",
+                        "studio": "Les Films Georges de Beauregard / Rome Paris Films / Compagnia Cinematografica Champion",
+                        "country": "France / Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/kNElbRcp4Qz6wmJ9kH5vdY004Hq.jpg",
                         "plot": "A philistine in the art film business, Jeremy Prokosch is a producer unhappy with the work of his director. Prokosch has hired Fritz Lang to direct an adaptation of \"The Odyssey,\" but when it seems that the legendary filmmaker is making a picture destined to bomb at the box office, he brings in a screenwriter to energize the script. The professional intersects with the personal when a rift develops between the writer and his wife.",
-                        "streaming": "Streaming: BFI Player Amazon Channel (US), Apple TV (GB), Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Apple TV, Amazon Video, Google Play"
+                        "focus": "Languid, classical pacing juxtaposed with jarring modernist cuts, reflecting the dissolution of a marriage."
                     },
                     {
-                        "title": "Band of Outsiders",
-                        "year": "1964",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1964-08-05",
+                        "title": "Alphaville",
+                        "year": 1965,
+                        "releaseDate": "May 5, 1965",
                         "director": "Jean-Luc Godard",
                         "writer": "Jean-Luc Godard",
                         "cinematographer": "Raoul Coutard",
                         "editor": "Agnès Guillemot",
-                        "composer": "Michel Legrand",
-                        "studio": "Orsay Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/9oqyj79xmcypxLajJdefOtrYx64.jpg",
-                        "plot": "Cinephile slackers Franz and Arthur spend their days mimicking the antiheroes of Hollywood noirs and Westerns while pursuing the lovely Odile. The misfit trio upends convention at every turn, be it through choreographed dances in cafés or frolicsome romps through the Louvre. Eventually, their romantic view of outlaws pushes them to plan their own heist, but their inexperience may send them out in a blaze of glory -- which could be just what they want.",
-                        "streaming": "Streaming: Darkroom (US), BFI Player (GB), BFI Player Amazon Channel (GB), Apple TV (GB)"
+                        "composer": "Paul Misraki",
+                        "studio": "Chaumiane / Filmstudio",
+                        "country": "France / Italy",
+                        "poster": "https://image.tmdb.org/t/p/w500/fFJP3D5fJDFxN7ChqSye1DZ0fTL.jpg",
+                        "plot": "Lemmy Caution is on a mission to eliminate Professor Von Braun, the creator of a malevolent computer that rules the city of Alphaville. Befriended by the scientist’s daughter Natasha, Lemmy must unravel the mysteries of the strictly logical Alpha 60 and teach Natasha the meaning of the word “love.”",
+                        "focus": "Stark, disorienting montage that transforms contemporary Paris into a dystopian futuristic nightmare."
+                    },
+                    {
+                        "title": "The Wild Child",
+                        "year": 1970,
+                        "releaseDate": "February 26, 1970",
+                        "director": "François Truffaut",
+                        "writer": "François Truffaut / Jean Gruault",
+                        "cinematographer": "Néstor Almendros",
+                        "editor": "Agnès Guillemot",
+                        "composer": "Antonio Vivaldi (Adapted)",
+                        "studio": "Les Productions Artistes Associés",
+                        "country": "France / Italy",
+                        "poster": "https://image.tmdb.org/t/p/w500/ivIyyc2VgefJK9LdAogl1BEgmeH.jpg",
+                        "plot": "The true story of Victor of Aveyron. In a French forest circa 1798, an abandoned child — feral, filthy and mentally impaired — is found. Dr Jean Marc Gaspard Itard becomes interested in the case and patiently attempts to civilise the boy.",
+                        "focus": "Classic, documentary-like pacing utilizing traditional wipes and irises to evoke early cinema aesthetics."
                     }
                 ],
                 "scenes": []
@@ -32830,33 +32607,47 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "The 400 Blows",
-                        "year": "1959",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1959-06-03",
+                        "year": 1959,
+                        "releaseDate": "June 3, 1959",
                         "director": "François Truffaut",
-                        "writer": "François Truffaut",
+                        "writer": "François Truffaut / Marcel Moussy",
                         "cinematographer": "Henri Decaë",
                         "editor": "Marie-Josèphe Yoyotte",
                         "composer": "Jean Constantin",
-                        "studio": "Les Films du Carrosse",
+                        "studio": "Les Films du Carrosse / Sédif Productions",
+                        "country": "France",
                         "poster": "https://image.tmdb.org/t/p/w500/12PuU23kkDLvTd0nb8hMlE3oShB.jpg",
                         "plot": "For young Parisian boy Antoine Doinel, life is one difficult situation after another. Surrounded by inconsiderate adults, including his neglectful parents, Antoine spends his days with his best friend, Rene, trying to plan for a better life. When one of their schemes goes awry, Antoine ends up in trouble with the law, leading to even more conflicts with unsympathetic authority figures.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), BFI Player (GB), BFI Player Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Fluid, empathetic pacing culminating in the iconic freeze-frame ending that leaves the protagonist's fate unresolved."
                     },
                     {
-                        "title": "Black Orpheus",
-                        "year": "1959",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1959-06-12",
-                        "director": "Marcel Camus",
-                        "writer": "Jacques Viot",
-                        "cinematographer": "Jean Bourgoin",
+                        "title": "Léon Morin, Priest",
+                        "year": 1961,
+                        "releaseDate": "September 22, 1961",
+                        "director": "Jean-Pierre Melville",
+                        "writer": "Jean-Pierre Melville",
+                        "cinematographer": "Henri Decaë",
                         "editor": "Marie-Josèphe Yoyotte",
-                        "composer": "Luiz Bonfá, Antônio Carlos Jobim",
-                        "studio": "Dispat Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/fJWzdNRnfjcJuaZiKqaSURFV6Lg.jpg",
-                        "plot": "Young lovers Orfeu and Eurydice run through the favelas of Rio during Carnaval, on the lam from a hitman dressed like Death and Orfeu's vengeful fiancée Mira and passing between moments of fantasy and stark reality. This impressionistic retelling of the Greek legend of Orpheus and Eurydice introduced bossa nova to the world with its soundtrack by young Brazilian composers Luiz Bonfá and Antonio Carlos Jobim.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), BFI Player (GB), BFI Player Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "composer": "Martial Solal / Jean Prodromidès",
+                        "studio": "Rome Paris Films / Compagnia Cinematografica Champion",
+                        "country": "France / Italy",
+                        "poster": "https://image.tmdb.org/t/p/w500/i89R891gei0UVS8xY6ymOUPExtW.jpg",
+                        "plot": "Barny, although a Marxist, is intrigued by the mysteries of religion. In confession, she teases a priest, Léon Morin, but he is a young and intelligent man and ready to discuss anything.",
+                        "focus": "Precise, elliptical editing that builds immense psychological and erotic tension between characters."
+                    },
+                    {
+                        "title": "Microcosmos",
+                        "year": 1996,
+                        "releaseDate": "May 13, 1996",
+                        "director": "Claude Nuridsany / Marie Pérennou",
+                        "cinematographer": "Claude Nuridsany / Marie Pérennou / Thierry Machado / Hughes Ryffel",
+                        "editor": "Marie-Josèphe Yoyotte / Florence Ricard",
+                        "composer": "Bruno Coulais",
+                        "studio": "Galatée Films / Jacques Perrin Productions / France 2 Cinéma",
+                        "country": "France / Switzerland / Italy / United Kingdom",
+                        "poster": "https://image.tmdb.org/t/p/w500/OPoiGrzNr5FWoczXH5Gs1cReec.jpg",
+                        "plot": "A documentary of insect life in meadows and ponds, using incredible close-ups, slow motion, and time-lapse photography. It includes bees collecting nectar, ladybugs eating mites, snails mating, spiders wrapping their catch, a scarab beetle relentlessly pushing its ball of dung uphill, endless lines of caterpillars, an underwater spider creating an air bubble to live in, and a mosquito hatching.",
+                        "focus": "Mesmerizing, macro-scale pacing that transforms the insect world into a grand, dramatic spectacle."
                     }
                 ],
                 "scenes": []
@@ -32876,34 +32667,49 @@ const FILMS_DATA = {
                 "bestWork": "Z (1969), Army of Shadows (1969)",
                 "mustWatch": [
                     {
-                        "title": "Z",
-                        "year": "1969",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1969-02-26",
-                        "director": "Costa-Gavras",
-                        "writer": "Jorge Semprún, Costa-Gavras",
-                        "cinematographer": "Raoul Coutard",
-                        "editor": "Françoise Bonnot",
-                        "composer": "Míkis Theodorakis",
-                        "studio": "Valoria Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/dFAJyFNgvOv24f2RQyI9KDxjGr3.jpg",
-                        "plot": "A prominent politician is murdered during a demonstration. The government and army are trying to suppress the truth, but a tenacious magistrate is determined to not to let them get away with it.",
-                        "streaming": "Streaming: Criterion Channel (US), Max (US) | Rent/Buy: Apple TV"
-                    },
-                    {
                         "title": "Army of Shadows",
-                        "year": "1969",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1969-09-10",
+                        "year": 1969,
+                        "releaseDate": "September 12, 1969",
                         "director": "Jean-Pierre Melville",
                         "writer": "Jean-Pierre Melville",
-                        "cinematographer": "Walter Wottitz, Pierre Lhomme",
+                        "cinematographer": "Pierre Lhomme / Walter Wottitz",
                         "editor": "Françoise Bonnot",
                         "composer": "Éric Demarsan",
-                        "studio": "Fono Roma",
+                        "studio": "Les Films Corona / Fono Roma",
+                        "country": "France / Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/aqNZWM9bspt8zaDvVRIRiWxRVJ7.jpg",
                         "plot": "Betrayed by an informant, Philippe Gerbier finds himself trapped in a torturous Nazi prison camp. Though Gerbier escapes to rejoin the Resistance in occupied Marseilles, France, and exacts his revenge on the informant, he must continue a quiet, seemingly endless battle against the Nazis in an atmosphere of tension, paranoia and distrust.",
-                        "streaming": "Streaming: Apple TV (GB), Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Cold, methodical pacing that reflects the grim, fatalistic reality of the French Resistance."
+                    },
+                    {
+                        "title": "Z",
+                        "year": 1969,
+                        "releaseDate": "February 26, 1969",
+                        "director": "Costa-Gavras",
+                        "writer": "Jorge Semprún / Costa-Gavras",
+                        "cinematographer": "Raoul Coutard",
+                        "editor": "Françoise Bonnot",
+                        "composer": "Mikis Theodorakis",
+                        "studio": "Reggane Films / Office National pour le Commerce et l'Industrie Cinématographique (ONCIC)",
+                        "country": "France / Algeria",
+                        "poster": "https://image.tmdb.org/t/p/w500/dFAJyFNgvOv24f2RQyI9KDxjGr3.jpg",
+                        "plot": "A prominent politician is murdered during a demonstration. The government and army are trying to suppress the truth, but a tenacious magistrate is determined to not to var them get away with it.",
+                        "focus": "Kinetic, pulse-pounding political thriller editing that redefined the urgency of investigative cinema."
+                    },
+                    {
+                        "title": "The Tenant",
+                        "year": 1976,
+                        "releaseDate": "May 26, 1976",
+                        "director": "Roman Polanski",
+                        "writer": "Gérard Brach / Roman Polanski",
+                        "cinematographer": "Sven Nykvist",
+                        "editor": "Françoise Bonnot",
+                        "composer": "Philippe Sarde",
+                        "studio": "Marianne Productions / Stera Films",
+                        "country": "France",
+                        "poster": "https://image.tmdb.org/t/p/w500/4Qhzb1ICFMqE3isWoln497qSH7n.jpg",
+                        "plot": "A quiet and inconspicuous man rents an apartment in Paris where he finds himself drawn into a rabbit hole of dangerous paranoia.",
+                        "focus": "Claustrophobic, paranoid editing that masterfully builds psychological horror from mundane apartment life."
                     }
                 ],
                 "scenes": []
@@ -32924,33 +32730,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Amélie",
-                        "year": "2001",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2001-04-25",
+                        "year": 2001,
+                        "releaseDate": "April 25, 2001",
                         "director": "Jean-Pierre Jeunet",
-                        "writer": "Guillaume Laurant, Jean-Pierre Jeunet",
+                        "writer": "Jean-Pierre Jeunet / Guillaume Laurant",
                         "cinematographer": "Bruno Delbonnel",
                         "editor": "Hervé Schneid",
                         "composer": "Yann Tiersen",
-                        "studio": "Victoires Productions",
+                        "studio": "Victoires Productions / Tac Seis / Union Générale Cinématographique (UGC)",
+                        "country": "France / Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/nSxDa3M9aMvGVLoItzWTepQ5h5d.jpg",
                         "plot": "At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
-                        "streaming": "Streaming: BFI Player (GB), BFI Player Amazon Channel (GB), Apple TV (GB) | Rent/Buy: Amazon Video, Apple TV, YouTube"
+                        "focus": "Whimsical, hyper-kinetic editing filled with visual gags, rapid montages, and joyful rhythmic timing."
                     },
                     {
                         "title": "Delicatessen",
-                        "year": "1991",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1991-04-17",
-                        "director": "Jean-Pierre Jeunet, Marc Caro",
-                        "writer": "Jean-Pierre Jeunet, Gilles Adrien, Marc Caro",
+                        "year": 1991,
+                        "releaseDate": "April 17, 1991",
+                        "director": "Jean-Pierre Jeunet / Marc Caro",
+                        "writer": "Jean-Pierre Jeunet / Marc Caro / Gilles Adrien",
                         "cinematographer": "Darius Khondji",
                         "editor": "Hervé Schneid",
                         "composer": "Carlos D'Alessio",
-                        "studio": "Constellation",
+                        "studio": "Constellation / Hachette Première",
+                        "country": "France",
                         "poster": "https://image.tmdb.org/t/p/w500/gNtOgQHxE5B8e08zuNRAdDpmK5Z.jpg",
                         "plot": "In a post-apocalyptic world, the residents of an apartment above the butcher shop receive an occasional delicacy of meat, something that is in low supply. A young man new in town falls in love with the butcher's daughter, which causes conflicts in her family, who need the young man for other business-related purposes.",
-                        "streaming": "Streaming: Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Stylized, rhythmic, and darkly comedic editing with brilliant audio-sync sequences."
+                    },
+                    {
+                        "title": "The City of Lost Children",
+                        "year": 1995,
+                        "releaseDate": "May 17, 1995",
+                        "director": "Jean-Pierre Jeunet / Marc Caro",
+                        "writer": "Jean-Pierre Jeunet / Marc Caro / Gilles Adrien",
+                        "cinematographer": "Darius Khondji",
+                        "editor": "Hervé Schneid",
+                        "composer": "Angelo Badalamenti",
+                        "studio": "Lumière / Studio Canal+ / Téléma",
+                        "country": "France / Germany / Spain",
+                        "poster": "https://image.tmdb.org/t/p/w500/whwT3Q9JxbAYzEc3t7uYYcCbTMf.jpg",
+                        "plot": "A scientist in a surrealist society kidnaps children to steal their dreams, hoping that they slow his aging process.",
+                        "focus": "Imaginative, dense montage that builds a visually overwhelming, surreal steampunk fairytale."
                     }
                 ],
                 "scenes": []
@@ -32970,49 +32791,34 @@ const FILMS_DATA = {
                 "bestWork": "8½ (1963), La Dolce Vita (1960), Nights of Cabiria (1957)",
                 "mustWatch": [
                     {
-                        "title": "8½",
-                        "year": "1963",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1963-02-14",
+                        "title": "The Sweet Life",
+                        "year": 1960,
+                        "releaseDate": "February 5, 1960",
                         "director": "Federico Fellini",
-                        "writer": "Ennio Flaiano, Tullio Pinelli, Brunello Rondi, Federico Fellini",
-                        "cinematographer": "Gianni Di Venanzo",
-                        "editor": "Leo Catozzo",
-                        "composer": "Nino Rota",
-                        "studio": "Cineriz",
-                        "poster": "https://image.tmdb.org/t/p/w500/23VIf7zNxAgaXwIlvzd3IvOd9sY.jpg",
-                        "plot": "Guido Anselmi, a film director, finds himself creatively barren at the peak of his career. Urged by his doctors to rest, Anselmi heads for a luxurious resort, but a sorry group gathers—his producer, staff, actors, wife, mistress, and relatives—each one begging him to get on with the show. In retreat from their dependency, he fantasizes about past women and dreams of his childhood.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), BFI Player (GB), BFI Player Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "La Dolce Vita",
-                        "year": "1960",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1960-02-05",
-                        "director": "Federico Fellini",
-                        "writer": "Brunello Rondi, Pier Paolo Pasolini, Ennio Flaiano, Tullio Pinelli, Federico Fellini",
+                        "writer": "Federico Fellini / Ennio Flaiano / Tullio Pinelli / Brunello Rondi",
                         "cinematographer": "Otello Martelli",
                         "editor": "Leo Catozzo",
                         "composer": "Nino Rota",
-                        "studio": "Cinecittà Studios",
+                        "studio": "Riama Film / Pathé Consortium Cinéma",
+                        "country": "Italy / France",
                         "poster": "https://image.tmdb.org/t/p/w500/dZ2v0DAX4aCZartCzZdg4ZinSW2.jpg",
                         "plot": "Episodic journey of journalist Marcello who struggles to find his place in the world, torn between the allure of Rome's elite social scene and the stifling domesticity offered by his girlfriend, all the while searching for a way to become a serious writer.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Fluid, episodic structure editing that creates a mesmerizing mosaic of modern decadence."
                     },
                     {
                         "title": "Nights of Cabiria",
-                        "year": "1957",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1957-10-03",
+                        "year": 1957,
+                        "releaseDate": "May 10, 1957",
                         "director": "Federico Fellini",
-                        "writer": "Federico Fellini, Ennio Flaiano, Tullio Pinelli, Pier Paolo Pasolini, Brunello Rondi",
-                        "cinematographer": "Aldo Tonti",
+                        "writer": "Federico Fellini / Ennio Flaiano / Tullio Pinelli",
+                        "cinematographer": "Aldo Tonti / Otello Martelli",
                         "editor": "Leo Catozzo",
                         "composer": "Nino Rota",
-                        "studio": "DDL Cinematografica",
+                        "studio": "Dino de Laurentiis Cinematografica / Les Films Marceau",
+                        "country": "Italy / France",
                         "poster": "https://image.tmdb.org/t/p/w500/xF4oCG3PLNbcrtPZbqB3BtkIbKg.jpg",
                         "plot": "Rome, 1957. A woman, Cabiria, is robbed and left to drown by her boyfriend, Giorgio. Rescued, she resumes her life and tries her best to find happiness in a cynical world. Even when she thinks her struggles are over and she has found happiness and contentment, things may not be what they seem.",
-                        "streaming": "Streaming: Darkroom (US), Apple TV (GB), Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Rhythmic, empathetic editing that intimately follows a protagonist's turbulent emotional journey."
                     }
                 ],
                 "scenes": []
@@ -33033,33 +32839,47 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "The Good, the Bad and the Ugly",
-                        "year": "1966",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1966-12-23",
+                        "year": 1966,
+                        "releaseDate": "December 23, 1966",
                         "director": "Sergio Leone",
-                        "writer": "Luciano Vincenzoni, Sergio Leone, Agenore Incrocci, Furio Scarpelli",
+                        "writer": "Luciano Vincenzoni / Sergio Leone / Agenore Incrocci / Furio Scarpelli",
                         "cinematographer": "Tonino Delli Colli",
-                        "editor": "Nino Baragli",
+                        "editor": "Nino Baragli / Eugenio Alabiso",
                         "composer": "Ennio Morricone",
-                        "studio": "United Artists",
+                        "studio": "Produzioni Europee Associate (PEA)",
+                        "country": "Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
                         "plot": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
-                        "streaming": "Streaming: fuboTV (US), MGM+ Amazon Channel (US), MGM Plus Roku Premium Channel (US), MGM Plus (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Iconic, tension-maximizing extreme close-up montage matched perfectly to a musical crescendo."
                     },
                     {
                         "title": "Once Upon a Time in the West",
-                        "year": "1968",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1968-12-21",
+                        "year": 1968,
+                        "releaseDate": "December 21, 1968",
                         "director": "Sergio Leone",
-                        "writer": "Sergio Leone, Sergio Donati",
+                        "writer": "Sergio Donati / Sergio Leone",
                         "cinematographer": "Tonino Delli Colli",
                         "editor": "Nino Baragli",
                         "composer": "Ennio Morricone",
-                        "studio": "Paramount Pictures",
+                        "studio": "Rafran Cinematografica / Paramount Pictures",
+                        "country": "Italy / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/qbYgqOczabWNn2XKwgMtVrntD6P.jpg",
                         "plot": "As the railroad builders advance unstoppably through the Arizona desert on their way to the sea, Jill arrives in the small town of Flagstone with the intention of starting a new life.",
-                        "streaming": "Streaming: fuboTV (US), MGM+ Amazon Channel (US), Paramount Plus Premium (US), Paramount Plus Essential (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Operatic, prolonged suspense editing that stretches time before explosive outbursts."
+                    },
+                    {
+                        "title": "The Gospel According to St. Matthew",
+                        "year": 1964,
+                        "releaseDate": "September 4, 1964",
+                        "director": "Pier Paolo Pasolini",
+                        "writer": "Pier Paolo Pasolini",
+                        "cinematographer": "Tonino Delli Colli",
+                        "editor": "Nino Baragli",
+                        "studio": "Arco Film / Lux Compagnie Cinématographique de France",
+                        "country": "Italy / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/oifi2CQkKbb6Y2x6J5K6CjaKab9.jpg",
+                        "plot": "Along a rocky, barren coastline, Jesus begins teaching, primarily using parables. He attracts disciples; he's stern, brusque, and demanding. His parables often take on the powers that be, so he and his teachings come to the attention of the Pharisees, the chief priests, and elders. They conspire to have him arrested, beaten, tried, and crucified, just as he prophesied to his followers.",
+                        "focus": "Raw, documentary-style montage blending classical music with visceral realism."
                     }
                 ],
                 "scenes": []
@@ -33080,33 +32900,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "The Conformist",
-                        "year": "1970",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1971-01-29",
+                        "year": 1970,
+                        "releaseDate": "October 22, 1970",
                         "director": "Bernardo Bertolucci",
                         "writer": "Bernardo Bertolucci",
                         "cinematographer": "Vittorio Storaro",
                         "editor": "Kim Arcalli",
                         "composer": "Georges Delerue",
-                        "studio": "Marianne Productions",
+                        "studio": "Mars Film / Marianne Productions / Maran Film",
+                        "country": "Italy / France / West Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/nLJjFRqIJAK8qz0OKYnpKCblZNK.jpg",
                         "plot": "A weak-willed Italian man becomes a fascist flunky who goes abroad to arrange the assassination of his old teacher, now a political dissident.",
-                        "streaming": "Streaming: Kino Film Collection (US) | Rent/Buy: Apple TV, Google Play, YouTube"
+                        "focus": "Sophisticated non-linear editing that mirrors the protagonist's fractured, repressed psychology."
                     },
                     {
                         "title": "Last Tango in Paris",
-                        "year": "1972",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1972-12-15",
+                        "year": 1972,
+                        "releaseDate": "October 14, 1972",
                         "director": "Bernardo Bertolucci",
-                        "writer": "Bernardo Bertolucci, Franco Arcalli",
+                        "writer": "Bernardo Bertolucci / Franco Arcalli",
                         "cinematographer": "Vittorio Storaro",
                         "editor": "Kim Arcalli",
                         "composer": "Gato Barbieri",
-                        "studio": "Les Productions Artistes Associés",
+                        "studio": "PEA / Les Productions Artistes Associés",
+                        "country": "Italy / France",
                         "poster": "https://image.tmdb.org/t/p/w500/dNgdUdNOWfHsZI3lDu6Epig7H2P.jpg",
                         "plot": "A recently widowed American begins an anonymous sexual relationship with a young Parisian woman.",
-                        "streaming": "Streaming: MGM Plus Roku Premium Channel (US), MGM Plus Amazon Channel (GB) | Rent/Buy: Google Play, YouTube, Fandango At Home"
+                        "focus": "Lyrical and intense pacing that heightens claustrophobia and emotional volatility."
+                    },
+                    {
+                        "title": "1900",
+                        "year": 1976,
+                        "releaseDate": "August 15, 1976",
+                        "director": "Bernardo Bertolucci",
+                        "writer": "Franco Arcalli / Bernardo Bertolucci / Giuseppe Bertolucci",
+                        "cinematographer": "Vittorio Storaro",
+                        "editor": "Kim Arcalli",
+                        "composer": "Ennio Morricone",
+                        "studio": "PEA / Les Productions Artistes Associés / Artemis Film",
+                        "country": "Italy / France / West Germany",
+                        "poster": "https://image.tmdb.org/t/p/w500/deWzfCC59tmtEQvKSmflDe14FvR.jpg",
+                        "plot": "The epic tale of a class struggle in twentieth century Italy, as seen through the eyes of two childhood friends on opposing sides.",
+                        "focus": "Sweeping, epic-scale montage interweaving personal histories with massive political movements."
                     }
                 ],
                 "scenes": []
@@ -33126,34 +32961,49 @@ const FILMS_DATA = {
                 "bestWork": "Il Postino (1994), Padre Padrone (1977)",
                 "mustWatch": [
                     {
-                        "title": "Il Postino",
-                        "year": "1994",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1994-09-22",
-                        "director": "Michael Radford",
-                        "writer": "Massimo Troisi, Michael Radford",
+                        "title": "The Night of the Shooting Stars",
+                        "year": 1982,
+                        "releaseDate": "April 21, 1982",
+                        "director": "Paolo Taviani / Vittorio Taviani",
+                        "writer": "Paolo Taviani / Vittorio Taviani",
                         "cinematographer": "Franco Di Giacomo",
                         "editor": "Roberto Perpignani",
-                        "composer": "Luis Bacalov",
-                        "studio": "Esterno Mediterraneo Film",
-                        "poster": "https://image.tmdb.org/t/p/w500/cUaCpjVDefYShKyLmkcDsiPaBHn.jpg",
-                        "plot": "Simple Italian postman learns to love poetry while delivering mail to a famous poet; he uses this to woo local beauty Beatrice.",
-                        "streaming": "Streaming: Prime Video (GB) | Rent/Buy: Apple TV, Amazon Video"
+                        "composer": "Nicola Piovani",
+                        "studio": "Amana Film / RAI / Sacis",
+                        "country": "Italy",
+                        "poster": "https://image.tmdb.org/t/p/w500/u9QgkfHj90rr33KhjLlk5tr7bVg.jpg",
+                        "plot": "The Night of San Lorenzo, the night of the shooting stars, is the night when dreams come true in Italian folklore. In 1944, a group of Italians flee their town after hearing rumours that the Nazis plan to blow it up and that the Americans are about to arrive to liberate them.",
+                        "focus": "Poetic, folklore-infused transitions that blur the line between memory, myth, and reality."
                     },
                     {
-                        "title": "Padre Padrone",
-                        "year": "1977",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1977-05-20",
-                        "director": "Vittorio Taviani, Paolo Taviani",
-                        "writer": "Vittorio Taviani, Paolo Taviani",
-                        "cinematographer": "Mario Masini",
+                        "title": "Before the Revolution",
+                        "year": 1964,
+                        "releaseDate": "May 10, 1964",
+                        "director": "Bernardo Bertolucci",
+                        "writer": "Bernardo Bertolucci",
+                        "cinematographer": "Aldo Scavarda",
                         "editor": "Roberto Perpignani",
-                        "composer": "Egisto Macchi",
-                        "studio": "RAI",
-                        "poster": "https://image.tmdb.org/t/p/w500/6kGarhZIsbpFNcEHftRzNeuz6Sb.jpg",
-                        "plot": "The true story of the life of Gavino Ledda, the son of a Sardinian shepherd, and how he managed to escape his harsh, almost barbaric existence by slowly educating himself, despite violent opposition from his brutal father.",
-                        "streaming": "Streaming: Cohen Media Amazon Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Ennio Morricone / Gino Paoli",
+                        "studio": "Iride Cinematografica",
+                        "country": "Italy",
+                        "poster": "https://image.tmdb.org/t/p/w500/eonuTTUGbxVurkBgC1KLJ00QIvR.jpg",
+                        "plot": "The study of a youth on the edge of adulthood and his aunt, ten years older. Fabrizio is passionate, idealistic, influenced by Cesare, a teacher and Marxist, engaged to the lovely but bourgeois Clelia, and stung by the drowning of his mercurial friend Agostino, a possible suicide. Gina is herself a bundle of nervous energy, alternately sweet, seductive, poetic, distracted, and unhinged. They begin a love affair after Agostino's funeral, then Gina confuses Fabrizio by sleeping with a stranger. Their visits to Cesare and then to Puck, one of Gina's older friends, a landowner losing his land, dramatize contrasting images of Italy's future. Their own futures are bleak.",
+                        "focus": "Restless, jump-cut influenced editing capturing the ideological turbulence of youth."
+                    },
+                    {
+                        "title": "Il Postino",
+                        "year": 1994,
+                        "releaseDate": "September 1, 1994",
+                        "director": "Michael Radford",
+                        "writer": "Anna Pavignano / Michael Radford / Furio Scarpelli / Giacomo Scarpelli / Massimo Troisi",
+                        "cinematographer": "Virginio Bruni / Franco Di Giacomo",
+                        "editor": "Roberto Perpignani",
+                        "composer": "Luis Bacalov",
+                        "studio": "Esterno Mediterraneo Film / Blue Dahlia Productions / Cecchi Gori Group",
+                        "country": "Italy / France / Belgium",
+                        "poster": "https://image.tmdb.org/t/p/w500/cUaCpjVDefYShKyLmkcDsiPaBHn.jpg",
+                        "plot": "Simple Italian postman learns to love poetry while delivering mail to a famous poet; he uses this to woo local beauty Beatrice.",
+                        "focus": "Gentle, tender pacing that beautifully emphasizes silence, poetry, and character growth."
                     }
                 ],
                 "scenes": []
@@ -33174,33 +33024,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Rome, Open City",
-                        "year": "1945",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1945-10-08",
+                        "year": 1945,
+                        "releaseDate": "September 27, 1945",
                         "director": "Roberto Rossellini",
-                        "writer": "Sergio Amidei, Roberto Rossellini, Federico Fellini",
+                        "writer": "Sergio Amidei / Federico Fellini / Roberto Rossellini",
                         "cinematographer": "Ubaldo Arata",
                         "editor": "Jolanda Benvenuti",
                         "composer": "Renzo Rossellini",
                         "studio": "Excelsa Film",
+                        "country": "Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/ijGV4v8JxgbNzgEhqKdzHdaZn8a.jpg",
                         "plot": "During the Nazi occupation of 1944 Rome, Resistance leader Giorgio Manfredi is pursued by the Nazis as he seeks refuge and a means of escape.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), Artiflix (US), Artiflix (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Pioneering neorealist editing utilizing raw, jagged cuts to evoke unfiltered wartime urgency."
                     },
                     {
                         "title": "Paisan",
-                        "year": "1946",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1946-12-10",
+                        "year": 1946,
+                        "releaseDate": "December 10, 1946",
                         "director": "Roberto Rossellini",
-                        "writer": "Roberto Rossellini, Federico Fellini, Sergio Amidei, Vasco Pratolini, Klaus Mann, Rod E. Geiger",
+                        "writer": "Sergio Amidei / Federico Fellini / Roberto Rossellini / Klaus Mann",
                         "cinematographer": "Otello Martelli",
                         "editor": "Jolanda Benvenuti",
                         "composer": "Renzo Rossellini",
-                        "studio": "Organizzazione Film Internazionali (OFI)",
+                        "studio": "O.F.I. / Foreign Film Productions",
+                        "country": "Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/r5IGAFASCXmp8m51vUbER3WwVcB.jpg",
                         "plot": "Six stories unfold in various regions, from Sicily to the northern Po Valley as American military personnel interact with a variety of Italian locals over eighteen months in the push north during the Italian Campaign of WWII as German forces retreat.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), BFI Player (GB), BFI Player Amazon Channel (GB)"
+                        "focus": "Episodic, documentary-influenced montage that constructs a sweeping narrative of liberation."
                     }
                 ],
                 "scenes": []
@@ -33220,49 +33070,49 @@ const FILMS_DATA = {
                 "bestWork": "Wings of Desire (1987), Paris, Texas (1984), Alice in the Cities (1974)",
                 "mustWatch": [
                     {
-                        "title": "Wings of Desire",
-                        "year": "1987",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1987-09-23",
+                        "title": "The American Friend",
+                        "year": 1977,
+                        "releaseDate": "May 18, 1977",
                         "director": "Wim Wenders",
-                        "writer": "Peter Handke, Richard Reitinger, Wim Wenders, Bernard Eisenschitz",
-                        "cinematographer": "Henri Alekan",
+                        "writer": "Wim Wenders",
+                        "cinematographer": "Robby Müller",
                         "editor": "Peter Przygodda",
                         "composer": "Jürgen Knieper",
-                        "studio": "Road Movies",
-                        "poster": "https://image.tmdb.org/t/p/w500/iZQs2vUeCzvS1KfZJ6uYNCGJBBV.jpg",
-                        "plot": "Two angels, Damiel and Cassiel, glide through the streets of Berlin, observing the bustling population, providing invisible rays of hope to the distressed but never interacting with them. When Damiel falls in love with lonely trapeze artist Marion, the angel longs to experience life in the physical world, and finds — with some words of wisdom from actor Peter Falk — that it might be possible for him to take human form.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), BFI Player (GB), BFI Player Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "studio": "Road Movies Filmproduktion / Les Films du Losange",
+                        "country": "West Germany / France",
+                        "plot": "Plot details not available.",
+                        "focus": "Deliberate, atmospheric editing that slowly builds existential dread and tension.",
+                        "poster": "assets/images/american_friend_poster.png"
                     },
                     {
                         "title": "Paris, Texas",
-                        "year": "1984",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1984-07-16",
+                        "year": 1984,
+                        "releaseDate": "May 14, 1984",
                         "director": "Wim Wenders",
-                        "writer": "Sam Shepard, L.M. Kit Carson",
+                        "writer": "Sam Shepard",
                         "cinematographer": "Robby Müller",
                         "editor": "Peter Przygodda",
                         "composer": "Ry Cooder",
-                        "studio": "Road Movies",
+                        "studio": "Road Movies Filmproduktion / Argos Films",
+                        "country": "West Germany / France / United Kingdom / United States",
                         "poster": "https://image.tmdb.org/t/p/w500/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg",
                         "plot": "A man wanders out of the desert not knowing who he is. His brother finds him, and helps to pull his memory back of the life he led before he walked out on his family and disappeared four years earlier.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), MUBI (GB), BFI Player (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Lyrical, meditative pacing that emphasizes vast landscapes and profound emotional isolation."
                     },
                     {
-                        "title": "Alice in the Cities",
-                        "year": "1974",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1974-05-17",
+                        "title": "Wings of Desire",
+                        "year": 1987,
+                        "releaseDate": "May 17, 1987",
                         "director": "Wim Wenders",
-                        "writer": "Wim Wenders, Veith von Fürstenberg",
-                        "cinematographer": "Robby Müller",
+                        "writer": "Wim Wenders / Peter Handke",
+                        "cinematographer": "Henri Alekan",
                         "editor": "Peter Przygodda",
-                        "composer": "Irmin Schmidt",
-                        "studio": "Filmverlag der Autoren",
-                        "poster": "https://image.tmdb.org/t/p/w500/lw22wORmENkTZHGXI6bKmAIHxjO.jpg",
-                        "plot": "German journalist Philip Winter has a case of writer’s block when trying to write an article about the United States. He decides to return to Germany, and while trying to book a flight, encounters a German woman and her nine year old daughter Alice doing the same. The three become friends (almost out of necessity) and while the mother asks Winter to mind Alice temporarily, it quickly becomes apparent that Alice will be his responsibility for longer than he expected.",
-                        "streaming": "Streaming: Criterion Channel (US), Curzon Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Jürgen Knieper",
+                        "studio": "Road Movies Filmproduktion / Argos Films",
+                        "country": "West Germany / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/iZQs2vUeCzvS1KfZJ6uYNCGJBBV.jpg",
+                        "plot": "Two angels, Damiel and Cassiel, glide through the streets of Berlin, observing the bustling population, providing invisible rays of hope to the distressed but never interacting with them. When Damiel falls in love with lonely trapeze artist Marion, the angel longs to experience life in the physical world, and finds — with some words of wisdom from actor Peter Falk — that it might be possible for him to take human form.",
+                        "focus": "Poetic, floating transitions that seamlessly shift between subjective angelic perspectives and gritty reality."
                     }
                 ],
                 "scenes": []
@@ -33283,18 +33133,31 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Run Lola Run",
-                        "year": "1998",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1998-08-20",
+                        "year": 1998,
+                        "releaseDate": "August 20, 1998",
                         "director": "Tom Tykwer",
                         "writer": "Tom Tykwer",
                         "cinematographer": "Frank Griebe",
                         "editor": "Mathilde Bonnefoy",
-                        "composer": "Johnny Klimek, Tom Tykwer, Reinhold Heil",
-                        "studio": "X Filme Creative Pool",
+                        "composer": "Tom Tykwer / Johnny Klimek / Reinhold Heil",
+                        "studio": "X-Filme Creative Pool",
+                        "country": "Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/v0giIi4bTILVhNhJajet3WWY3FA.jpg",
                         "plot": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
-                        "streaming": "Streaming: AMC+ Amazon Channel (US), Philo (US), Sundance Now (US), BFI Player (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Hyper-kinetic, high-octane editing that constantly rewinds and re-paces the same narrative."
+                    },
+                    {
+                        "title": "Citizenfour",
+                        "year": 2014,
+                        "releaseDate": "October 10, 2014",
+                        "director": "Laura Poitras",
+                        "cinematographer": "Laura Poitras / Kirsten Johnson / Trevor Paglen",
+                        "editor": "Mathilde Bonnefoy",
+                        "studio": "Praxis Films / Participant Media / HBO Documentary Films",
+                        "country": "United States / Germany / United Kingdom",
+                        "poster": "https://image.tmdb.org/t/p/w500/nOVhX69EAxtSKEEnr5UcSd5UVci.jpg",
+                        "plot": "In June 2013, Laura Poitras and reporter Glenn Greenwald flew to Hong Kong for the first of many meetings with Edward Snowden. She brought her camera with her.",
+                        "focus": "Tense, real-time documentary editing that perfectly captures unfolding paranoia and historical gravity."
                     }
                 ],
                 "scenes": []
@@ -33315,33 +33178,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "The Marriage of Maria Braun",
-                        "year": "1979",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1979-03-23",
+                        "year": 1979,
+                        "releaseDate": "February 20, 1979",
                         "director": "Rainer Werner Fassbinder",
-                        "writer": "Peter Märthesheimer, Pea Fröhlich",
+                        "writer": "Peter Märthesheimer / Pea Fröhlich",
                         "cinematographer": "Michael Ballhaus",
                         "editor": "Juliane Lorenz",
                         "composer": "Peer Raben",
-                        "studio": "Albatros Filmproduktion",
+                        "studio": "Albatros Filmproduktion / Trio Film",
+                        "country": "West Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/tXjZEzlf4WQwZ4Dt53gXeJVuO7p.jpg",
                         "plot": "Maria marries a young soldier in the last days of World War II, only for him to go missing in the war. She must rely on her beauty and ambition to navigate the difficult post-war years alone.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), BFI Player (GB), BFI Player Amazon Channel (GB) | Rent/Buy: Apple TV, Amazon Video, Google Play"
+                        "focus": "Sharp, unsentimental cuts that reflect the protagonist's cold ambition amidst historical ruins."
                     },
                     {
                         "title": "Veronika Voss",
-                        "year": "1982",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1982-05-13",
+                        "year": 1982,
+                        "releaseDate": "February 18, 1982",
                         "director": "Rainer Werner Fassbinder",
-                        "writer": "Rainer Werner Fassbinder, Pea Fröhlich, Peter Märthesheimer",
+                        "writer": "Peter Märthesheimer / Pea Fröhlich",
                         "cinematographer": "Xaver Schwarzenberger",
                         "editor": "Juliane Lorenz",
                         "composer": "Peer Raben",
-                        "studio": "Laura Film",
+                        "studio": "Laura Film / Tango Film",
+                        "country": "West Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/A09gh5oWVfincs6BbRz91HL4Rgc.jpg",
                         "plot": "In Munich 1955, German film star Veronika Voss becomes a drug addict at the mercy of corrupt Dr. Marianne Katz, who keeps her supplied with morphine. After meeting sports writer Robert Krohn, Veronika begins to dream of a return to stardom. As the couple's relationship escalates in intensity, Veronika begins seriously planning her return to the screen -- only to realize how debilitated she has become through her drug habit.",
-                        "streaming": "Streaming: Criterion Channel (US)"
+                        "focus": "Stylized, jarring montage that evokes classical Hollywood melodrama while exposing deep psychological decay."
                     }
                 ],
                 "scenes": []
@@ -33362,18 +33225,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "The Lives of Others",
-                        "year": "2006",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2006-03-23",
+                        "year": 2006,
+                        "releaseDate": "March 23, 2006",
                         "director": "Florian Henckel von Donnersmarck",
                         "writer": "Florian Henckel von Donnersmarck",
                         "cinematographer": "Hagen Bogdanski",
                         "editor": "Patricia Rommel",
-                        "composer": "Gabriel Yared, Stéphane Moucha",
-                        "studio": "Creado Film",
+                        "composer": "Gabriel Yared / Stéphane Moucha",
+                        "studio": "Wiedemann & Berg Filmproduktion",
+                        "country": "Germany",
                         "poster": "https://image.tmdb.org/t/p/w500/cVUDMnskSc01rdbyH0tLATTJUdP.jpg",
                         "plot": "In 1984 East Berlin, dedicated Stasi officer Gerd Wiesler begins spying on a famous playwright and his actress-lover Christa-Maria. Wiesler becomes unexpectedly sympathetic to the couple, and faces conflicting loyalties when his superior takes a liking to Christa-Maria.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Meticulously measured pacing that builds subtle, agonizing tension through surveillance and silence."
+                    },
+                    {
+                        "title": "Never Look Away",
+                        "year": 2018,
+                        "releaseDate": "September 4, 2018",
+                        "director": "Florian Henckel von Donnersmarck",
+                        "writer": "Florian Henckel von Donnersmarck",
+                        "cinematographer": "Caleb Deschanel",
+                        "editor": "Patricia Rommel",
+                        "composer": "Max Richter",
+                        "studio": "Pergamon Film / Wiedemann & Berg Filmproduktion",
+                        "country": "Germany / Italy",
+                        "poster": "https://image.tmdb.org/t/p/w500/fn0Tp9SG0IQ3Nx8iHPYPiseLMWd.jpg",
+                        "plot": "German artist Kurt Barnert has escaped East Germany and now lives in West Germany, but is tormented by his childhood under the Nazis and the GDR regime.",
+                        "focus": "Sweeping, epic narrative pacing that traverses decades of history and artistic evolution."
                     }
                 ],
                 "scenes": []
@@ -33393,49 +33271,47 @@ const FILMS_DATA = {
                 "bestWork": "Cold War (2018), Ida (2013), Quo Vadis, Aida? (2020)",
                 "mustWatch": [
                     {
-                        "title": "Cold War",
-                        "year": "2018",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2018-06-08",
+                        "title": "Ida",
+                        "year": 2013,
+                        "releaseDate": "August 30, 2013",
                         "director": "Paweł Pawlikowski",
-                        "writer": "Paweł Pawlikowski, Janusz Głowacki",
-                        "cinematographer": "Łukasz Żal",
+                        "writer": "Paweł Pawlikowski / Rebecca Lenkiewicz",
+                        "cinematographer": "Łukasz Żal / Ryszard Lenczewski",
                         "editor": "Jarosław Kamiński",
-                        "composer": "Various Artists",
-                        "studio": "Opus Film",
-                        "poster": "https://image.tmdb.org/t/p/w500/6rbS8oPIgUMhQgIX8oGVTtlNgLR.jpg",
-                        "plot": "A man and a woman meet in the ruins of post-war Poland. With vastly different backgrounds and temperaments, they are fatally mismatched and yet drawn to each other.",
-                        "streaming": "Streaming: Prime Video (US), Curzon Amazon Channel (GB) | Rent/Buy: Apple TV, Rakuten TV, Amazon Video"
+                        "studio": "Opus Film / Phoenix Film Investments",
+                        "country": "Poland / Denmark / France / United Kingdom",
+                        "poster": "https://image.tmdb.org/t/p/w500/3uoCttE46RGHybiA26cXTvmFqbW.jpg",
+                        "plot": "In 1960s Poland, young novitiate Anna is on the verge of taking her vows when she discovers a family secret dating back to the years of the German occupation.",
+                        "focus": "Stark, minimalist editing perfectly timed to austere, static framing."
                     },
                     {
-                        "title": "Ida",
-                        "year": "2013",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2013-10-25",
+                        "title": "Cold War",
+                        "year": 2018,
+                        "releaseDate": "May 10, 2018",
                         "director": "Paweł Pawlikowski",
-                        "writer": "Paweł Pawlikowski, Rebecca Lenkiewicz",
-                        "cinematographer": "Ryszard Lenczewski, Łukasz Żal",
+                        "writer": "Paweł Pawlikowski / Janusz Głowacki",
+                        "cinematographer": "Łukasz Żal",
                         "editor": "Jarosław Kamiński",
-                        "composer": "Kristian Eidnes Andersen",
-                        "studio": "Opus Film",
-                        "poster": "https://image.tmdb.org/t/p/w500/fKkiKxfVrRpiHA2n5Zufp5Bn2S9.jpg",
-                        "plot": "In 1960s Poland, young novitiate Anna is on the verge of taking her vows when she discovers a family secret dating back to the years of the German occupation.",
-                        "streaming": "Streaming: Prime Video (US), fuboTV (US), Philo (US), MUBI (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "studio": "Opus Film / Apocalypso Pictures / MK2 Productions",
+                        "country": "Poland / France / United Kingdom",
+                        "poster": "https://image.tmdb.org/t/p/w500/6rbS8oPIgUMhQgIX8oGVTtlNgLR.jpg",
+                        "plot": "A man and a woman meet in the ruins of post-war Poland. With vastly different backgrounds and temperaments, they are fatally mismatched and yet drawn to each other.",
+                        "focus": "Elliptical, fast-paced editing that condenses decades of turbulent romance into poetic fragments."
                     },
                     {
                         "title": "Quo Vadis, Aida?",
-                        "year": "2020",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2021-02-26",
+                        "year": 2020,
+                        "releaseDate": "September 3, 2020",
                         "director": "Jasmila Žbanić",
                         "writer": "Jasmila Žbanić",
                         "cinematographer": "Christine A. Maier",
                         "editor": "Jarosław Kamiński",
                         "composer": "Antoni Komasa-Łazarkiewicz",
-                        "studio": "Deblokada",
+                        "studio": "Deblokada / Coop99 / Digital Cube / Extreme Emotions",
+                        "country": "Bosnia and Herzegovina / Austria / Germany / France / Netherlands / Poland",
                         "poster": "https://image.tmdb.org/t/p/w500/eQy2Tgvmx0FkK8vMMqMW4aX5UXQ.jpg",
                         "plot": "Bosnia, July 1995. Aida is a translator for the UN in the small town of Srebrenica. When the Serbian army takes over the town, her family is among the thousands of citizens looking for shelter in the UN camp. As an insider to the negotiations Aida has access to crucial information that she needs to interpret. What is at the horizon for her family and people – rescue or death? Which move should she take?",
-                        "streaming": "Streaming: Curzon Amazon Channel (GB) | Rent/Buy: Apple TV, Google Play, YouTube"
+                        "focus": "Urgent, relentless pacing that heightens the impending sense of tragedy and panic."
                     }
                 ],
                 "scenes": []
@@ -33455,49 +33331,49 @@ const FILMS_DATA = {
                 "bestWork": "Werckmeister Harmonies (2000), Sátántangó (1994), The Turin Horse (2011)",
                 "mustWatch": [
                     {
-                        "title": "Werckmeister Harmonies",
-                        "year": "2000",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2001-02-01",
-                        "director": "Béla Tarr",
-                        "writer": "László Krasznahorkai",
-                        "cinematographer": "Miklós Gurbán, Patrick De Ranter, Erwin Lanzensberger, Gábor Medvigy, Emil Novák, Rob Tregenza",
-                        "editor": "Ágnes Hranitzky",
-                        "composer": "Mihály Víg",
-                        "studio": "Goëss Film",
-                        "poster": "https://image.tmdb.org/t/p/w500/ix3pquGqTkCW86UbVTdRcrhGEFm.jpg",
-                        "plot": "A naive young man witnesses an escalation of violence in his small hometown following the arrival of a mysterious circus attraction.",
-                        "streaming": "Streaming: Criterion Channel (US), Klassiki (US), Curzon Amazon Channel (GB), Klassiki (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "Sátántangó",
-                        "year": "1994",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1994-02-08",
-                        "director": "Béla Tarr",
-                        "writer": "Béla Tarr, László Krasznahorkai",
-                        "cinematographer": "Gábor Medvigy",
-                        "editor": "Ágnes Hranitzky",
-                        "composer": "Mihály Víg",
-                        "studio": "Von Vietinghoff Filmproduktion",
-                        "poster": "https://image.tmdb.org/t/p/w500/y38z0v4HJ12MHiKddLEoFlvPiBt.jpg",
-                        "plot": "Inhabitants of a small village in Hungary deal with the effects of the fall of Communism. The town's source of revenue, a factory, has closed, and the locals, who include a doctor and three couples, await a cash payment offered in the wake of the shuttering. Irimias, a villager thought to be dead, returns and, unbeknownst to the locals, is a police informant. In a scheme, he persuades the villagers to form a commune with him.",
-                        "streaming": "Streaming: Metrograph (US), Eternal Family (US), Curzon Amazon Channel (GB) | Rent/Buy: Apple TV, Amazon Video, Google Play"
-                    },
-                    {
                         "title": "The Turin Horse",
-                        "year": "2011",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2011-03-31",
-                        "director": "Béla Tarr",
-                        "writer": "Béla Tarr, László Krasznahorkai",
+                        "year": 2011,
+                        "releaseDate": "February 15, 2011",
+                        "director": "Béla Tarr / Ágnes Hranitzky",
+                        "writer": "László Krasznahorkai / Béla Tarr",
                         "cinematographer": "Fred Kelemen",
                         "editor": "Ágnes Hranitzky",
                         "composer": "Mihály Víg",
-                        "studio": "Motion Picture Public Foundation of Hungary",
+                        "studio": "T. T. Filmműhely / Vega Film / Zero Fiction Film",
+                        "country": "Hungary / France / Germany / Switzerland",
                         "poster": "https://image.tmdb.org/t/p/w500/2kSElneXSKmMsGL55k0CbPGqLbu.jpg",
                         "plot": "A look at the monotonous daily struggle of a father and daughter in a windswept, desolate landscape. Over six days, their routine of eating boiled potatoes and tending a failing horse crumbles, symbolizing a slow descent into darkness, emptiness, and the end of existence.",
-                        "streaming": "Streaming: Curzon Amazon Channel (GB) | Rent/Buy: Apple TV, Amazon Video, Google Play"
+                        "focus": "Hypnotic, extremely slow pacing composed of long, continuous takes."
+                    },
+                    {
+                        "title": "Werckmeister Harmonies",
+                        "year": 2000,
+                        "releaseDate": "May 12, 2000",
+                        "director": "Béla Tarr / Ágnes Hranitzky",
+                        "writer": "László Krasznahorkai / Béla Tarr",
+                        "cinematographer": "Gábor Medvigy / Rob Tregethan / Emil Novák / Erwin Lanzensberger / Miklós Gurbán",
+                        "editor": "Ágnes Hranitzky",
+                        "composer": "Mihály Víg",
+                        "studio": "Goëss Film / 13 Production / Von Vietinghoff Filmproduktion",
+                        "country": "Hungary / Germany / France / Italy",
+                        "poster": "https://image.tmdb.org/t/p/w500/ix3pquGqTkCW86UbVTdRcrhGEFm.jpg",
+                        "plot": "A naive young man witnesses an escalation of violence in his small hometown following the arrival of a mysterious circus attraction.",
+                        "focus": "Mesmerizing, unbroken sequences emphasizing oppressive atmosphere and existential dread."
+                    },
+                    {
+                        "title": "Sátántangó",
+                        "year": 1994,
+                        "releaseDate": "February 8, 1994",
+                        "director": "Béla Tarr",
+                        "writer": "László Krasznahorkai / Béla Tarr",
+                        "cinematographer": "Gábor Medvigy",
+                        "editor": "Ágnes Hranitzky",
+                        "composer": "Mihály Víg",
+                        "studio": "Vega Film / Von Vietinghoff Filmproduktion",
+                        "country": "Hungary / Germany / Switzerland",
+                        "poster": "https://image.tmdb.org/t/p/w500/y38z0v4HJ12MHiKddLEoFlvPiBt.jpg",
+                        "plot": "Inhabitants of a small village in Hungary deal with the effects of the fall of Communism. The town's source of revenue, a factory, has closed, and the locals, who include a doctor and three couples, await a cash payment offered in the wake of the shuttering. Irimias, a villager thought to be dead, returns and, unbeknownst to the locals, is a police informant. In a scheme, he persuades the villagers to form a commune with him.",
+                        "focus": "Monumental, glacial pacing that completely reconstructs cinematic time."
                     }
                 ],
                 "scenes": []
@@ -33517,34 +33393,49 @@ const FILMS_DATA = {
                 "bestWork": "The Brutalist (2024), The Childhood of a Leader (2015)",
                 "mustWatch": [
                     {
-                        "title": "The Brutalist",
-                        "year": "2024",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2024-12-20",
-                        "director": "Brady Corbet",
-                        "writer": "Brady Corbet, Mona Fastvold",
-                        "cinematographer": "Lol Crawley",
-                        "editor": "Dávid Jancsó",
-                        "composer": "Daniel Blumberg",
-                        "studio": "Brookstreet Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/vP7Yd6couiAaw9jgMd5cjMRj3hQ.jpg",
-                        "plot": "When an innovative modern architect flees post-war Europe, he is given the opportunity to rebuild his legacy. Set during the dawn of the modern United States (in Pennsylvania), his wife joins him, and their lives are forever changed by a demanding, wealthy patron.",
-                        "streaming": "Streaming: Max (US), Disney+ Hotstar (IN), Now TV Cinema (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
                         "title": "The Childhood of a Leader",
-                        "year": "2015",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2016-05-13",
+                        "year": 2015,
+                        "releaseDate": "September 4, 2015",
                         "director": "Brady Corbet",
-                        "writer": "Mona Fastvold, Brady Corbet",
+                        "writer": "Brady Corbet / Mona Fastvold",
                         "cinematographer": "Lol Crawley",
                         "editor": "Dávid Jancsó",
                         "composer": "Scott Walker",
-                        "studio": "Bow + Arrow Entertainment",
+                        "studio": "Unanimous Entertainment / Bow and Arrow Entertainment",
+                        "country": "United Kingdom / France / Hungary",
                         "poster": "https://image.tmdb.org/t/p/w500/xf1MGzVzEpoWrE5ztcBf7Mhu0Sz.jpg",
                         "plot": "The chilling story of a young American boy living in France in 1918 whose father is working for the US government on the creation of the Treaty of Versailles. What he witnesses helps to mold his beliefs – and we witness the birth of a terrifying ego.",
-                        "streaming": "Streaming: Apple TV (US), AMC+ Amazon Channel (US), AMC+ (US), Philo (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Ominous, dread-inducing transitions cut aggressively to an overwhelming orchestral score."
+                    },
+                    {
+                        "title": "White God",
+                        "year": 2014,
+                        "releaseDate": "May 17, 2014",
+                        "director": "Kornél Mundruczó",
+                        "writer": "Kornél Mundruczó / Viktória Petrányi / Kata Wéber",
+                        "cinematographer": "Marcell Rév",
+                        "editor": "Dávid Jancsó",
+                        "composer": "Asher Goldschmidt",
+                        "studio": "Proton Cinema / Pola Pandora Filmproduktions / Chimney",
+                        "country": "Hungary / Germany / Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/jT9IjPwA5aIYlgvC55VxJOLc0sI.jpg",
+                        "plot": "13 year old Lili fights to protect her dog Hagen, and is devastated when her father sets Hagen free on the streets. Still innocently believing love can conquer any difficulty, Lili sets out to save her dog. Failing in his desperate efforts to find his beloved owner, Hagen joins a canine revolt leading a revolution against their human abusers.",
+                        "focus": "Chaotic, kinetic action editing grounded by visceral realism and animal choreography."
+                    },
+                    {
+                        "title": "Pieces of a Woman",
+                        "year": 2020,
+                        "releaseDate": "September 4, 2020",
+                        "director": "Kornél Mundruczó",
+                        "writer": "Kata Wéber",
+                        "cinematographer": "Benjamin Loeb",
+                        "editor": "Dávid Jancsó",
+                        "composer": "Howard Shore",
+                        "studio": "Bron Studios / Little Lamb / Proton Cinema",
+                        "country": "Canada / United States / Hungary",
+                        "poster": "https://image.tmdb.org/t/p/w500/OgUfLlhfBFx5BPK6LzBWFvBW1w.jpg",
+                        "plot": "When a young mother's home birth ends in unfathomable tragedy, she begins a year-long odyssey of mourning that fractures relationships with loved ones in this deeply personal story of a woman learning to live alongside her loss.",
+                        "focus": "Intense, fluid long-takes interwoven with sharp, jarring temporal jumps."
                     }
                 ],
                 "scenes": []
@@ -33565,33 +33456,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "EO",
-                        "year": "2022",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2022-09-30",
+                        "year": 2022,
+                        "releaseDate": "May 19, 2022",
                         "director": "Jerzy Skolimowski",
-                        "writer": "Ewa Piaskowska, Jerzy Skolimowski",
+                        "writer": "Ewa Piaskowska / Jerzy Skolimowski",
                         "cinematographer": "Michał Dymek",
                         "editor": "Agnieszka Glińska",
                         "composer": "Paweł Mykietyn",
-                        "studio": "Skopia Film",
+                        "studio": "Skopia Film / Alien Films",
+                        "country": "Poland / Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/1MK86Vr2nf1GSYOtRd8pFvA5RM8.jpg",
                         "plot": "The world is a mysterious place when seen through the eyes of an animal. EO, a grey donkey with melancholic eyes, meets good and bad people on his life’s path, experiences joy and pain, endures the wheel of fortune randomly turn his luck into disaster and his despair into unexpected bliss. But not even for a moment does he lose his innocence.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), Prime Video (IN), BFI Player (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Subjective, expressionistic editing capturing the disjointed, terrifying world from an animal's perspective."
                     },
                     {
-                        "title": "The Silent Twins",
-                        "year": "2022",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2022-09-16",
-                        "director": "Agnieszka Smoczyńska",
-                        "writer": "Andrea Seigel",
-                        "cinematographer": "Jakub Kijowski",
+                        "title": "Lamb",
+                        "year": 2021,
+                        "releaseDate": "July 13, 2021",
+                        "director": "Valdimar Jóhannsson",
+                        "writer": "Sjón / Valdimar Jóhannsson",
+                        "cinematographer": "Eli Arenson",
                         "editor": "Agnieszka Glińska",
-                        "composer": "Marcin Macuk, Zuzanna Wronska",
-                        "studio": "Kindred Spirit",
-                        "poster": "https://image.tmdb.org/t/p/w500/44zhSoVvpLDye6rJmU63TIpasUg.jpg",
-                        "plot": "June and Jennifer Gibbons are twins from the only Black family in a small town in Wales in the 1970s and '80s. Feeling isolated from the community, the pair turn inward and reject communication with everyone but each other, retreating into their own fantasy world of inspiration and adolescent desires. After a spree of vandalism, the girls are sentenced to Broadmoor, an infamous psychiatric hospital, where they face the choice to separate and survive or die together.",
-                        "streaming": "Streaming: Netflix (US), YouTube (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Þórarinn Guðnason",
+                        "studio": "Go to Sheep / Black Spark Productions / Madants",
+                        "country": "Iceland / Sweden / Poland",
+                        "poster": "https://image.tmdb.org/t/p/w500/gP9yviboTGWGolqUZKIB1UkF1C2.jpg",
+                        "plot": "An Icelandic couple live with their herd of sheep on a beautiful but remote farm. When they discover a mysterious newborn on their land, they decide to keep it and raise it as their own. This unexpected development and the prospects of a new family brings them much joy before ultimately destroying them.",
+                        "focus": "Deliberately slow, atmospheric pacing that slowly unravels creeping folk-horror."
+                    },
+                    {
+                        "title": "The Girl with the Needle",
+                        "year": 2024,
+                        "releaseDate": "May 15, 2024",
+                        "director": "Magnus von Horn",
+                        "writer": "Magnus von Horn / Line Langebek",
+                        "cinematographer": "Michał Dymek",
+                        "editor": "Agnieszka Glińska",
+                        "composer": "Frederikke Hoffmeier",
+                        "studio": "Nordisk Film / Lava Films / TriArt Film",
+                        "country": "Denmark / Poland / Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/2xkyx8v9G3ePxe1IcFugFQkXHzQ.jpg",
+                        "plot": "Struggling to survive in post-WWI Copenhagen, a newly unemployed and pregnant young woman is taken in by a charismatic elder to help run an underground adoption agency. The two form an unexpected bond, until a sudden discovery changes everything.",
+                        "focus": "Grim, meticulously paced editing that heightens psychological tension and period-piece claustrophobia."
                     }
                 ],
                 "scenes": []
@@ -33612,18 +33518,31 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Man with a Movie Camera",
-                        "year": "1929",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1929-05-12",
+                        "year": 1929,
+                        "releaseDate": "January 8, 1929",
                         "director": "Dziga Vertov",
                         "writer": "Dziga Vertov",
-                        "cinematographer": "Gleb Troyanski, Mikhail Kaufman",
+                        "cinematographer": "Mikhail Kaufman",
                         "editor": "Elizaveta Svilova",
-                        "composer": "The Alloy Orchestra (1995)",
                         "studio": "VUFKU",
-                        "poster": "https://image.tmdb.org/t/p/w500/vJgAdgJWX54v0oXfIvhwjlZnmgn.jpg",
-                        "plot": "A cameraman wanders around with a camera slung over his shoulder, documenting urban life with dazzling inventiveness.",
-                        "streaming": "Streaming: GuideDoc (US), GuideDoc (IN), BFI Player (GB), GuideDoc (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "country": "Soviet Union",
+                        "poster": "assets/images/man_with_a_movie_camera_poster.png",
+                        "plot": "A tribute to the original Vertov documentary, this romp through magic realism examines what happens when an artist simply lets the story unfold before the lens.",
+                        "focus": "Pioneering montage utilizing rapid cuts, double exposures, and split screens to capture urban rhythm."
+                    },
+                    {
+                        "title": "Three Songs About Lenin",
+                        "year": 1934,
+                        "releaseDate": "November 1, 1934",
+                        "director": "Dziga Vertov",
+                        "writer": "Dziga Vertov",
+                        "cinematographer": "Dmitri Surensky / Mark Magidson / Benjamin Monastirsky",
+                        "editor": "Elizaveta Svilova",
+                        "studio": "Mezhrabpomfilm",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/qYjdTAAvAtUyLAfrtDgRYO7bmPP.jpg",
+                        "plot": "This documentary, made up of 3 episodes, is based on three songs sung by anonymous people in Soviet Russia about Vladimir Ilyich Lenin.",
+                        "focus": "Propagandistic but poetic montage that blends archival footage with striking graphic compositions."
                     }
                 ],
                 "scenes": []
@@ -33644,33 +33563,46 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Battleship Potemkin",
-                        "year": "1925",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1925-12-24",
+                        "year": 1925,
+                        "releaseDate": "December 21, 1925",
                         "director": "Sergei Eisenstein",
-                        "writer": "Sergei Tretyakov, Nina Agadzhanova, Sergei Eisenstein, Nikolay Aseev, Grigori Aleksandrov",
+                        "writer": "Nina Agadzhanova / Sergei Eisenstein",
                         "cinematographer": "Eduard Tisse",
                         "editor": "Sergei Eisenstein",
-                        "composer": "Edmund Meisel",
-                        "studio": "Mosfilm",
+                        "composer": "Edmund Meisel (1926 score)",
+                        "studio": "Mosfilm / Goskino",
+                        "country": "Soviet Union",
                         "poster": "https://image.tmdb.org/t/p/w500/hZmsRLsCnE9Zshf1YJONUpCOhds.jpg",
                         "plot": "A dramatized account of a great Russian naval mutiny and a resultant public demonstration, showing support, which brought on a police massacre.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), FlixFling (US), Klassiki (US) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Revolutionary 'montage of attractions' designed to provoke visceral, emotional shocks in the audience."
                     },
                     {
-                        "title": "October",
-                        "year": "1927",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1927-10-30",
-                        "director": "Boris Barnet",
-                        "writer": "Oleg Leonidov",
-                        "cinematographer": "Boris Frantsisson, Konstantin Kuznetsov, Yakov Tolchan",
+                        "title": "October (Ten Days That Shook the World)",
+                        "year": 1928,
+                        "releaseDate": "March 14, 1928",
+                        "director": "Sergei Eisenstein / Grigori Aleksandrov",
+                        "writer": "Sergei Eisenstein / Grigori Aleksandrov",
+                        "cinematographer": "Eduard Tisse",
+                        "editor": "Sergei Eisenstein / Grigori Aleksandrov",
+                        "studio": "Sovkino",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/2sNZPybGgux2keFKxZuKuedrS3d.jpg",
+                        "plot": "Sergei M. Eisenstein's docu-drama about the 1917 October Revolution in Russia. Made ten years after the events and edited in Eisenstein's 'Soviet Montage' style, it re-enacts in celebratory terms several key scenes from the revolution.",
+                        "focus": "Intellectual montage combining disparate images to generate complex political and philosophical metaphors."
+                    },
+                    {
+                        "title": "Strike",
+                        "year": 1925,
+                        "releaseDate": "April 28, 1925",
+                        "director": "Sergei Eisenstein",
+                        "writer": "Valeriyan Pletnyov / Ilya Kravchunovsky / Sergei Eisenstein",
+                        "cinematographer": "Eduard Tisse",
                         "editor": "Sergei Eisenstein",
-                        "composer": "Edmund Meisel",
-                        "studio": "Mezhrabpom-Rus",
-                        "poster": "https://image.tmdb.org/t/p/w500/xWkSEt2vONtFrmaw5DZ5vMkYIqG.jpg",
-                        "plot": "October reflects a general attempt in Russia to sustain the frenzy and dynamism of revolutionary fervour. This attempt increased in scale and ambition as they pushed it further, resulting in the theatricalisation of life. In other words, the boundaries between real events and fabricated drama became blurred as the portrayal of life became more exaggerated. It is important to remember that the film does not represent what actually happened during the 1917 Revolution, but is rather an adaptation.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "studio": "Proletkult / Goskino",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/mrDTaMxQKxWZ3uEs2G58vJWJDDL.jpg",
+                        "plot": "Workers in a factory in pre-revolutionary Russia go on strike and are met by violent suppression.",
+                        "focus": "Aggressive, collision-based editing that juxtaposes striking workers with slaughterhouse imagery."
                     }
                 ],
                 "scenes": []
@@ -33690,19 +33622,32 @@ const FILMS_DATA = {
                 "bestWork": "The Extraordinary Adventures of Mr. West in the Land of the Bolsheviks (1924)",
                 "mustWatch": [
                     {
-                        "title": "The Extraordinary Adventures of Mr. West in the Land of the Bolsheviks",
-                        "year": "1924",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1924-04-26",
+                        "title": "By the Law",
+                        "year": 1926,
+                        "releaseDate": "December 3, 1926",
                         "director": "Lev Kuleshov",
-                        "writer": "Vsevolod Pudovkin",
+                        "writer": "Viktor Shklovsky",
+                        "cinematographer": "Konstantin Kuznetsov",
+                        "editor": "Lev Kuleshov",
+                        "studio": "Goskino",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/en5KODxMeWO5KgFDFh8974mfSgS.jpg",
+                        "plot": "After a man kills two members of his Yukon gold prospecting team, the other two surviving members struggle to keep him subdued for the next several months until they can turn him over to the law.",
+                        "focus": "Tense, minimalist editing emphasizing psychological claustrophobia and raw human survival."
+                    },
+                    {
+                        "title": "The Extraordinary Adventures of Mr. West in the Land of the Bolsheviks",
+                        "year": 1924,
+                        "releaseDate": "April 27, 1924",
+                        "director": "Lev Kuleshov",
+                        "writer": "Nikolai Aseev",
                         "cinematographer": "Aleksandr Levitsky",
                         "editor": "Lev Kuleshov",
-                        "composer": "Unknown",
-                        "studio": "Goskino USSR",
-                        "poster": "https://image.tmdb.org/t/p/w500/pqTkjzDIzykGRbGQuY4LQWxYQTP.jpg",
+                        "studio": "Goskino",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/8NAGIZI9447cE0w9TrnU6CFhOb3.jpg",
                         "plot": "An ignorant and prejudiced American’s visit of Soviet Russia goes off the rails after his luggage is stolen and he is separated from his bodyguard.",
-                        "streaming": "Streaming: Klassiki (US), Klassiki (GB) | Rent/Buy: Amazon Video"
+                        "focus": "Fast-paced, dynamic editing showcasing early application of the Kuleshov Effect to manipulate spatial continuity."
                     }
                 ],
                 "scenes": []
@@ -33723,18 +33668,29 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "The Fall of the Romanov Dynasty",
-                        "year": "1927",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1927-03-11",
+                        "year": 1927,
+                        "releaseDate": "March 11, 1927",
                         "director": "Esfir Shub",
                         "writer": "Esfir Shub",
-                        "cinematographer": "Archive Footage",
                         "editor": "Esfir Shub",
-                        "composer": "Unknown",
-                        "studio": "Museum of the Revolution, Moscow",
+                        "studio": "Sovkino",
+                        "country": "Soviet Union",
                         "poster": "https://image.tmdb.org/t/p/w500/rJpj6EOhXqsKRsea8Mbkz7jSMeg.jpg",
                         "plot": "A compilation of newsreels shot between 1913 and 1917 - the years leading up to the Russian Revolution.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Groundbreaking compilation film that redefined editing by entirely repurposing existing archival newsreels."
+                    },
+                    {
+                        "title": "The Great Road",
+                        "year": 1927,
+                        "releaseDate": "November 6, 1927",
+                        "director": "Esfir Shub",
+                        "writer": "Esfir Shub",
+                        "editor": "Esfir Shub",
+                        "studio": "Sovkino",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/5pwP7KJtO7DfvS82zMbSAjDoy1Y.jpg",
+                        "plot": "The Great Road (1927) is a Soviet silent documentary directed by Esfir Shub. Serving as the second part of her trilogy on Russian history—between The Fall of the Romanov Dynasty (1927) and Lev Tolstoy and the Russia of Nicolai II (1928)—the film chronicles the revolutionary path of the Soviet Union, assembling archival footage to depict the struggle, transformation, and aspirations of the early Soviet state.",
+                        "focus": "Masterful archival montage celebrating a decade of Soviet history through precisely organized historical footage."
                     }
                 ],
                 "scenes": []
@@ -33754,49 +33710,49 @@ const FILMS_DATA = {
                 "bestWork": "Stalker (1979), Solaris (1972), Andrei Rublev (1966)",
                 "mustWatch": [
                     {
-                        "title": "Stalker",
-                        "year": "1979",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1979-05-25",
+                        "title": "Mirror",
+                        "year": 1975,
+                        "releaseDate": "March 7, 1975",
                         "director": "Andrei Tarkovsky",
-                        "writer": "Arkadiy Strugatskiy, Andrei Tarkovsky, Boris Strugatskiy",
-                        "cinematographer": "Aleksandr Knyazhinsky, Leonid Kalashnikov",
+                        "writer": "Aleksandr Misharin / Andrei Tarkovsky",
+                        "cinematographer": "Georgi Rerberg",
                         "editor": "Lyudmila Feiginova",
                         "composer": "Eduard Artemyev",
                         "studio": "Mosfilm",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/AttDP5OEsMxtHPPN7Z92p2Ntnmd.jpg",
+                        "plot": "A dying man in his forties recalls his childhood, his mother, the war and personal moments that tell of and juxtapose pivotal moments in Soviet history with daily life.",
+                        "focus": "Fluid, nonlinear editing that seamlessly drifts between fragmented memories, dreams, and historical archival footage."
+                    },
+                    {
+                        "title": "Stalker",
+                        "year": 1979,
+                        "releaseDate": "May 25, 1979",
+                        "director": "Andrei Tarkovsky",
+                        "writer": "Arkady Strugatsky / Boris Strugatsky",
+                        "cinematographer": "Alexander Knyazhinsky",
+                        "editor": "Lyudmila Feiginova",
+                        "composer": "Eduard Artemyev",
+                        "studio": "Mosfilm",
+                        "country": "Soviet Union",
                         "poster": "https://image.tmdb.org/t/p/w500/1qhOyf5C4s9ZdvY8d5JDx9DFMeT.jpg",
                         "plot": "Near a gray and unnamed city is the Zone, a place guarded by barbed wire and soldiers, and where the normal laws of physics are victim to frequent anomalies. A stalker guides two men into the Zone, specifically to an area in which deep-seated desires are granted.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Glacial, hypnotic pacing utilizing long takes to immerse the viewer in existential reflection."
                     },
                     {
                         "title": "Solaris",
-                        "year": "1972",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1972-03-20",
+                        "year": 1972,
+                        "releaseDate": "March 20, 1972",
                         "director": "Andrei Tarkovsky",
-                        "writer": "Andrei Tarkovsky, Fridrikh Gorenshteyn",
+                        "writer": "Fridrikh Gorenshtein / Andrei Tarkovsky",
                         "cinematographer": "Vadim Yusov",
                         "editor": "Lyudmila Feiginova",
-                        "composer": "Vyacheslav Ovchinnikov, Eduard Artemyev",
-                        "studio": "Unit Four",
-                        "poster": "https://image.tmdb.org/t/p/w500/uER8n2iitx8Tek6v0wXeF5lMGXp.jpg",
-                        "plot": "A psychologist is sent to a space station orbiting a planet called Solaris to investigate the death of a doctor and the mental problems of cosmonauts on the station. He soon discovers that the water on the planet is a type of brain which brings out repressed memories and obsessions.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "Andrei Rublev",
-                        "year": "1966",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1966-12-16",
-                        "director": "Andrei Tarkovsky",
-                        "writer": "Andrei Tarkovsky, Andrei Konchalovsky",
-                        "cinematographer": "Vadim Yusov",
-                        "editor": "Lyudmila Feiginova",
-                        "composer": "Vyacheslav Ovchinnikov",
+                        "composer": "Eduard Artemyev",
                         "studio": "Mosfilm",
-                        "poster": "https://image.tmdb.org/t/p/w500/910xRIUmNJrWH2hkQifBJtoPp5R.jpg",
-                        "plot": "An expansive Russian drama, this film focuses on the life of revered religious icon painter Andrei Rublev. Drifting from place to place in a tumultuous era, the peace-seeking monk eventually gains a reputation for his art. But after Rublev witnesses a brutal battle and unintentionally becomes involved, he takes a vow of silence and spends time away from his work. As he begins to ease his troubled soul, he takes steps towards becoming a painter once again.",
-                        "streaming": "Streaming: Criterion Channel (US), Darkroom (US) | Rent/Buy: Apple TV, Fandango At Home, Rakuten TV"
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/pgqj7QoBPWFLLKtLEpPmFYFRMgB.jpg",
+                        "plot": "A psychologist is sent to a space station orbiting a planet called Solaris to investigate the death of a doctor and the mental problems of cosmonauts on the station. He soon discovers that the water on the planet is a type of brain which brings out repressed memories and obsessions.",
+                        "focus": "Meditative pacing that juxtaposes the sterile environment of the space station with the overwhelming, organic power of the planet."
                     }
                 ],
                 "scenes": []
@@ -33817,33 +33773,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Leviathan",
-                        "year": "2014",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2014-09-24",
+                        "year": 2014,
+                        "releaseDate": "May 23, 2014",
                         "director": "Andrey Zvyagintsev",
-                        "writer": "Oleg Negin, Andrey Zvyagintsev",
+                        "writer": "Oleg Negin / Andrey Zvyagintsev",
                         "cinematographer": "Mikhail Krichman",
                         "editor": "Anna Mass",
-                        "composer": "Philip Glass, Andrey Dergachev, Andrey Dergachev",
-                        "studio": "Non-Stop Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/dwmHSBBiu2ow271zrQ33rPKZDSC.jpg",
-                        "plot": "In a Russian coastal town, Kolya is forced to fight the corrupt mayor when he is told that his house will be demolished. He recruits a lawyer friend to help, but the man's arrival brings further misfortune for Kolya and his family.",
-                        "streaming": "Streaming: Klassiki (US), Curzon Amazon Channel (GB), Klassiki (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Philip Glass",
+                        "studio": "Non-Stop Production",
+                        "country": "Russia",
+                        "poster": "https://image.tmdb.org/t/p/w500/extm7kFsxr0qMoi1G5F3w5Lwlt4.jpg",
+                        "plot": "Underwater deep-sea miners encounter a Soviet wreck and bring back a dangerous cargo to their base on the ocean floor with horrifying results. The crew of the mining base must fight to survive against a genetic mutation that hunts them down one by one.",
+                        "focus": "Deliberate, slow-burn editing that meticulously uncovers systemic corruption and inescapable tragedy."
                     },
                     {
                         "title": "Loveless",
-                        "year": "2017",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2017-06-01",
+                        "year": 2017,
+                        "releaseDate": "May 18, 2017",
                         "director": "Andrey Zvyagintsev",
-                        "writer": "Oleg Negin, Andrey Zvyagintsev",
+                        "writer": "Oleg Negin / Andrey Zvyagintsev",
                         "cinematographer": "Mikhail Krichman",
                         "editor": "Anna Mass",
-                        "composer": "Sacha Galperine, Evgueni Galperine",
-                        "studio": "ARTE France Cinéma",
+                        "composer": "Evgueni Galperine / Sacha Galperine",
+                        "studio": "Non-Stop Production / Why Not Productions",
+                        "country": "Russia / France / Germany / Belgium",
                         "poster": "https://image.tmdb.org/t/p/w500/oBUsLGZoGuLKMuHj19mjG9iCDoq.jpg",
                         "plot": "Zhenya and Boris are going through a vicious divorce marked by resentment, frustration and recriminations. Already embarking on new lives, each with a new partner, they are impatient to start again, to turn the page – even if it means threatening to abandon their 12-year-old son Alyosha. Until, after witnessing one of their fights, Alyosha disappears.",
-                        "streaming": "Streaming: Prime Video (GB), BFI Player (GB), BFI Player Amazon Channel (GB), Apple TV (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Cold, detached editing that mirrors the emotional void of the characters and the starkness of their environment."
+                    },
+                    {
+                        "title": "Elena",
+                        "year": 2011,
+                        "releaseDate": "May 21, 2011",
+                        "director": "Andrey Zvyagintsev",
+                        "writer": "Oleg Negin / Andrey Zvyagintsev",
+                        "cinematographer": "Mikhail Krichman",
+                        "editor": "Anna Mass",
+                        "composer": "Philip Glass",
+                        "studio": "Non-Stop Production",
+                        "country": "Russia",
+                        "poster": "https://image.tmdb.org/t/p/w500/pdSxysKTeE6oTYhtVBF08Nwj2Ir.jpg",
+                        "plot": "After suffering from a heart attack, a wealthy elderly Russian man plans to will most of his estate to his estranged daughter, but his titular wife has other plans.",
+                        "focus": "Methodical, rhythmic pacing that slowly builds quiet tension, leading to a devastating and inevitable climax."
                     }
                 ],
                 "scenes": []
@@ -33863,19 +33834,49 @@ const FILMS_DATA = {
                 "bestWork": "Burnt by the Sun (1994)",
                 "mustWatch": [
                     {
-                        "title": "Burnt by the Sun",
-                        "year": "1994",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1994-05-01",
-                        "director": "Nikita Mikhalkov",
-                        "writer": "Nikita Mikhalkov, Rustam Ibragimbekov",
-                        "cinematographer": "Vilen Kalyuta",
+                        "title": "Wings",
+                        "year": 1966,
+                        "releaseDate": "December 5, 1966",
+                        "director": "Larisa Shepitko",
+                        "writer": "Valentin Yezhov / Natalya Ryazantseva",
+                        "cinematographer": "Igor Slabnevich",
                         "editor": "Lidia Lysenko",
-                        "composer": "Eduard Artemyev",
-                        "studio": "Studio Trite",
-                        "poster": "https://image.tmdb.org/t/p/w500/jcpvnPSuRrynrgY7menuyZe7X4r.jpg",
-                        "plot": "Russia, 1936: revolutionary hero Colonel Kotov is spending an idyllic summer in his dacha with his young wife and six-year-old daughter Nadia and other assorted family and friends. Things change dramatically with the unheralded arrival of Cousin Dmitri from Moscow, who charms the women and little Nadia with his games and pianistic bravura. But Kotov isn't fooled: this is the time of Stalin's repression, with telephone calls in the middle of the night spelling doom - and he knows that Dmitri isn't paying a social call...",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Roman Ledenyov",
+                        "studio": "Mosfilm",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/sGWFjV5e86OJWxs8QYbwo9MHtyL.jpg",
+                        "plot": "Former fighter pilot turned provincial schoolmistress Nadezhda Petrovna struggles to adapt to peacetime, having internalised military ideals of service and obedience.",
+                        "focus": "Introspective editing that contrasts the protagonist's mundane present with soaring, fragmented memories of her past."
+                    },
+                    {
+                        "title": "Walking the Streets of Moscow",
+                        "year": 1964,
+                        "releaseDate": "April 11, 1964",
+                        "director": "Georgi Daneliya",
+                        "writer": "Gennady Shpalikov",
+                        "cinematographer": "Vadim Yusov",
+                        "editor": "Lidia Lysenko",
+                        "composer": "Andrei Petrov",
+                        "studio": "Mosfilm",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/pOEPnNDgxLAsA64iKSuEhQVt5aC.jpg",
+                        "plot": "On a stopover in Moscow, a young writer Volodya makes friends with Kolya, who is returning home from a hard night shift. Just as Kolya is about to take a rest, he is met by his old friend Sasha, who wants help getting a deferral from military service so that he can get married.",
+                        "focus": "Lyrical, episodic editing that captures the youthful, freewheeling energy of the Khrushchev Thaw."
+                    },
+                    {
+                        "title": "The Forty-First",
+                        "year": 1956,
+                        "releaseDate": "October 15, 1956",
+                        "director": "Grigori Chukhrai",
+                        "writer": "Grigori Koltunov",
+                        "cinematographer": "Sergey Urusevsky",
+                        "editor": "Lidia Lysenko",
+                        "composer": "Nikolai Kryukov",
+                        "studio": "Mosfilm",
+                        "country": "Soviet Union",
+                        "poster": "https://image.tmdb.org/t/p/w500/xckVzPkiC09803rRrQD9mA63Hfx.jpg",
+                        "plot": "An unexpected romance occurs for a female Red Army sniper and a White Army officer.",
+                        "focus": "Sweeping, romantic editing that heightens the emotional intensity of a doomed love affair against a stark landscape."
                     }
                 ],
                 "scenes": []
@@ -33896,48 +33897,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Seven Samurai",
-                        "year": "1954",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1954-04-26",
+                        "year": 1954,
+                        "releaseDate": "April 26, 1954",
                         "director": "Akira Kurosawa",
-                        "writer": "Akira Kurosawa, Shinobu Hashimoto, Hideo Oguni",
+                        "writer": "Akira Kurosawa / Shinobu Hashimoto / Hideo Oguni",
                         "cinematographer": "Asakazu Nakai",
                         "editor": "Akira Kurosawa",
                         "composer": "Fumio Hayasaka",
-                        "studio": "TOHO",
-                        "poster": "https://image.tmdb.org/t/p/w500/lOMGc8bnSwQhS4XyE1S99uH8NXf.jpg",
-                        "plot": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), BFI Player (GB), BFI Player Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "studio": "Toho Co., Ltd.",
+                        "country": "Japan",
+                        "plot": "Plot details not available.",
+                        "focus": "Masterful, rhythmic editing that perfectly balances multiple character arcs and chaotic, multi-camera action sequences.",
+                        "poster": "assets/images/seven_samurai_poster.png"
                     },
                     {
                         "title": "Rashomon",
-                        "year": "1950",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1950-08-26",
+                        "year": 1950,
+                        "releaseDate": "August 26, 1950",
                         "director": "Akira Kurosawa",
-                        "writer": "Shinobu Hashimoto, Akira Kurosawa",
+                        "writer": "Akira Kurosawa / Shinobu Hashimoto",
                         "cinematographer": "Kazuo Miyagawa",
                         "editor": "Akira Kurosawa",
                         "composer": "Fumio Hayasaka",
                         "studio": "Daiei Film",
+                        "country": "Japan",
                         "poster": "https://image.tmdb.org/t/p/w500/vL7Xw04nFMHwnvXRFCmYYAzMUvY.jpg",
                         "plot": "Four people recount different versions of the story of a man's murder and the rape of his wife.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), Sky Go (GB), BFI Player (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Innovative editing that cuts between multiple conflicting perspectives, reshaping narrative truth."
                     },
                     {
                         "title": "Ran",
-                        "year": "1985",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1985-06-01",
+                        "year": 1985,
+                        "releaseDate": "June 1, 1985",
                         "director": "Akira Kurosawa",
-                        "writer": "Akira Kurosawa, Hideo Oguni, Masato Ide",
-                        "cinematographer": "Asakazu Nakai, Takao Saitō, Shoji Ueda",
+                        "writer": "Akira Kurosawa / Hideo Oguni / Masato Ide",
+                        "cinematographer": "Takao Saito / Masaharu Ueda",
                         "editor": "Akira Kurosawa",
                         "composer": "Toru Takemitsu",
-                        "studio": "Nippon Herald Films",
+                        "studio": "Greenwich Film Productions / Herald Ace",
+                        "country": "Japan / France",
                         "poster": "https://image.tmdb.org/t/p/w500/dGgiXMWDcS5aJTBEFu7bmaQPNox.jpg",
                         "plot": "Shakespeare's King Lear is reimagined as a singular historical epic set in sixteenth-century Japan where an aging warlord divides his kingdom between his three sons.",
-                        "streaming": "Streaming: BFI Player Amazon Channel (US), Apple TV (GB), Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Rakuten TV"
+                        "focus": "Epic, grand-scale editing that orchestrates massive battlefield carnage with poetic tragedy."
                     }
                 ],
                 "scenes": []
@@ -33958,33 +33959,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Tokyo Story",
-                        "year": "1953",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1953-11-03",
+                        "year": 1953,
+                        "releaseDate": "November 3, 1953",
                         "director": "Yasujirō Ozu",
-                        "writer": "Kōgo Noda, Yasujirō Ozu",
-                        "cinematographer": "Yûharu Atsuta",
+                        "writer": "Yasujirō Ozu / Kōgo Noda",
+                        "cinematographer": "Yūharu Atsuta",
                         "editor": "Yoshiyasu Hamamura",
                         "composer": "Takanobu Saitō",
                         "studio": "Shochiku",
+                        "country": "Japan",
                         "poster": "https://image.tmdb.org/t/p/w500/g2YbTYKpY7N2yDSk7BfXZ18I5QV.jpg",
                         "plot": "The elderly Shukishi and his wife, Tomi, take the long journey from their small seaside village to visit their adult children in Tokyo. Their elder son, Koichi, a doctor, and their daughter, Shige, a hairdresser, don't have much time to spend with their aged parents, and so it falls to Noriko, the widow of their younger son who was killed in the war, to keep her in-laws company.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), TCM (US), BFI Player (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Precision continuity editing with low-angle shots and 'tatami' framing that eschews traditional Hollywood shot-reverse-shot."
                     },
                     {
                         "title": "Late Spring",
-                        "year": "1949",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1949-09-13",
+                        "year": 1949,
+                        "releaseDate": "September 13, 1949",
                         "director": "Yasujirō Ozu",
-                        "writer": "Kōgo Noda, Yasujirō Ozu",
-                        "cinematographer": "Yûharu Atsuta",
+                        "writer": "Yasujirō Ozu / Kōgo Noda",
+                        "cinematographer": "Yūharu Atsuta",
                         "editor": "Yoshiyasu Hamamura",
-                        "composer": "Senji Ito",
+                        "composer": "Senji Itō",
                         "studio": "Shochiku",
+                        "country": "Japan",
                         "poster": "https://image.tmdb.org/t/p/w500/iNtRSY2AGjW1VDXDR79bKsNUdus.jpg",
                         "plot": "Noriko is perfectly happy living at home with her widowed father, Shukichi, and has no plans to marry -- that is, until her aunt Masa convinces Shukichi that unless he marries off his 27-year-old daughter soon, she will likely remain alone for the rest of her life. When Noriko resists Masa's matchmaking, Shukichi is forced to deceive his daughter and sacrifice his own happiness to do what he believes is right.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), Fandor (US), Philo (US) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Delicate, measured pacing relying on static shots and elliptical cuts to emphasize unspoken emotion."
                     }
                 ],
                 "scenes": []
@@ -34004,49 +34005,49 @@ const FILMS_DATA = {
                 "bestWork": "Spirited Away (2001), Princess Mononoke (1997), Grave of the Fireflies (1988)",
                 "mustWatch": [
                     {
-                        "title": "Spirited Away",
-                        "year": "2001",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2001-07-20",
-                        "director": "Hayao Miyazaki",
-                        "writer": "Hayao Miyazaki",
-                        "cinematographer": "Atsushi Okui",
-                        "editor": "Takeshi Seyama",
-                        "composer": "Joe Hisaishi",
-                        "studio": "Studio Ghibli",
-                        "poster": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
-                        "plot": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-                        "streaming": "Streaming: Max (US), Netflix (IN), Netflix (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
                         "title": "Princess Mononoke",
-                        "year": "1997",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1997-07-12",
+                        "year": 1997,
+                        "releaseDate": "July 12, 1997",
                         "director": "Hayao Miyazaki",
                         "writer": "Hayao Miyazaki",
                         "cinematographer": "Atsushi Okui",
                         "editor": "Takeshi Seyama",
                         "composer": "Joe Hisaishi",
                         "studio": "Studio Ghibli",
+                        "country": "Japan",
                         "poster": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
                         "plot": "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
-                        "streaming": "Streaming: Max (US), Netflix (IN), Netflix (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Dynamic, breathless editing that perfectly balances fast-paced action with profound environmental introspection."
                     },
                     {
                         "title": "Grave of the Fireflies",
-                        "year": "1988",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1988-04-16",
+                        "year": 1988,
+                        "releaseDate": "April 16, 1988",
                         "director": "Isao Takahata",
                         "writer": "Isao Takahata",
                         "cinematographer": "Nobuo Koyama",
                         "editor": "Takeshi Seyama",
                         "composer": "Michio Mamiya",
-                        "studio": "Studio Ghibli",
+                        "studio": "Studio Ghibli / Shinchosha",
+                        "country": "Japan",
                         "poster": "https://image.tmdb.org/t/p/w500/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
                         "plot": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
-                        "streaming": "Streaming: Netflix (US), Netflix (IN), Netflix (GB) | Rent/Buy: Amazon Video"
+                        "focus": "Heart-wrenching, methodical pacing that contrasts moments of fragile childhood joy with devastating wartime realities."
+                    },
+                    {
+                        "title": "My Neighbor Totoro",
+                        "year": 1988,
+                        "releaseDate": "April 16, 1988",
+                        "director": "Hayao Miyazaki",
+                        "writer": "Hayao Miyazaki",
+                        "cinematographer": "Mark Henley",
+                        "editor": "Takeshi Seyama",
+                        "composer": "Joe Hisaishi",
+                        "studio": "Studio Ghibli",
+                        "country": "Japan",
+                        "poster": "https://image.tmdb.org/t/p/w500/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
+                        "plot": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
+                        "focus": "Gentle, flowing pacing that captures the wonder and unhurried rhythm of childhood discovery."
                     }
                 ],
                 "scenes": []
@@ -34066,19 +34067,19 @@ const FILMS_DATA = {
                 "bestWork": "Dreams (1990)",
                 "mustWatch": [
                     {
-                        "title": "Dreams",
-                        "year": "1990",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1990-05-11",
-                        "director": "Akira Kurosawa",
-                        "writer": "Akira Kurosawa",
-                        "cinematographer": "Takao Saitō, Shoji Ueda",
+                        "title": "Perfect Blue",
+                        "year": 1998,
+                        "releaseDate": "February 28, 1998",
+                        "director": "Satoshi Kon",
+                        "writer": "Sadayuki Murai",
+                        "cinematographer": "Hisao Shirai",
                         "editor": "Ryuji Miyazaki",
-                        "composer": "Shinichiro Ikebe",
-                        "studio": "Warner Bros. Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/ua17wrOrUjyqxuYmnUrmOVBMf4G.jpg",
-                        "plot": "Eight visually rich vignettes drawn from Kurosawa’s own dreams—fox weddings and vanished orchards, a soldier’s ghosts, a walk through Van Gogh’s canvases, nuclear nightmares, and a water-mill utopia—meditate on childhood, art, mortality, and humanity’s uneasy bond with nature.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Masahiro Ikumi",
+                        "studio": "Madhouse",
+                        "country": "Japan",
+                        "poster": "https://image.tmdb.org/t/p/w500/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg",
+                        "plot": "Rising pop star Mima quits singing to pursue a career as an actress. After she takes up a role on a popular detective show, her handlers and collaborators begin turning up murdered. Harboring feelings of guilt and haunted by visions of her former self, Mima's reality and fantasy meld into a frenzied paranoia.",
+                        "focus": "Frantic, psychological editing that disorientingly blurs the lines between reality, performance, and hallucination."
                     }
                 ],
                 "scenes": []
@@ -34099,48 +34100,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Oldboy",
-                        "year": "2003",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2003-11-21",
+                        "year": 2003,
+                        "releaseDate": "November 21, 2003",
                         "director": "Park Chan-wook",
-                        "writer": "Hwang Jo-yoon, Lim Joon-hyung, Park Chan-wook",
+                        "writer": "Hwang Jo-yun / Lim Jun-hyeong / Park Chan-wook",
                         "cinematographer": "Chung Chung-hoon",
-                        "editor": "Kim Sang-bum",
-                        "composer": "Choi Seung-hyun, Shim Hyun-jung, Lee Ji-soo, Jo Yeong-wook",
-                        "studio": "Show East",
+                        "editor": "Kim Sang-bum / Kim Jae-bum",
+                        "composer": "Jo Yeong-wook",
+                        "studio": "Egg Film / Show East",
+                        "country": "South Korea",
                         "poster": "https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
                         "plot": "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate man seeks revenge on his captors.",
-                        "streaming": "Streaming: Prime Video (IN), VI movies and tv (IN), BFI Player (GB), Shudder (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Intense, visceral editing characterized by kinetic transitions, extreme close-ups, and legendary unbroken action sequences."
                     },
                     {
                         "title": "The Handmaiden",
-                        "year": "2016",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2016-06-01",
+                        "year": 2016,
+                        "releaseDate": "May 14, 2016",
                         "director": "Park Chan-wook",
-                        "writer": "Park Chan-wook, Chung Seo-kyung",
+                        "writer": "Chung Seo-kyung / Park Chan-wook",
                         "cinematographer": "Chung Chung-hoon",
-                        "editor": "Kim Sang-bum",
+                        "editor": "Kim Sang-bum / Kim Jae-bum",
                         "composer": "Jo Yeong-wook",
-                        "studio": "Moho Film",
+                        "studio": "Moho Film / Yong Film",
+                        "country": "South Korea",
                         "poster": "https://image.tmdb.org/t/p/w500/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
                         "plot": "1930s Korea, in the period of Japanese occupation, a new girl, Sook-hee, is hired as a handmaiden to a Japanese heiress, Hideko, who lives a secluded life on a large countryside estate with her domineering Uncle Kouzuki. But the maid has a secret. She is a pickpocket recruited by a swindler posing as a Japanese Count to help him seduce the Lady to steal her fortune.",
-                        "streaming": "Streaming: Prime Video (US), FilmBox+ (IN), BFI Player (GB), FilmBox+ (GB) | Rent/Buy: Fandango At Home, Apple TV, Rakuten TV"
+                        "focus": "Intricate, deceptive pacing that utilizes parallel editing to manipulate point-of-view and reveal layered twists."
                     },
                     {
                         "title": "Decision to Leave",
-                        "year": "2022",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2022-06-29",
+                        "year": 2022,
+                        "releaseDate": "May 23, 2022",
                         "director": "Park Chan-wook",
-                        "writer": "Park Chan-wook, Chung Seo-kyung",
+                        "writer": "Chung Seo-kyung / Park Chan-wook",
                         "cinematographer": "Kim Ji-yong",
                         "editor": "Kim Sang-bum",
                         "composer": "Jo Yeong-wook",
                         "studio": "Moho Film",
+                        "country": "South Korea",
                         "poster": "https://image.tmdb.org/t/p/w500/zI8KZ4EdLUymWKX1YEkpZ0gtPUa.jpg",
                         "plot": "From a mountain peak in South Korea, a man plummets to his death. Did he jump, or was he pushed? When detective Hae-joon arrives on the scene, he begins to suspect the dead man’s wife Seo-rae. But as he digs deeper into the investigation, he finds himself trapped in a web of deception and desire.",
-                        "streaming": "Streaming: MUBI (US), MUBI (IN), MUBI (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Elliptical, highly stylized editing that creates a dizzying romantic tension through seamless graphic matches and time jumps."
                     }
                 ],
                 "scenes": []
@@ -34161,18 +34162,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Parasite",
-                        "year": "2019",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-05-30",
-                        "director": "Bong Joon Ho",
-                        "writer": "Han Jin-won, Bong Joon Ho",
+                        "year": 2019,
+                        "releaseDate": "May 21, 2019",
+                        "director": "Bong Joon-ho",
+                        "writer": "Bong Joon-ho / Han Jin-won",
                         "cinematographer": "Hong Kyung-pyo",
                         "editor": "Yang Jin-mo",
                         "composer": "Jung Jae-il",
                         "studio": "Barunson E&A",
+                        "country": "South Korea",
                         "poster": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
                         "plot": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
-                        "streaming": "Streaming: VI movies and tv (IN), MUBI (GB), BFI Player (GB), BFI Player Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Flawless, architectural editing that masterfully controls tension and tone while navigating vertical spatial dynamics."
+                    },
+                    {
+                        "title": "Okja",
+                        "year": 2017,
+                        "releaseDate": "May 19, 2017",
+                        "director": "Bong Joon-ho",
+                        "writer": "Bong Joon-ho / Jon Ronson",
+                        "cinematographer": "Darius Khondji",
+                        "editor": "Yang Jin-mo",
+                        "composer": "Jung Jae-il",
+                        "studio": "Plan B Entertainment / Lewis Pictures / Kate Street Picture Company",
+                        "country": "South Korea / United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/pHlRr2MfjK77VIIAO7p0R4jhsJI.jpg",
+                        "plot": "A young girl named Mija risks everything to prevent a powerful, multi-national company from kidnapping her best friend - a massive animal named Okja.",
+                        "focus": "Dynamic, breathless pacing that swings wildly between satirical comedy and heart-pounding action."
                     }
                 ],
                 "scenes": []
@@ -34193,33 +34209,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Memories of Murder",
-                        "year": "2003",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2003-04-25",
-                        "director": "Bong Joon Ho",
-                        "writer": "Bong Joon Ho, Shim Sung-bo",
+                        "year": 2003,
+                        "releaseDate": "May 2, 2003",
+                        "director": "Bong Joon-ho",
+                        "writer": "Bong Joon-ho / Shim Sung-bo",
                         "cinematographer": "Kim Hyung-koo",
                         "editor": "Kim Sun-min",
-                        "composer": "Taro Iwashiro",
-                        "studio": "CJ Entertainment",
+                        "composer": "Tarō Iwashiro",
+                        "studio": "CJ Entertainment / Sidus Pictures",
+                        "country": "South Korea",
                         "poster": "https://image.tmdb.org/t/p/w500/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg",
                         "plot": "A sadistic serial rapist and murderer of young women terrorizes a small province in 1980s South Korea. To prevent further crimes, three increasingly desperate detectives with conflicting methods race against time to unravel the violent mind of the killer in a futile effort to solve the case.",
-                        "streaming": "Streaming: fuboTV (US), Paramount Plus Premium (US), Paramount Plus Essential (US), Paramount+ (US) | Rent/Buy: Amazon Video, Google Play, YouTube"
+                        "focus": "Gritty, methodical pacing that emphasizes procedural frustration, punctuated by abrupt bursts of violence."
                     },
                     {
                         "title": "The Chaser",
-                        "year": "2008",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2008-02-14",
+                        "year": 2008,
+                        "releaseDate": "February 14, 2008",
                         "director": "Na Hong-jin",
-                        "writer": "Hong Won-chan, Shinho Lee, Na Hong-jin",
-                        "cinematographer": "Lee Seong-je",
+                        "writer": "Na Hong-jin / Shinho Lee / Hong Won-chan",
+                        "cinematographer": "Lee Sung-je",
                         "editor": "Kim Sun-min",
-                        "composer": "Kim Jun-seok, Choi Yong-rock",
+                        "composer": "Choi Yong-rock / Kim Jun-seok",
                         "studio": "Bidangil Pictures",
+                        "country": "South Korea",
                         "poster": "https://image.tmdb.org/t/p/w500/hy49xJiKN1nakkN1ZmKuOf6vQYR.jpg",
                         "plot": "Joong-ho is a dirty detective turned pimp, who's in financial trouble as several of his girls have recently disappeared without clearing their debts. While trying to track them down, he finds a clue that the vanished girls were all called up by the same client, whom one of his girls is meeting with right now.",
-                        "streaming": "Streaming: Apple TV (US), AMC+ Amazon Channel (US), AMC+ (US), Philo (US) | Rent/Buy: Google Play, YouTube, Fandango At Home"
+                        "focus": "Relentless, sweat-inducing editing that maintains a frantic, ticking-clock momentum from start to finish."
+                    },
+                    {
+                        "title": "The Yellow Sea",
+                        "year": 2010,
+                        "releaseDate": "December 22, 2010",
+                        "director": "Na Hong-jin",
+                        "writer": "Na Hong-jin",
+                        "cinematographer": "Lee Sung-je",
+                        "editor": "Kim Sun-min",
+                        "composer": "Jang Young-gyu / Lee Byung-hoon",
+                        "studio": "Popcorn Film",
+                        "country": "South Korea",
+                        "poster": "https://image.tmdb.org/t/p/w500/16Pkg2ChCdACbBKVIAPAZtLL6eb.jpg",
+                        "plot": "A Korean man in China takes an assassination job in South Korea to make money and find his missing wife. But when the job is botched, he is forced to go on the run from the police and the gangsters who paid him.",
+                        "focus": "Brutal, chaotic action editing that perfectly captures desperate, unchoreographed survival."
                     }
                 ],
                 "scenes": []
@@ -34240,33 +34271,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "I Saw the Devil",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-08-12",
+                        "year": 2010,
+                        "releaseDate": "August 12, 2010",
                         "director": "Kim Jee-woon",
-                        "writer": "Park Hoon-jung, Kim Jee-woon",
+                        "writer": "Park Hoon-jung",
                         "cinematographer": "Lee Mo-gae",
                         "editor": "Nam Na-young",
                         "composer": "Mowg",
-                        "studio": "Softbank Ventures",
+                        "studio": "Peppermint & Company / Syun Man Pictures",
+                        "country": "South Korea",
                         "poster": "https://image.tmdb.org/t/p/w500/zp5NrmYp80axIGiEiYPmm1CW6uH.jpg",
                         "plot": "Kyung-chul is a dangerous psychopath who kills for pleasure. Soo-hyeon, a top-secret agent, decides to track down the murderer himself. He promises himself that he will do everything in his power to take vengeance against the killer, even if it means that he must become a monster himself.",
-                        "streaming": "Streaming: Philo (US), Prime Video (IN) | Rent/Buy: Google Play, Apple TV, Amazon Video"
+                        "focus": "Savage, uncompromising cuts that emphasize the grueling, repetitive cycle of revenge and counter-revenge."
                     },
                     {
                         "title": "The Good, the Bad, the Weird",
-                        "year": "2008",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2008-07-16",
+                        "year": 2008,
+                        "releaseDate": "May 24, 2008",
                         "director": "Kim Jee-woon",
-                        "writer": "Kim Min-suk, Kim Jee-woon",
-                        "cinematographer": "Lee Mo-gae",
+                        "writer": "Kim Jee-woon / Kim Min-suk",
+                        "cinematographer": "Lee Mo-gae / Oh Seung-chul",
                         "editor": "Nam Na-young",
-                        "composer": "Dalpalan, Jang Young-gyu",
-                        "studio": "CJ Entertainment",
+                        "composer": "Dalpalan / Jang Young-gyu",
+                        "studio": "Barunson Film Division / Grim Pictures",
+                        "country": "South Korea",
                         "poster": "https://image.tmdb.org/t/p/w500/lbPZ0aNoF0cHisg6DubFO2eS8so.jpg",
                         "plot": "The story of three Korean outlaws in 1930s Manchuria and their dealings with the Japanese army and Chinese and Russian bandits. The Good (a bounty hunter), the Bad (a hitman), and the Weird (a thief) battle the army and the bandits in a race to use a treasure map to uncover the riches of legend.",
-                        "streaming": "Streaming: Apple TV (US), AMC+ Amazon Channel (US), AMC+ (US), Philo (US) | Rent/Buy: Apple TV, Google Play, YouTube"
+                        "focus": "Frenetic, highly stylized action montage paying homage to spaghetti westerns through a uniquely Korean lens."
                     }
                 ],
                 "scenes": []
@@ -34286,34 +34317,48 @@ const FILMS_DATA = {
                 "bestWork": "Red Cliff (2008), The Blue Kite (1993)",
                 "mustWatch": [
                     {
-                        "title": "Red Cliff",
-                        "year": "2008",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2008-07-10",
-                        "director": "John Woo",
-                        "writer": "John Woo, Sheng Heyu, Kuo Cheng, Chan Hon",
-                        "cinematographer": "Lü Yue, Zhang Li",
+                        "title": "Black Coal, Thin Ice",
+                        "year": 2014,
+                        "releaseDate": "February 12, 2014",
+                        "director": "Diao Yinan",
+                        "writer": "Diao Yinan",
+                        "cinematographer": "Dong Jinsong",
                         "editor": "Yang Hongyu",
-                        "composer": "Taro Iwashiro",
-                        "studio": "Lion Rock Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/eEelFTjUYJJDlwqd53VfSA8xMfj.jpg",
-                        "plot": "In 208 A.D., in the final days of the Han Dynasty, shrewd Prime Minster Cao convinced the fickle Emperor Han the only way to unite all of China was to declare war on the kingdoms of Xu in the west and East Wu in the south. Thus began a military campaign of unprecedented scale. Left with no other hope for survival, the kingdoms of Xu and East Wu formed an unlikely alliance.",
-                        "streaming": "Streaming: Philo (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Wen Zi",
+                        "studio": "Omnijoi Media Corporation / Boneyard Entertainment China / China Film",
+                        "country": "China / Hong Kong",
+                        "poster": "https://image.tmdb.org/t/p/w500/3vVcDI8r2KOcsBFwu6Kyx6ntmqp.jpg",
+                        "plot": "Two former cops start investigating the series of murders that tanked their careers when the killings begin again.",
+                        "focus": "Chilly, austere editing that perfectly matches the bleak, neo-noir atmosphere and moral ambiguity."
                     },
                     {
-                        "title": "The Blue Kite",
-                        "year": "1993",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1994-02-02",
-                        "director": "Tian Zhuangzhuang",
-                        "writer": "Cui Jiajun",
-                        "cinematographer": "Hou Yong",
+                        "title": "Angels Wear White",
+                        "year": 2017,
+                        "releaseDate": "September 7, 2017",
+                        "director": "Vivian Qu",
+                        "writer": "Vivian Qu",
+                        "cinematographer": "Benoît Delhomme",
                         "editor": "Yang Hongyu",
-                        "composer": "Yoshihide Otomo",
-                        "studio": "Beijing Film Studio",
-                        "poster": "https://image.tmdb.org/t/p/w500/r3VkKXNPOyxyGc6fSENL1ewLT0d.jpg",
-                        "plot": "A young man recalls his childhood growing up in a poor alley in Beijing during the 1950s and 1960s.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "studio": "22 Hours Film / Memento Films Production",
+                        "country": "China / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/kpATMFID3lzxoLUyqZa65634vet.jpg",
+                        "plot": "In a small seaside town, two schoolgirls are assaulted by a middle-aged man in a motel. Mia, a teenager who was working on reception that night, is the only witness. For fear of losing her job, she says nothing. Meanwhile, 12-year-old Wen, one of the victims, finds that her troubles have only just begun. Trapped in a world that offers them no safety, Mia and Wen will have to find their own way out.",
+                        "focus": "Measured, empathetic pacing that unspools a systemic tragedy through quiet observation rather than melodrama."
+                    },
+                    {
+                        "title": "Red Cliff",
+                        "year": 2008,
+                        "releaseDate": "July 10, 2008",
+                        "director": "John Woo",
+                        "writer": "John Woo / Kuo Cheng / Sheng Heyu / Chan Khan",
+                        "cinematographer": "Zhao Xiaoding / Lü Yue",
+                        "editor": "Yang Hongyu / Robert A. Ferretti / Angakok Chin",
+                        "composer": "Tarō Iwashiro",
+                        "studio": "Lion Rock Productions / China Film Group / Avex Entertainment",
+                        "country": "China / Hong Kong / Taiwan / Japan / South Korea",
+                        "poster": "https://image.tmdb.org/t/p/w500/eEelFTjUYJJDlwqd53VfSA8xMfj.jpg",
+                        "plot": "In 208 A.D., in the final days of the Han Dynasty, shrewd Prime Minster Cao convinced the fickle Emperor Han the only way to unite all of China was to declare war on the kingdoms of Xu in the west and East Wu in the south. Thus began a military campaign of unprecedented scale. Left with no other hope for survival, the kingdoms of Xu and East Wu formed an unlikely alliance.",
+                        "focus": "Massive, dynamic editing that seamlessly weaves sweeping tactical warfare with intimate, character-driven drama."
                     }
                 ],
                 "scenes": []
@@ -34380,19 +34425,34 @@ const FILMS_DATA = {
                 "bestWork": "Dying to Survive (2018)",
                 "mustWatch": [
                     {
-                        "title": "Dying to Survive",
-                        "year": "2018",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2018-07-06",
-                        "director": "Wen Muye",
-                        "writer": "Han Jianü, Wei Zhong, Wen Muye",
-                        "cinematographer": "Wang Boxue",
-                        "editor": "Tu Yiran",
-                        "composer": "Huang Chao",
-                        "studio": "Huanxi Media",
-                        "poster": "https://image.tmdb.org/t/p/w500/xxtK8DWdIwdxF5X2TJcIRDSEtE6.jpg",
-                        "plot": "A Chinese leukaemia patient smuggles cheap but untested pharmaceuticals from India to help hundreds of Chinese people suffering from cancer.",
-                        "streaming": "Streaming: Prime Video (US), Rakuten Viki (US), Cineverse Amazon Channel (US) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "title": "The Eight Hundred",
+                        "year": 2020,
+                        "releaseDate": "August 21, 2020",
+                        "director": "Guan Hu",
+                        "writer": "Guan Hu / Ge Rui",
+                        "cinematographer": "Cao Yu",
+                        "editor": "Tu Yiran / He Yongyi",
+                        "composer": "Andrew Kawczynski / Rupert Gregson-Williams",
+                        "studio": "Huayi Brothers / Tencent Pictures / Beijing Enlight Pictures",
+                        "country": "China",
+                        "poster": "https://image.tmdb.org/t/p/w500/gWKYKGDLEMCSAyjQ1e0rpBSoRMD.jpg",
+                        "plot": "In 1937, eight hundred Chinese soldiers fight under siege from a warehouse in the middle of the Shanghai battlefield, completely surrounded by the Japanese army.",
+                        "focus": "Visceral, chaotic action montage that plunges the viewer into the relentless terror and heroism of urban combat."
+                    },
+                    {
+                        "title": "Brotherhood of Blades",
+                        "year": 2014,
+                        "releaseDate": "August 7, 2014",
+                        "director": "Lu Yang",
+                        "writer": "Chen Shu / Lu Yang",
+                        "cinematographer": "Han Qiming",
+                        "editor": "Tu Yiran / Zhu Liyun",
+                        "composer": "Nathan Wang",
+                        "studio": "China Film Group / Central Studio of News Reels Production",
+                        "country": "China",
+                        "poster": "https://image.tmdb.org/t/p/w500/d2mXV6VXqpxxv5Zet9xc2rKVpJz.jpg",
+                        "plot": "In the late Ming Dynasty, three sworn brothers who serve as the imperial secret police are dispatched to hunt down Wei Zhongxian, a eunuch politician who had been forced to resign from his influential post and exiled from Beijing. The brothers return successfully from their quest, only to find that their task was but the beginning of a strange conspiracy.",
+                        "focus": "Crisp, kinetic editing that balances intricate martial arts choreography with intense political thriller pacing."
                     }
                 ],
                 "scenes": []
@@ -34413,33 +34473,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Still Life",
-                        "year": "2006",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2006-11-16",
+                        "year": 2006,
+                        "releaseDate": "September 5, 2006",
                         "director": "Jia Zhangke",
-                        "writer": "Jiamin Sun, Na Guan, Jia Zhangke",
-                        "cinematographer": "Nelson Yu Lik-wai",
+                        "writer": "Jia Zhangke",
+                        "cinematographer": "Yu Lik-wai",
                         "editor": "Kong Jinglei",
                         "composer": "Lim Giong",
-                        "studio": "Shanghai Film Studio",
-                        "poster": "https://image.tmdb.org/t/p/w500/pJYBqUk9zZ3lotYo4711HqWh8QE.jpg",
+                        "studio": "Xstream Pictures / Shanghai Film Studio",
+                        "country": "China",
+                        "poster": "assets/images/still_life_poster.png",
                         "plot": "A town in Fengjie county is gradually being demolished and flooded to make way for the Three Gorges Dam. A man and woman visit the town to locate their estranged spouses, and become witness to the societal changes.",
-                        "streaming": "Rent/Buy: Apple TV, Google Play, YouTube"
+                        "focus": "Slow, contemplative pacing composed of sweeping pans and long takes to capture the profound melancholy of a changing landscape."
                     },
                     {
                         "title": "Platform",
-                        "year": "2000",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-11-08",
-                        "director": "Galder Gaztelu-Urrutia",
-                        "writer": "Pedro Rivero, David Desola",
-                        "cinematographer": "Jon D. Domínguez",
+                        "year": 2000,
+                        "releaseDate": "September 4, 2000",
+                        "director": "Jia Zhangke",
+                        "writer": "Jia Zhangke",
+                        "cinematographer": "Yu Lik-wai",
                         "editor": "Kong Jinglei",
-                        "composer": "Aránzazu Calleja",
-                        "studio": "Basque Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/iXvQnzy6JCAx1PiQEKXuTY04ZHl.jpg",
-                        "plot": "A slab of food descends down a vertical facility. The residents above eat heartily, leaving those below starving and desperate. A rebellion is imminent.",
-                        "streaming": "Streaming: Netflix (US), Netflix (IN), Netflix (GB)"
+                        "composer": "Yoshihiro Hanno",
+                        "studio": "Hu Tong Communications / T-Mark / Artcam International",
+                        "country": "China / Hong Kong / Japan / France",
+                        "poster": "assets/images/platform.jpg",
+                        "plot": "China’s rapid changes from the late 1970s to the early 1990s, as seen through the lives of four performers in a theater troupe.",
+                        "focus": "Patient, minimalist editing characterized by distant, lingering static shots reflecting vast historical transitions."
+                    },
+                    {
+                        "title": "The World",
+                        "year": 2004,
+                        "releaseDate": "September 4, 2004",
+                        "director": "Jia Zhangke",
+                        "writer": "Jia Zhangke",
+                        "cinematographer": "Yu Lik-wai",
+                        "editor": "Kong Jinglei",
+                        "composer": "Lim Giong",
+                        "studio": "Xstream Pictures / Office Kitano / Luminosity",
+                        "country": "China / Japan / France",
+                        "poster": "assets/images/the_world_poster.png",
+                        "plot": "A story of young provincial workers in a Beijing theme park called 'The World' which features scaled-down replicas of international landmarks like the Eiffel Tower, the Pyramids, and the Taj Mahal.",
+                        "focus": "Elliptical, surreal editing that contrasts the artificial scale of the theme park with the microscopic, isolating lives of its workers."
                     }
                 ],
                 "scenes": []
@@ -34460,48 +34535,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "In the Mood for Love",
-                        "year": "2000",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2000-09-29",
-                        "director": "Wong Kar-Wai",
-                        "writer": "Wong Kar-Wai",
-                        "cinematographer": "Christopher Doyle, Mark Lee Ping-Bing",
-                        "editor": "William Chang Suk-ping",
-                        "composer": "Shigeru Umebayashi, Michael Galasso",
-                        "studio": "Block 2 Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
-                        "plot": "In 1960s Hong Kong, two neighbors form an intimate bond after making a discovery about their spouses in this visually stunning tale of unrequited love.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), MUBI (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "year": 2000,
+                        "releaseDate": "September 29, 2000",
+                        "director": "Wong Kar-wai",
+                        "writer": "Wong Kar-wai",
+                        "cinematographer": "Christopher Doyle / Mark Lee Ping-bin",
+                        "editor": "William Chang",
+                        "composer": "Michael Galasso / Shigeru Umebayashi",
+                        "studio": "Block 2 Pictures / Jet Tone Production",
+                        "country": "Hong Kong",
+                        "plot": "A man and a woman whose spouses have secret affairs with each other find themselves kindred spirits. But they are determined to keep their relationship platonic so as not to commit similar wrongs.",
+                        "focus": "Sensuous, elliptical editing that emphasizes suppressed desires and atmospheric mood through rhythmic slow-motion and recurring musical motifs.",
+                        "poster": "assets/images/in_the_mood_for_love_poster.png"
                     },
                     {
                         "title": "Chungking Express",
-                        "year": "1994",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1994-07-14",
-                        "director": "Wong Kar-Wai",
-                        "writer": "Wong Kar-Wai",
-                        "cinematographer": "Christopher Doyle, Andrew Lau Wai-Keung",
-                        "editor": "William Chang Suk-ping",
-                        "composer": "Roel A. García, Michael Galasso, Frankie Chan Fan-Kei",
+                        "year": 1994,
+                        "releaseDate": "July 14, 1994",
+                        "director": "Wong Kar-wai",
+                        "writer": "Wong Kar-wai",
+                        "cinematographer": "Christopher Doyle / Andrew Lau",
+                        "editor": "William Chang / Kai Kit-wai / Kwong Chi-leung",
+                        "composer": "Frankie Chan / Roel A. Garcia",
                         "studio": "Jet Tone Production",
-                        "poster": "https://image.tmdb.org/t/p/w500/43I9DcNoCzpyzK8JCkJYpHqHqGG.jpg",
-                        "plot": "Two melancholic Hong Kong policemen fall in love: one with a mysterious underworld figure, the other with a beautiful and ethereal server at a late-night restaurant.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), MUBI (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "country": "Hong Kong",
+                        "plot": "Two melancholy Hong Kong policemen fall in love: one with a mysterious female underworld figure, the other with a beautiful and quirky waitress at a late-night restaurant he frequents.",
+                        "focus": "Kinetic, highly stylized editing using step-printing and jump cuts to evoke the frenetic energy and fleeting romance of 90s Hong Kong.",
+                        "poster": "assets/images/chungking_express_poster.png"
                     },
                     {
-                        "title": "Happy Together",
-                        "year": "1997",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1997-05-30",
-                        "director": "Wong Kar-Wai",
-                        "writer": "Wong Kar-Wai",
-                        "cinematographer": "Christopher Doyle",
-                        "editor": "William Chang Suk-ping",
-                        "composer": "Danny Chung Ting-Yat",
-                        "studio": "Block 2 Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/jIv3EiZIC2tkBmjQ747Lyf5c61b.jpg",
-                        "plot": "A couple travels from Hong Kong to Argentina to revive their relationship but experience turbulence when both men's lives drift in separate directions.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), MUBI (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "title": "The Grandmaster",
+                        "year": 2013,
+                        "releaseDate": "January 8, 2013",
+                        "director": "Wong Kar-wai",
+                        "writer": "Zou Jingzhi / Xu Haofeng / Wong Kar-wai",
+                        "cinematographer": "Philippe Le Sourd",
+                        "editor": "William Chang / Benjamin Courtines / Poon Hung-yiu",
+                        "composer": "Shigeru Umebayashi / Nathaniel Méchaly",
+                        "studio": "Jet Tone Production / Sil-Metropole Organisation / Bona International Film Group",
+                        "country": "Hong Kong / China",
+                        "plot": "The story of martial-arts master Ip Man, the man who trained Bruce Lee.",
+                        "focus": "Graceful, meticulously choreographed editing that turns martial arts into poetic, melancholic ballet, emphasizing fluid movement and stillness.",
+                        "poster": "assets/images/the_grandmaster_poster.png"
                     }
                 ],
                 "scenes": []
@@ -34522,33 +34597,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Hard Boiled",
-                        "year": "1992",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1992-04-16",
+                        "year": 1992,
+                        "releaseDate": "April 16, 1992",
                         "director": "John Woo",
-                        "writer": "Barry Wong Ping-Yiu, Gordon Chan",
-                        "cinematographer": "Horace Wong Wing-Hang",
-                        "editor": "David Wu",
-                        "composer": "Michael Gibbs, James Wong Jim",
-                        "studio": "Golden Princess Film Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/oMqr4CGGqVlfI8DdrSelK1e9aFM.jpg",
-                        "plot": "A cop who loses his partner in a shoot-out with gun smugglers goes on a mission to catch them. In order to get closer to the leaders of the ring he joins forces with an undercover cop who's working as a gangster hitman. They use all means of excessive force to find them.",
-                        "streaming": "Streaming: Criterion Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "writer": "Barry Wong",
+                        "cinematographer": "Wang Wing-heng",
+                        "editor": "David Wu / John Woo / Kit Wai-kai / Jack Ah",
+                        "composer": "Michael Gibbs",
+                        "studio": "Milestone Pictures / Golden Princess Film Production",
+                        "country": "Hong Kong",
+                        "plot": "Plot details not available.",
+                        "focus": "Explosive, relentless action editing that perfectly captures the legendary, bullet-riddled chaos of John Woo's gun-fu masterpieces.",
+                        "poster": "assets/images/hard_boiled_poster.png"
                     },
                     {
-                        "title": "The Killer",
-                        "year": "1989",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1989-03-24",
-                        "director": "John Woo",
-                        "writer": "John Woo",
-                        "cinematographer": "Peter Pau Tak-Hai, Horace Wong Wing-Hang",
+                        "title": "A Chinese Ghost Story",
+                        "year": 1987,
+                        "releaseDate": "July 18, 1987",
+                        "director": "Ching Siu-tung",
+                        "writer": "Yuen Kai-chi",
+                        "cinematographer": "Poon Hang-sang / Sander Lee / Tom Lau / Wong Wing-hang",
                         "editor": "David Wu",
-                        "composer": "Lowell Lo Koon-Ting",
+                        "composer": "Romeo Diaz / James Wong",
                         "studio": "Film Workshop",
-                        "poster": "https://image.tmdb.org/t/p/w500/8hTxlSqMAHBXAh1eB69ir0BXhzE.jpg",
-                        "plot": "Mob assassin Jeffrey is no ordinary hired gun; the best in his business, he views his chosen profession as a calling rather than simply a job. So, when beautiful nightclub chanteuse Jennie is blinded in the crossfire of his most recent hit, Jeffrey chooses to retire after one last job to pay for his unintended victim's sight-restoring operation. But when Jeffrey is double-crossed, he reluctantly joins forces with a rogue policeman to make things right.",
-                        "streaming": "Streaming: fuboTV (US), Criterion Channel (US) | Rent/Buy: Apple TV, Google Play, YouTube"
+                        "country": "Hong Kong",
+                        "poster": "https://image.tmdb.org/t/p/w500/oZitiEjIm1jjsB4bTIEZkawhMpx.jpg",
+                        "plot": "A naïve young tax collector for the imperial government winds up spending the night in a haunted temple. There he falls in love with a beautiful woman who, unfortunately, is dead. With the aid of a powerful Daoist Swordsman, he must defeat undead hordes, overcome a sinister Tree Demoness, and descend to the pits of hell, to fight for the spirit he loves.",
+                        "focus": "Frenetic, highly kinetic editing that seamlessly blends traditional wire-fu action with supernatural romantic fantasy."
+                    },
+                    {
+                        "title": "Bulvar in the Head",
+                        "year": 1990,
+                        "releaseDate": "August 17, 1990",
+                        "director": "John Woo",
+                        "writer": "John Woo / Janet Chun / Patrick Leung",
+                        "cinematographer": "Ardy Lam / Wilson Chan / Wong Wing-hang / Somchai Kittikun",
+                        "editor": "David Wu",
+                        "composer": "James Wong",
+                        "studio": "John Woo Production / Golden Princess Film Production",
+                        "country": "Hong Kong",
+                        "poster": "https://image.tmdb.org/t/p/w500/zsLcRua8Jt5RtD8l8NAq1voXDfg.jpg",
+                        "plot": "Three childhood friends from the slums of Hong Kong flee to war-time Saigon after accidentally murdering a gang leader, but their troubles only escalate.",
+                        "focus": "Gritty, chaotic action editing that matches the bleak, brutal reality of the Vietnam War and the destruction of brotherhood."
                     }
                 ],
                 "scenes": []
@@ -34615,19 +34705,34 @@ const FILMS_DATA = {
                 "bestWork": "Infernal Affairs (2002)",
                 "mustWatch": [
                     {
-                        "title": "Infernal Affairs",
-                        "year": "2002",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2002-12-12",
-                        "director": "Alan Mak Siu-Fai, Andrew Lau Wai-Keung",
-                        "writer": "Felix Chong Man-Keung, Alan Mak Siu-Fai",
-                        "cinematographer": "Lai Yiu-Fai, Andrew Lau Wai-Keung",
-                        "editor": "Eric Kwong",
-                        "composer": "Comfort Chan",
-                        "studio": "Media Asia Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/qdlwFWn2YdLzw5KHpMpzRY9BI7r.jpg",
-                        "plot": "Chan Wing Yan, a young police officer, has been sent undercover as a mole in the local mafia. Lau Kin Ming, a young mafia member, infiltrates the police force. Years later, their older counterparts, Chen Wing Yan and Inspector Lau Kin Ming, respectively, race against time to expose the mole within their midst.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), Netflix (IN) | Rent/Buy: Amazon Video, Apple TV, YouTube"
+                        "title": "Comrades: Almost a Love Story",
+                        "year": 1996,
+                        "releaseDate": "November 2, 1996",
+                        "director": "Peter Chan",
+                        "writer": "Ivy Ho",
+                        "cinematographer": "Jingle Ma",
+                        "editor": "Kwong Chi-leung",
+                        "composer": "Chiu Tsang-hei",
+                        "studio": "UFO - United Filmmakers Organization",
+                        "country": "Hong Kong",
+                        "poster": "https://image.tmdb.org/t/p/w500/hjlRaJEa8zuN72LmMATQ3FcCTb0.jpg",
+                        "plot": "Jun arrives in Hong Kong from mainland China, hoping to be able to earn enough money to marry his girlfriend back home. He meets the streetwise Qiao and they become friends. As friendship turns into love, problems develop, and although they seem meant for each other they somehow keep missing out.",
+                        "focus": "Poignant, measured pacing that elegantly spans a decade of near-misses and intersecting lives across two cities."
+                    },
+                    {
+                        "title": "Cold War",
+                        "year": 2012,
+                        "releaseDate": "November 8, 2012",
+                        "director": "Longman Leung / Sunny Luk",
+                        "writer": "Longman Leung / Sunny Luk",
+                        "cinematographer": "Jason Kwan / Kenny Tse",
+                        "editor": "Kwong Chi-leung / Ron Chan",
+                        "composer": "Peter Kam",
+                        "studio": "Irresistible Alpha / Edko Films / Sil-Metropole Organisation",
+                        "country": "Hong Kong",
+                        "poster": "https://image.tmdb.org/t/p/w500/zFiHdFJHppW43xmsnS8whzYnVQ8.jpg",
+                        "plot": "Five police officers in Hong Kong are kidnapped. The police commissioner is on a business trip overseas. Two vice commissioners, Sean Rau and M.B. Lee, then take over the case. The two vice commissioners are rivals who both vie for the police commissioner seat. At first, M.B. Lee takes the lead in the case, but comes to a dead end. Sean Lau then takes the lead, but he falls into a trap. Both men are then investigated by the ICAC (Independent Commission Against Corruption).",
+                        "focus": "Slick, rapid-fire pacing that perfectly orchestrates the intense procedural tension and complex inter-departmental politics."
                     }
                 ],
                 "scenes": []
@@ -34648,48 +34753,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "A City of Sadness",
-                        "year": "1989",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1989-10-21",
+                        "year": 1989,
+                        "releaseDate": "September 15, 1989",
                         "director": "Hou Hsiao-hsien",
-                        "writer": "Wu Nien-jen, Chu Tien-Wen",
-                        "cinematographer": "Chen Hwai-en",
+                        "writer": "Chu T’ien-wen / Wu Nien-jen",
+                        "cinematographer": "Mark Lee Ping-bin",
                         "editor": "Liao Ching-sung",
-                        "composer": "Naoki Tachikawa",
-                        "studio": "ERA International",
+                        "composer": "S.E.N.S.",
+                        "studio": "3-H Films",
+                        "country": "Taiwan",
                         "poster": "https://image.tmdb.org/t/p/w500/n1aIYLgnrlsUrh77G2OdQT9NV1.jpg",
                         "plot": "The story of a family embroiled in the \"White Terror,\" the Kuomintang government's anti-communist political repression that was wrought on the Taiwanese people from 1947-1987.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Deliberate, long-take editing that constructs a detached yet deeply empathetic historical observation."
                     },
                     {
                         "title": "The Assassin",
-                        "year": "2015",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2015-08-27",
+                        "year": 2015,
+                        "releaseDate": "August 27, 2015",
                         "director": "Hou Hsiao-hsien",
-                        "writer": "Chu Tien-Wen, Hou Hsiao-hsien, Zhong A-Cheng, Hsieh Hai-Meng",
-                        "cinematographer": "Mark Lee Ping-Bing",
-                        "editor": "Liao Ching-sung",
+                        "writer": "Chu T’ien-wen / Ah Cheng / Hou Hsiao-hsien",
+                        "cinematographer": "Mark Lee Ping-bin",
+                        "editor": "Liao Ching-sung / Huang Shih-ching",
                         "composer": "Lim Giong",
-                        "studio": "Sil-Metropole Organisation",
+                        "studio": "SpotFilms / Sil-Metropole Organisation / Media Asia Film",
+                        "country": "Taiwan / China / Hong Kong",
                         "poster": "https://image.tmdb.org/t/p/w500/10RcGMfzg2lIW1aLcR4ILfNbHK2.jpg",
                         "plot": "9th century China. Ten year old general’s daughter Nie Yinniang is abducted by a nun who initiates her into the martial arts, transforming her into an exceptional assassin charged with eliminating cruel and corrupt local governors. One day, having failed in a task, she is sent back by her mistress to the land of her birth, with orders to kill the man to whom she was promised – a cousin who now leads the largest military region in North China. After 13 years of exile, the young woman must confront her parents, her memories and her long-repressed feelings.",
-                        "streaming": "Streaming: Prime Video (US), Philo (US), MUBI (US), Fandor Amazon Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Poetic, elliptical editing that emphasizes atmosphere, stillness, and fleeting bursts of violence over conventional action pacing."
                     },
                     {
-                        "title": "Millennium Mambo",
-                        "year": "2001",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2001-10-31",
+                        "title": "The Puppetmaster",
+                        "year": 1993,
+                        "releaseDate": "September 11, 1993",
                         "director": "Hou Hsiao-hsien",
-                        "writer": "Chu Tien-Wen",
-                        "cinematographer": "Mark Lee Ping-Bing",
+                        "writer": "Chu T’ien-wen / Wu Nien-jen",
+                        "cinematographer": "Mark Lee Ping-bin",
                         "editor": "Liao Ching-sung",
-                        "composer": "Yoshihiro Hanno, Lim Giong",
-                        "studio": "3H Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/wSc6tOp1yoAFbZqxG5XVGHcFvRN.jpg",
-                        "plot": "Vicky recalls her romances with her exes Hao Hao and Jack in the neon-lit clubs of Taipei.",
-                        "streaming": "Streaming: Criterion Channel (US), Metrograph (US), Kino Film Collection (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Chen Ming-chang",
+                        "studio": "City Films / Era International",
+                        "country": "Taiwan",
+                        "poster": "https://image.tmdb.org/t/p/w500/nb3jOZsFUDSjUXQgw951FMNE9O7.jpg",
+                        "plot": "Master puppeteer Li Tien-lu recalls his life in Japanese-occupied Taiwan during the first half of the 20th century.",
+                        "focus": "Meditative, fragmented pacing blending documentary aesthetics with historical reenactments."
                     }
                 ],
                 "scenes": []
@@ -34710,33 +34815,46 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "A Brighter Summer Day",
-                        "year": "1991",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1991-07-27",
+                        "year": 1991,
+                        "releaseDate": "July 27, 1991",
                         "director": "Edward Yang",
-                        "writer": "Mingtang Lai, Edward Yang, Yen Hung-ya, Alex Yang",
-                        "cinematographer": "Longyu Zhang, Chang Hui-kung",
+                        "writer": "Edward Yang / Yan Hongya / Yang Shunqing / Lai Mingtang",
+                        "cinematographer": "Zhang Hui-gong / Li Long-yu",
                         "editor": "Chen Po-wen",
-                        "composer": "Zhang Hongda",
-                        "studio": "Yang & His Gang Filmmakers",
+                        "studio": "Yang & His Gang Filmmakers / Jane Balfour Films",
+                        "country": "Taiwan",
                         "poster": "https://image.tmdb.org/t/p/w500/3l8fOAwiN3N5n3hHnZ51eog7Zu2.jpg",
                         "plot": "A boy experiences first love, friendships and injustices growing up in 1960s Taiwan.",
-                        "streaming": "Streaming: Criterion Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Measured, meticulous pacing that allows the sprawling narrative of 1960s youth gangs to gradually boil over into tragedy."
                     },
                     {
                         "title": "Yi Yi",
-                        "year": "2000",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2000-09-20",
+                        "year": 2000,
+                        "releaseDate": "September 20, 2000",
                         "director": "Edward Yang",
                         "writer": "Edward Yang",
                         "cinematographer": "Yang Wei-han",
                         "editor": "Chen Po-wen",
-                        "composer": "Kai-Li Peng",
-                        "studio": "Omega Project",
+                        "composer": "Peng Kaili",
+                        "studio": "1+2 Seisaku Committee / Pony Canyon / Omega Project",
+                        "country": "Taiwan / Japan",
                         "poster": "https://image.tmdb.org/t/p/w500/mR8dSQZI8X6Z1NClJhFrtJp636z.jpg",
                         "plot": "A Taipei family faces personal and moral uncertainty as everyday events test their relationships and sense of purpose.",
-                        "streaming": "Streaming: Criterion Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Patient, tender rhythm reflecting the complex, intertwining rhythms of a multi-generational family."
+                    },
+                    {
+                        "title": "Mahjong",
+                        "year": 1996,
+                        "releaseDate": "May 11, 1996",
+                        "director": "Edward Yang",
+                        "writer": "Edward Yang",
+                        "cinematographer": "Li Long-yu / Arthur Wong / Zhang Zhan",
+                        "editor": "Chen Po-wen",
+                        "studio": "Atom Films / Edward Yang Studio",
+                        "country": "Taiwan",
+                        "poster": "https://image.tmdb.org/t/p/w500/mMDogr2D9FTIsA7xleOG3Lps93K.jpg",
+                        "plot": "Amid a rapidly changing cityscape, the lives of a disparate group of swindlers, hustlers, gangsters, and expats collide, with a naive French teenager and a sensitive young local who tries to protect her caught dangerously in the middle.",
+                        "focus": "Kinetic, cynical editing capturing the frantic, hyper-capitalist chaos of 1990s Taipei."
                     }
                 ],
                 "scenes": []
@@ -34757,48 +34875,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "A Separation",
-                        "year": "2011",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2011-02-15",
+                        "year": 2011,
+                        "releaseDate": "March 16, 2011",
                         "director": "Asghar Farhadi",
                         "writer": "Asghar Farhadi",
                         "cinematographer": "Mahmoud Kalari",
                         "editor": "Hayedeh Safiyari",
                         "composer": "Sattar Oraki",
-                        "studio": "Asghar Farhadi Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/xQadpnoLokxzN3hRpCPbBGpxsiz.jpg",
+                        "studio": "Asghar Farhadi Production",
+                        "country": "Iran",
                         "plot": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer's disease.",
-                        "streaming": "Streaming: Curzon Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Razor-sharp, dialectical editing that seamlessly escalates domestic conflict into a tense moral thriller.",
+                        "poster": "https://image.tmdb.org/t/p/w500/xQadpnoLokxzN3hRpCPbBGpxsiz.jpg"
                     },
                     {
                         "title": "The Salesman",
-                        "year": "2016",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2016-06-24",
+                        "year": 2016,
+                        "releaseDate": "May 21, 2016",
                         "director": "Asghar Farhadi",
                         "writer": "Asghar Farhadi",
                         "cinematographer": "Hossein Jafarian",
                         "editor": "Hayedeh Safiyari",
                         "composer": "Sattar Oraki",
-                        "studio": "Memento Production",
-                        "poster": "https://image.tmdb.org/t/p/w500/92SnkymeKeVZlb6UDfCm7t3taE5.jpg",
+                        "studio": "Memento Films Production / Asghar Farhadi Production",
+                        "country": "Iran / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/x4PIuYU5ZMMXiTrheNR8vCTYPBf.jpg",
                         "plot": "Forced out of their apartment due to dangerous works on a neighboring building, Emad and Rana move into a new flat in the center of Tehran. An incident linked to the previous tenant will dramatically change the young couple’s life.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (IN), Prime Video (GB) | Rent/Buy: Apple TV, Rakuten TV, Google Play"
+                        "focus": "Suspenseful, theater-inspired rhythm that quietly tightens the psychological tension."
                     },
                     {
                         "title": "About Elly",
-                        "year": "2009",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2009-06-06",
+                        "year": 2009,
+                        "releaseDate": "February 7, 2009",
                         "director": "Asghar Farhadi",
-                        "writer": "Asghar Farhadi, Asghar Farhadi",
+                        "writer": "Asghar Farhadi",
                         "cinematographer": "Hossein Jafarian",
                         "editor": "Hayedeh Safiyari",
                         "composer": "Andrea Bauer",
-                        "studio": "Dreamlab",
+                        "studio": "Simaye Mehr",
+                        "country": "Iran",
                         "poster": "https://image.tmdb.org/t/p/w500/ctLrMQrg3kss2JO7OIr7RVdN5an.jpg",
                         "plot": "The mysterious disappearance of a kindergarten teacher during a picnic in the north of Iran is followed by a series of misadventures for her fellow travelers.",
-                        "streaming": "Streaming: Philo (US), Fandor Amazon Channel (US) | Rent/Buy: Apple TV, Google Play, YouTube"
+                        "focus": "Fluid, anxiety-inducing pacing that subtly shifts a relaxed vacation into a frantic, chaotic mystery."
                     }
                 ],
                 "scenes": []
@@ -34818,49 +34936,46 @@ const FILMS_DATA = {
                 "bestWork": "Close-Up (1990), Taste of Cherry (1997), The Wind Will Carry Us (1999)",
                 "mustWatch": [
                     {
-                        "title": "Close-Up",
-                        "year": "1990",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1990-05-09",
-                        "director": "Abbas Kiarostami",
-                        "writer": "Abbas Kiarostami",
-                        "cinematographer": "Ali Reza Zarrindast",
-                        "editor": "Abbas Kiarostami",
-                        "composer": "None",
-                        "studio": "Kanoon",
-                        "poster": "https://image.tmdb.org/t/p/w500/m9HG2N9ZKCmNN9qOHJTNyy18wn3.jpg",
-                        "plot": "This fiction-documentary hybrid uses a sensational real-life event—the arrest of a young man on charges that he fraudulently impersonated the well-known filmmaker Mohsen Makhmalbaf—as the basis for a stunning, multilayered investigation into movies, identity, artistic creation, and existence, in which the real people from the case play themselves.",
-                        "streaming": "Streaming: Criterion Channel (US) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
-                    },
-                    {
                         "title": "Taste of Cherry",
-                        "year": "1997",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1997-09-28",
+                        "year": 1997,
+                        "releaseDate": "May 19, 1997",
                         "director": "Abbas Kiarostami",
                         "writer": "Abbas Kiarostami",
-                        "cinematographer": "Homayun Payvar",
+                        "cinematographer": "Homayoun Payvar",
                         "editor": "Abbas Kiarostami",
-                        "composer": "None",
-                        "studio": "Kanoon",
-                        "poster": "https://image.tmdb.org/t/p/w500/u6GYH4HyR0BVwpqFuTOc2g4KB1L.jpg",
+                        "studio": "Abbas Kiarostami Productions / CiBy 2000",
+                        "country": "Iran / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/vgPwjgbSdbYWrS1ty8TIZtmi6Tn.jpg",
                         "plot": "A middle-aged Tehranian man, Mr. Badii is intent on killing himself and seeks someone to bury him after his demise. Driving around the city, the seemingly well-to-do Badii meets with numerous people, including a Muslim student, asking them to take on the job, but initially he has little luck. Eventually, Badii finds a man who is up for the task because he needs the money, but his new associate soon tries to talk him out of committing suicide.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), MUBI (IN)"
+                        "focus": "Minimalist, unhurried editing featuring long takes and real-time driving sequences that invite profound existential reflection."
                     },
                     {
                         "title": "The Wind Will Carry Us",
-                        "year": "1999",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1999-09-12",
+                        "year": 1999,
+                        "releaseDate": "September 4, 1999",
                         "director": "Abbas Kiarostami",
                         "writer": "Abbas Kiarostami",
                         "cinematographer": "Mahmoud Kalari",
                         "editor": "Abbas Kiarostami",
-                        "composer": "Peyman Yazdanian",
-                        "studio": "MK2 Films",
+                        "studio": "MK2 Productions",
+                        "country": "Iran / France",
                         "poster": "https://image.tmdb.org/t/p/w500/tzrqZungDYA3Djp61NWUm7DtxNI.jpg",
                         "plot": "Irreverent city engineer Behzad comes to a rural Kurdish village in Iran to keep vigil for a dying relative. In the meanwhile the film follows his efforts to fit in with the local community and how he changes his own attitudes as a result.",
-                        "streaming": "Streaming: Criterion Channel (US), MUBI (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Elliptical editing that emphasizes off-screen space and patience, challenging the audience to look beyond the frame."
+                    },
+                    {
+                        "title": "Close-Up",
+                        "year": 1990,
+                        "releaseDate": "February 1, 1990",
+                        "director": "Abbas Kiarostami",
+                        "writer": "Abbas Kiarostami",
+                        "cinematographer": "Ali Reza Zarrindast",
+                        "editor": "Abbas Kiarostami",
+                        "studio": "Kanoon",
+                        "country": "Iran",
+                        "poster": "https://image.tmdb.org/t/p/w500/m9HG2N9ZKCmNN9qOHJTNyy18wn3.jpg",
+                        "plot": "This fiction-documentary hybrid uses a sensational real-life event—the arrest of a young man on charges that he fraudulently impersonated the well-known filmmaker Mohsen Makhmalbaf—as the basis for a stunning, multilayered investigation into movies, identity, artistic creation, and existence, in which the real people from the case play themselves.",
+                        "focus": "Groundbreaking, reflexive editing that brilliantly blurs the line between documentary realism and staged fiction."
                     }
                 ],
                 "scenes": []
@@ -34881,18 +34996,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Bashu, the Little Stranger",
-                        "year": "1989",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1989-02-13",
+                        "year": 1989,
+                        "releaseDate": "February 1, 1989",
                         "director": "Bahram Beyzai",
                         "writer": "Bahram Beyzai",
                         "cinematographer": "Firooz Malekzadeh",
                         "editor": "Bahram Beyzai",
-                        "composer": "Various Artists",
+                        "composer": "Babak Bayat",
                         "studio": "Kanoon",
+                        "country": "Iran",
                         "poster": "https://image.tmdb.org/t/p/w500/rRUWwpVRtc7vyXUV1Bj64wFZJaV.jpg",
                         "plot": "During the Iran-Iraq War, Bashu, a young boy loses his house and all his family. Scared, he sneaks into a truck that is leaving the area. He gets off the truck in the Northern part of the country, where everything from landscape to language is different. He meets Naii, who is trying to raise her two young children on a farm, while her husband is away. Despite cultural differences, and the fact that they do not speak the same language, Bashu and Naii slowly form a strong bond.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Compassionate, humanistic pacing that uses visual juxtapositions to bridge vast cultural and linguistic divides."
+                    },
+                    {
+                        "title": "Killing Mad Dogs",
+                        "year": 2001,
+                        "releaseDate": "February 4, 2001",
+                        "director": "Bahram Beyzai",
+                        "writer": "Bahram Beyzai",
+                        "cinematographer": "Asghar Rafijam",
+                        "editor": "Bahram Beyzai",
+                        "composer": "Saba Khoylou",
+                        "studio": "Lisar Film Production",
+                        "country": "Iran",
+                        "poster": "https://image.tmdb.org/t/p/w500/syNTpuTVppObrT0jHGDm197dvEM.jpg",
+                        "plot": "Golrokh, an Iranian author, struggles to settle her husband's debts caused by a business partner who left him to bear the consequences.",
+                        "focus": "Taut, relentless editing that constructs a suffocating atmosphere of betrayal and survival."
                     }
                 ],
                 "scenes": []
@@ -34913,33 +35043,32 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "3 Faces",
-                        "year": "2018",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2018-06-06",
+                        "year": 2018,
+                        "releaseDate": "May 12, 2018",
                         "director": "Jafar Panahi",
-                        "writer": "Jafar Panahi, Nader Saeivar",
+                        "writer": "Jafar Panahi",
                         "cinematographer": "Amin Jafari",
-                        "editor": "Mastaneh Mohajer",
-                        "composer": "None",
+                        "editor": "Mastaneh Mohajer / Jafar Panahi",
                         "studio": "Jafar Panahi Productions",
+                        "country": "Iran",
                         "poster": "https://image.tmdb.org/t/p/w500/clpmeXLRg65zGGP1zoyYOLIakQG.jpg",
                         "plot": "Filmmaker Jafar Panahi and actor Behnaz Jafari travel to a tiny village after receiving a plea for help from a girl whose family has forbidden her from studying acting. Amusing encounters abound, but they soon discover that the local hospitality is rivaled by the desire to protect old traditions.",
-                        "streaming": "Streaming: Kino Film Collection (US), Prime Video (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Patient, observant editing that captures the stark reality and subtle humor of rural life while maintaining a documentary-like intimacy."
                     },
                     {
-                        "title": "Crimson Gold",
-                        "year": "2003",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2003-09-12",
-                        "director": "Jafar Panahi",
-                        "writer": "Abbas Kiarostami",
-                        "cinematographer": "Hossein Jafarian",
+                        "title": "The Past",
+                        "year": 2024,
+                        "releaseDate": "October 16, 2024",
+                        "director": "Shahram Shah-Hosseini",
+                        "writer": "Shahram Shah-Hosseini / Reza Baharvand",
+                        "cinematographer": "Koohyar Kalari",
                         "editor": "Mastaneh Mohajer",
-                        "composer": "Peyman Yazdanian",
-                        "studio": "Jafar Panahi Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/5faNHWvJ7RdSiUKT07MJNhwkSKe.jpg",
-                        "plot": "Pizza man Hussein is a daily witnesses to the unjust distribution of wealth in his native Iran. One day, he finds a purse filled with shockingly expensive receipts from an upscale jewelry store. He attempts to bring the purse back to the store, but because of his working-class attire, he's not allowed inside. Then, during a delivery, a rich man invites Hussein into his extravagant mansion – an event that spurs Hussein to make a desperate bid for wealth.",
-                        "streaming": "Streaming: Fandor (US), OVID (US), Metrograph (US), Prime Video (IN) | Rent/Buy: Amazon Video"
+                        "composer": "Massoud Sakhavatdoost",
+                        "studio": "Shofilm",
+                        "country": "Iran",
+                        "poster": "https://image.tmdb.org/t/p/w500/vtWzvG7RZ00MA7phZAafk3gYgwY.jpg",
+                        "plot": "While cleaning her childhood home, a girl comes across a mysterious box that strangely communicates with her, appearing to know her more than expected.",
+                        "focus": "Intricate, psychologically dense editing that carefully peels back layers of history and hidden emotional trauma."
                     }
                 ],
                 "scenes": []
@@ -34955,38 +35084,52 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "assets/editors/rachida_abdel_salam.jpg",
+                "image": "assets/editors/rachida_abdel_salam.png",
                 "bestWork": "Cairo Station (1958), The Land (1969)",
                 "mustWatch": [
                     {
-                        "title": "Cairo Station",
-                        "year": "1958",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1958-07-31",
+                        "title": "The Blazing Sun",
+                        "year": 1954,
+                        "releaseDate": "April 3, 1954",
                         "director": "Youssef Chahine",
-                        "writer": "Abdel Hai Adib",
+                        "writer": "Ali El Zorkani / Helmy Halim",
                         "cinematographer": "Alevise Orfanelli",
                         "editor": "Rachida Abdel Salam",
-                        "composer": "Fouad El-Zahry",
-                        "studio": "ستديو الأهرام (ستديوهات الأهرام)",
+                        "studio": "Misr S.A.E.",
+                        "country": "Egypt",
+                        "poster": "https://image.tmdb.org/t/p/w500/x2LEsBwFOajHK80K8gxq9cv9dfH.jpg",
+                        "plot": "A wealthy landlord floods and destroys a village on purpose to prevent the people living there from making a profit off their crops. What he doesn't know is that his own daughter, Amal, is in love with Ahmed, a young man from the village.",
+                        "focus": "Energetic, dramatic editing that captures the fiery passion and conflict of a changing Egyptian society."
+                    },
+                    {
+                        "title": "Cairo Station",
+                        "year": 1958,
+                        "releaseDate": "January 22, 1958",
+                        "director": "Youssef Chahine",
+                        "writer": "Abdel Hai Adib / Mohamed Abu Youssef",
+                        "cinematographer": "Alvise Orfanelli",
+                        "editor": "Rachida Abdel Salam",
+                        "composer": "Fouad El Zahery",
+                        "studio": "Misr S.A.E.",
+                        "country": "Egypt",
                         "poster": "https://image.tmdb.org/t/p/w500/zm8ET6PSfPT6pozgvjR7htaZFjy.jpg",
                         "plot": "Qinawi, a physically challenged peddler who makes his living selling newspapers in the central Cairo train station, is obsessed with Hanuma, an attractive young woman who sells drinks. While she jokes with him about a possible relationship, she is actually in love with Abu Siri, a strong and respected porter at the station who is struggling to unionize his fellow workers to combat their boss' exploitative and abusive treatment.",
-                        "streaming": "Streaming: Criterion Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Tense, claustrophobic pacing that brilliantly amplifies psychological obsession within the confines of a bustling train terminal."
                     },
                     {
                         "title": "The Land",
-                        "year": "1969",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1969-10-31",
-                        "director": "Barry Mahon",
-                        "writer": "Barry Mahon",
-                        "cinematographer": "Barry Mahon",
+                        "year": 1970,
+                        "releaseDate": "February 27, 1970",
+                        "director": "Youssef Chahine",
+                        "writer": "Abdel Rahman El-Sharqawi / Hassan Fuad",
+                        "cinematographer": "Alevise Orfanelli",
                         "editor": "Rachida Abdel Salam",
                         "composer": "Ali Ismael",
-                        "studio": "Classic, A Division of Cinecom Corp",
-                        "poster": "https://image.tmdb.org/t/p/w500/uKQDbexttNZFMwd8nyJnYimzYSt.jpg",
-                        "plot": "After his witch guardian threatens to turn him into a statue, young Tip runs off to Emerald City with his newly-animated companion, Jack. Along the way, he meets up with Genral Jinjur, leader of the Army of Revolt, who takes Tip prisoner as she marches her troops to take over the Emerald City.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "studio": "General Egyptian Cinema Organization",
+                        "country": "Egypt",
+                        "poster": "https://image.tmdb.org/t/p/w500/serzJZX1jK5i8lYHEUcWxHJPknC.jpg",
+                        "plot": "Set in 1933, the mayor informs the peasants that the share of irrigation of their land will be split equally between them and feudal lord Mahmoud Bey. The peasants send Mohamed Effendi to submit a petition to the government. Mahmoud Bey then proposes a project that would require taking part of the peasants' lands.",
+                        "focus": "Sweeping, socially conscious rhythm that roots the struggle of the peasantry in the monumental landscape."
                     }
                 ],
                 "scenes": []
@@ -35002,38 +35145,53 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "https://image.tmdb.org/t/p/w500/48Kx7fBBrUDEJWaJtpZ6Z8Wze0T.jpg",
+                "image": "assets/editors/ahmed_hafez.png",
                 "bestWork": "Clash (2016), Kira & El Gin (2022)",
                 "mustWatch": [
                     {
+                        "title": "Moon Knight",
+                        "year": 2022,
+                        "releaseDate": "March 30, 2022",
+                        "director": "Mohamed Diab / Justin Benson / Aaron Moorhead",
+                        "writer": "Jeremy Slater",
+                        "cinematographer": "Gregory Middleton / Andrew Droz Palermo",
+                        "editor": "Ahmed Hafez / Joan Sobel / Cedric Nairn-Smith",
+                        "composer": "Hesham Nazih",
+                        "studio": "Marvel Studios",
+                        "country": "United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/x6FsYvt33846IQnDSFxla9j0RX8.jpg",
+                        "plot": "When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc’s enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt.",
+                        "focus": "Dynamic, fractured editing reflecting the protagonist's dissociative identity disorder and chaotic supernatural action."
+                    },
+                    {
                         "title": "Clash",
-                        "year": "2016",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2016-07-27",
+                        "year": 2016,
+                        "releaseDate": "May 12, 2016",
                         "director": "Mohamed Diab",
-                        "writer": "Khaled Diab, Mohamed Diab",
+                        "writer": "Khaled Diab / Mohamed Diab",
                         "cinematographer": "Ahmed Gabr",
                         "editor": "Ahmed Hafez",
                         "composer": "Khaled Dagher",
-                        "studio": "Ministère des Affaires étrangères et du Développement International",
+                        "studio": "Film Clinic / Sampek Productions / EMC Pictures",
+                        "country": "Egypt / France / Germany / United Arab Emirates",
                         "poster": "https://image.tmdb.org/t/p/w500/6L1bbZcB7HbpxnlzGOKdhufrYNB.jpg",
                         "plot": "In 2013, in Cairo, a tragic fate brings together several detainees from different political and social backgrounds inside a police truck, during the turmoil that followed the ousting of president Morsi.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Relentless, highly kinetic editing that perfectly traps the audience within the visceral panic of a crowded police van."
                     },
                     {
-                        "title": "Kira & El Gin",
-                        "year": "2022",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2022-06-30",
+                        "title": "The Blue Elephant",
+                        "year": 2014,
+                        "releaseDate": "July 28, 2014",
                         "director": "Marwan Hamed",
                         "writer": "Ahmed Mourad",
-                        "cinematographer": "Ahmed El Morsy",
+                        "cinematographer": "Ahmad Al Morsy",
                         "editor": "Ahmed Hafez",
                         "composer": "Hesham Nazih",
-                        "studio": "Synergy",
-                        "poster": "https://image.tmdb.org/t/p/w500/4jmKAwiaVRsQCeNAycUryUUfrjS.jpg",
-                        "plot": "The movie focuses on the fury state that was among the people in synchronization with the main event in Egypt: The 1919 Egyptian Revolution which unites the fates of Kira and El Gen to participate in the struggle against the British occupation.",
-                        "streaming": "Streaming: Shahid VIP (US), Shahid VIP (IN), Shahid VIP (GB)"
+                        "studio": "Al Batros Film / Lighthouse Entertainment",
+                        "country": "Egypt",
+                        "poster": "https://image.tmdb.org/t/p/w500/lPirLy8UKj2V6SyaWC8zXm5xeUS.jpg",
+                        "plot": "After a five-year hiatus, psychiatrist Yehia returns to work at Abbasiya Hospital. He’s assigned to evaluate a patient who turns out to be his old friend. As events unfold, Yehia uncovers dark secrets that challenge his understanding of reality.",
+                        "focus": "Hallucinatory, non-linear pacing that plunges the viewer into a complex labyrinth of psychological horror and mystery."
                     }
                 ],
                 "scenes": []
@@ -35053,19 +35211,33 @@ const FILMS_DATA = {
                 "bestWork": "The One Man Village (2008)",
                 "mustWatch": [
                     {
-                        "title": "The One Man Village",
-                        "year": "2008",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2008-01-01",
+                        "title": "The One-Man Show",
+                        "year": 2008,
+                        "releaseDate": "November 22, 2008",
                         "director": "Simon El Habre",
                         "writer": "Simon El Habre",
-                        "cinematographer": "Marc Karam, Bassem Fayad",
+                        "cinematographer": "Simon El Habre",
                         "editor": "Simon El Habre",
-                        "composer": "Nadim Mishlawi",
-                        "studio": "Simon El Habre",
-                        "poster": "https://image.tmdb.org/t/p/w500/kJS7IYjFIfVzNYlF9zBjiFysMdM.jpg",
-                        "plot": "Documentary about a village with one inhabitant.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "composer": "Scrambled Eggs",
+                        "studio": "We Group / Gabriel Chamoun",
+                        "country": "Lebanon",
+                        "poster": "https://image.tmdb.org/t/p/w500/uqekP44Pg06yv23DcgyZrfqDXjX.jpg",
+                        "plot": "A documentary exploring the life of Semaan, the only resident of the Lebanese village of Ain al-Halazoun, which was completely destroyed during the country's civil war.",
+                        "focus": "Intimate, reflective editing that interweaves personal narrative with the haunting echoes of memory."
+                    },
+                    {
+                        "title": "Gate #5",
+                        "year": 2011,
+                        "releaseDate": "December 9, 2011",
+                        "director": "Simon El Habre",
+                        "writer": "Simon El Habre",
+                        "cinematographer": "Simon El Habre",
+                        "editor": "Simon El Habre",
+                        "studio": "Beirut DC",
+                        "country": "Lebanon / United Arab Emirates",
+                        "poster": "https://image.tmdb.org/t/p/w500/7ZQzxmb4cXABRdPHdHkV4R2NETg.jpg",
+                        "plot": "They were young, loved adventures and had choices. In the 1960s and 70s thousands of young Lebanese left their villages and searched for a new life in the city – as countless like-minded people around the globe. The port of Beirut, the city’s economic lung and central urban district, provided work for truck drivers - a job that stressed masculinity and became a lifestyle. The income allowed the young men to participate in the vibrant urban life, to enjoy their time at the always busy Burj Square with its many cinemas and restaurants as well as to start families.  During the years of the civil war (1975-90) the drivers were needed to maintain the supply of food, goods, and sometime weapons between the divided sectors of country. Some were humble, others were heroic, yet all were adventurous and felt free.",
+                        "focus": "Documentary-style patience that carefully observes the subtle rhythms of daily life and quiet spaces."
                     }
                 ],
                 "scenes": []
@@ -35085,34 +35257,19 @@ const FILMS_DATA = {
                 "bestWork": "Rekawa (1956), Sandesya (1960)",
                 "mustWatch": [
                     {
-                        "title": "Rekawa",
-                        "year": "1956",
-                        "focus": "Editing techniques",
-                        "releaseDate": "None",
+                        "title": "The Changing Village",
+                        "year": 1963,
+                        "releaseDate": "December 20, 1963",
                         "director": "Lester James Peries",
-                        "writer": "Lester James Peries",
+                        "writer": "Reggie Siriwardena",
                         "cinematographer": "Willie Blake",
                         "editor": "Titus Thotawatte",
-                        "composer": "Sunil Santha",
-                        "studio": "Ceylon Theatres",
-                        "poster": "https://upload.wikimedia.org/wikipedia/en/9/90/Rekava.jpg",
-                        "plot": "Plot details not available.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
-                    },
-                    {
-                        "title": "Sandesya",
-                        "year": "1960",
-                        "focus": "Editing techniques",
-                        "releaseDate": "None",
-                        "director": "Lester James Peries",
-                        "writer": "Lester James Peries",
-                        "cinematographer": "Willie Blake",
-                        "editor": "Titus Thotawatte",
-                        "composer": "R. Muttusamy",
-                        "studio": "Cinemas Ltd",
-                        "poster": "https://upload.wikimedia.org/wikipedia/en/f/f6/Sandesaya.jpg",
-                        "plot": "Plot details not available.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "composer": "W. D. Amaradeva",
+                        "studio": "Cine Lanka",
+                        "country": "Sri Lanka",
+                        "plot": "Piyal is a handsome young teacher who is hired to teach English to Nanda, a member of a high class family. They fall in love, but can't elope because Piyal is of a lower class. Nanda's parents instead push her into a marriage with Jinadasa, who is of the same class as them. With economic downturn in Sri Lanka, both families lose their status and Jinadasa leaves to try to make a better life for himself; he never achieves his goal and dies penniless. Piyal and Nanda can now finally come together. They have changed however, and the earlier idylic nature of their relationship is not recaptured.",
+                        "focus": "Patient, observant editing that captures the slow, melancholic decay of the traditional Sri Lankan aristocracy.",
+                        "poster": "https://image.tmdb.org/t/p/w500/4DcE1EJBFvCmlM6ea6iQ2YdqPxo.jpg"
                     }
                 ],
                 "scenes": []
@@ -35132,19 +35289,34 @@ const FILMS_DATA = {
                 "bestWork": "Gamperaliya (1963)",
                 "mustWatch": [
                     {
-                        "title": "Gamperaliya",
-                        "year": "1963",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1963-07-21",
+                        "title": "The Line of Destiny",
+                        "year": 1963,
+                        "releaseDate": "December 20, 1963",
                         "director": "Lester James Peries",
                         "writer": "Reggie Siriwardena",
                         "cinematographer": "Willie Blake",
-                        "editor": "Sumitra Peries",
-                        "composer": "W.D. Amaradeva",
-                        "studio": "Cinelanka",
-                        "poster": "https://image.tmdb.org/t/p/w500/4DcE1EJBFvCmlM6ea6iQ2YdqPxo.jpg",
+                        "editor": "Titus Thotawatte / Sumitra Peries",
+                        "composer": "W. D. Amaradeva",
+                        "studio": "Cine Lanka",
+                        "country": "Sri Lanka",
+                        "poster": "assets/movies/the_line_of_destiny.png",
                         "plot": "Piyal is a handsome young teacher who is hired to teach English to Nanda, a member of a high class family. They fall in love, but can't elope because Piyal is of a lower class. Nanda's parents instead push her into a marriage with Jinadasa, who is of the same class as them. With economic downturn in Sri Lanka, both families lose their status and Jinadasa leaves to try to make a better life for himself; he never achieves his goal and dies penniless. Piyal and Nanda can now finally come together. They have changed however, and the earlier idylic nature of their relationship is not recaptured.",
-                        "streaming": "Streaming: Hungama Play (IN)"
+                        "focus": "Collaborative, nuanced rhythm that seamlessly intertwines personal emotion with sweeping social change."
+                    },
+                    {
+                        "title": "The Girls",
+                        "year": 1978,
+                        "releaseDate": "March 17, 1978",
+                        "director": "Sumitra Peries",
+                        "writer": "Karunasena Jayalath",
+                        "cinematographer": "Donald Karunaratne",
+                        "editor": "Sumitra Peries",
+                        "composer": "Nimal Mendis",
+                        "studio": "Chinthana Chithra",
+                        "country": "Sri Lanka",
+                        "poster": "https://image.tmdb.org/t/p/w500/3azQ8CYum36SBXNuFZHavdZmODy.jpg",
+                        "plot": "The Girls is about the growing up of two schoolgirl sisters and the disappointments to which they are condemned by their impoverished backgrounds.",
+                        "focus": "Empathetic, delicate editing focusing on the subtle emotional shifts and constrained lives of young women."
                     }
                 ],
                 "scenes": []
@@ -35160,38 +35332,23 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "assets/editors/nadeem_abbas.jpg",
+                "image": "assets/editors/nadeem_abbas.png",
                 "bestWork": "Joyland (2022), Kamli (2022)",
                 "mustWatch": [
                     {
-                        "title": "Joyland",
-                        "year": "2022",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2022-11-18",
-                        "director": "Saim Sadiq",
-                        "writer": "Saim Sadiq, Maggie Briggs",
-                        "cinematographer": "Joe Saade",
+                        "title": "Manto",
+                        "year": 2015,
+                        "releaseDate": "September 11, 2015",
+                        "director": "Sarmad Khoosat",
+                        "writer": "Shahid Nadeem",
+                        "cinematographer": "Khizer Idrees",
                         "editor": "Nadeem Abbas",
-                        "composer": "Abdullah Siddiqui",
-                        "studio": "all caps",
-                        "poster": "https://image.tmdb.org/t/p/w500/7InKwVFgvIgfwuPKd0C3R9OeoN7.jpg",
-                        "plot": "As a patriarchal family yearns for the birth of a son to continue their family line, their youngest son secretly joins an erotic dance theatre and falls for its transgender starlet.",
-                        "streaming": "Streaming: Prime Video (US), Philo (US), Fandor Amazon Channel (US), Dekkoo Amazon Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "Kamli",
-                        "year": "2022",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2022-06-03",
-                        "director": "Sarmad Sultan Khoosat",
-                        "writer": "Fatimah Sattar",
-                        "cinematographer": "Awais Gohar",
-                        "editor": "Nadeem Abbas",
-                        "composer": "Saad Sultan",
-                        "studio": "Khoosat Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/rofj4shoAcJuX4n9dBb8OvlGBTa.jpg",
-                        "plot": "A young married woman, who lives with her blind sister-in-law, has been waiting eight years for her husband to return home. One day she is about to drown in the nearby pond when a mysterious wanderer named Amaltas rescues her, unexpectedly changing her life and putting her in a dilemma between her husband and her savior. Will she be able to restrain the force of desire or will she give in to temptation?",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "composer": "True Brew Records",
+                        "studio": "Geo Films / A&B Entertainment",
+                        "country": "Pakistan",
+                        "poster": "https://image.tmdb.org/t/p/w500/xK3G1TZql42bpyJP9inA3nPA6tt.jpg",
+                        "plot": "The controversial and troubled Indo-Pakistani writer Saadat Hasan Manto finds his artistic choices challenged by censors.",
+                        "focus": "Fractured, intense pacing that vividly mirrors the brilliant but tormented mind of the legendary writer."
                     }
                 ],
                 "scenes": []
@@ -35211,34 +35368,32 @@ const FILMS_DATA = {
                 "bestWork": "Bhat De (1984), Tin Kannya (1985)",
                 "mustWatch": [
                     {
-                        "title": "Bhat De",
-                        "year": "1984",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1984-09-22",
-                        "director": "Amjad Hossain",
-                        "writer": "Amjad Hossain",
-                        "cinematographer": "Baby Islam",
-                        "editor": "Mujibur Rahman Dulu",
-                        "composer": "Alauddin Ali",
-                        "studio": "Alamgir Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/rgfFJyeQcmLOQbwrbEJxiyuKuvL.jpg",
-                        "plot": "Bhat De is a Bangladeshi film, released in 1984. The film was edited, written and directed by Amjad Hossain. The film starred Alamgir, Shabana in the lead roles and co-starred Wasimul Bari Rajib, Anwar Hossain and more.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "title": "The Clay Bird",
+                        "year": 2002,
+                        "releaseDate": "May 17, 2002",
+                        "director": "Tareque Masud",
+                        "writer": "Tareque Masud / Catherine Masud",
+                        "cinematographer": "Sudheer Palsane",
+                        "editor": "Mujibur Rahman Dulu / Catherine Masud",
+                        "studio": "Audiovision / MK2 Productions",
+                        "country": "Bangladesh / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/lpuRN4Gh2jiKhwZeHEsKjgoHZ83.jpg",
+                        "plot": "A family must come to grips with its culture, its faith, and the brutal political changes entering its small-town world.",
+                        "focus": "Meditative, lyrical editing that contrasts religious dogma with humanistic warmth during a period of historical upheaval."
                     },
                     {
-                        "title": "Tin Kannya",
-                        "year": "1985",
-                        "focus": "Editing techniques",
-                        "releaseDate": "None",
-                        "director": "Satyajit Ray",
-                        "writer": "Satyajit Ray",
-                        "cinematographer": "Soumendu Roy",
+                        "title": "Television",
+                        "year": 2012,
+                        "releaseDate": "October 13, 2012",
+                        "director": "Mostofa Sarwar Farooki",
+                        "writer": "Mostofa Sarwar Farooki / Anisul Hoque",
+                        "cinematographer": "Golam Maula Nabir",
                         "editor": "Mujibur Rahman Dulu",
-                        "composer": "Satyajit Ray",
-                        "studio": "Satyajit Ray Productions",
-                        "poster": "https://upload.wikimedia.org/wikipedia/en/b/b3/Teen_Kanya.jpg",
-                        "plot": "Plot details not available.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "studio": "Chabial",
+                        "country": "Bangladesh",
+                        "poster": "https://image.tmdb.org/t/p/w500/wmIV5gTjiU9xOg5ZoyQqLmT73JD.jpg",
+                        "plot": "A devout village leader prohibits an array of modern devices, but when his strict measures go too far, the locals rise up in popular rebellion.",
+                        "focus": "Satirical, crisp rhythm that expertly balances profound religious themes with sharp societal comedy."
                     }
                 ],
                 "scenes": []
@@ -35258,49 +35413,46 @@ const FILMS_DATA = {
                 "bestWork": "Uncle Boonmee Who Can Recall His Past Lives (2010), Tropical Malady (2004), Shutter (2004)",
                 "mustWatch": [
                     {
-                        "title": "Uncle Boonmee Who Can Recall His Past Lives",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-06-25",
+                        "title": "Tropical Malady",
+                        "year": 2004,
+                        "releaseDate": "May 14, 2004",
+                        "director": "Apichatpong Weerasethakul",
+                        "writer": "Apichatpong Weerasethakul",
+                        "cinematographer": "Jarin Pengpanitch / Vichit Tanapanitch / Jean-Louis Vialard",
+                        "editor": "Lee Chatametikool",
+                        "studio": "Kick the Machine / Anna Sanders Films / Match Factory",
+                        "country": "Thailand / France / Germany / Italy",
+                        "plot": "A romance between a soldier and a country boy is disrupted when the boy disappears, leading the soldier to venture into the jungle where he encounters a mythical tiger spirit.",
+                        "focus": "Hypnotic, split-narrative editing that masterfully transitions from urban romance to primal, mythic jungle.",
+                        "poster": "assets/movies/tropical_malady.png"
+                    },
+                    {
+                        "title": "Syndromes and a Century",
+                        "year": 2006,
+                        "releaseDate": "August 30, 2006",
                         "director": "Apichatpong Weerasethakul",
                         "writer": "Apichatpong Weerasethakul",
                         "cinematographer": "Sayombhu Mukdeeprom",
                         "editor": "Lee Chatametikool",
-                        "composer": "Various Artists",
-                        "studio": "Illuminations Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/kPFkC9EBvllCIuDTR7A0DSEK6gJ.jpg",
-                        "plot": "Suffering from acute kidney failure, Boonmee has chosen to spend his final days surrounded by his loved ones in the countryside. Surprisingly, the ghost of his deceased wife appears to care for him, and his long lost son returns home in a non-human form. Contemplating the reasons for his illness, Boonmee treks through the jungle with his family to a mysterious hilltop cave—the birthplace of his first life.",
-                        "streaming": "Streaming: Strand Releasing Amazon Channel (US), MUBI (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "studio": "Kick the Machine / Illumination Films",
+                        "country": "Thailand / France / Austria",
+                        "plot": "A film in two parts, following a female doctor in a rural hospital and a male doctor in a city hospital, exploring their memories, relationships, and the contrasting environments.",
+                        "focus": "Diptyich structure utilizing deliberate pacing and repetition to explore memory and contrasting environments.",
+                        "poster": "assets/movies/syndromes.png"
                     },
                     {
-                        "title": "Tropical Malady",
-                        "year": "2004",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2004-06-24",
+                        "title": "Uncle Boonmee Who Can Recall His Past Lives",
+                        "year": 2010,
+                        "releaseDate": "May 21, 2010",
                         "director": "Apichatpong Weerasethakul",
                         "writer": "Apichatpong Weerasethakul",
-                        "cinematographer": "Vichit Tanapanitch, Jarin Pengpanitch, Jean-Louis Vialard",
+                        "cinematographer": "Sayombhu Mukdeeprom",
                         "editor": "Lee Chatametikool",
-                        "composer": "Various Artists",
-                        "studio": "Kick the Machine",
-                        "poster": "https://image.tmdb.org/t/p/w500/9WJ8ZSZp2NC7jSvweFLskldpzzg.jpg",
-                        "plot": "The passionate relationship between two men with unusual consequences. The film is divided in two parts. The first half charts the modest attraction between two men in the sunny, relaxing countryside and the second half charts the confusion and terror of an unknown menace lurking deep within the jungle shadows.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
-                    },
-                    {
-                        "title": "Shutter",
-                        "year": "2004",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2004-09-09",
-                        "director": "Banjong Pisanthanakun, Parkpoom Wongpoom",
-                        "writer": "Banjong Pisanthanakun, Parkpoom Wongpoom, Sophon Sakdaphisit",
-                        "cinematographer": "Niramon Ross",
-                        "editor": "Lee Chatametikool",
-                        "composer": "Chatchai Pongprapaphan",
-                        "studio": "GMM Pictures Co.",
-                        "poster": "https://image.tmdb.org/t/p/w500/zUyaVtyugDaDHtOC6kCMJhbZsWu.jpg",
-                        "plot": "When Jane and Tun run over a girl in a car accident, they speed away immediately from the crime scene. However, Tun, a photographer, soon discovers strange shadows in his photos, which unsettles them.",
-                        "streaming": "Rent/Buy: Apple TV"
+                        "studio": "Kick the Machine / Illuminations Films / Match Factory",
+                        "country": "Thailand / United Kingdom / France / Germany / Spain",
+                        "plot": "Suffering from acute kidney failure, Uncle Boonmee has chosen to spend his final days surrounded by his loved ones in the countryside. Surprisingly, the ghost of his deceased wife appears to care for him, and his long lost son returns home in a non-human form.",
+                        "focus": "Tranquil, elliptical rhythm that gently dissolves the boundaries between the living, the dead, and the natural world.",
+                        "poster": "assets/movies/uncle_boonmee.png"
                     }
                 ],
                 "scenes": []
@@ -35320,19 +35472,34 @@ const FILMS_DATA = {
                 "bestWork": "Manila in the Claws of Light (1975)",
                 "mustWatch": [
                     {
-                        "title": "Manila in the Claws of Light",
-                        "year": "1975",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1975-07-16",
-                        "director": "Lino Brocka",
-                        "writer": "Clodualdo del Mundo Jr.",
-                        "cinematographer": "Mike de Leon, Clodualdo del Mundo Jr.",
+                        "title": "Bayaning 3rd World",
+                        "year": 1999,
+                        "releaseDate": "November 17, 1999",
+                        "director": "Mike De Leon",
+                        "writer": "Clodualdo del Mundo Jr. / Mike De Leon",
+                        "cinematographer": "Ding Achacoso",
                         "editor": "Edgardo Vinarao",
-                        "composer": "Max Jocson",
-                        "studio": "Cinema Artists",
-                        "poster": "https://image.tmdb.org/t/p/w500/iFM8bcQnyBPlzd0JItgWNn6TjT2.jpg",
-                        "plot": "Julio, a young fisherman from a provincial village, descends into social alienation as he arrives in Manila to search for his loved one.",
-                        "streaming": "Streaming: YouTube (US), Criterion Channel (US) | Rent/Buy: Apple TV, Google Play, YouTube"
+                        "composer": "Lorrie Ilustre",
+                        "studio": "Cinema Artists Philippines",
+                        "country": "Philippines",
+                        "poster": "https://image.tmdb.org/t/p/w500/59WcsPbtUnZigMuubvYIdx1Tg9p.jpg",
+                        "plot": "Two filmmakers try to create a film venturing on the life of Jose Rizal. Before they do that, they try to investigate on the heroism of the Philippine national hero. Of particular focus is his supposed retraction of his views against the Roman Catholic Church during the Spanish regime in the Philippines which he expressed primarily through his two novels Noli Me Tangere and El Filibusterismo. The investigation was done mainly by \"interviewing\" key individuals in the life of Rizal such as his mother Teodora Alonso, his siblings Paciano, Trinidad, and Narcisa, his love interest and supposed wife Josephine Bracken, and the Jesuit priest who supposedly witnessed Rizal's retraction, Fr. Balaguer. Eventually, the two filmmakers would end up \"interviewing\" Rizal himself to get to the bottom of the issue.",
+                        "focus": "Meta-cinematic, playful editing that deconstructs historical narrative and challenges traditional biopics."
+                    },
+                    {
+                        "title": "Sister Stella L.",
+                        "year": 1984,
+                        "releaseDate": "July 11, 1984",
+                        "director": "Mike De Leon",
+                        "writer": "Jose F. Lacaba / Jose Almojuela / Mike De Leon",
+                        "cinematographer": "Rody Lacap",
+                        "editor": "Edgardo Vinarao",
+                        "composer": "Ding Achacoso",
+                        "studio": "Regal Films",
+                        "country": "Philippines",
+                        "poster": "https://image.tmdb.org/t/p/w500/aOxRxYZDe7sl2SR4qZ78a4cdZ8x.jpg",
+                        "plot": "A nun who acts as a counselor in a home for unwed mother undergoes political awakening when her friend and namesake belonging to the same congregation as hers inspires her to get involved in the struggle for justice and freedom of striking workers in a cooking oil company.",
+                        "focus": "Urgent, politically charged pacing that chronicles a profound personal and social awakening amidst labor unrest."
                     }
                 ],
                 "scenes": []
@@ -35353,18 +35520,31 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Norte, the End of History",
-                        "year": "2013",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2014-03-11",
+                        "year": 2013,
+                        "releaseDate": "May 18, 2013",
                         "director": "Lav Diaz",
-                        "writer": "Lav Diaz, Rody Vera",
-                        "cinematographer": "Larry Manda",
+                        "writer": "Lav Diaz / Rody Vera",
+                        "cinematographer": "Lauro Rene Manda",
                         "editor": "Lawrence S. Ang",
-                        "composer": "Perry Dizon",
-                        "studio": "Origin8 Media",
+                        "studio": "Kino Lorber / Waning Crescent Publications",
+                        "country": "Philippines",
                         "poster": "https://image.tmdb.org/t/p/w500/23FlJD2ykd4M7RTQ7A9HNayYOQy.jpg",
                         "plot": "An embittered law student commits a brutal double murder; a family man takes the fall and is forced to take a harsh sentence; and a mother and her two children wander the countryside in search of some kind of redemption.",
-                        "streaming": "Rent/Buy: Apple TV, Google Play, YouTube"
+                        "focus": "Monumental, durational pacing relying on profound long takes to explore crime, punishment, and profound moral decay."
+                    },
+                    {
+                        "title": "From What Is Before",
+                        "year": 2014,
+                        "releaseDate": "August 4, 2014",
+                        "director": "Lav Diaz",
+                        "writer": "Lav Diaz",
+                        "cinematographer": "Lav Diaz",
+                        "editor": "Lawrence S. Ang",
+                        "studio": "Sine Olivia Pilipinas",
+                        "country": "Philippines",
+                        "poster": "https://image.tmdb.org/t/p/w500/4fL07Lf7dghqtgX5ohoIYx4wZRG.jpg",
+                        "plot": "The Philippines, 1972. Mysterious things are happening in a remote barrio. Wails are heard from the forest, cows are hacked to death, a man is found bleeding to death at the crossroad, and houses are burned. Ferdinand E. Marcos announces Proclamation No. 1081, putting the entire country under Martial Law.",
+                        "focus": "Immersive, contemplative editing that captures the slow, inevitable creep of martial law into rural consciousness."
                     }
                 ],
                 "scenes": []
@@ -35384,34 +35564,48 @@ const FILMS_DATA = {
                 "bestWork": "Festen (1998), Eternal Sunshine of the Spotless Mind (2004)",
                 "mustWatch": [
                     {
-                        "title": "Festen",
-                        "year": "1998",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1998-06-19",
-                        "director": "Thomas Vinterberg",
-                        "writer": "Mogens Rukov, Thomas Vinterberg",
-                        "cinematographer": "Anthony Dod Mantle",
-                        "editor": "Valdís Óskarsdóttir",
-                        "composer": "Lars Bo Jensen",
-                        "studio": "DR",
-                        "poster": "https://image.tmdb.org/t/p/w500/2LRzNq41yrY8EjCnD1S8sCCPvKk.jpg",
-                        "plot": "The family of a wealthy businessman gather to celebrate his 60th birthday. During the course of the party, his eldest son presents a speech that reveals a devastating secret that turns the night into a battle of truth and denial.",
-                        "streaming": "Streaming: Criterion Channel (US), MUBI (US), MUBI (IN), MUBI (GB)"
-                    },
-                    {
                         "title": "Eternal Sunshine of the Spotless Mind",
-                        "year": "2004",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2004-03-19",
+                        "year": 2004,
+                        "releaseDate": "March 19, 2004",
                         "director": "Michel Gondry",
                         "writer": "Charlie Kaufman",
                         "cinematographer": "Ellen Kuras",
                         "editor": "Valdís Óskarsdóttir",
                         "composer": "Jon Brion",
-                        "studio": "Focus Features",
+                        "studio": "Anonymous Content / This Is That Productions",
+                        "country": "United States",
                         "poster": "https://image.tmdb.org/t/p/w500/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
                         "plot": "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake.",
-                        "streaming": "Streaming: Prime Video (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Mind-bending, non-linear editing that perfectly mirrors the chaotic fragmentation of a fading memory."
+                    },
+                    {
+                        "title": "Festen",
+                        "year": 1998,
+                        "releaseDate": "June 19, 1998",
+                        "director": "Thomas Vinterberg",
+                        "writer": "Thomas Vinterberg / Mogens Rukov",
+                        "cinematographer": "Anthony Dod Mantle",
+                        "editor": "Valdís Óskarsdóttir",
+                        "studio": "Nimbus Film / DR",
+                        "country": "Denmark / Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/2LRzNq41yrY8EjCnD1S8sCCPvKk.jpg",
+                        "plot": "The family of a wealthy businessman gather to celebrate his 60th birthday. During the course of the party, his eldest son presents a speech that reveals a devastating secret that turns the night into a battle of truth and denial.",
+                        "focus": "Dogme 95 pioneering style featuring raw, abrasive jump cuts that expose deep-seated family trauma."
+                    },
+                    {
+                        "title": "Submarino",
+                        "year": 2010,
+                        "releaseDate": "February 13, 2010",
+                        "director": "Thomas Vinterberg",
+                        "writer": "Tobias Lindholm / Thomas Vinterberg",
+                        "cinematographer": "Charlotte Bruus Christensen",
+                        "editor": "Valdís Óskarsdóttir",
+                        "composer": "Kristian Eidnes Andersen",
+                        "studio": "Nimbus Film Productions",
+                        "country": "Denmark / Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/kzkQqjphmXSMoJjxOGcDitPhjAs.jpg",
+                        "plot": "As children, Nick and his little brother take care of their baby brother while their mother drinks herself senseless. But the baby dies, and both brothers blame themselves. Many years later, Nick is out of prison after serving time for an assault. He drinks, lives in a shelter and tries to help an old friend. When their mother dies, Nick meets his brother at the funeral. The brother, who remains nameless, is a single father to a young boy, but also supports a drug habit that is spiraling out of control. When an opportunity presents itself, he becomes a drug dealer to secure his son's future. Eventually, the two brothers meet again.",
+                        "focus": "Gritty, uncompromising pacing that forces the audience into the painful reality of addiction and grief."
                     }
                 ],
                 "scenes": []
@@ -35431,34 +35625,48 @@ const FILMS_DATA = {
                 "bestWork": "The Hunt (2012), Another Round (2020)",
                 "mustWatch": [
                     {
-                        "title": "The Hunt",
-                        "year": "2012",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2012-10-25",
-                        "director": "Thomas Vinterberg",
-                        "writer": "Thomas Vinterberg, Tobias Lindholm",
-                        "cinematographer": "Charlotte Bruus Christensen",
-                        "editor": "Janus Billeskov Jansen",
-                        "composer": "Nikolaj Egelund",
-                        "studio": "Zentropa International Sweden",
-                        "poster": "https://image.tmdb.org/t/p/w500/jkixsXzRh28q3PCqFoWcf7unghT.jpg",
-                        "plot": "A teacher lives a lonely life, all the while struggling over his son’s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.",
-                        "streaming": "Streaming: Magnolia Selects Amazon Channel (US), Arrow Video Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
                         "title": "Another Round",
-                        "year": "2020",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2020-09-24",
+                        "year": 2020,
+                        "releaseDate": "September 12, 2020",
                         "director": "Thomas Vinterberg",
-                        "writer": "Tobias Lindholm, Thomas Vinterberg",
+                        "writer": "Thomas Vinterberg / Tobias Lindholm",
                         "cinematographer": "Sturla Brandth Grøvlen",
-                        "editor": "Janus Billeskov Jansen",
+                        "editor": "Janus Billeskov Jansen / Anne Østerud",
                         "composer": "Janus Billeskov Jansen",
-                        "studio": "Zentropa Entertainments",
+                        "studio": "Zentropa Entertainments / Film i Väst / Topkapi Films",
+                        "country": "Denmark / Netherlands / Sweden",
                         "poster": "https://image.tmdb.org/t/p/w500/aDcIt4NHURLKnAEu7gow51Yd00Q.jpg",
                         "plot": "Four stagnant high school teachers decide to test out a theory that maintaining a constant level of intoxication will improve their overall lives.",
-                        "streaming": "Streaming: Apple TV (US), AMC+ Amazon Channel (US), Philo (US), MUBI (IN) | Rent/Buy: Amazon Video, Google Play, YouTube"
+                        "focus": "Intoxicating, rhythmic editing that ebbs and flows with the euphoric highs and crushing lows of alcohol."
+                    },
+                    {
+                        "title": "The Hunt",
+                        "year": 2012,
+                        "releaseDate": "May 20, 2012",
+                        "director": "Thomas Vinterberg",
+                        "writer": "Thomas Vinterberg / Tobias Lindholm",
+                        "cinematographer": "Charlotte Bruus Christensen",
+                        "editor": "Janus Billeskov Jansen / Anne Østerud",
+                        "studio": "Zentropa Entertainments / Film i Väst",
+                        "country": "Denmark / Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/jkixsXzRh28q3PCqFoWcf7unghT.jpg",
+                        "plot": "A teacher lives a lonely life, all the while struggling over his son’s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.",
+                        "focus": "Relentless, suffocating pacing that captures the terrifying speed of communal paranoia and false accusation."
+                    },
+                    {
+                        "title": "Pelle the Conqueror",
+                        "year": 1987,
+                        "releaseDate": "December 25, 1987",
+                        "director": "Bille August",
+                        "writer": "Bille August / Per Olov Enquist / Bjarne Reuter",
+                        "cinematographer": "Jörgen Persson",
+                        "editor": "Janus Billeskov Jansen",
+                        "composer": "Stefan Nilsson",
+                        "studio": "Per Holst Filmproduktion / Svenska Filminstitutet",
+                        "country": "Denmark / Sweden",
+                        "poster": "https://image.tmdb.org/t/p/w500/oSsu4khg459yTR1sw4qjEC4LO5J.jpg",
+                        "plot": "In the late 19th century, two Swedish emigrants, Lasse Karlsson and his son Pelle, arrive on the Danish island of Bornholm hoping to find work on a farm and save enough money to travel to the United States of America.",
+                        "focus": "Sweeping, classical rhythm that grounds profound human suffering and resilience in a harsh, unforgiving landscape."
                     }
                 ],
                 "scenes": []
@@ -35479,18 +35687,33 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Let the Right One In",
-                        "year": "2008",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2008-10-24",
+                        "year": 2008,
+                        "releaseDate": "January 26, 2008",
                         "director": "Tomas Alfredson",
                         "writer": "John Ajvide Lindqvist",
                         "cinematographer": "Hoyte van Hoytema",
                         "editor": "Daniel Jonsäter",
                         "composer": "Johan Söderqvist",
-                        "studio": "EFTI",
+                        "studio": "EFTI / Sveriges Television / Filmpool Nord",
+                        "country": "Sweden",
                         "poster": "https://image.tmdb.org/t/p/w500/7IG4WjaAOVDlLvLUkh513HSwhW8.jpg",
                         "plot": "When Oskar, a sensitive, bullied 12-year-old boy, meets his new neighbor, the mysterious and moody Eli, they strike up a friendship. Initially reserved with each other, Oskar and Eli slowly form a close bond, but it soon becomes apparent that she is no ordinary young girl.",
-                        "streaming": "Streaming: Prime Video (US), fuboTV (US), Philo (US), Magnolia Selects Amazon Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Chilling, deliberate pacing that emphasizes cold, isolating space and sudden bursts of visceral horror."
+                    },
+                    {
+                        "title": "Tinker Tailor Soldier Spy",
+                        "year": 2011,
+                        "releaseDate": "September 5, 2011",
+                        "director": "Tomas Alfredson",
+                        "writer": "Bridget O'Connor / Peter Straughan",
+                        "cinematographer": "Hoyte van Hoytema",
+                        "editor": "Dino Jonsäter",
+                        "composer": "Alberto Iglesias",
+                        "studio": "Working Title Films / StudioCanal / Karla Films",
+                        "country": "United Kingdom / France / Germany",
+                        "poster": "https://image.tmdb.org/t/p/w500/e0dZ7TapGY9HtJ9xk1TUHPEOccl.jpg",
+                        "plot": "George Smiley, the aging master spy of the Cold War and once heir apparent to Control, is brought back out of retirement to flush out a top level mole within the Circus. Smiley must travel back through his life and murky workings of the Circus to unravel the net spun by his nemesis Karla 'The Sandman' of the KGB and reveal the identity of the mole before he disappears.",
+                        "focus": "Meticulous, deeply psychological editing that slowly unravels a dense labyrinth of Cold War paranoia and betrayal."
                     }
                 ],
                 "scenes": []
@@ -35511,33 +35734,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "All About My Mother",
-                        "year": "1999",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1999-04-16",
+                        "year": 1999,
+                        "releaseDate": "April 16, 1999",
                         "director": "Pedro Almodóvar",
                         "writer": "Pedro Almodóvar",
                         "cinematographer": "Affonso Beato",
                         "editor": "José Salcedo",
                         "composer": "Alberto Iglesias",
-                        "studio": "El Deseo",
+                        "studio": "El Deseo / Renn Productions / France 2 Cinéma",
+                        "country": "Spain / France",
                         "poster": "https://image.tmdb.org/t/p/w500/hjQhzhkGYXPNM96k0mOgob6HMmn.jpg",
                         "plot": "Following the tragic death of her teenage son, Manuela travels from Madrid to Barcelona in an attempt to contact the long-estranged father the boy never knew. She reunites with an old friend, an outspoken transgender sex worker, and befriends a troubled actress and a pregnant, HIV-positive nun.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Vibrant, melodramatic pacing that balances profound tragedy with exuberant life and humor."
+                    },
+                    {
+                        "title": "Volver",
+                        "year": 2006,
+                        "releaseDate": "March 17, 2006",
+                        "director": "Pedro Almodóvar",
+                        "writer": "Pedro Almodóvar",
+                        "cinematographer": "José Luis Alcaine",
+                        "editor": "José Salcedo",
+                        "composer": "Alberto Iglesias",
+                        "studio": "El Deseo",
+                        "country": "Spain",
+                        "poster": "https://image.tmdb.org/t/p/w500/m1ZUDGTFtVGE3zjTvF8OiQ9um5e.jpg",
+                        "plot": "Three generations of women deal with family secrets while surviving the east wind, fire, insanity, superstition, lies and even death.",
+                        "focus": "Fluid, emotional editing that effortlessly weaves supernatural elements with a powerful celebration of womanhood."
                     },
                     {
                         "title": "Women on the Verge of a Nervous Breakdown",
-                        "year": "1988",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1988-03-25",
+                        "year": 1988,
+                        "releaseDate": "March 25, 1988",
                         "director": "Pedro Almodóvar",
                         "writer": "Pedro Almodóvar",
                         "cinematographer": "José Luis Alcaine",
                         "editor": "José Salcedo",
                         "composer": "Bernardo Bonezzi",
-                        "studio": "El Deseo",
+                        "studio": "El Deseo / Laurenfilm",
+                        "country": "Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/8C5FJlUo96pj1xAs2BKnB58PYzi.jpg",
                         "plot": "After being dumped by her lover, Pepa finds her life and the lives of those around her spiraling out of control in a deliciously chaotic series of events.",
-                        "streaming": "Streaming: Apple TV (GB), Studiocanal Presents Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Frantic, colorful pacing that perfectly captures the escalating absurdity of a romantic crisis."
                     }
                 ],
                 "scenes": []
@@ -35558,33 +35796,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Pain and Glory",
-                        "year": "2019",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-03-22",
+                        "year": 2019,
+                        "releaseDate": "March 22, 2019",
                         "director": "Pedro Almodóvar",
                         "writer": "Pedro Almodóvar",
                         "cinematographer": "José Luis Alcaine",
                         "editor": "Teresa Font",
                         "composer": "Alberto Iglesias",
                         "studio": "El Deseo",
+                        "country": "Spain",
                         "poster": "https://image.tmdb.org/t/p/w500/cMlueArJXXwZbeLpb4NhC3pxmBk.jpg",
                         "plot": "Salvador Mallo, a filmmaker in the twilight of his career, remembers his life: his mother, his lovers, the actors he worked with. The sixties in a small village in Valencia, the eighties in Madrid, the present, when he feels an immeasurable emptiness, facing his mortality, the incapability of continuing filming, the impossibility of separating creation from his own life. The need of narrating his past can be his salvation.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Reflective, deeply personal editing that fluidly transitions between present suffering and vivid childhood memory."
                     },
                     {
-                        "title": "Jamón Jamón",
-                        "year": "1992",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1992-09-03",
-                        "director": "Bigas Luna",
-                        "writer": "Bigas Luna, Cuca Canals",
+                        "title": "Parallel Mothers",
+                        "year": 2021,
+                        "releaseDate": "September 1, 2021",
+                        "director": "Pedro Almodóvar",
+                        "writer": "Pedro Almodóvar",
                         "cinematographer": "José Luis Alcaine",
                         "editor": "Teresa Font",
-                        "composer": "Nicola Piovani",
-                        "studio": "Ovídeo TV S.A.",
-                        "poster": "https://image.tmdb.org/t/p/w500/bxYSRl1vXGwaAD98aXSwZQ5hmAe.jpg",
-                        "plot": "José Luis has a cushy corporate job at the lingerie factory his mom owns. After he falls in love and proposes to Silvia, a beautiful laborer on the underwear assembly line, his mom enlists Raul, a potential underwear model and would-be bullfighter, to seduce Silvia.",
-                        "streaming": "Streaming: Criterion Channel (US) | Rent/Buy: Amazon Video"
+                        "composer": "Alberto Iglesias",
+                        "studio": "El Deseo / Remotamente Films",
+                        "country": "Spain / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/gDaxYkYNbHuM2VlUazbcpnFZB6d.jpg",
+                        "plot": "Two unmarried women who have become pregnant by accident and are about to give birth meet in a hospital room: Janis, in her late-thirties, unrepentant and happy; Ana, a teenager, remorseful and frightened.",
+                        "focus": "Nuanced, intercut rhythm that explores the complex intersections of motherhood, trauma, and historical memory."
+                    },
+                    {
+                        "title": "The Day of the Beast",
+                        "year": 1995,
+                        "releaseDate": "October 20, 1995",
+                        "director": "Álex de la Iglesia",
+                        "writer": "Álex de la Iglesia / Jorge Guerricaechevarría",
+                        "cinematographer": "Flavio Martínez Labiano",
+                        "editor": "Teresa Font",
+                        "composer": "Battista Lena",
+                        "studio": "Sogetel / Iberoamericana Films / MG Srl",
+                        "country": "Spain / Italy",
+                        "poster": "https://image.tmdb.org/t/p/w500/yEXhgACPIV4PmTgHT2HS3Ko2oS3.jpg",
+                        "plot": "When a rogue priest discovers the exact date the Antichrist will be born, he enlists a Death Metal record store clerk and a cheesy TV psychic for an urban spree of gore, sacrilege and twisted humor to prevent the Apocalypse.",
+                        "focus": "Frenetic, dark-comedy editing that builds relentless momentum toward an apocalyptic showdown."
                     }
                 ],
                 "scenes": []
@@ -35605,33 +35858,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "City of God",
-                        "year": "2002",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2002-08-30",
-                        "director": "Fernando Meirelles",
+                        "year": 2002,
+                        "releaseDate": "August 30, 2002",
+                        "director": "Fernando Meirelles / Kátia Lund",
                         "writer": "Bráulio Mantovani",
                         "cinematographer": "César Charlone",
                         "editor": "Daniel Rezende",
-                        "composer": "Ed Cortês, Antonio Pinto",
-                        "studio": "O2 Filmes",
-                        "poster": "https://image.tmdb.org/t/p/w500/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
-                        "plot": "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood, while José “Zé” Pequeno is an ambitious drug dealer diving into a dangerous life of crime.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Antonio Pinto / Ed Côrtes",
+                        "studio": "O2 Filmes / VideoFilmes / Hank Levine Film",
+                        "country": "Brazil / France / Germany",
+                        "plot": "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood. José 'Zé' Pequeno is an ambitious drug dealer who uses Rocket and his photos as a way to increase his fame as a turf war erupts with his rival, 'Knockout Ned'.",
+                        "focus": "Kinetic, explosive editing that mirrors the frantic and dangerous energy of the favela.",
+                        "poster": "assets/movies/city_of_god.png"
                     },
                     {
-                        "title": "The Motorcycle Diaries",
-                        "year": "2004",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2004-02-06",
-                        "director": "Walter Salles",
-                        "writer": "Jose Rivera",
-                        "cinematographer": "Éric Gautier",
+                        "title": "The Tree of Life",
+                        "year": 2011,
+                        "releaseDate": "May 16, 2011",
+                        "director": "Terrence Malick",
+                        "writer": "Terrence Malick",
+                        "cinematographer": "Emmanuel Lubezki",
+                        "editor": "Daniel Rezende / Hank Corwin / Jay Rabinowitz / Billy Weber / Mark Yoshikawa",
+                        "composer": "Alexandre Desplat",
+                        "studio": "River Road Entertainment / Plan B Entertainment",
+                        "country": "United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/l8cwuB5WJSoj4uMAsnzuHBOMaSJ.jpg",
+                        "plot": "The impressionistic story of a Texas family in the 1950s. The film follows the life journey of the eldest son, Jack, through the innocence of childhood to his disillusioned adult years as he tries to reconcile a complicated relationship with his father. Jack finds himself a lost soul in the modern world, seeking answers to the origins and meaning of life while questioning the existence of faith.",
+                        "focus": "Lyrical, impressionistic pacing that weaves cosmic themes with intimate, nostalgic memories."
+                    },
+                    {
+                        "title": "Elite Squad",
+                        "year": 2007,
+                        "releaseDate": "October 5, 2007",
+                        "director": "José Padilha",
+                        "writer": "José Padilha / Bráulio Mantovani / Rodrigo Pimentel",
+                        "cinematographer": "Lula Carvalho",
                         "editor": "Daniel Rezende",
-                        "composer": "Gustavo Santaolalla",
-                        "studio": "Film4 Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/qz2aBYT8CAiJYvX4fRZpJ5G0Oz1.jpg",
-                        "plot": "Based on the journals of Che Guevara, leader of the Cuban Revolution. In his memoirs, Guevara recounts adventures he and best friend Alberto Granado had while crossing South America by motorcycle in the early 1950s.",
-                        "streaming": "Streaming: Channel 4 Plus (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Pedro Bromfman",
+                        "studio": "Zazen Produções / Posto 9 / Weinstein Company",
+                        "country": "Brazil / United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/lwIXz785N2fXi8hsBr1IXciFlkM.jpg",
+                        "plot": "In 1997, before the visit of the pope to Rio de Janeiro, Captain Nascimento from BOPE (Special Police Operations Battalion) is assigned to eliminate the risks of the drug dealers in a dangerous slum nearby where the pope intends to be lodged.",
+                        "focus": "Relentless, adrenaline-fueled pacing that traps the viewer in the violent crossfire of urban warfare."
                     }
                 ],
                 "scenes": []
@@ -35652,18 +35920,32 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Amores Perros",
-                        "year": "2000",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2000-06-16",
-                        "director": "Alejandro G. Iñárritu",
+                        "year": 2000,
+                        "releaseDate": "May 14, 2000",
+                        "director": "Alejandro González Iñárritu",
                         "writer": "Guillermo Arriaga",
                         "cinematographer": "Rodrigo Prieto",
-                        "editor": "Luis Carballar",
+                        "editor": "Luis Carballar / Alejandro González Iñárritu / Fernando Pérez Unda",
                         "composer": "Gustavo Santaolalla",
-                        "studio": "Altavista Films",
+                        "studio": "Zeta Film / Altavista Films",
+                        "country": "Mexico",
                         "poster": "https://image.tmdb.org/t/p/w500/A4lH22nlFF7MdalGfcvSrlC1ttt.jpg",
                         "plot": "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man.",
-                        "streaming": "Rent/Buy: Google Play, YouTube"
+                        "focus": "Visceral, intertwined narrative editing that connects disparate lives through sudden, tragic collision."
+                    },
+                    {
+                        "title": "Y Tu Mamá También",
+                        "year": 2001,
+                        "releaseDate": "June 8, 2001",
+                        "director": "Alfonso Cuarón",
+                        "writer": "Carlos Cuarón / Alfonso Cuarón",
+                        "cinematographer": "Rodrigo Prieto",
+                        "editor": "Luis Carballar / Alfonso Cuarón",
+                        "studio": "Producciones Anhelo",
+                        "country": "Mexico",
+                        "poster": "https://image.tmdb.org/t/p/w500/aj3rqjab8jfc2fWmcS3H3c5qbur.jpg",
+                        "plot": "In Mexico, two teenage boys and an attractive older woman embark on a road trip and learn a thing or two about life, friendship, sex, and each other.",
+                        "focus": "Free-flowing, spontaneous rhythm capturing the transient nature of youth and shifting relationships."
                     }
                 ],
                 "scenes": []
@@ -35683,19 +35965,34 @@ const FILMS_DATA = {
                 "bestWork": "The Secret in Their Eyes (2009)",
                 "mustWatch": [
                     {
-                        "title": "The Secret in Their Eyes",
-                        "year": "2009",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2009-08-13",
-                        "director": "Juan José Campanella",
-                        "writer": "Juan José Campanella, Eduardo Sacheri",
-                        "cinematographer": "Félix \"Chango\" Monti",
+                        "title": "The Jackal of Nahueltoro",
+                        "year": 1969,
+                        "releaseDate": "December 18, 1969",
+                        "director": "Miguel Littín",
+                        "writer": "Miguel Littín",
+                        "cinematographer": "Héctor Ríos",
                         "editor": "Gian Franco Pagliarani",
-                        "composer": "Emilio Kauderer, Federico Jusid",
-                        "studio": "Canal+ España",
-                        "poster": "https://image.tmdb.org/t/p/w500/dkeAwfZzwL3WvToydE3CXiY80E0.jpg",
-                        "plot": "Hoping to put to rest years of unease concerning a past case, retired criminal investigator Benjamín begins writing a novel based on the unsolved mystery of a newlywed’s rape and murder. With the help of a former colleague, judge Irene, he attempts to make sense of the past.",
-                        "streaming": "Streaming: BFI Player (GB), BFI Player Amazon Channel (GB), Apple TV (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Sergio Ortega",
+                        "studio": "Cine Experimental de la Universidad de Chile",
+                        "country": "Chile",
+                        "poster": "https://image.tmdb.org/t/p/w500/tjcWfo5AJgU7TIyG5TFTpVhgS0t.jpg",
+                        "plot": "Based on an actual murder case that ignited a furious debate over the death penalty in Chile in 1960, this experimental social drama portrays the life and death of an illiterate peasant who, while drunk, murdered the woman with whom he had a relationship and her five children.",
+                        "focus": "Documentary-like, urgent editing that exposes raw social injustice and systemic failure."
+                    },
+                    {
+                        "title": "The Promised Land",
+                        "year": 1973,
+                        "releaseDate": "August 1, 1973",
+                        "director": "Miguel Littín",
+                        "writer": "Miguel Littín",
+                        "cinematographer": "Alfonso Beato",
+                        "editor": "Gian Franco Pagliarani / Nelson Rodríguez",
+                        "composer": "Luis Advis / Inti-Illimani",
+                        "studio": "Instituto Cubano del Arte e Industrias Cinematográficos (ICAIC)",
+                        "country": "Chile / Cuba",
+                        "poster": "https://image.tmdb.org/t/p/w500/5UUFWGq3FQzI6JXIQOnyv5dYlWQ.jpg",
+                        "plot": "During the socialist government of Marmaduke Grove in 1932, a group of villagers decide to take some land in the area of ​​Palmilla. Almost like a mythical journey, problems arise when seated and in a position to bring the socialist ideal in the population. Everything becomes more complicated with rumors that the reactionary forces have overthrown the socialist government. A movie that because of the coup was not released in Chile and was only terminated by Littin in exile in Mexico.",
+                        "focus": "Epic, allegorical pacing that blends historical struggle with mythic storytelling."
                     }
                 ],
                 "scenes": []
@@ -35715,34 +36012,47 @@ const FILMS_DATA = {
                 "bestWork": "Touki Bouki (1973), Hyenas (1992)",
                 "mustWatch": [
                     {
-                        "title": "Touki Bouki",
-                        "year": "1973",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1973-05-10",
-                        "director": "Djibril Diop Mambéty",
-                        "writer": "Djibril Diop Mambéty",
-                        "cinematographer": "Georges Bracher",
-                        "editor": "Albertine Lastera",
-                        "composer": "Josephine Baker, Mado Robin",
-                        "studio": "Studio Kankourama",
-                        "poster": "https://image.tmdb.org/t/p/w500/kcBYKHyg9GcQqa6DWq0AuQDhtPI.jpg",
-                        "plot": "Mory, a cowherd, and Anta, a university student, try to make money in order to go to Paris and leave their boring past behind.",
-                        "streaming": "Streaming: Max (US), YouTube (US), MUBI (US), MUBI (IN) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "title": "Blue Is the Warmest Colour",
+                        "year": 2013,
+                        "releaseDate": "May 23, 2013",
+                        "director": "Abdellatif Kechiche",
+                        "writer": "Abdellatif Kechiche / Ghalya Lacroix",
+                        "cinematographer": "Sofian El Fani",
+                        "editor": "Albertine Lastera / Ghalya Lacroix / Jean-Marie Lengellé / Camille Toubkis",
+                        "studio": "Quat'sous Films / Wild Bunch / France 2 Cinéma",
+                        "country": "France / Belgium / Spain",
+                        "plot": "Adèle's life is changed when she meets Emma, a young woman with blue hair, who will allow her to discover desire and to assert herself as a woman and as an adult.",
+                        "focus": "Intensely intimate, immersive editing that lingers on raw emotional expression and extended conversational scenes.",
+                        "poster": "assets/movies/blue_is_the_warmest_colour.png"
                     },
                     {
-                        "title": "Hyenas",
-                        "year": "1992",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1992-09-18",
-                        "director": "Djibril Diop Mambéty",
-                        "writer": "Djibril Diop Mambéty",
-                        "cinematographer": "Matthias Kälin",
+                        "title": "Being 17",
+                        "year": 2016,
+                        "releaseDate": "February 14, 2016",
+                        "director": "André Téchiné",
+                        "writer": "André Téchiné / Céline Sciamma",
+                        "cinematographer": "Julien Hirsch",
                         "editor": "Albertine Lastera",
-                        "composer": "Wasis Diop",
-                        "studio": "ADR Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/or2P5W4SHTOYS40F2LifY8wm1e4.jpg",
-                        "plot": "A now-rich woman returns to her poor desert hometown to propose a deal to the populace: her fortune, in exchange for the death of the man who years earlier abandoned her and left her with his child.",
-                        "streaming": "Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Alexis Rault",
+                        "studio": "Fidélité Productions / Wild Bunch",
+                        "country": "France",
+                        "plot": "Damien, the son of a soldier, lives with his mother in a barracks in the south of France. He is a sensitive boy who is bullied by Tom. The two boys find themselves living together when Tom's mother has to go to the hospital.",
+                        "focus": "Dynamic, kinetic rhythm capturing the aggressive, restless energy of adolescent tension and desire.",
+                        "poster": "assets/movies/being_17.png"
+                    },
+                    {
+                        "title": "The Worst Ones",
+                        "year": 2022,
+                        "releaseDate": "May 22, 2022",
+                        "director": "Lise Akoka / Romane Gueret",
+                        "writer": "Lise Akoka / Romane Gueret / Elénore Gurrey",
+                        "cinematographer": "Éric Dumont",
+                        "editor": "Albertine Lastera",
+                        "studio": "Les Films Velvet",
+                        "country": "France",
+                        "poster": "https://image.tmdb.org/t/p/w500/3ZfrtEUknglIvbwHOQV8tKLKqE4.jpg",
+                        "plot": "The story centres on a group of teenagers street cast in their neighbourhood and selected to play in a feature film during the summer. The film tells the story of this film shoot and of the connections that will be formed during it.",
+                        "focus": "Nuanced, observational pacing that blurs the line between documentary authenticity and staged drama."
                     }
                 ],
                 "scenes": []
@@ -35762,34 +36072,49 @@ const FILMS_DATA = {
                 "bestWork": "Omar Gatlato (1976), Halfaouine: Boy of the Terraces (1990)",
                 "mustWatch": [
                     {
-                        "title": "Omar Gatlato",
-                        "year": "1976",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1976-07-15",
-                        "director": "Merzak Allouache",
-                        "writer": "Merzak Allouache",
-                        "cinematographer": "Smaïl Lakhdar-Hamina",
+                        "title": "The Silences of the Palace",
+                        "year": 1994,
+                        "releaseDate": "May 22, 1994",
+                        "director": "Moufida Tlatli",
+                        "writer": "Moufida Tlatli / Nouri Bouzid",
+                        "cinematographer": "Youssef Ben Youssef",
                         "editor": "Moufida Tlatli",
-                        "composer": "Ahmed Malek",
-                        "studio": "O.N.C.I.C.",
-                        "poster": "https://image.tmdb.org/t/p/w500/4RIKxlOy61GyHq5DOCHwJABSTEx.jpg",
-                        "plot": "Omar, a young man, lives a simple life with his family and suffers from loneliness. His life changes when he tries to bond with a girl he barely knows.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "composer": "Anouar Brahem",
+                        "studio": "Cinétéléfilms / Magfilm / CAR Film",
+                        "country": "Tunisia / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/6DVmYqcwGXhBMDImtGxQedMKsBM.jpg",
+                        "plot": "The death of a prince brings a young woman back to the palace where she was born into servitude. The lingering legacy is brought into light from behind frosted windows and velvet curtains.",
+                        "focus": "Delicate, contemplative editing that elegantly weaves oppressive silence with painful, suppressed memories."
                     },
                     {
-                        "title": "Halfaouine: Boy of the Terraces",
-                        "year": "1990",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1990-09-14",
+                        "title": "Halfaouine: Boy of the Terraces (As Editor)",
+                        "year": 1990,
+                        "releaseDate": "May 19, 1990",
                         "director": "Férid Boughedir",
-                        "writer": "Férid Boughedir, Nouri Bouzid, Maryse León García",
+                        "writer": "Férid Boughedir",
                         "cinematographer": "Georges Barsky",
                         "editor": "Moufida Tlatli",
                         "composer": "Anouar Brahem",
-                        "studio": "Les Films du Scarabée",
+                        "studio": "Cinétéléfilms / France Media / Scarabee Films",
+                        "country": "Tunisia / France / Italy",
                         "poster": "https://image.tmdb.org/t/p/w500/uI7hb9flZetd0KZoN2BGHLq4uvZ.jpg",
                         "plot": "Twelve-year-old Noura dangles uncertainly in that difficult netherworld between childhood and adulthood. His growing libido has gotten him banned from the women's baths, where his mother took him when he was younger, but he's not yet old enough to participate in grown-up discussions with the men of his Tunisian village. Noura's only real friend is a troublemaker named Salih -- the village political outcast.",
-                        "streaming": "Streaming: Kino Film Collection (US), Artify (US), Artify (IN), Artify (GB) | Rent/Buy: Amazon Video, Fandango At Home, Artify"
+                        "focus": "Warm, rhythmic pacing that captures the vibrant, sun-drenched flow of daily communal life."
+                    },
+                    {
+                        "title": "The Season of Men",
+                        "year": 2000,
+                        "releaseDate": "May 14, 2000",
+                        "director": "Moufida Tlatli",
+                        "writer": "Moufida Tlatli",
+                        "cinematographer": "Youssef Ben Youssef",
+                        "editor": "Moufida Tlatli",
+                        "composer": "Anouar Brahem",
+                        "studio": "Les Films du Losange / Arte France Cinéma",
+                        "country": "Tunisia / France",
+                        "poster": "https://image.tmdb.org/t/p/w500/eeqSXnZ6Ie16MeVtyEGUiOsQL3O.jpg",
+                        "plot": "An 18 year old on the island Djerba, Aicha, is married to Said, who works in Tunis for much of the year. Aicha breaks with tradition and decides to join Said in Tunis, weaving rugs to make money. Said asks that she give him a son, so Aicha lives under the rule of her mother-in-law.",
+                        "focus": "Meditative, deliberate rhythm emphasizing the psychological isolation and enduring strength of women."
                     }
                 ],
                 "scenes": []
@@ -35810,33 +36135,31 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Brotherhood",
-                        "year": "2022",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2022-01-21",
-                        "director": "Liu Zhangmu",
-                        "writer": "Jade Osiberu",
-                        "cinematographer": "John Njaga Demps",
+                        "year": 2022,
+                        "releaseDate": "September 23, 2022",
+                        "director": "Loukman Ali",
+                        "writer": "Abdul Tijani-Ahmed",
+                        "cinematographer": "Loukman Ali",
                         "editor": "Martini Akande",
-                        "composer": "Sesan",
                         "studio": "Greoh Studios",
-                        "poster": "https://image.tmdb.org/t/p/w500/6gHrOhlZtTfBqEPnIHM6B1wYbhb.jpg",
-                        "plot": "The movie revolves around a huge transnational drug trafficking transaction. Lei Zhanjun and Lei Zhansheng are twin brothers. The younger brother was involved in a local gang vendetta. He faked his death and had plastic surgery and escaped unscathed, taking away a huge amount of the gang's funds. The elder brother, who did not know the inside story, crossed national borders and chased the murderer thousands of miles away in order to find out the truth about his younger brother's \"death\". The younger brother, who had escaped, returned with a new face and identity in order to save his elder brother. Together with his elder brother, he desperately escaped under the double pursuit of the police and the underworld.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "country": "Nigeria",
+                        "poster": "assets/movies/brotherhood.png",
+                        "plot": "After years of fighting to survive on the streets of Lagos, two brothers fall on opposite sides of the law. The bonds of brotherhood are put to the ultimate test as one joins a task force that hunts down the other and his gang.",
+                        "focus": "Fast-paced, high-octane editing that propels intense action sequences and gripping urban conflict."
                     },
                     {
                         "title": "Gangs of Lagos",
-                        "year": "2023",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2023-04-07",
-                        "director": "Jadesola Osiberu",
-                        "writer": "Jadesola Osiberu, Kay I. Jegede",
-                        "cinematographer": "John Njaga Demps",
+                        "year": 2023,
+                        "releaseDate": "April 7, 2023",
+                        "director": "Jáde Osiberu",
+                        "writer": "Jáde Osiberu / Kay I. Jegede",
+                        "cinematographer": "Jonathan Kovel",
                         "editor": "Martini Akande",
-                        "composer": "Sesan",
                         "studio": "Greoh Studios",
+                        "country": "Nigeria",
                         "poster": "https://image.tmdb.org/t/p/w500/nGwFsB6EXUCr21wzPgtP5juZPSv.jpg",
                         "plot": "A group of friends who each have to navigate their own destiny, growing up on the bustling streets and neighborhood of Isale Eko, Lagos.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (IN), Prime Video (GB)"
+                        "focus": "Gritty, propulsive momentum that immerses the viewer in the relentless, dangerous criminal underworld."
                     }
                 ],
                 "scenes": []
@@ -35856,49 +36179,34 @@ const FILMS_DATA = {
                 "bestWork": "Moulin Rouge! (2001), Romeo + Juliet (1996), Strictly Ballroom (1992)",
                 "mustWatch": [
                     {
-                        "title": "Moulin Rouge!",
-                        "year": "2001",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2001-05-18",
-                        "director": "Baz Luhrmann",
-                        "writer": "Baz Luhrmann, Craig Pearce",
-                        "cinematographer": "Donald McAlpine",
+                        "title": "Road to Nhill",
+                        "year": 1997,
+                        "releaseDate": "November 13, 1997",
+                        "director": "Sue Brooks",
+                        "writer": "Alison Tilson",
+                        "cinematographer": "Nicolette Freeman",
                         "editor": "Jill Bilcock",
-                        "composer": "Craig Armstrong",
-                        "studio": "20th Century Fox",
-                        "poster": "https://image.tmdb.org/t/p/w500/2kjM5CUZRIU5yOANUowrbJcRL9L.jpg",
-                        "plot": "A celebration of love and creative inspiration takes place in the infamous, gaudy and glamorous Parisian nightclub, at the cusp of the 20th century. A young poet, who is plunged into the heady world of Moulin Rouge, begins a passionate affair with the club's most notorious and beautiful star.",
-                        "streaming": "Streaming: Disney+ (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Elizabeth Drake",
+                        "studio": "Gecko Films / Film Victoria",
+                        "country": "Australia",
+                        "plot": "A day in the life of a small rural Australian community when four ladies get their car stranded out on the road to Nhill. Panic descends on the town when they are discovered.",
+                        "focus": "Quirky, observational editing that captures the dry humor and lingering pauses of rural Australian life.",
+                        "poster": "assets/movies/road_to_nhill.png"
                     },
                     {
-                        "title": "Romeo + Juliet",
-                        "year": "1996",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1996-11-01",
-                        "director": "Baz Luhrmann",
-                        "writer": "Baz Luhrmann, Craig Pearce",
-                        "cinematographer": "Donald McAlpine",
+                        "title": "The Dish",
+                        "year": 2000,
+                        "releaseDate": "October 19, 2000",
+                        "director": "Rob Sitch",
+                        "writer": "Santo Cilauro / Tom Gleisner / Jane Kennedy / Rob Sitch",
+                        "cinematographer": "Graeme Wood",
                         "editor": "Jill Bilcock",
-                        "composer": "Nellee Hooper, Craig Armstrong, Marius de Vries",
-                        "studio": "20th Century Fox",
-                        "poster": "https://image.tmdb.org/t/p/w500/eLf4jclPijOqfEp6bDAmezRFxk5.jpg",
-                        "plot": "In this contemporary take on William Shakespeare's classic tragedy, the Montagues and Capulets have moved their ongoing feud to the sweltering suburb of Verona Beach, where Romeo and Juliet fall in love and secretly wed. Though the film is visually modern, the bard's dialogue remains.",
-                        "streaming": "Streaming: Disney+ (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "Strictly Ballroom",
-                        "year": "1992",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1992-08-20",
-                        "director": "Baz Luhrmann",
-                        "writer": "Baz Luhrmann, Craig Pearce",
-                        "cinematographer": "Steve Mason",
-                        "editor": "Jill Bilcock",
-                        "composer": "David Hirschfelder",
-                        "studio": "Beyond Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/f6vs4DQGuNpLuA5Z7k69uuKpbVG.jpg",
-                        "plot": "Brave new steps put Scott's career in jeopardy. With a new partner and determination, can he still succeed?",
-                        "streaming": "Streaming: fuboTV (US), Prime Video (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Edmund Choi",
+                        "studio": "Working Dog Productions",
+                        "country": "Australia",
+                        "poster": "https://image.tmdb.org/t/p/w500/zG83o1wpU3p7QTd382K4HtctLq0.jpg",
+                        "plot": "A group of maverick scientists on a remote Australian sheep farm are the globe's only hope for obtaining the epic images of man's first steps on the moon.",
+                        "focus": "Buoyant, precise comedic timing that elegantly balances heartfelt local charm with global historical stakes."
                     }
                 ],
                 "scenes": []
@@ -35918,49 +36226,34 @@ const FILMS_DATA = {
                 "bestWork": "Dunkirk (2017), Inception (2010), The Dark Knight (2008)",
                 "mustWatch": [
                     {
-                        "title": "Dunkirk",
-                        "year": "2017",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2017-07-19",
-                        "director": "Christopher Nolan",
-                        "writer": "Christopher Nolan",
-                        "cinematographer": "Hoyte van Hoytema",
+                        "title": "The Rage in Placid Lake",
+                        "year": 2003,
+                        "releaseDate": "August 28, 2003",
+                        "director": "Tony McNamara",
+                        "writer": "Tony McNamara",
+                        "cinematographer": "Andrew Commis",
                         "editor": "Lee Smith",
-                        "composer": "Hans Zimmer",
-                        "studio": "Warner Bros. Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
-                        "plot": "The story of the miraculous evacuation of Allied soldiers from Belgium, Britain, Canada and France, who were cut off and surrounded by the German army from the beaches and harbour of Dunkirk between May 26th and June 4th 1940 during World War II.",
-                        "streaming": "Streaming: Peacock (US), Disney+ Hotstar (IN), Max (GB), Sky Go (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Cezary Skubiszewski",
+                        "studio": "Macgowan Films",
+                        "country": "Australia",
+                        "poster": "https://image.tmdb.org/t/p/w500/bwJCynrOg4Xr4k8Fi0TBAWZjPru.jpg",
+                        "plot": "Placid Lake has always been different. As an odd fish in a sea of mediocrity, his brilliant ideas are bound to get him into more trouble than success. So when he finds himself flying off the school roof and breaking every bone in his body on graduation night, Placid decides to make a bid for the elusive normal life. To his parents' horror, he gets a normal job.",
+                        "focus": "Breezy, sardonic pacing that perfectly complements the film's eccentric, deadpan satirical tone."
                     },
                     {
-                        "title": "Inception",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-07-15",
-                        "director": "Christopher Nolan",
-                        "writer": "Christopher Nolan",
-                        "cinematographer": "Wally Pfister",
+                        "title": "Two Hands",
+                        "year": 1999,
+                        "releaseDate": "July 29, 1999",
+                        "director": "Gregor Jordan",
+                        "writer": "Gregor Jordan",
+                        "cinematographer": "Malcolm McCulloch",
                         "editor": "Lee Smith",
-                        "composer": "Hans Zimmer",
-                        "studio": "Legendary Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
-                        "plot": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
-                        "streaming": "Streaming: Prime Video (IN), Disney+ Hotstar (IN), Max (GB), Sky Go (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
-                    },
-                    {
-                        "title": "The Dark Knight",
-                        "year": "2008",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2008-07-16",
-                        "director": "Christopher Nolan",
-                        "writer": "Jonathan Nolan, Christopher Nolan",
-                        "cinematographer": "Wally Pfister",
-                        "editor": "Lee Smith",
-                        "composer": "Hans Zimmer, James Newton Howard",
-                        "studio": "Warner Bros. Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-                        "plot": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-                        "streaming": "Streaming: Max (US), Prime Video (IN), Disney+ Hotstar (IN), Netflix (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "Cezary Skubiszewski",
+                        "studio": "C连M Film Productions",
+                        "country": "Australia",
+                        "poster": "https://image.tmdb.org/t/p/w500/k5jokQZjJ8hT8FSaStbfgY7dUnC.jpg",
+                        "plot": "19-year-old Jimmy is just scraping by in the red-light district of Sydney. When local crime lord Pando offers him a shot at working for his syndicate, Jimmy jumps at the chance to deliver a costly package. But, when Jimmy gets jacked by a couple of kids, he's indebted to the dangerous gangster for $10,000. Running out of time, he schemes to rob a bank to save himself and a beautiful girl he desires from a gruesome demise.",
+                        "focus": "Kinetic, jagged editing that mirrors the frantic anxiety and chaotic descent into the criminal underworld."
                     }
                 ],
                 "scenes": []
@@ -35980,19 +36273,19 @@ const FILMS_DATA = {
                 "bestWork": "Mad Max: Fury Road (2015)",
                 "mustWatch": [
                     {
-                        "title": "Mad Max: Fury Road",
-                        "year": "2015",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2015-05-13",
+                        "title": "Babe: Pig in the City",
+                        "year": 1998,
+                        "releaseDate": "November 25, 1998",
                         "director": "George Miller",
-                        "writer": "Nico Lathouris, George Miller, Brendan McCarthy",
-                        "cinematographer": "John Seale",
-                        "editor": "Margaret Sixel",
-                        "composer": "Tom Holkenborg",
-                        "studio": "Warner Bros. Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
-                        "plot": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
-                        "streaming": "Streaming: Prime Video (IN), Disney+ Hotstar (IN), VI movies and tv (IN), Prime Video (GB) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "writer": "George Miller / Judy Morris / Mark Lamprell",
+                        "cinematographer": "Andrew Lesnie",
+                        "editor": "Margaret Sixel / Jay Friedkin",
+                        "composer": "Nigel Westlake",
+                        "studio": "Kennedy Miller Productions / Universal Pictures",
+                        "country": "Australia / United States",
+                        "poster": "https://image.tmdb.org/t/p/w500/glO6LcTWUZcbxWT2SB4eRDnFSsP.jpg",
+                        "plot": "Babe, fresh from his victory in the sheepherding contest, returns to Farmer Hoggett's farm, but after Farmer Hoggett is injured and unable to work, Babe has to go to the big city to save the farm.",
+                        "focus": "Frantic, surreal pacing that expertly navigates a chaotic, wildly imaginative urban dreamscape."
                     }
                 ],
                 "scenes": []
@@ -36013,48 +36306,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Pather Panchali",
-                        "year": "1955",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1955-08-26",
+                        "year": 1955,
+                        "releaseDate": "August 26, 1955",
                         "director": "Satyajit Ray",
                         "writer": "Satyajit Ray",
                         "cinematographer": "Subrata Mitra",
                         "editor": "Dulal Dutta",
                         "composer": "Ravi Shankar",
                         "studio": "Government of West Bengal",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/frZj5djlU9hFEjMcL21RJZVuG5O.jpg",
                         "plot": "Impoverished priest Harihar Ray, dreaming of a better life for himself and his family, leaves his rural Bengal village in search of work. Alone, his wife, Sarbojaya, looks after her rebellious daughter, Durga, and her young son, Apu, as well as Harihar's elderly aunt Indir. The children enjoy the small pleasures of their difficult life, while their parents suffer the daily indignities heaped upon them.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US), TCM (US), Prime Video (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Lyrical, unhurried pacing that beautifully observes the tragic and tender poetry of everyday rural life."
                     },
                     {
                         "title": "Charulata",
-                        "year": "1964",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1964-04-17",
+                        "year": 1964,
+                        "releaseDate": "September 4, 1964",
                         "director": "Satyajit Ray",
                         "writer": "Satyajit Ray",
                         "cinematographer": "Subrata Mitra",
                         "editor": "Dulal Dutta",
                         "composer": "Satyajit Ray",
                         "studio": "R.D. Bansal & Co.",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/4kznHLoJGN3OBZunQvZwy26it8z.jpg",
                         "plot": "In 1870s India, Charulata is an isolated, artistically inclined woman who sees little of her busy journalist husband, Bhupati. Realizing that his wife is alienated and unhappy, he convinces his cousin, Amal, to spend time with Charulata and nourish her creative impulses. Amal is a fledgling poet himself, and he and Charulata bond over their shared love of art.",
-                        "streaming": "Streaming: Criterion Channel (US) | Rent/Buy: Amazon Video, Apple TV, Fandango At Home"
+                        "focus": "Elegant, nuanced editing that uses lingering glances and precise pacing to reveal profound internal longing."
                     },
                     {
-                        "title": "Apur Sansar",
-                        "year": "1959",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1959-05-01",
+                        "title": "The Music Room",
+                        "year": 1958,
+                        "releaseDate": "October 24, 1958",
                         "director": "Satyajit Ray",
                         "writer": "Satyajit Ray",
                         "cinematographer": "Subrata Mitra",
                         "editor": "Dulal Dutta",
-                        "composer": "Ravi Shankar",
+                        "composer": "Vilayat Khan",
                         "studio": "Satyajit Ray Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/6Tz1Q69o2n3Zwb0ZffzPL0nFt2T.jpg",
-                        "plot": "Apu, now a jobless ex-student dreaming vaguely of a future as a writer, is invited to join an old college friend on a trip up-country to a village wedding.",
-                        "streaming": "Streaming: Max (US), Criterion Channel (US) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/1coINFn9GDeFr09QtkzjgTUbev5.jpg",
+                        "plot": "An aging, decadent landlord’s passion for music becomes the undoing of his legacy as he sacrifices his wealth in order to compete with the opulent music room of his younger, richer neighbour.",
+                        "focus": "Rhythmic, musical editing that perfectly captures the slow, majestic decay of feudal grandeur."
                     }
                 ],
                 "scenes": []
@@ -36074,34 +36367,34 @@ const FILMS_DATA = {
                 "bestWork": "Meghe Dhaka Tara (1960), Subarnarekha (1965)",
                 "mustWatch": [
                     {
-                        "title": "Meghe Dhaka Tara",
-                        "year": "1960",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1960-04-13",
+                        "title": "The Cloud-Capped Star",
+                        "year": 1960,
+                        "releaseDate": "April 14, 1960",
                         "director": "Ritwik Ghatak",
                         "writer": "Ritwik Ghatak",
-                        "cinematographer": "Dinen Gupta",
+                        "cinematographer": "Dilibat Gupta",
                         "editor": "Subodh Naskar",
                         "composer": "Jyotirindra Moitra",
                         "studio": "Chitrakalpa",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/uIlt1x2eBMzuQHwyU54CNPTSK6A.jpg",
                         "plot": "A selfless young woman, the daughter of a middle-class refugee family from East Pakistan, sacrifices her own happiness for her unappreciative family.",
-                        "streaming": "Streaming: Criterion Channel (US), Hoichoi (US), Hoichoi (IN), Hoichoi Amazon Channel (IN)"
+                        "focus": "Abrasive, jarring editing intertwined with intense soundscapes to express profound melodramatic trauma."
                     },
                     {
-                        "title": "Subarnarekha",
-                        "year": "1965",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1965-10-01",
+                        "title": "A River Called Titas",
+                        "year": 1973,
+                        "releaseDate": "July 27, 1973",
                         "director": "Ritwik Ghatak",
-                        "writer": "Ritwik Ghatak, Umanath Bhattacharya",
-                        "cinematographer": "Dilip Ranjan Mukhopadhyay",
+                        "writer": "Ritwik Ghatak",
+                        "cinematographer": "Baby Islam",
                         "editor": "Subodh Naskar",
-                        "composer": "Bahadur Khan",
-                        "studio": "J.J. Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/3le6UjPH0E8ZNgdBwPysDSag5jE.jpg",
-                        "plot": "After an old college friend offers him a job at an iron foundry, the upright and honest Ishwar leaves a shanty town on the outskirts of Calcutta where he lives with a group of refugees from East Bengal. With plans to forge a solid living for himself, sister Sita and Abhiram, an orphaned boy he offers a home to, Ishwar is accused of selling out and deserting his people.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "composer": "Ahsan Ahmed / Bahadur Khan",
+                        "studio": "Purba Pran Chitra",
+                        "country": "Bangladesh / India",
+                        "poster": "https://image.tmdb.org/t/p/w500/l9IO1a8dfVHRgMwBKXU4RNRtQBr.jpg",
+                        "plot": "An in-depth look at the lives and struggles of a fishing community living by the River Titas in Bangladesh after the Partition of India in 1947.",
+                        "focus": "Epic, episodic rhythm that mirrors the sweeping, inevitable flow of a dying river community."
                     }
                 ],
                 "scenes": []
@@ -36121,34 +36414,34 @@ const FILMS_DATA = {
                 "bestWork": "Chokher Bali (2003), Abohoman (2010)",
                 "mustWatch": [
                     {
-                        "title": "Chokher Bali",
-                        "year": "2003",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2003-08-09",
+                        "title": "The Last Lear",
+                        "year": 2007,
+                        "releaseDate": "September 9, 2007",
                         "director": "Rituparno Ghosh",
                         "writer": "Rituparno Ghosh",
-                        "cinematographer": "Avik Mukhopadhyay",
+                        "cinematographer": "Abhik Mukhopadhyay",
                         "editor": "Arghyakamal Mitra",
-                        "composer": "Debojyoti Mishra",
-                        "studio": "SVF Entertainment",
-                        "poster": "https://image.tmdb.org/t/p/w500/izErrnZhCWHOaDUjRnpbqW4gU63.jpg",
-                        "plot": "A young woman is left to her own devices when her sickly husband dies. Based on the novel by Rabindranath Tagore.",
-                        "streaming": "Streaming: Disney+ Hotstar (IN), Hoichoi Amazon Channel (IN), Hoichoi Amazon Channel (GB) | Rent/Buy: Amazon Video"
+                        "composer": "21st Century Xanadu",
+                        "studio": "Planman Motion Pictures",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/rcEhIKVAt54H5UtbKynDWBoYUGI.jpg",
+                        "plot": "The film starts with the veteran thespian Harish Mishra, he is gravely ill. The punishments of a film shoot have left the old man in a coma. His co-star, Shabnam, is wracked with worry, but their director, Siddharth, keeps strangely distant and refuses to visit his ailing star. In flashbacks, their story emerges.",
+                        "focus": "Theatrical, reflective pacing that slowly deconstructs the fragile ego of an aging Shakespearean actor."
                     },
                     {
-                        "title": "Abohoman",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2009-12-22",
-                        "director": "Rituparno Ghosh",
-                        "writer": "Rituparno Ghosh",
-                        "cinematographer": "Avik Mukhopadhyay",
+                        "title": "Aparajita Tumi",
+                        "year": 2012,
+                        "releaseDate": "January 20, 2012",
+                        "director": "Aniruddha Roy Chowdhury",
+                        "writer": "Syamalkanti Das / Aniruddha Roy Chowdhury",
+                        "cinematographer": "Ranjan Palit",
                         "editor": "Arghyakamal Mitra",
-                        "composer": "Raja Narayan Deb, Sanjoy Das",
-                        "studio": "Reliance Entertainment",
-                        "poster": "https://image.tmdb.org/t/p/w500/sA56RyiTalho8EC9nG6aqpC1uuo.jpg",
-                        "plot": "Marital strife follows when an aging filmmaker meets an actress who bears an uncanny resemblance to his wife in her younger days.",
-                        "streaming": "Streaming: Prime Video (IN), Hoichoi Amazon Channel (IN), Hoichoi Amazon Channel (GB) | Rent/Buy: Amazon Video, Apple TV"
+                        "composer": "Shantanu Moitra",
+                        "studio": "Opus Communication / Screenplay Films",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/zeGy6n3a8frnVIz9r861xIbeQAI.jpg",
+                        "plot": "Aparajita Tumi is a 2012 Bengali film directed by Aniruddha Roy Chowdhury. The film stars Prosenjit Chatterjee, Padmapriya Janakiraman, Kamalinee Mukherjee, Chandan Roy Sanyal, Indraneil Sengupta. It is a venture of director Aniruddha Roy Chowdhury after his successful and critically acclaimed movie Antaheen. This film also had Shantanu Moitra as music director and Anindya and Chandril as lyricists like Tony's previous film. The film is an adaptation of the novel 'Dui nari hate Tarbari' by famous Bengali writer Sunil Gangopadhyay.",
+                        "focus": "Fluid, emotional editing that maps the complex, shifting landscapes of modern relationships and infidelity."
                     }
                 ],
                 "scenes": []
@@ -36164,38 +36457,36 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "assets/editors/bodhaditya_banerjee.jpg",
+                "image": "assets/editors/bodhaditya_banerjee.png",
                 "bestWork": "Chotushkone (2014), Vinci Da (2019)",
                 "mustWatch": [
                     {
-                        "title": "Chotushkone",
-                        "year": "2014",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2014-09-26",
-                        "director": "Srijit Mukherji",
-                        "writer": "Srijit Mukherji",
-                        "cinematographer": "Gopi Bhagat",
+                        "title": "Labor of Love",
+                        "year": 2014,
+                        "releaseDate": "September 4, 2014",
+                        "director": "Aditya Vikram Sengupta",
+                        "writer": "Aditya Vikram Sengupta",
+                        "cinematographer": "Mahendra J. Shetty / Aditya Vikram Sengupta",
                         "editor": "Bodhaditya Banerjee",
-                        "composer": "Anupam Roy",
-                        "studio": "Reliance Entertainment",
-                        "poster": "https://image.tmdb.org/t/p/w500/6NhorrHcB3GYDqgYiXQmDDQnZtu.jpg",
-                        "plot": "Four famous directors and old friends are reunited together by an unknown producer to make a film. They have to make four short story in this film with one common theme: Death.",
-                        "streaming": "Streaming: Hoichoi (US), Prime Video (IN), Hoichoi (IN), Hoichoi Amazon Channel (IN) | Rent/Buy: Amazon Video"
+                        "studio": "For Films",
+                        "country": "India",
+                        "poster": "assets/movies/labor_of_love.png",
+                        "plot": "Set in the crumbling environs of Calcutta, a young couple works opposite shifts. They are caught in the daily grind, their only link to each other is the brief moment they share when their shifts overlap.",
+                        "focus": "Wordless, hypnotic rhythm that finds profound emotional resonance in the mundane rituals of domestic life."
                     },
                     {
-                        "title": "Vinci Da",
-                        "year": "2019",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-11-22",
-                        "director": "Matias Carrizo",
-                        "writer": "Matias Carrizo",
-                        "cinematographer": "Raúl Vidal",
+                        "title": "Jonaki",
+                        "year": 2018,
+                        "releaseDate": "January 25, 2018",
+                        "director": "Aditya Vikram Sengupta",
+                        "writer": "Aditya Vikram Sengupta",
+                        "cinematographer": "Mahendra J. Shetty",
                         "editor": "Bodhaditya Banerjee",
-                        "composer": "Marcelo Yakko",
-                        "studio": "Muchas Manos Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/4EcVuOHtMN3UCBZGKHZZZXGkdwH.jpg",
-                        "plot": "After two weeks of living together, students from the Dante Alighieri and Castelfranco schools must learn about Leonardo da Vinci and participate in a model contest based on the figure of the Florentine polymath.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "studio": "For Films / Fandango / Samir Sarkar",
+                        "country": "India / France / Singapore",
+                        "poster": "https://image.tmdb.org/t/p/w500/yAJDsbdzsvigXZ5KnNN0zDDJBJC.jpg",
+                        "plot": "While Jonaki, an 80-year-old woman, searches for love in a strange world of decaying memories, her lover, now old and grey, returns to a world she is leaving behind.",
+                        "focus": "Surreal, fragmented pacing that meticulously constructs an abstract, dreamlike portrait of decaying memory."
                     }
                 ],
                 "scenes": []
@@ -36215,64 +36506,49 @@ const FILMS_DATA = {
                 "bestWork": "Traffic (2011), Take Off (2017), C U Soon (2020), Malik (2021)",
                 "mustWatch": [
                     {
-                        "title": "Traffic",
-                        "year": "2011",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2011-01-07",
-                        "director": "Rajesh Pillai",
-                        "writer": "Sanjay, Bobby",
-                        "cinematographer": "Shyju Khalid",
-                        "editor": "Mahesh Narayanan",
-                        "composer": "Mejo Joseph",
-                        "studio": "Magic Frames",
-                        "poster": "https://image.tmdb.org/t/p/w500/3ficNeBPB03vUZ9N7okWftKpyr9.jpg",
-                        "plot": "An emotional thriller based on a road trip from Kochi to Palakkad. Inspired from the real events that happened in Chennai.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
-                    },
-                    {
                         "title": "Take Off",
-                        "year": "2017",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2017-03-24",
+                        "year": 2017,
+                        "releaseDate": "March 24, 2017",
                         "director": "Mahesh Narayanan",
-                        "writer": "Mahesh Narayanan, P. V. Shajikumar",
+                        "writer": "Mahesh Narayanan / P. V. Shajikumar",
                         "cinematographer": "Sanu John Varghese",
                         "editor": "Mahesh Narayanan",
-                        "composer": "Shaan Rahman",
+                        "composer": "Shaan Rahman / Gopi Sundar",
                         "studio": "Rajesh Pillai Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/t8Sp0gyC0dLdzrHoZ4Knh78p5GE.jpg",
+                        "country": "India",
                         "plot": "A group of Malayali nurses stranded in Iraq, must survive their capture by the extremists and reach out to the rescue team headed by the Indian government.",
-                        "streaming": "Streaming: VI movies and tv (IN)"
+                        "focus": "Tense, relentless editing that heightens the suffocating pressure and urgency of a hostage crisis.",
+                        "poster": "https://image.tmdb.org/t/p/w500/t8Sp0gyC0dLdzrHoZ4Knh78p5GE.jpg"
                     },
                     {
                         "title": "C U Soon",
-                        "year": "2020",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2020-09-01",
+                        "year": 2020,
+                        "releaseDate": "September 1, 2020",
                         "director": "Mahesh Narayanan",
                         "writer": "Mahesh Narayanan",
-                        "cinematographer": "Sabin Uralikandy, Mahesh Narayanan",
+                        "cinematographer": "Sabin Uralikandy",
                         "editor": "Mahesh Narayanan",
                         "composer": "Gopi Sundar",
-                        "studio": "Fahadh Faasil and Friends Private Limited",
-                        "poster": "https://image.tmdb.org/t/p/w500/or5qouMAtv86TMeSgHpMGMWG4IN.jpg",
+                        "studio": "Fahadh Faasil Productions / Macguffin Pictures",
+                        "country": "India",
                         "plot": "Jimmy meets Anu on an online dating website and decides to marry her. Jimmy's mother entrusts his cousin Kevin to get details about Anu. Now it's Kevin's turn to search for his cousin's fiancee who vanished without a trace, only to discover dark, shocking truths about her.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (IN), Prime Video (GB) | Rent/Buy: Amazon Video"
+                        "focus": "Innovative, fast-paced rhythm unfolding entirely through screens, meticulously piecing together a digital puzzle.",
+                        "poster": "https://image.tmdb.org/t/p/w500/or5qouMAtv86TMeSgHpMGMWG4IN.jpg"
                     },
                     {
-                        "title": "Malik",
-                        "year": "2021",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2021-07-15",
-                        "director": "Mahesh Narayanan",
-                        "writer": "Mahesh Narayanan",
-                        "cinematographer": "Sanu John Varghese",
+                        "title": "Mayaanadhi",
+                        "year": 2017,
+                        "releaseDate": "December 22, 2017",
+                        "director": "Aashiq Abu",
+                        "writer": "Syam Pushkaran / Dileesh Nair",
+                        "cinematographer": "Jayesh Mohan",
                         "editor": "Mahesh Narayanan",
-                        "composer": "Sushin Shyam",
-                        "studio": "Anto Joseph Film Company",
-                        "poster": "https://image.tmdb.org/t/p/w500/kFBvlw5oiHghwqraQNhqpljsg91.jpg",
-                        "plot": "A past ridden with crime, death and pain is recounted to Freddy, a juvenile criminal, who has been assigned to eliminate his estranged uncle Sulaiman, an aging patriarch, while behind bars.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (IN), aha (IN), Prime Video (GB) | Rent/Buy: Amazon Video"
+                        "composer": "Rex Vijayan",
+                        "studio": "OPM Cinemas",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/mNxAgWdHPWOAUVcI4kEuXvpo97j.jpg",
+                        "plot": "A shady money deal goes wrong and in the aftermath Mathan  ends up killing a police officer. Meanwhile in Kochi, his old flame Aparna  an aspiring actress is struggling to prop up her career. Mathan meets up with Aparna and tries to rekindle the past, even as the police hunt for him gets intense.",
+                        "focus": "Languid, deeply romantic pacing that lingers on silent moments, mirroring the tragic, inevitable flow of love."
                     }
                 ],
                 "scenes": []
@@ -36293,33 +36569,47 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Kammatipaadam",
-                        "year": "2016",
-                        "focus": "Editing techniques",
-                        "releaseDate": "None",
+                        "year": 2016,
+                        "releaseDate": "May 20, 2016",
                         "director": "Rajeev Ravi",
                         "writer": "P. Balachandran",
                         "cinematographer": "Madhu Neelakandan",
                         "editor": "B. Ajithkumar",
-                        "composer": "K, John P. Varkey",
+                        "composer": "K / John P. Varkey / Vinayak Sasikumar",
                         "studio": "Global United Media",
-                        "poster": "https://upload.wikimedia.org/wikipedia/en/2/29/Kammatipaadam_poster.jpg",
-                        "plot": "Plot details not available.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "country": "India",
+                        "plot": "Krishnan, who works in Mumbai, returns to Kammatipaadam after his childhood friend Ganga calls him for help. There, they find themselves in danger as their criminal past catches up with them.",
+                        "focus": "Gritty, non-linear editing that violently stitches together decades of urban decay and fragmented memories.",
+                        "poster": "assets/movies/kammatipaadam.png"
                     },
                     {
                         "title": "Annayum Rasoolum",
-                        "year": "2013",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2013-01-04",
+                        "year": 2013,
+                        "releaseDate": "January 4, 2013",
                         "director": "Rajeev Ravi",
-                        "writer": "Santhosh Echikkanam",
+                        "writer": "Rajeev Ravi / G. Sethunath / Santhosh Echikkanam",
                         "cinematographer": "Madhu Neelakandan",
                         "editor": "B. Ajithkumar",
-                        "composer": "Krishna Kumar",
-                        "studio": "D-Cutz Film Company",
+                        "composer": "K",
+                        "studio": "D Thundiyil Films",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/cLsxjLL5TurnjMFTvuuKw469wRA.jpg",
                         "plot": "A taxi driver, Rasool and a salesgirl, Anna fall in love with each other. But soon their union is put to question when Anna persuades Rasool to convert to Christianity.",
-                        "streaming": "Streaming: Max (IN) | Rent/Buy: Google Play, YouTube"
+                        "focus": "Observational, realistic rhythm capturing the poetic, unhurried essence of everyday life in Kochi."
+                    },
+                    {
+                        "title": "Liars Dice",
+                        "year": 2013,
+                        "releaseDate": "October 5, 2013",
+                        "director": "Geetu Mohandas",
+                        "writer": "Geetu Mohandas",
+                        "cinematographer": "Rajeev Ravi",
+                        "editor": "B. Ajithkumar",
+                        "studio": "Jar Pictures",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/86uk08xgxgeSm2WwRWNCjrOMJ3v.jpg",
+                        "plot": "The film follows Kamala, a young woman from Chitkul village and her girl child Manya, who embarks on a journey leaving their native land in search for her missing husband. Along this journey she encounters Nawazudin, a free spirited army deserter who helps them to get to their destination with his own selfish motive.",
+                        "focus": "Stark, methodical pacing that reflects the harsh, unforgiving journey through an alienated landscape."
                     }
                 ],
                 "scenes": []
@@ -36340,33 +36630,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Angamaly Diaries",
-                        "year": "2017",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2017-03-03",
+                        "year": 2017,
+                        "releaseDate": "March 3, 2017",
                         "director": "Lijo Jose Pellissery",
                         "writer": "Chemban Vinod Jose",
                         "cinematographer": "Girish Gangadharan",
                         "editor": "Shameer Muhammed",
                         "composer": "Prashant Pillai",
                         "studio": "Friday Film House",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/fwxgQakS3vUQIzgJMphQWHxAqr2.jpg",
                         "plot": "Six young friends in the small town of Angamaly tries their luck by starting a pork business lead by Vincent Pepe. They initially strike a business deal with Rajan and Ravi despite the duo having killed a close friend of theirs in a gang fight. Vincent is in love with Sakhi and plan to immigrate abroad with her. But their plans hit a road bump as the deal with the gangsters hits some road bumps.",
-                        "streaming": "Rent/Buy: Apple TV"
+                        "focus": "Frenetic, unbroken momentum that thrusts the viewer into the chaotic, pulsating heart of local gang rivalries."
                     },
                     {
                         "title": "Lucifer",
-                        "year": "2019",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-03-28",
+                        "year": 2019,
+                        "releaseDate": "March 28, 2019",
                         "director": "Prithviraj Sukumaran",
                         "writer": "Murali Gopy",
                         "cinematographer": "Sujith Vaassudev",
                         "editor": "Shameer Muhammed",
                         "composer": "Deepak Dev",
                         "studio": "Aashirvad Cinemas",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/fXgY2RCzoIJPhPDoyKRjaaqjIZs.jpg",
                         "plot": "In God's own country, the supreme leader of the ruling party dies, leaving a huge vacuum, not only in the electoral and leadership sphere of the party but also that of the state. In the inevitable succession squabble and the power struggle that ensues, the thin line that separates good and bad becomes irrecoverably blurred and out of this seemingly endless mayhem, emerge forces that are hitherto unheard of.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (IN), Sony Liv (IN), Prime Video (GB) | Rent/Buy: Amazon Video"
+                        "focus": "Sleek, mass-oriented editing that amplifies the mythological aura and calculated political chess games."
+                    },
+                    {
+                        "title": "Charlie",
+                        "year": 2015,
+                        "releaseDate": "December 24, 2015",
+                        "director": "Martin Prakkat",
+                        "writer": "Unni R. / Martin Prakkat",
+                        "cinematographer": "Jomon T. John",
+                        "editor": "Shameer Muhammed",
+                        "composer": "Gopi Sundar",
+                        "studio": "Finding Cinema",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/kQo30LL8punEsJu5kMZzJydQYJo.jpg",
+                        "plot": "A young, nonconforming woman named Tessa gets entangled in a cat-and-mouse chase in the by-lanes of Kerala, hunting for a mysterious artist who previously lived in her apartment.",
+                        "focus": "Whimsical, free-flowing rhythm that mirrors the elusive, wandering spirit of its titular protagonist."
                     }
                 ],
                 "scenes": []
@@ -36387,33 +36692,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Kumbalangi Nights",
-                        "year": "2019",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-02-07",
+                        "year": 2019,
+                        "releaseDate": "February 7, 2019",
                         "director": "Madhu C. Narayanan",
                         "writer": "Syam Pushkaran",
                         "cinematographer": "Shyju Khalid",
                         "editor": "Saiju Sreedharan",
                         "composer": "Sushin Shyam",
-                        "studio": "Fahadh Faasil and Friends Private Limited",
+                        "studio": "Working Class Hero / Fahadh Faasil Productions",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/lJ3RvIirE2C7gdBKvPRaoQ3iCo2.jpg",
-                        "plot": "Four brothers living in the fishing hamlet of Kumbalangi share a love-hate relationship with each other. Their relationship progresses when Saji, Boney and Franky decide to help Bobby stand by his love.",
-                        "streaming": "Streaming: Prime Video (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "plot": "Four brothers living in the fishing hamvar of Kumbalangi share a love-hate relationship with each other. Their relationship progresses when Saji, Boney and Franky decide to help Bobby stand by his love.",
+                        "focus": "Warm, textured editing that seamlessly weaves between humor, dysfunction, and profound emotional healing."
+                    },
+                    {
+                        "title": "Maheshinte Prathikaaram",
+                        "year": 2016,
+                        "releaseDate": "February 5, 2016",
+                        "director": "Dileesh Pothan",
+                        "writer": "Syam Pushkaran",
+                        "cinematographer": "Shyju Khalid",
+                        "editor": "Saiju Sreedharan",
+                        "composer": "Bijibal",
+                        "studio": "OPM Dream Mill Cinema",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/hmK9QUWpOaSs1H7tarzlMNqT60H.jpg",
+                        "plot": "Mahesh, a studio photographer and owner of the studio. As the story moves on, Mahesh encounters an anonymous fight ending up with taking revenge that leads to certain realizations in his life.",
+                        "focus": "Delightful, observational pacing that finds subtle comedy and deep humanity in rural idiosyncrasies."
                     },
                     {
                         "title": "Virus",
-                        "year": "2019",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-06-07",
+                        "year": 2019,
+                        "releaseDate": "June 7, 2019",
                         "director": "Aashiq Abu",
-                        "writer": "Sharfuddeen, Suhas, Muhsin Parari",
-                        "cinematographer": "Rajeev Ravi",
+                        "writer": "Muhsin Parari / Sharfu / Suhas",
+                        "cinematographer": "Rajeev Ravi / Shyju Khalid",
                         "editor": "Saiju Sreedharan",
                         "composer": "Sushin Shyam",
-                        "studio": "OPM Dream Mill Cinemas",
+                        "studio": "OPM Cinemas",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/fd8BJ1j5BzaC9McYRW98PmeqkHo.jpg",
                         "plot": "A real life account of the deadly Nipah virus outbreak in Kerala, and the courageous fight put on by several individuals which helped to contain the epidemic.",
-                        "streaming": "Streaming: Prime Video (US), Sun Nxt (US), aha (US), Prime Video (IN) | Rent/Buy: Amazon Video"
+                        "focus": "Urgent, multi-threaded editing that masterfully orchestrates a sprawling, high-stakes medical thriller."
                     }
                 ],
                 "scenes": []
@@ -36434,48 +36754,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Nayakan",
-                        "year": "1987",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1987-10-21",
+                        "year": 1987,
+                        "releaseDate": "October 21, 1987",
                         "director": "Mani Ratnam",
                         "writer": "Mani Ratnam",
                         "cinematographer": "P. C. Sreeram",
-                        "editor": "B. Lenin",
+                        "editor": "B. Lenin / V. T. Vijayan",
                         "composer": "Ilaiyaraaja",
-                        "studio": "Sujatha Films",
+                        "studio": "Muktha Films",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/hnCKKPG5VkUiGQV0DTniyMTEZsT.jpg",
                         "plot": "Velu Naicker, who witnesses the brutal murder of his father, kills a corrupt policeman and escapes to Mumbai, only to become a gangster.",
-                        "streaming": "Streaming: Prime Video (IN), VI movies and tv (IN) | Rent/Buy: Amazon Video"
-                    },
-                    {
-                        "title": "Thalapathi",
-                        "year": "1991",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1991-11-05",
-                        "director": "Mani Ratnam",
-                        "writer": "Mani Ratnam",
-                        "cinematographer": "Santosh Sivan",
-                        "editor": "B. Lenin",
-                        "composer": "Ilaiyaraaja",
-                        "studio": "G. V. Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/dpF1Ck1UvpW0ItT1EoX0xNYEhS8.jpg",
-                        "plot": "Surya, a courageous man who was raised in the slums, fights for the rights of the poor and befriends Deva, who hires him as his commander and changes his life completely.",
-                        "streaming": "Streaming: Max (IN), Apple TV (IN)"
+                        "focus": "Epic, sprawling rhythm that meticulously builds the tragic, powerful rise and fall of an underworld don."
                     },
                     {
                         "title": "Anjali",
-                        "year": "1990",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1990-07-12",
+                        "year": 1990,
+                        "releaseDate": "July 12, 1990",
                         "director": "Mani Ratnam",
-                        "writer": "Mani Ratnam, Mani Ratnam",
+                        "writer": "Mani Ratnam",
                         "cinematographer": "Madhu Ambat",
-                        "editor": "B. Lenin",
+                        "editor": "B. Lenin / V. T. Vijayan",
                         "composer": "Ilaiyaraaja",
-                        "studio": "G. V. Films",
+                        "studio": "Sujatha Productions",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/sCIqLX6yNBmFgI4OSLklVJP0Umh.jpg",
                         "plot": "After a few years, Chitra learns that her child, who was believed to be dead, is alive but is suffering from a mental illness. However, her family faces many challenges while looking after her child.",
-                        "streaming": "Streaming: Max (IN), VI movies and tv (IN)"
+                        "focus": "Tender, emotional pacing that intimately captures the delicate, complex dynamics of a struggling family."
+                    },
+                    {
+                        "title": "Kadhalan",
+                        "year": 1994,
+                        "releaseDate": "September 17, 1994",
+                        "director": "S. Shankar",
+                        "writer": "S. Shankar",
+                        "cinematographer": "Jeeva",
+                        "editor": "B. Lenin / V. T. Vijayan",
+                        "composer": "A. R. Rahman",
+                        "studio": "Sri Surya Movies",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/pt56OBUH0MjPIDSgx6YpJQRc5vA.jpg",
+                        "plot": "Prabhu, a college student, falls in love with Shruthi, a governor's daughter. On knowing about their love affair, her father imprisons Prabhu and forbids him to meet Shruthi.",
+                        "focus": "Vibrant, kinetic editing that seamlessly integrates spectacular musical sequences with high-stakes action."
                     }
                 ],
                 "scenes": []
@@ -36495,49 +36815,49 @@ const FILMS_DATA = {
                 "bestWork": "Kannathil Muthamittal (2002), Alaipayuthey (2000), Raavan (2010)",
                 "mustWatch": [
                     {
+                        "title": "Super Deluxe",
+                        "year": 2019,
+                        "releaseDate": "March 29, 2019",
+                        "director": "Thiagarajan Kumararaja",
+                        "writer": "Thiagarajan Kumararaja / Mysskin / Nalan Kumarasamy / Neelan K. Sekar",
+                        "cinematographer": "P. S. Vinod / Nirav Shah",
+                        "editor": "A. Sreekar Prasad",
+                        "composer": "Yuvan Shankar Raja",
+                        "studio": "Tyler Durden And Kino Fist / East West Dream Work Entertainment / Alchemy Vision Workings",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/rTsYDdFWyw87CTk4YgJO6nYmVcJ.jpg",
+                        "plot": "An unfaithful newly-wed wife, an estranged parent, a priest and an angry son suddenly find themselves in the most unexpected predicaments, each poised to experience their destiny, all on one fateful day.",
+                        "focus": "Audacious, multi-linear rhythm that effortlessly weaves disparate, eccentric narratives into a cohesive masterpiece."
+                    },
+                    {
                         "title": "Kannathil Muthamittal",
-                        "year": "2002",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2002-02-14",
+                        "year": 2002,
+                        "releaseDate": "February 14, 2002",
                         "director": "Mani Ratnam",
-                        "writer": "Sujatha Rangarajan, Mani Ratnam",
+                        "writer": "Mani Ratnam",
                         "cinematographer": "Ravi K. Chandran",
                         "editor": "A. Sreekar Prasad",
-                        "composer": "A.R. Rahman",
+                        "composer": "A. R. Rahman",
                         "studio": "Madras Talkies",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/eypuf9fEWnTH6cSx6Pm82QGqp4r.jpg",
                         "plot": "A little girl is told by her parents that she is adopted. Determined to find her birth mother, her family eventually agrees to take her to Sri Lanka, where they encounter the militant group known as the Tamil Tigers.",
-                        "streaming": "Streaming: Prime Video (IN), Max (IN) | Rent/Buy: Amazon Video, Google Play, YouTube"
+                        "focus": "Poignant, evocative pacing that beautifully balances the devastating impact of war with innocent familial love."
                     },
                     {
-                        "title": "Alaipayuthey",
-                        "year": "2000",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2000-04-14",
-                        "director": "Mani Ratnam",
-                        "writer": "Mani Ratnam",
-                        "cinematographer": "P. C. Sreeram",
+                        "title": "RRR",
+                        "year": 2022,
+                        "releaseDate": "March 25, 2022",
+                        "director": "S. S. Rajamouli",
+                        "writer": "S. S. Rajamouli",
+                        "cinematographer": "K. K. Senthil Kumar",
                         "editor": "A. Sreekar Prasad",
-                        "composer": "A.R. Rahman",
-                        "studio": "Madras Talkies",
-                        "poster": "https://image.tmdb.org/t/p/w500/rnN492zNPK5zvXvDQILm0KRLwD4.jpg",
-                        "plot": "Karthik and Shakthi marry against the wishes of their families and start their new life. However, they soon realize that marriage is not the bed of roses they had imagined it would be.",
-                        "streaming": "Streaming: Prime Video (IN) | Rent/Buy: Amazon Video, Google Play, YouTube"
-                    },
-                    {
-                        "title": "Raavan",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-06-18",
-                        "director": "Mani Ratnam",
-                        "writer": "Mani Ratnam",
-                        "cinematographer": "V. Manikandan, Santosh Sivan",
-                        "editor": "A. Sreekar Prasad",
-                        "composer": "A.R. Rahman",
-                        "studio": "Madras Talkies",
-                        "poster": "https://image.tmdb.org/t/p/w500/mcQ3381lSMdcqi8l31jwRrpFpTu.jpg",
-                        "plot": "A bandit leader kidnaps the wife of the policeman who killed his sister, but later falls in love with her.",
-                        "streaming": "Streaming: Prime Video (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "composer": "M. M. Keeravani",
+                        "studio": "DVV Entertainment",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/u0XUBNQWlOvrh0Gd97ARGpIkL0.jpg",
+                        "plot": "A fictional history of two legendary revolutionaries' journey away from home before they began fighting for their country in the 1920s.",
+                        "focus": "High-octane, spectacular editing that drives monumental action sequences with relentless, pulsating energy."
                     }
                 ],
                 "scenes": []
@@ -36558,48 +36878,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Kaithi",
-                        "year": "2019",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2019-10-25",
+                        "year": 2019,
+                        "releaseDate": "October 25, 2019",
                         "director": "Lokesh Kanagaraj",
                         "writer": "Lokesh Kanagaraj",
                         "cinematographer": "Sathyan Sooryan",
                         "editor": "Philomin Raj",
-                        "composer": "Sam C S",
-                        "studio": "Dream Warrior Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/mxvOvom5zKRp4WPURKrhjoatt4P.jpg",
+                        "composer": "Sam C. S.",
+                        "studio": "Dream Warrior Pictures / Vivekananda Pictures",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/hOF9CgPsy9aLr5GJEBESC8MEXFy.jpg",
                         "plot": "Dilli, a convicted criminal, is out on parole to meet his daughter. However, a drug bust sets him off on a mission to save the life of police officers.",
-                        "streaming": "Streaming: Prime Video (US), Disney+ Hotstar (IN), aha (IN), VI movies and tv (IN) | Rent/Buy: Amazon Video, Apple TV, Google Play"
+                        "focus": "Tense, relentless momentum that grips the viewer through a single, adrenaline-fueled night of survival."
                     },
                     {
-                        "title": "Vikram",
-                        "year": "2022",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2022-06-02",
+                        "title": "Master",
+                        "year": 2021,
+                        "releaseDate": "January 13, 2021",
                         "director": "Lokesh Kanagaraj",
-                        "writer": "Lokesh Kanagaraj, Rathna Kumar",
-                        "cinematographer": "Girish Gangadharan",
+                        "writer": "Lokesh Kanagaraj / Rathna Kumar / Pon Parthiban",
+                        "cinematographer": "Sathyan Sooryan",
                         "editor": "Philomin Raj",
                         "composer": "Anirudh Ravichander",
-                        "studio": "Raajkamal Films International",
-                        "poster": "https://image.tmdb.org/t/p/w500/774UV1aCURb4s4JfEFg3IEMu5Zj.jpg",
-                        "plot": "Amar is assigned to investigate a case of serial killings. When Amar investigates the case, he realizes it is not what it seems to be and following down this path will lead to nothing but war between everyone involved.",
-                        "streaming": "Streaming: VI movies and tv (IN)"
+                        "studio": "XB Film Creators / Seven Screen Studio",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/wjbOlovDadOdPKkSAMohLCjbIsc.jpg",
+                        "plot": "An alcoholic professor is sent to a juvenile school, where he clashes with a gangster, who uses the children of the school for criminal activities.",
+                        "focus": "Dynamic, stylish rhythm that amplifies the massive, charismatic clash between two powerhouse personas."
                     },
                     {
                         "title": "Leo",
-                        "year": "2023",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2023-11-17",
-                        "director": "Robert Marianetti, Robert Smigel, David Wachtenheim",
-                        "writer": "Robert Smigel, Adam Sandler, Paul Sado",
+                        "year": 2023,
+                        "releaseDate": "October 19, 2023",
+                        "director": "Lokesh Kanagaraj",
+                        "writer": "Lokesh Kanagaraj / Rathna Kumar / Deeraj Vaidy",
                         "cinematographer": "Manoj Paramahamsa",
                         "editor": "Philomin Raj",
-                        "composer": "Geoff Zanelli",
-                        "studio": "Happy Madison Productions",
-                        "poster": "https://image.tmdb.org/t/p/w500/gSOVog7ydsaF1YpgAqBqnKYFGY.jpg",
-                        "plot": "Jaded 74-year-old reptile Leo has been stuck in the same Florida classroom for decades with his terrarium-mate turtle. When he learns he only has one year left to live, he plans to escape to experience life on the outside but instead gets caught up in the problems of his anxious students — including an impossibly mean substitute teacher.",
-                        "streaming": "Streaming: Netflix (US), Netflix (IN), Netflix (GB)"
+                        "composer": "Anirudh Ravichander",
+                        "studio": "Seven Screen Studio",
+                        "country": "India",
+                        "poster": "assets/movies/leo.png",
+                        "plot": "Parthiban is a mild-mannered cafe owner in Kashmir, who fends off a gang of murderous thugs and gains attention from a drug cartel claiming he was once a part of them.",
+                        "focus": "Ferocious, razor-sharp pacing that thrusts the narrative forward through brutal, visceral action sequences."
                     }
                 ],
                 "scenes": []
@@ -36615,53 +36935,53 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "https://image.tmdb.org/t/p/w500/oHWvxYhELhaY8E3hjxArbkFi07X.jpg",
+                "image": "assets/editors/anthony.png",
                 "bestWork": "Kaakha Kaakha (2003), Vettaiyaadu Vilaiyaadu (2006), Vinnaithaandi Varuvaayaa (2010)",
                 "mustWatch": [
                     {
-                        "title": "Kaakha Kaakha",
-                        "year": "2003",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2003-08-01",
-                        "director": "Gautham Vasudev Menon",
-                        "writer": "Gautham Vasudev Menon",
-                        "cinematographer": "R. D. Rajasekhar",
+                        "title": "Enthiran",
+                        "year": 2010,
+                        "releaseDate": "October 1, 2010",
+                        "director": "S. Shankar",
+                        "writer": "S. Shankar",
+                        "cinematographer": "R. Rathnavelu",
                         "editor": "Anthony",
-                        "composer": "Harris Jayaraj",
-                        "studio": "V Creations",
-                        "poster": "https://image.tmdb.org/t/p/w500/d1tXC8fqHr9khx9rt6W6lVSOlmn.jpg",
-                        "plot": "After a police team kills his brother, a drug-dealing gangster vows to kill the entire team and their respective families.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (GB) | Rent/Buy: Amazon Video"
+                        "composer": "A. R. Rahman",
+                        "studio": "Sun Pictures",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/hai6CSCLxULO1RThjDP3lWAqOtQ.jpg",
+                        "plot": "Dr. Vaseegaran creates Chitti, a powerful robot in his own image, but it is rejected by the scientific body AIRD due to its lack of human behaviour and emotions. After a lightning strike triggers emotions in Chitti, he begins to develop human-like feelings. However, Chitti falls in love with Dr. Vaseegaran's fiancée, Sana, and turns against his creator, leading to dangerous consequences.",
+                        "focus": "Sleek, futuristic editing that perfectly constructs the complex, rapid-fire logic of a rogue machine."
                     },
                     {
-                        "title": "Vettaiyaadu Vilaiyaadu",
-                        "year": "2006",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2006-08-25",
-                        "director": "Gautham Vasudev Menon",
-                        "writer": "Gautham Vasudev Menon",
-                        "cinematographer": "Ravi Varman",
-                        "editor": "Anthony",
-                        "composer": "Harris Jayaraj",
-                        "studio": "Seventh Channel Communications",
-                        "poster": "https://image.tmdb.org/t/p/w500/pdFuSN7rz8dk61jFBR9zjqhcwzK.jpg",
-                        "plot": "DCP Raghavan sets off on the trail of the killers of Rani, the daughter of a police officer. Following this, many more murders take place, leading him to New York to capture the maniac killer.",
-                        "streaming": "Streaming: Sun Nxt (US), Apple TV (US), Prime Video (IN), Sun Nxt (IN)"
-                    },
-                    {
-                        "title": "Vinnaithaandi Varuvaayaa",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-02-26",
+                        "title": "Vinnathaandi Varuvaayaa",
+                        "year": 2010,
+                        "releaseDate": "February 26, 2010",
                         "director": "Gautham Vasudev Menon",
                         "writer": "Gautham Vasudev Menon",
                         "cinematographer": "Manoj Paramahamsa",
                         "editor": "Anthony",
-                        "composer": "A.R. Rahman",
-                        "studio": "Escape Artists Motion Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/icWUNL2GxDgWmI5PQN2RYA2CEbv.jpg",
-                        "plot": "A young, aspiring filmmaker falls in love with a girl who moves into the house above his, but her sophisticated nature does more harm than good to him.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "composer": "A. R. Rahman",
+                        "studio": "Escape Artists Motion Pictures / RS Infotainment",
+                        "country": "India",
+                        "plot": "Karthik, an aspiring filmmaker, falls in love with Jessie, his neighbour. However, they face several challenges to unite.",
+                        "focus": "Lyrical, deeply romantic pacing that lingers on the intense, quiet agonies of unfulfilled love.",
+                        "poster": "assets/movies/vinnathaandi_varuvaayaa.png"
+                    },
+                    {
+                        "title": "Sivaji: The Boss",
+                        "year": 2007,
+                        "releaseDate": "June 15, 2007",
+                        "director": "S. Shankar",
+                        "writer": "S. Shankar",
+                        "cinematographer": "K. V. Anand",
+                        "editor": "Anthony",
+                        "composer": "A. R. Rahman",
+                        "studio": "AVM Productions",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/yBvsYnhrrTs1ZgHQNQTSdVA6uo8.jpg",
+                        "plot": "A wealthy engineer arrives in India with the mission of serving the nation and investing in the country's welfare but is met with strong opposition from corrupt officials and politicians. After being faced with insurmountable hardships, he decides to take drastic measures.",
+                        "focus": "Explosive, larger-than-life rhythm designed to maximize mass appeal and theatrical grandeur."
                     }
                 ],
                 "scenes": []
@@ -36677,38 +36997,53 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "https://image.tmdb.org/t/p/w500/cQYmBoS9VOIF9cTZRq0nX0dHRWr.jpg",
+                "image": "assets/editors/ruben.png",
                 "bestWork": "Jawan (2023), Mersal (2017)",
                 "mustWatch": [
                     {
-                        "title": "Jawan",
-                        "year": "2023",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2023-09-07",
+                        "title": "Mersal",
+                        "year": 2017,
+                        "releaseDate": "October 18, 2017",
                         "director": "Atlee",
-                        "writer": "Atlee, Ramana Girivasan",
+                        "writer": "Atlee / K. V. Vijayendra Prasad / S. Ramana Girivasan",
+                        "cinematographer": "G. K. Vishnu",
+                        "editor": "Ruben",
+                        "composer": "A. R. Rahman",
+                        "studio": "Thenandal Studio Limited",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/65Q1wpRPZ5E3UVUv2V5JBbJQCcj.jpg",
+                        "plot": "A few individuals in the medical profession are murdered or kidnapped, and the cop investigating the case suspects a doctor and arrests him. But is he the one who is behind these crimes? And why are they being committed?",
+                        "focus": "Fast-paced, high-energy editing that masterfully juggles multiple timelines and electrifying commercial elements."
+                    },
+                    {
+                        "title": "Pushpa: The Rise",
+                        "year": 2021,
+                        "releaseDate": "December 17, 2021",
+                        "director": "Sukumar",
+                        "writer": "Sukumar",
+                        "cinematographer": "Mirosław Kuba Brożek",
+                        "editor": "Ruben / Karthika Srinivas",
+                        "composer": "Devi Sri Prasad",
+                        "studio": "Mythri Movie Makers / Muttamsetty Media",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/oaRk2HgOirEeNuDCwwScmq7rKvS.jpg",
+                        "plot": "As Pushpa, a labourer, rises in the world of red sandalwood smuggling, he ends up making many enemies. However, violence ensues when the police try to topple his illegal business.",
+                        "focus": "Raw, gritty pacing that mirrors the rugged, unforgiving terrain of the red sandalwood smuggling underworld."
+                    },
+                    {
+                        "title": "Jawan",
+                        "year": 2023,
+                        "releaseDate": "September 7, 2023",
+                        "director": "Atlee",
+                        "writer": "Atlee / S. Ramanagirivasan",
                         "cinematographer": "G. K. Vishnu",
                         "editor": "Ruben",
                         "composer": "Anirudh Ravichander",
                         "studio": "Red Chillies Entertainment",
-                        "poster": "https://image.tmdb.org/t/p/w500/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/mGiw8zAmHQwKBXDG1n7mQpT5kK1.jpg",
                         "plot": "An emotional journey of a prison warden, driven by a personal vendetta while keeping up to a promise made years ago, recruits inmates to commit outrageous crimes that shed light on corruption and injustice, in an attempt to get even with his past,  and that leads him to an unexpected reunion.",
-                        "streaming": "Streaming: Netflix (US), Netflix (IN), Netflix (GB) | Rent/Buy: Google Play, YouTube, Apple TV"
-                    },
-                    {
-                        "title": "Mersal",
-                        "year": "2017",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2017-10-18",
-                        "director": "Atlee",
-                        "writer": "Atlee, Vijayendra Prasad, Ramana Girivasan",
-                        "cinematographer": "G. K. Vishnu",
-                        "editor": "Ruben",
-                        "composer": "A.R. Rahman",
-                        "studio": "Sri Thenandal Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/65Q1wpRPZ5E3UVUv2V5JBbJQCcj.jpg",
-                        "plot": "A few individuals in the medical profession are murdered or kidnapped, and the cop investigating the case suspects a doctor and arrests him. But is he the one who is behind these crimes? And why are they being committed?",
-                        "streaming": "Streaming: Prime Video (GB)"
+                        "focus": "Hyper-kinetic, explosive rhythm that seamlessly integrates massive set pieces and intense emotional flashbacks."
                     }
                 ],
                 "scenes": []
@@ -36729,48 +37064,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Jaane Bhi Do Yaaro",
-                        "year": "1983",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1983-08-12",
+                        "year": 1983,
+                        "releaseDate": "August 12, 1983",
                         "director": "Kundan Shah",
-                        "writer": "Kundan Shah, Sudhir Mishra",
+                        "writer": "Kundan Shah / Sudhir Mishra",
                         "cinematographer": "Binod Pradhan",
                         "editor": "Renu Saluja",
                         "composer": "Vanraj Bhatia",
                         "studio": "National Film Development Corporation of India",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/gidaBJsPuq0nTG7PI93mERZoVAh.jpg",
                         "plot": "Two zanies open a photography studio. They score a partnership with a gossip magazine that suddenly thrusts them into a world of corruption, murder, and hijinks.",
-                        "streaming": "Streaming: Disney+ Hotstar (IN), VI movies and tv (IN)"
+                        "focus": "Chaotic, razor-sharp rhythm that perfectly balances absurdity and biting social satire."
                     },
                     {
                         "title": "Parinda",
-                        "year": "1989",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1989-11-03",
+                        "year": 1989,
+                        "releaseDate": "November 3, 1989",
                         "director": "Vidhu Vinod Chopra",
-                        "writer": "Shivkumar Subramaniam",
+                        "writer": "Shivkumar Subramaniam / Vidhu Vinod Chopra",
                         "cinematographer": "Binod Pradhan",
                         "editor": "Renu Saluja",
-                        "composer": "Rahul Dev Burman",
-                        "studio": "Vidhu Vinod Chopra Productions",
+                        "composer": "R. D. Burman",
+                        "studio": "Vinod Chopra Productions",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/5iVDKpzPr1egzNsKjIDL2maVEe5.jpg",
                         "plot": "Brothers Kishan and Karan grow up in Bombay. Karan soon leaves to study in America while Kishan enters into a life of crime, falling under the sway of Anna Seth, a drug lord. When Karan returns to Bombay,  Kishan intends to keep him as far away from his criminal life as possible, but things don't go as planned.",
-                        "streaming": "Rent/Buy: Google Play, YouTube"
+                        "focus": "Taut, relentless pacing that defined the modern Indian gangster genre with visceral intensity."
                     },
                     {
                         "title": "Bandit Queen",
-                        "year": "1994",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1994-01-26",
+                        "year": 1996,
+                        "releaseDate": "January 26, 1996",
                         "director": "Shekhar Kapur",
                         "writer": "Mala Sen",
                         "cinematographer": "Ashok Mehta",
                         "editor": "Renu Saluja",
-                        "composer": "Nusrat Fateh Ali Khan, Roger White",
-                        "studio": "Kaleidoscope Productions",
+                        "composer": "Nusrat Fateh Ali Khan",
+                        "studio": "Kaleidoscope Entertainment",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/aYJgxlxo0NZvA075d4BelEjsbJA.jpg",
                         "plot": "Born a lower-caste girl in rural India's patriarchal society, \"married\" at 11, repeatedly raped and brutalized, Phoolan Devi finds freedom only as an avenging warrior, the eponymous Bandit Queen. Devi becomes a kind a bloody Robin Hood; this extraordinary biographical film offers both a vivid portrait of a driven woman and a savage critique of the society that made her.",
-                        "streaming": "Streaming: Philo (US), Fandor Amazon Channel (US), Shout! Factory Amazon Channel (US), Cineverse Amazon Channel (US)"
+                        "focus": "Raw, uncompromising editing that forces the viewer to confront brutal, systemic violence."
                     }
                 ],
                 "scenes": []
@@ -36790,49 +37125,49 @@ const FILMS_DATA = {
                 "bestWork": "Kahaani (2012), Oye Lucky! Lucky Oye! (2008), Band Baaja Baaraat (2010)",
                 "mustWatch": [
                     {
-                        "title": "Kahaani",
-                        "year": "2012",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2012-03-08",
-                        "director": "Sujoy Ghosh",
-                        "writer": "Sujoy Ghosh",
-                        "cinematographer": "Satyajit Pande",
-                        "editor": "Namrata Rao",
-                        "composer": "Clinton Cerejo",
-                        "studio": "Viacom18 Studios",
-                        "poster": "https://image.tmdb.org/t/p/w500/e2eQVOrdQ8k7yYjjHKHP2nlwbTu.jpg",
-                        "plot": "Pregnant and alone in the city of Kolkata, a woman begins a relentless search for her missing husband, only to find that nothing is what it seems.",
-                        "streaming": "Streaming: Prime Video (IN), Prime Video (GB)"
-                    },
-                    {
                         "title": "Oye Lucky! Lucky Oye!",
-                        "year": "2008",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2008-11-28",
+                        "year": 2008,
+                        "releaseDate": "November 28, 2008",
                         "director": "Dibakar Banerjee",
-                        "writer": "Urmi Juvekar",
+                        "writer": "Dibakar Banerjee / Urmi Juvekar",
                         "cinematographer": "Kartik Vijay",
                         "editor": "Namrata Rao",
-                        "composer": "Dhruv Dhalla, Sneha Khanwalkar",
-                        "studio": "UTV Motion Pictures",
+                        "composer": "Sneha Khanwalkar",
+                        "studio": "UTV Spotboy",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/b51jXYaPbRAZegOkShdc7jWBsfZ.jpg",
                         "plot": "Lovinder Singh, a thief now in custody and facing trial, reflects on his life of crime while the press reflect on how he managed to get away with so much before being arrested.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Energetic, street-smart pacing that perfectly mirrors the charming audacity of a smooth-talking thief."
                     },
                     {
-                        "title": "Band Baaja Baaraat",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-12-10",
-                        "director": "Maneesh Sharma",
-                        "writer": "Habib Faisal",
-                        "cinematographer": "Aseem Mishra",
+                        "title": "Kahaani",
+                        "year": 2012,
+                        "releaseDate": "March 9, 2012",
+                        "director": "Sujoy Ghosh",
+                        "writer": "Sujoy Ghosh",
+                        "cinematographer": "Setu",
                         "editor": "Namrata Rao",
-                        "composer": "Salim Merchant, Sulaiman Merchant",
-                        "studio": "Yash Raj Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/uEh8cvyaW1uKfqvB4HJ8ALoT72M.jpg",
-                        "plot": "Shruti and Bittoo decide to start a wedding planning company together after they graduate from university, but romance gets in the way of business.",
-                        "streaming": "Streaming: Netflix (US), Netflix (IN), Netflix (GB) | Rent/Buy: Apple TV, Google Play, YouTube"
+                        "composer": "Vishal–Shekhar",
+                        "studio": "Boundscript Motion Pictures",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/e2eQVOrdQ8k7yYjjHKHP2nlwbTu.jpg",
+                        "plot": "Pregnant and alone in the city of Kolkata, a woman begins a relentless search for her missing husband, only to find that nothing is what it seems.",
+                        "focus": "Tense, masterful editing that slowly unravels a deeply complex, deceptive web of mystery."
+                    },
+                    {
+                        "title": "LSD: Love, Sex aur Dhokha",
+                        "year": 2010,
+                        "releaseDate": "March 19, 2010",
+                        "director": "Dibakar Banerjee",
+                        "writer": "Dibakar Banerjee / Kanu Behl",
+                        "cinematographer": "Nikos Andritsakis",
+                        "editor": "Namrata Rao",
+                        "composer": "Sneha Khanwalkar",
+                        "studio": "Freshwater Films / ALT Entertainment",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/lVCJrQTfhlhE9WKlEb5m2lUM7Md.jpg",
+                        "plot": "A video camcorder, a store security camera, and concealed cameras candidly expose lives in three loosely linked tales.",
+                        "focus": "Voyeuristic, fragmented rhythm utilizing found-footage aesthetics to expose contemporary moral decay."
                     }
                 ],
                 "scenes": []
@@ -36853,33 +37188,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Madhumati",
-                        "year": "1958",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1958-09-12",
+                        "year": 1958,
+                        "releaseDate": "September 12, 1958",
                         "director": "Bimal Roy",
                         "writer": "Ritwik Ghatak",
                         "cinematographer": "Dilip Gupta",
                         "editor": "Hrishikesh Mukherjee",
                         "composer": "Salil Chowdhury",
                         "studio": "Bimal Roy Productions",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/8dKXnOmb79PuzTmowgQkREYy010.jpg",
                         "plot": "Two men take shelter in a derelict mansion situated in the countryside during a storm. One of the men suddenly becomes aware that he once visited this mansion in a past life; he recounts a story about when he was Anand, a painter, who fell in love with a tribal girl named Madhumati.",
-                        "streaming": "Streaming: Prime Video (IN)"
+                        "focus": "Lyrical, atmospheric pacing that gracefully intertwines haunting romance and supernatural suspense."
                     },
                     {
-                        "title": "Chemmeen",
-                        "year": "1965",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1965-08-19",
-                        "director": "Ramu Kariat",
-                        "writer": "S L Puram Sadanandan",
-                        "cinematographer": "U Rajagopal, Marcus Bartley",
+                        "title": "Do Bigha Zamin",
+                        "year": 1953,
+                        "releaseDate": "May 15, 1953",
+                        "director": "Bimal Roy",
+                        "writer": "Hrishikesh Mukherjee",
+                        "cinematographer": "Kamal Bose",
                         "editor": "Hrishikesh Mukherjee",
                         "composer": "Salil Chowdhury",
-                        "studio": "Kanmani Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/jOAjmEQD4LUYFVgR41fAEutaVQb.jpg",
-                        "plot": "Karutthamma, the daughter of a Hindu fisherman, falls in love with a Muslim fish trader. However, social prejudices seem to ruin their love life and invite the wrath of their communities.",
-                        "streaming": "Streaming: Apple TV (US), Apple TV (IN), Eros Now Amazon Channel (GB)"
+                        "studio": "Bimal Roy Productions",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/t4blIwJ6HG9dqCSmifIhMsu4LvQ.jpg",
+                        "plot": "An impoverished man and his young son travel to Calcutta and look for work, in order to make money that'll save their ancestral land from being seized by a corporation.",
+                        "focus": "Unflinching, neo-realist rhythm that steadily captures the heartbreaking struggles of an impoverished farmer."
+                    },
+                    {
+                        "title": "Devdas",
+                        "year": 1955,
+                        "releaseDate": "December 30, 1955",
+                        "director": "Bimal Roy",
+                        "writer": "Nabendu Ghosh",
+                        "cinematographer": "Kamal Bose",
+                        "editor": "Hrishikesh Mukherjee",
+                        "composer": "S. D. Burman",
+                        "studio": "Bimal Roy Productions",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/zqzS4zlFbZKPoCZb8GZErRc8S7.jpg",
+                        "plot": "Childhood sweethearts grow up in a small village with a love-hate relationship which changes to love when they mature.",
+                        "focus": "Melancholic, sweeping pacing that beautifully underscores the profound tragedy of doomed love and alcoholism."
                     }
                 ],
                 "scenes": []
@@ -36899,64 +37249,49 @@ const FILMS_DATA = {
                 "bestWork": "Dev.D (2009), Black Friday (2004), Udaan (2010), Sacred Games (2018)",
                 "mustWatch": [
                     {
-                        "title": "Dev.D",
-                        "year": "2009",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2009-02-06",
-                        "director": "Anurag Kashyap",
-                        "writer": "Anurag Kashyap, Vikramaditya Motwane",
-                        "cinematographer": "Rajeev Ravi",
-                        "editor": "Aarti Bajaj",
-                        "composer": "Amit Trivedi",
-                        "studio": "UTV Spotboy Motion Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/A2SILF5dOBrAJU52DlmMyR5xzDx.jpg",
-                        "plot": "The son of a wealthy businessman finds solace in drugs and alcohol when he breaks up with his childhood love.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
-                    },
-                    {
                         "title": "Black Friday",
-                        "year": "2004",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2004-08-13",
+                        "year": 2007,
+                        "releaseDate": "February 9, 2007",
                         "director": "Anurag Kashyap",
                         "writer": "Anurag Kashyap",
                         "cinematographer": "Natarajan Subramaniam",
                         "editor": "Aarti Bajaj",
                         "composer": "Indian Ocean",
-                        "studio": "Mid Day Multimedia",
+                        "studio": "Mid Day Multimedia Limited / Jhamu Sughand Networks",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/a5s6liMFTQd7EHvCSSjavu4piPr.jpg",
                         "plot": "Bombs tear through Bombay in 1993, wreaking havoc and polarising the citizens. With perpetrators at large, the state launches a massive man-hunt to unmask the perpetrators behind these events.",
-                        "streaming": "Rent/Buy: Google Play, YouTube"
+                        "focus": "Gritty, investigative momentum that relentlessly pieces together the sprawling, complex aftermath of the 1993 Bombay bombings."
                     },
                     {
-                        "title": "Udaan",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-06-17",
-                        "director": "Vikramaditya Motwane",
-                        "writer": "Anurag Kashyap, Vikramaditya Motwane",
-                        "cinematographer": "Mahendra J. Shetty",
+                        "title": "Dev.D",
+                        "year": 2009,
+                        "releaseDate": "February 6, 2009",
+                        "director": "Anurag Kashyap",
+                        "writer": "Anurag Kashyap / Vikramaditya Motwane",
+                        "cinematographer": "Rajeev Ravi",
                         "editor": "Aarti Bajaj",
                         "composer": "Amit Trivedi",
-                        "studio": "UTV Spotboy Motion Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/8dQmrGk0WRPiCwiiGdIxnY5s8Pc.jpg",
-                        "plot": "Upon returning to his industrial hometown, a young man must decide whether to follow his own dreams or acquiesce to his father's plans for his future.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "studio": "UTV Spotboy",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/A2SILF5dOBrAJU52DlmMyR5xzDx.jpg",
+                        "plot": "The son of a wealthy businessman finds solace in drugs and alcohol when he breaks up with his childhood love.",
+                        "focus": "Trippy, hallucinatory editing that plunges the viewer into a visceral, modern descent into addiction."
                     },
                     {
-                        "title": "Sacred Games",
-                        "year": "2018",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2018-07-06",
-                        "director": "Neeraj Ghaywan, Anurag Kashyap",
-                        "writer": "Varun Grover",
-                        "cinematographer": "Sylvester Fonseca, Swapnil S. Sonawane",
+                        "title": "Sacred Games (Season 1)",
+                        "year": 2018,
+                        "releaseDate": "July 6, 2018",
+                        "director": "Anurag Kashyap / Vikramaditya Motwane",
+                        "writer": "Varun Grover / Smita Singh / Vasant Nath",
+                        "cinematographer": "Alokananda Dasgupta / Sylvester Fonseca / Swapnil S. Sonawane",
                         "editor": "Aarti Bajaj",
                         "composer": "Alokananda Dasgupta",
                         "studio": "Phantom Films",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/uEbNtFbK4At9WBDGap23lt1qO9n.jpg",
                         "plot": "A link in their pasts leads an honest cop to a fugitive gang boss, whose cryptic warning spurs the officer on a quest to save Mumbai from cataclysm.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Expansive, tightly woven rhythm that seamlessly connects vast mythological themes with a high-stakes ticking-clock thriller."
                     }
                 ],
                 "scenes": []
@@ -36977,63 +37312,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Baahubali: The Beginning",
-                        "year": "2015",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2015-07-10",
+                        "year": 2015,
+                        "releaseDate": "July 10, 2015",
                         "director": "S. S. Rajamouli",
                         "writer": "S. S. Rajamouli",
-                        "cinematographer": "K.K. Senthil Kumar",
+                        "cinematographer": "K. K. Senthil Kumar",
                         "editor": "Kotagiri Venkateswara Rao",
-                        "composer": "M.M. Keeravaani",
+                        "composer": "M. M. Keeravani",
                         "studio": "Arka Media Works",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/9BAjt8nSSms62uOVYn1t3C3dVto.jpg",
                         "plot": "The young Shivudu is left as a foundling in a small village by his mother. By the time he’s grown up, it has become apparent that he possesses exceptional gifts. He meets the beautiful warrior princess Avanthika and learns that her queen has been held captive for the last 25 years. Shividu sets off to rescue her, discovering his own origins in the process.",
-                        "streaming": "Streaming: Netflix (US), Netflix (IN), Sony Liv (IN), Netflix (GB) | Rent/Buy: Apple TV, Google Play, YouTube"
+                        "focus": "Epic, sweeping pacing that meticulously establishes grand scale and monumental myth-building."
                     },
                     {
-                        "title": "Baahubali: The Conclusion",
-                        "year": "2017",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2017-04-27",
+                        "title": "Baahubali 2: The Conclusion",
+                        "year": 2017,
+                        "releaseDate": "April 28, 2017",
                         "director": "S. S. Rajamouli",
                         "writer": "S. S. Rajamouli",
-                        "cinematographer": "K.K. Senthil Kumar",
+                        "cinematographer": "K. K. Senthil Kumar",
                         "editor": "Kotagiri Venkateswara Rao",
-                        "composer": "M.M. Keeravaani",
+                        "composer": "M. M. Keeravani",
                         "studio": "Arka Media Works",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/21sC2assImQIYCEDA84Qh9d1RsK.jpg",
                         "plot": "When Mahendra, the son of Bāhubali, learns about his heritage, he begins to look for answers. His story is juxtaposed with past events that unfolded in the Mahishmati Kingdom.",
-                        "streaming": "Streaming: Netflix (US), Netflix (IN), Sony Liv (IN), VI movies and tv (IN) | Rent/Buy: Google Play, YouTube"
-                    },
-                    {
-                        "title": "Magadheera",
-                        "year": "2009",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2009-07-31",
-                        "director": "S. S. Rajamouli",
-                        "writer": "Vijayendra Prasad, S. S. Rajamouli, S. S. Rajamouli",
-                        "cinematographer": "K.K. Senthil Kumar",
-                        "editor": "Kotagiri Venkateswara Rao",
-                        "composer": "M.M. Keeravaani",
-                        "studio": "Geetha Arts",
-                        "poster": "https://image.tmdb.org/t/p/w500/xK7MEV56GF291VG0U5XnVJuvNv3.jpg",
-                        "plot": "A street-bike racer chances upon a woman and is struck by visions of a past life where they were both star-crossed lovers in a war-ridden kingdom 400 years ago, while the reincarnation of his romantic rival emerges with murderous intent.",
-                        "streaming": "Streaming: aha (US), aha (IN)"
+                        "focus": "High-octane, majestic rhythm that seamlessly weaves intense emotion with breathtaking, larger-than-life action."
                     },
                     {
                         "title": "Eega",
-                        "year": "2012",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2012-07-05",
+                        "year": 2012,
+                        "releaseDate": "July 6, 2012",
                         "director": "S. S. Rajamouli",
-                        "writer": "S. S. Rajamouli, Ashwin Gangaraju",
-                        "cinematographer": "K.K. Senthil Kumar",
+                        "writer": "S. S. Rajamouli",
+                        "cinematographer": "K. K. Senthil Kumar",
                         "editor": "Kotagiri Venkateswara Rao",
-                        "composer": "M.M. Keeravaani",
+                        "composer": "M. M. Keeravani",
                         "studio": "Vaaraahi Chalana Chitram",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/pX7fn4EZrg2YFlV4GNMIfHDOQZ6.jpg",
                         "plot": "Nani is a flower decorator, madly in love with his neighbor Bindhu. He gets killed by the baddie, Sudeep, a powerful businessman. Nani comes back as a housefly to get his revenge.",
-                        "streaming": "Streaming: aha (US), Prime Video (IN), Max (IN), aha (IN) | Rent/Buy: YouTube, Apple TV"
+                        "focus": "Inventive, relentless editing that flawlessly executes high-stakes revenge from a microscopic perspective."
                     }
                 ],
                 "scenes": []
@@ -37054,48 +37374,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Pokiri",
-                        "year": "2006",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2006-04-27",
+                        "year": 2006,
+                        "releaseDate": "April 28, 2006",
                         "director": "Puri Jagannadh",
                         "writer": "Puri Jagannadh",
-                        "cinematographer": "Chota K. Naidu",
+                        "cinematographer": "Shyam K. Naidu",
                         "editor": "Marthand K. Venkatesh",
                         "composer": "Mani Sharma",
-                        "studio": "Vaishno Academy",
+                        "studio": "Vaishno Academy / Indira Productions",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/rQ8NH5f3CxRrmqZWMZNYPwLmjDS.jpg",
                         "plot": "Pandu is a contract killer and will accept any contract provided the amount is right. The police want him for questioning, while the underworld needs him to silence their opponents. No one really knows this assassin's background. It is only Pandu who knows his real identity, and he has no intention of sharing it with anyone.",
-                        "streaming": "Streaming: Prime Video (GB) | Rent/Buy: Amazon Video"
+                        "focus": "Razor-sharp, mass-appealing rhythm that perfectly balances explosive action with slick, charismatic tension."
                     },
                     {
                         "title": "Arundhati",
-                        "year": "2009",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2009-01-16",
+                        "year": 2009,
+                        "releaseDate": "January 16, 2009",
                         "director": "Kodi Ramakrishna",
-                        "writer": "Chintapalli Ramana",
-                        "cinematographer": "K.K. Senthil Kumar",
+                        "writer": "Matti Shyam Prasad",
+                        "cinematographer": "K. K. Senthil Kumar",
                         "editor": "Marthand K. Venkatesh",
-                        "composer": "Saluri Koteswara Rao",
+                        "composer": "Koti",
                         "studio": "Mallemala Entertainments",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/xQ0mGlnlAt6wLWZc3rm6LGFPzwl.jpg",
                         "plot": "Arundhati  belongs to Gadwal samsthanam in 1920’s. She is known for her bravery in saving the Samstanam by killing Pasupathi an evildoer. But the spirit of Pasupathi haunts that place. Another girl is born in the same lineage after 3 generations and she is named as Arundhati. The spirit of Pasupati is after Arundhati to take the revenge.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Atmospheric, gripping pacing that expertly sustains a terrifying blend of folklore and supernatural dread."
                     },
                     {
                         "title": "Bommarillu",
-                        "year": "2006",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2006-08-09",
+                        "year": 2006,
+                        "releaseDate": "August 9, 2006",
                         "director": "Bhaskar",
-                        "writer": "Bhaskar, Rajasimha Tadinada",
-                        "cinematographer": "Vijay C. Chakravarthy",
+                        "writer": "Bhaskar / Abburi Ravi",
+                        "cinematographer": "Vijay C. Kumar",
                         "editor": "Marthand K. Venkatesh",
                         "composer": "Devi Sri Prasad",
                         "studio": "Sri Venkateswara Creations",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/oYN5XJzV9dYGwzq4fmp41xcIaDS.jpg",
                         "plot": "Siddu is the son of an over-protective business man. Every decision of his is made by his father, which leads him into frustration. He half-heartedly agrees to become engaged to a rich man's daughter, but then falls for a middle-class man's daughter called Haasini. The film focuses on his realization that he has to stand on his own and come out of his father's protective shell - and try to succeed in love.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "focus": "Warm, relatable rhythm that beautifully maps the heartfelt, conflicting emotions of youthful independence."
                     }
                 ],
                 "scenes": []
@@ -37115,34 +37435,49 @@ const FILMS_DATA = {
                 "bestWork": "Pushpa: The Rise (2021), 1: Nenokkadine (2014)",
                 "mustWatch": [
                     {
-                        "title": "Pushpa: The Rise",
-                        "year": "2021",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2021-12-16",
+                        "title": "1: Nenokkadine",
+                        "year": 2014,
+                        "releaseDate": "January 10, 2014",
                         "director": "Sukumar",
                         "writer": "Sukumar",
-                        "cinematographer": "Mirosław Kuba Brożek",
-                        "editor": "Karthika Srinivas",
-                        "composer": "Devi Sri Prasad",
-                        "studio": "Mythri Movie Makers",
-                        "poster": "https://image.tmdb.org/t/p/w500/oaRk2HgOirEeNuDCwwScmq7rKvS.jpg",
-                        "plot": "As Pushpa, a labourer, rises in the world of red sandalwood smuggling, he ends up making many enemies. However, violence ensues when the police try to topple his illegal business.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (IN), Prime Video (GB) | Rent/Buy: Amazon Video"
-                    },
-                    {
-                        "title": "1: Nenokkadine",
-                        "year": "2014",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2014-01-10",
-                        "director": "Sukumar",
-                        "writer": "Jeremy Zimmerman, Sunil Madhav",
-                        "cinematographer": "R. Ratnavelu",
+                        "cinematographer": "R. Rathnavelu",
                         "editor": "Karthika Srinivas",
                         "composer": "Devi Sri Prasad",
                         "studio": "14 Reels Entertainment",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/dYpqpA7BsDHeyAGs9AAEPhZmbck.jpg",
                         "plot": "A rock star must overcome his psychological inhibitions to seek revenge for his parents' death.",
-                        "streaming": "Streaming: Sun Nxt (US), Sun Nxt (IN), VI movies and tv (IN), Sun Nxt (GB) | Rent/Buy: Amazon Video"
+                        "focus": "Complex, cerebral editing that masterfully blurs the lines between reality and psychological hallucination."
+                    },
+                    {
+                        "title": "Mathu Vadalara",
+                        "year": 2019,
+                        "releaseDate": "December 25, 2019",
+                        "director": "Ritesh Rana",
+                        "writer": "Ritesh Rana",
+                        "cinematographer": "Suresh Sarangam",
+                        "editor": "Karthika Srinivas",
+                        "composer": "Kaala Bhairava",
+                        "studio": "Clap Entertainment / Mythri Movie Makers",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/lo0ALsfiSv5sxNBhCNh35AD1p0x.jpg",
+                        "plot": "Babu is a delivery boy living with his friends Yesu and Abhi. Due to his meagre salary, he decides to quit, but then Yesu gives him an idea. The idea, however, soon spirals out of control and Babu finds himself deep in trouble. Will he survive the circumstances of his own actions?",
+                        "focus": "Quirky, fast-paced rhythm that brilliantly elevates a chaotic, darkly comedic series of errors."
+                    },
+                    {
+                        "title": "Antariksham 9000 KMPH",
+                        "year": 2018,
+                        "releaseDate": "December 21, 2018",
+                        "director": "Sankalp Reddy",
+                        "writer": "Sankalp Reddy",
+                        "cinematographer": "Gnanasekar V. S.",
+                        "editor": "Karthika Srinivas",
+                        "composer": "Prashanth R. Vihari",
+                        "studio": "First Frame Entertainments",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/6BxCMmL33CAyQbIHBYuuA1RPdON.jpg",
+                        "plot": "The coordinates of an old satellite from India, Mihira, are lost with the potential for it to wreak havoc with communications worldwide. Astronaut Dev’s life was turned upside down five years ago and he now teaches science at a government school. He’s brought in to fix the satellite but is that the only reason he agrees to come back?",
+                        "focus": "Tense, precise pacing that effectively grounds the high-stakes, perilous isolation of deep space exploration."
                     }
                 ],
                 "scenes": []
@@ -37158,38 +37493,53 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "assets/editors/srikanth_gowda.jpg",
+                "image": "assets/editors/srikanth_gowda.png",
                 "bestWork": "K.G.F: Chapter 1 (2018), Ugramm (2014)",
                 "mustWatch": [
                     {
                         "title": "K.G.F: Chapter 1",
-                        "year": "2018",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2018-12-20",
+                        "year": 2018,
+                        "releaseDate": "December 21, 2018",
                         "director": "Prashanth Neel",
                         "writer": "Prashanth Neel",
                         "cinematographer": "Bhuvan Gowda",
                         "editor": "Srikanth Gowda",
                         "composer": "Ravi Basrur",
                         "studio": "Hombale Films",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/ltHlJwvxKv7d0ooCiKSAvfwV9tX.jpg",
                         "plot": "A period drama set in the 1970s, KGF follows the story of a fierce rebel who rises against the brutal oppression in Kolar Gold Fields and becomes the symbol of hope to legions of downtrodden people.",
-                        "streaming": "Streaming: Prime Video (US), Prime Video (IN), Prime Video (GB) | Rent/Buy: Amazon Video"
+                        "focus": "Kinetic, explosive rhythm that aggressively amplifies mythic hero worship and high-octane action."
                     },
                     {
                         "title": "Ugramm",
-                        "year": "2014",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2014-02-21",
+                        "year": 2014,
+                        "releaseDate": "February 21, 2014",
                         "director": "Prashanth Neel",
-                        "writer": "Prashanth Neel, Prashanth Neel",
-                        "cinematographer": "Ravi Varman, Bhuvan Gowda",
+                        "writer": "Prashanth Neel",
+                        "cinematographer": "Ravi Varman / Bhuvan Gowda",
                         "editor": "Srikanth Gowda",
                         "composer": "Ravi Basrur",
                         "studio": "Inkfinite Pictures",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/6AdrI68ggKpSBRE2EbnvajeD53q.jpg",
                         "plot": "Shivarudra Lingaiah, an MLA candidate, who along with Dheeraj, is awaiting to extract vengeance upon Prabhakar by killing his Daughter Nithya. She arrives at Bangalore to Talagavara to visit her late mother's grave and is kidnapped by Dheeraj's gang on the way. Agastya is an automobile mechanic, who saves her from Dheeraj's gang. He takes her to his house for safeguarding as advised by Prabhakar's family-friend, Vishwa.",
-                        "streaming": "Streaming: VI movies and tv (IN)"
+                        "focus": "Gritty, fast-paced editing that seamlessly weaves dark vengeance with stylized, intense mass appeal."
+                    },
+                    {
+                        "title": "Bharaate",
+                        "year": 2019,
+                        "releaseDate": "October 18, 2019",
+                        "director": "Chethan Kumar",
+                        "writer": "Chethan Kumar",
+                        "cinematographer": "Girish R. Gowda",
+                        "editor": "Srikanth Gowda",
+                        "composer": "Arjun Janya",
+                        "studio": "Sri Jagadguru Chathrapathi Movies",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/mA8CScp9PQaCvGrKmwvfGRljd20.jpg",
+                        "plot": "When Jagan meets Radha, it is love at first sight for him. But finding his happily-ever-after is harder than it seems. A romantic-action film directed by Chethan Kumar, starring Sri Murali and Sree Leela in the lead roles.",
+                        "focus": "Energetic, dynamic pacing designed to maximize colorful commercial elements and robust family drama."
                     }
                 ],
                 "scenes": []
@@ -37205,53 +37555,53 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "assets/editors/deepu_s_kumar.jpg",
+                "image": "assets/editors/deepu_s_kumar.png",
                 "bestWork": "Duniya (2007), Tagaru (2018), Jackie (2010)",
                 "mustWatch": [
                     {
-                        "title": "Duniya",
-                        "year": "2007",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2007-02-23",
-                        "director": "Duniya Suri",
-                        "writer": "Duniya Suri",
-                        "cinematographer": "Satya Hegde",
+                        "title": "Mungaru Male",
+                        "year": 2006,
+                        "releaseDate": "December 29, 2006",
+                        "director": "Yogaraj Bhat",
+                        "writer": "Yogaraj Bhat / Preetham Gubbi",
+                        "cinematographer": "S. Krishna",
                         "editor": "Deepu S. Kumar",
-                        "composer": "Sadhu Kokila",
-                        "studio": "Sammarth Ventures",
-                        "poster": "https://image.tmdb.org/t/p/w500/6fHmuEJBvguSPxWWFexVFqec4j4.jpg",
-                        "plot": "A poor manual labourer, Shivu, hopelessly tries to arrange money to carry out a funeral for his mother and rescues a girl from thugs along the way.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "composer": "Mano Murthy",
+                        "studio": "E K Pictures",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/gFXxeSL3fSmb3G2jmhx4kTFRpYd.jpg",
+                        "plot": "Preetham loves Nandhini, whose marriage is already fixed. He feels bad and leaves the place. Nandini challenges him to win her heart. Preetham accepts the challenge.",
+                        "focus": "Melodious, sweeping rhythm that beautifully heightens the emotional intensity of tragic romance and nature."
                     },
                     {
                         "title": "Tagaru",
-                        "year": "2018",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2018-02-23",
-                        "director": "Duniya Suri",
-                        "writer": "Duniya Soori",
+                        "year": 2018,
+                        "releaseDate": "February 23, 2018",
+                        "director": "Popcorn Monkey Tiger / Suri",
+                        "writer": "Popcorn Monkey Tiger / Suri",
                         "cinematographer": "Mahendra Simha",
                         "editor": "Deepu S. Kumar",
                         "composer": "Charan Raj",
-                        "studio": "Venus Entertainers",
+                        "studio": "Srikanth Enterprises",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/6QR9ezKnB914kF9JLnIn7dkcqM1.jpg",
                         "plot": "Duniya Soori's Tagaru takes us on a bloody ride through the dark underbelly of the underworld and their clash against the police.",
-                        "streaming": "Streaming: Sun Nxt (US), Sun Nxt (IN), Sun Nxt (GB)"
+                        "focus": "Fractured, non-linear editing that brilliantly creates a disorienting, raw, and visceral criminal underworld."
                     },
                     {
-                        "title": "Jackie",
-                        "year": "2010",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2010-10-14",
-                        "director": "Duniya Suri",
-                        "writer": "Duniya Suri",
-                        "cinematographer": "Satya Hegde",
+                        "title": "Duniya",
+                        "year": 2007,
+                        "releaseDate": "February 23, 2007",
+                        "director": "Suri",
+                        "writer": "Suri",
+                        "cinematographer": "Sathya Hegde",
                         "editor": "Deepu S. Kumar",
                         "composer": "V. Harikrishna",
-                        "studio": "Poornima Enterprises",
-                        "poster": "https://image.tmdb.org/t/p/w500/6p1E5kXSsNJd5aGLoNLUuCG6DVT.jpg",
-                        "plot": "Life takes a turn for Jackie, a happy-go-lucky chap who has to go in search of a girl for whose disappearance he has taken the blame.",
-                        "streaming": "Streaming: Sun Nxt (US), Sun Nxt (IN), Sun Nxt (GB)"
+                        "studio": "Samyuktha Hornbill",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/6fHmuEJBvguSPxWWFexVFqec4j4.jpg",
+                        "plot": "A poor manual labourer, Shivu, hopelessly tries to arrange money to carry out a funeral for his mother and rescues a girl from thugs along the way.",
+                        "focus": "Raw, realistic pacing that unflinchingly captures the brutal, tragic journey of the marginalized."
                     }
                 ],
                 "scenes": []
@@ -37271,64 +37621,49 @@ const FILMS_DATA = {
                 "bestWork": "Thalapathi (1991), Roja (1992), Bombay (1995), Mungaru Male (2006)",
                 "mustWatch": [
                     {
-                        "title": "Thalapathi",
-                        "year": "1991",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1991-11-05",
+                        "title": "Roja",
+                        "year": 1992,
+                        "releaseDate": "August 15, 1992",
                         "director": "Mani Ratnam",
                         "writer": "Mani Ratnam",
                         "cinematographer": "Santosh Sivan",
                         "editor": "Suresh Urs",
-                        "composer": "Ilaiyaraaja",
-                        "studio": "G. V. Films",
-                        "poster": "https://image.tmdb.org/t/p/w500/dpF1Ck1UvpW0ItT1EoX0xNYEhS8.jpg",
-                        "plot": "Surya, a courageous man who was raised in the slums, fights for the rights of the poor and befriends Deva, who hires him as his commander and changes his life completely.",
-                        "streaming": "Streaming: Max (IN), Apple TV (IN)"
-                    },
-                    {
-                        "title": "Roja",
-                        "year": "1992",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1992-08-15",
-                        "director": "Mani Ratnam",
-                        "writer": "Sujatha Rangarajan, Mani Ratnam",
-                        "cinematographer": "Santosh Sivan",
-                        "editor": "Suresh Urs",
-                        "composer": "A.R. Rahman",
+                        "composer": "A. R. Rahman",
                         "studio": "Kavithalayaa Productions",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/1ZHr93dgcJ6jSAYpKISemBmYoIy.jpg",
                         "plot": "Roja, a simple girl from a village in Tamil Nadu, makes desperate efforts to find her husband, Rishi, after he is kidnapped by militants during a secret undercover mission in Kashmir.",
-                        "streaming": "Streaming: Sun Nxt (US), Prime Video (IN), Zee5 (IN), Sun Nxt (IN) | Rent/Buy: Amazon Video, Google Play, YouTube"
+                        "focus": "Lyrical, emotionally charged rhythm that perfectly balances patriotic fervor with deeply intimate romance."
                     },
                     {
                         "title": "Bombay",
-                        "year": "1995",
-                        "focus": "Editing techniques",
-                        "releaseDate": "1995-03-10",
+                        "year": 1995,
+                        "releaseDate": "March 10, 1995",
                         "director": "Mani Ratnam",
                         "writer": "Mani Ratnam",
                         "cinematographer": "Rajiv Menon",
                         "editor": "Suresh Urs",
-                        "composer": "A.R. Rahman",
-                        "studio": "Ayngaran International",
+                        "composer": "A. R. Rahman",
+                        "studio": "Aalayam Productions / Amitabh Bachchan Corporation",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/g1FXpdQogl84eztCsLI3h8Kmp69.jpg",
                         "plot": "A Hindu man and a Muslim woman fall in love in a small village and move to Mumbai, where they have two children. However, growing religious tensions and erupting riots threaten to tear the family apart.",
-                        "streaming": "Streaming: Prime Video (IN) | Rent/Buy: Amazon Video, Google Play, YouTube"
+                        "focus": "Poignant, escalating pacing that masterfully contrasts innocent love against the devastating chaos of communal riots."
                     },
                     {
-                        "title": "Mungaru Male",
-                        "year": "2006",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2006-12-15",
-                        "director": "Yogaraj Bhat",
-                        "writer": "Yogaraj Bhat, Preetham Gubbi",
-                        "cinematographer": "S. Krishna",
+                        "title": "Iruvar",
+                        "year": 1997,
+                        "releaseDate": "January 14, 1997",
+                        "director": "Mani Ratnam",
+                        "writer": "Mani Ratnam",
+                        "cinematographer": "Santosh Sivan",
                         "editor": "Suresh Urs",
-                        "composer": "Mano Murthy",
-                        "studio": "E.K. Entertainers",
-                        "poster": "https://image.tmdb.org/t/p/w500/gFXxeSL3fSmb3G2jmhx4kTFRpYd.jpg",
-                        "plot": "Preetham loves Nandhini, whose marriage is already fixed. He feels bad and leaves the place. Nandini challenges him to win her heart. Preetham accepts the challenge.",
-                        "streaming": "Streaming: Prime Video (GB) | Rent/Buy: Amazon Video"
+                        "composer": "A. R. Rahman",
+                        "studio": "Madras Talkies",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/6uAHFUwhKWLF9OAvMz5zQdKiM4j.jpg",
+                        "plot": "A fictionalized account of the lives of 1980s Tamil Nadu political icons M. G. Ramachandran and M. Karunanidhi, continuing the tryst between Tamil cinema and Dravidian politics.",
+                        "focus": "Epic, measured editing that majestically chronicles the intertwined, complex lives of political and cinematic titans."
                     }
                 ],
                 "scenes": []
@@ -37349,18 +37684,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Mufti",
-                        "year": "2017",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2017-12-01",
+                        "year": 2017,
+                        "releaseDate": "December 1, 2017",
                         "director": "Narthan",
                         "writer": "Narthan",
-                        "cinematographer": "I. Naveen Kumar",
+                        "cinematographer": "Naveen Kumar",
                         "editor": "Harish Komme",
                         "composer": "Ravi Basrur",
                         "studio": "Jayanna Combines",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/5hy2xFwliQcc4XFcz8kCCbjNy1e.jpg",
                         "plot": "An undercover cop goes into the big bad world of Ronapura, an place taken over by a don named Bhairathi Ranagal, where his safety may be compromised.",
-                        "streaming": "Streaming: Zee5 (IN)"
+                        "focus": "Atmospheric, deliberate rhythm that steadily builds palpable tension and dark, brooding underworld intrigue."
+                    },
+                    {
+                        "title": "Daredevil Musthafa",
+                        "year": 2023,
+                        "releaseDate": "May 19, 2023",
+                        "director": "Shashank Soghal",
+                        "writer": "Shashank Soghal / Anantha Shandy / Raghavendra Mayakonda",
+                        "cinematographer": "Rahul Roy",
+                        "editor": "Harish Komme",
+                        "composer": "Navneet Sham",
+                        "studio": "CINEMANTRA / Jordan Cinema",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/dKbPmWAfKu0JzX5y1ICgR341ZWU.jpg",
+                        "plot": "Ramanuja lyengari and his gang plan to get Musthafa expelled from the college. A series of fun-filled adventures lead to a riveting cricket match which will decide everybody's fate.It is based on K.P. Poornachandra Tejaswi’s short story of the same name. In a first of its kind attempt, 100+ fans of the writer have come forward to produce this film.",
+                        "focus": "Charming, lively editing that nostalgically captures the innocent, comedic spirit of college camaraderie."
+                    },
+                    {
+                        "title": "Ammachi Yemba Nenapu",
+                        "year": 2018,
+                        "releaseDate": "November 1, 2018",
+                        "director": "Champa P. Shetty",
+                        "writer": "Champa P. Shetty",
+                        "cinematographer": "Naveen Kumar Attlabbi",
+                        "editor": "Harish Komme",
+                        "composer": "Ravi Murur",
+                        "studio": "Mayuraa Motion Pictures",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/yjcwIpdl368fqhfhagov3MYnvEq.jpg",
+                        "plot": "Based on three short stories by the celebrated Kannada writer, Kendra Sahitya Academy awardee Dr. Vaidehi. With dialogue in the characteristic regional dialect of coastal Karnataka. Woman’s eternal striving for identity in a patriarchal society is told through the story of a young woman resisting being married off, an older woman gone mad after her husband left her and an older woman being indebted to a family who's matriarch took her in when she was left by her husband at a young age.",
+                        "focus": "Observational, nuanced pacing that delicately unfolds a poignant, culturally rooted feminist narrative."
                     }
                 ],
                 "scenes": []
@@ -37376,38 +37741,38 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "assets/editors/kutub_inamdar.jpg",
+                "image": "assets/editors/kutub_inamdar.png",
                 "bestWork": "Sairat (2016), Ghar Banduk Biryani (2023)",
                 "mustWatch": [
                     {
-                        "title": "Sairat",
-                        "year": "2016",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2016-04-29",
-                        "director": "Nagraj Popatrao Manjule",
-                        "writer": "Nagraj Popatrao Manjule, Bharat Manjule",
-                        "cinematographer": "Sudhakar Reddy Yakkanti",
+                        "title": "Harishchandrachi Factory",
+                        "year": 2010,
+                        "releaseDate": "January 29, 2010",
+                        "director": "Paresh Mokashi",
+                        "writer": "Paresh Mokashi",
+                        "cinematographer": "Amalendu Chaudhary",
                         "editor": "Kutub Inamdar",
-                        "composer": "Atul Gogavale, Ajay Gogavale",
-                        "studio": "Aatpat Production",
-                        "poster": "https://image.tmdb.org/t/p/w500/d8K4ZI1RSxMkIIwu5cuvZmzwohq.jpg",
-                        "plot": "Archi, a local politician’s daughter, and Parshya, a fisherman’s son, fall in love resulting in violence between the families due to the stringent casteism in the village.",
-                        "streaming": "Streaming: Zee5 (IN) | Rent/Buy: Apple TV, Google Play, YouTube"
+                        "composer": "Anand Modak",
+                        "studio": "Mayasabha Productions",
+                        "country": "India",
+                        "plot": "In 1913, Dadasaheb Phalke and his family struggle to make India's first feature film, Raja Harishchandra.",
+                        "focus": "Lighthearted, whimsical rhythm that perfectly captures the joyous, historical struggle of early Indian cinema.",
+                        "poster": "assets/movies/harishchandrachi_factory.png"
                     },
                     {
-                        "title": "Ghar Banduk Biryani",
-                        "year": "2023",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2023-04-07",
-                        "director": "Hemant Awtade",
-                        "writer": "Nagraj Popatrao Manjule, Hemant Awtade",
-                        "cinematographer": "Suhas Gujarathi",
+                        "title": "Elizabeth Ekadashi",
+                        "year": 2014,
+                        "releaseDate": "November 14, 2014",
+                        "director": "Paresh Mokashi",
+                        "writer": "Madhugandha Kulkarni / Paresh Mokashi",
+                        "cinematographer": "Amol Gole",
                         "editor": "Kutub Inamdar",
-                        "composer": "Vaibhav Deshmukh, A.V. Prafullachandra",
-                        "studio": "Zee Studios",
-                        "poster": "https://image.tmdb.org/t/p/w500/dzBi2xufUfPG3rGYTqPnTx5TTFn.jpg",
-                        "plot": "Ghar Banduk Biryani is witty and thrilling story of one who is longing for a home, another who is struggling for his right and a third person with a hunger for ambition.",
-                        "streaming": "Streaming: Zee5 (IN), VI movies and tv (IN)"
+                        "composer": "Anand Modak",
+                        "studio": "Essel Vision Productions / Mayasabha Productions",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/tNagKc6DAp63Yn6Nz1MnhsKC2WR.jpg",
+                        "plot": "During a financial shortcoming, A boy and his friends try to raise money  to prevent his bicycle (Elizabeth) from being pawned off.",
+                        "focus": "Endearing, grounded pacing that beautifully mirrors a child's innocent, deeply determined struggle."
                     }
                 ],
                 "scenes": []
@@ -37428,33 +37793,48 @@ const FILMS_DATA = {
                 "mustWatch": [
                     {
                         "title": "Duniyadari",
-                        "year": "2013",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2013-07-19",
+                        "year": 2013,
+                        "releaseDate": "July 19, 2013",
                         "director": "Sanjay Jadhav",
                         "writer": "Chinmay Mandlekar",
                         "cinematographer": "Prasad Bhende",
-                        "editor": "Apurva Motiwale & Ashish Mhatre",
-                        "composer": "SAY Band",
-                        "studio": "Video Palace",
+                        "editor": "Apurva Motiwale / Ashish Mhatre",
+                        "composer": "Amit Raj / Pankaj Padghan / Sayalie Pankaj",
+                        "studio": "Dreaming 24/7 Productions",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/kZOUyw460ehiHS6U3DkAZrlVtwv.jpg",
                         "plot": "Shreyas discovers the magic of love and friendship in college days; only to be perplexed with the choices to be made.",
-                        "streaming": "Streaming: Hulu (US), Prime Video (IN), Disney+ Hotstar (IN)"
+                        "focus": "Vibrant, nostalgic editing that flawlessly recreates the passionate, emotionally turbulent bonds of youth."
                     },
                     {
                         "title": "Lai Bhaari",
-                        "year": "2014",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2014-07-11",
+                        "year": 2014,
+                        "releaseDate": "July 11, 2014",
                         "director": "Nishikant Kamat",
-                        "writer": "Ritesh Shah",
-                        "cinematographer": "Sanjay Memane",
-                        "editor": "Apurva Motiwale & Ashish Mhatre",
-                        "composer": "Ajay Gogavale, Atul Gogavale",
-                        "studio": "Cinemantra Entertainment & Media",
+                        "writer": "Sajid Nadiadwala",
+                        "cinematographer": "Hari Vedantam",
+                        "editor": "Apurva Motiwale / Ashish Mhatre",
+                        "composer": "Ajay-Atul",
+                        "studio": "Mumbai Film Company / Zee Studios",
+                        "country": "India",
                         "poster": "https://image.tmdb.org/t/p/w500/knRrQBBsDiFPPzENpHXU9eQgxGq.jpg",
                         "plot": "Sumitra travels to Pandharpur to find a ray of hope, after Sangram killed her husband and son and took over their business.",
-                        "streaming": "Streaming: fuboTV (US)"
+                        "focus": "High-voltage, explosive pacing designed purely to amplify relentless, charismatic mass-action sequences."
+                    },
+                    {
+                        "title": "Katyar Kaljat Ghusali",
+                        "year": 2015,
+                        "releaseDate": "November 12, 2015",
+                        "director": "Subodh Bhave",
+                        "writer": "Prakash Kapadia",
+                        "cinematographer": "Sudhir Palsane",
+                        "editor": "Apurva Motiwale / Ashish Mhatre",
+                        "composer": "Shankar–Ehsaan–Loy",
+                        "studio": "Essel Vision Productions",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/vbpvvVX8EwzDSB6qjoCoiirvSMt.jpg",
+                        "plot": "Katyar Kaljat Ghusli is a 2015 Marathi film based on a play by the same name. Directed by Subodh Bhave, the film stars Sachin Pilgaonkar, Shankar Mahadevan, and Subodh Bhave in lead roles. The film marks the acting debut for Mahadevan and directorial debut for Bhave. The original play premiered in 1967 in Mumbai, where Hindustani classical vocalist Vasantrao Deshpande played one of the protagonists. In 2010, the play was relaunched with protagonists essayed by Rahul Deshpande, grandson of Vasantrao Deshpande and singer Mahesh Kale. The film's music is composed by Shankar–Ehsaan–Loy, and retained some of the songs from the original play composed by Jitendra Abhisheki.",
+                        "focus": "Musical, deeply dramatic rhythm that seamlessly builds immense tension through rich classical performances."
                     }
                 ],
                 "scenes": []
@@ -37470,38 +37850,37 @@ const FILMS_DATA = {
                 "style": "Masterful editing",
                 "techniques": [],
                 "lessons": [],
-                "image": "assets/editors/amit_pawar.jpg",
+                "image": "assets/editors/amit_pawar.png",
                 "bestWork": "Harishchandrachi Factory (2009), Mumbai Meri Jaan (2008)",
                 "mustWatch": [
                     {
-                        "title": "Harishchandrachi Factory",
-                        "year": "2009",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2009-01-15",
-                        "director": "Paresh Mokashi",
-                        "writer": "Paresh Mokashi",
-                        "cinematographer": "Amalendu Chaudhary",
+                        "title": "Dombivali Fast",
+                        "year": 2005,
+                        "releaseDate": "November 4, 2005",
+                        "director": "Nishikant Kamat",
+                        "writer": "Nishikant Kamat",
+                        "cinematographer": "Sanjay Jadhav",
                         "editor": "Amit Pawar",
-                        "composer": "Anand Modak",
-                        "studio": "Mayasabha Karmanuk Mandali",
-                        "poster": "https://image.tmdb.org/t/p/w500/uRC3yCRlsETdnCvZiyXilLtMrdE.jpg",
-                        "plot": "In 1913 India's cinema industry is born from Dadasaheb Phalke's efforts to make Raja Harishchandra (1913), India's first feature-length B&W silent film.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "composer": "Vedshahi",
+                        "studio": "Cinema Vision",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/geR4IU1xWnr9sdIBzHYqTjMqo5v.jpg",
+                        "plot": "It is the story of a middle class bank employee, Madhav Apte, an ordinary, law-abiding and honest citizen who faces constant frustration with the injustice and corruption that pervades in all walks of his life. The film portrays Apte's mental breakdown as he reaches his breaking point, and his rampage as a vigilante across Mumbai to set things right.",
+                        "focus": "Urgent, chaotic pacing that viscerally maps the explosive mental breakdown of a middle-class commoner."
                     },
                     {
-                        "title": "Mumbai Meri Jaan",
-                        "year": "2008",
-                        "focus": "Editing techniques",
-                        "releaseDate": "2008-08-22",
-                        "director": "Nishikant Kamat",
-                        "writer": "Yogesh Vinayak Joshi, Upendra Sidhaye",
-                        "cinematographer": "Ravi K. Chandran",
+                        "title": "Court",
+                        "year": 2015,
+                        "releaseDate": "April 17, 2015",
+                        "director": "Chaitanya Tamhane",
+                        "writer": "Chaitanya Tamhane",
+                        "cinematographer": "Mrnal Desai",
                         "editor": "Amit Pawar",
-                        "composer": "Sameer Phaterpekar",
-                        "studio": "UTV Motion Pictures",
-                        "poster": "https://image.tmdb.org/t/p/w500/pzxh642LtRJLpCksGjCdUk9aiIk.jpg",
-                        "plot": "When a series of bombs explode in train stations throughout Mumbai, a disparate group of locals are affected in different ways. Thomas, who sells tea, meets Rupali, a reporter coping with the death of her fiancé. Meanwhile, Suresh, who is struggling with financial woes, begins to be overly suspect of all Muslims. For Sunil, a policeman working on the case, there is frustration at realizing his corrupt boss is still on the take.",
-                        "streaming": "Criterion Channel, Kanopy, Prime Video (Rent)"
+                        "studio": "Zoo Entertainment",
+                        "country": "India",
+                        "poster": "https://image.tmdb.org/t/p/w500/ve1UFCZYu8WHmeGRH4ToEcGnj6e.jpg",
+                        "plot": "A sewerage worker's dead body is found inside a manhole in Mumbai. An ageing folk singer is tried in court on charges of abetment of suicide. He is accused of performing an inflammatory song which might have incited the worker to commit the act. As the trial unfolds, the personal lives of the lawyers and the judge involved in the case are observed outside the court.",
+                        "focus": "Static, painstakingly deliberate rhythm that chillingly underscores the suffocating bureaucracy of the legal system."
                     }
                 ],
                 "scenes": []
@@ -38661,10 +39040,10 @@ const FILMS_DATA = {
                 "region": "hollywood-na",
                 "era": "contemporary",
                 "quote": "You serve the story. That is it.",
-                "bio": "Bill Pope is best known for his revolutionary work on The Matrix trilogy, pioneering bullet time photography, and for his work with Sam Raimi and Edgar Wright.",
+                "bio": "Bill Pope is best known for his revolutionary work on The Matrix trilogy, pioneering bulvar time photography, and for his work with Sam Raimi and Edgar Wright.",
                 "style": "Pope blends technical innovation with kinetic energy, using controlled lighting rigs and precise lens choices to create images that feel simultaneously hyper-real and fantastical.",
                 "techniques": [
-                    "Bullet Time Array: 360-degree camera arrays creating freeze-frame visual effects.",
+                    "Bulvar Time Array: 360-degree camera arrays creating freeze-frame visual effects.",
                     "Controlled Colour Design: Distinctive green tint in Matrix simulations, warm amber in real world.",
                     "Kinetic Handheld Energy: Fast, purposeful movement that amplifies action sequences."
                 ],
@@ -39772,7 +40151,7 @@ const FILMS_DATA = {
                         "director": "Michael Powell, Emeric Pressburger",
                         "poster": "https://image.tmdb.org/t/p/w500/vPvpBWFWDvEXuQBkoYgA6A89GVp.jpg",
                         "focus": "Expressive, fantastical, highly-stylized theatrical Technicolor.",
-                        "plot": "A young ballet dancer is torn between the man she loves and her pursuit to become a prima ballerina.",
+                        "plot": "A young balvar dancer is torn between the man she loves and her pursuit to become a prima ballerina.",
                         "releaseDate": "1948-09-06",
                         "writer": "Michael Powell, Emeric Pressburger",
                         "cinematographer": "Jack Cardiff",
@@ -40316,7 +40695,7 @@ const FILMS_DATA = {
                 "region": "british",
                 "years": "1913 - 2016",
                 "era": "classical",
-                "quote": "Never let the camera get in the way of a good story.",
+                "quote": "Never var the camera get in the way of a good story.",
                 "bio": "Douglas Slocombe was a legend of British cinema whose career spanned decades, ending with his iconic, adventure-defining work on the Indiana Jones series.",
                 "style": "High-contrast, pulpy adventure lighting, crisp deep focus, and classical, highly readable composition.",
                 "techniques": [
@@ -43781,7 +44160,7 @@ const FILMS_DATA = {
                 ],
                 "lessons": [
                     "Use frame rates creatively to stretch time and smear motion for emotional effect.",
-                    "Embrace the neon and practical lights of the city; let them dictate your color palette.",
+                    "Embrace the neon and practical lights of the city; var them dictate your color palette.",
                     "Use foreground obstructions to make the frame feel claustrophobic and voyeuristic."
                 ],
                 "image": "https://image.tmdb.org/t/p/w500/yDr1eRA8ReJPllhqGd2wyFUlgDE.jpg",
@@ -43893,7 +44272,7 @@ const FILMS_DATA = {
                         "director": "James Yuen",
                         "poster": "https://image.tmdb.org/t/p/w500/dq1rxzAxm7rSe7OCFNDN8OUb4cJ.jpg",
                         "focus": "Cool-toned, stylized framing invoking internal moral conflict.",
-                        "plot": "A Triad boss is released from a Thai prison after eight years. With the help of a monk, he seeks to leave the criminal world behind, but his past and former associates won't let him go easily.",
+                        "plot": "A Triad boss is released from a Thai prison after eight years. With the help of a monk, he seeks to leave the criminal world behind, but his past and former associates won't var him go easily.",
                         "releaseDate": "2006-11-14",
                         "writer": "James Yuen, Jessica Fong",
                         "cinematographer": "Ng Man-Ching",
@@ -44050,7 +44429,7 @@ const FILMS_DATA = {
                 "years": "Active 1985 - Present",
                 "region": "taiwanese",
                 "era": "Contemporary",
-                "quote": "\"I paint with the camera; I let the light breathe.\"",
+                "quote": "\"I paint with the camera; I var the light breathe.\"",
                 "bio": "A towering figure in global cinema, Mark Lee Ping-bing is a master of poetic, lyrical, and breathtakingly beautiful cinematography. His frequent collaborations with Hou Hsiao-hsien are defined by their long takes, exquisite use of natural light, and the way the camera seemingly floats through physical space.",
                 "style": "Lyrical, floating, naturalistic, deeply poetic.",
                 "techniques": [
@@ -44342,7 +44721,7 @@ const FILMS_DATA = {
                 "lessons": [
                     "Embrace the vehicle as a unique, confined cinematic space for dialogue.",
                     "Strip away artificial lighting to confront the raw reality of the scene.",
-                    "Use patience; let the scene unfold without cutting."
+                    "Use patience; var the scene unfold without cutting."
                 ],
                 "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hossein_Jafarian.jpg",
                 "mustWatch": [
@@ -44625,7 +45004,7 @@ const FILMS_DATA = {
                 "years": "Active 2010 - Present",
                 "region": "middle-eastern",
                 "era": "Contemporary",
-                "quote": "\"We light the environment to let the actors live within it.\"",
+                "quote": "\"We light the environment to var the actors live within it.\"",
                 "bio": "Joe Saade is a highly acclaimed Lebanese cinematographer known for his incredibly intimate, naturalistic, and emotionally sensitive camera work. His work often explores complex social and family dynamics, using unobtrusive, gentle lighting and framing to capture raw, authentic performances.",
                 "style": "Intimate, naturalistic, gentle, observational.",
                 "techniques": [
@@ -44905,7 +45284,7 @@ const FILMS_DATA = {
                 "years": "Active 2000 - Present",
                 "region": "southeast-asian",
                 "era": "Contemporary",
-                "quote": "\"I do not light the set; I let the environment light the film.\"",
+                "quote": "\"I do not light the set; I var the environment light the film.\"",
                 "bio": "A masterful Thai cinematographer, Sayombhu Mukdeeprom is globally renowned for his breathtaking, deeply sensual use of natural light. Collaborating frequently with Apichatpong Weerasethakul and Luca Guadagnino, he prefers shooting on 35mm film, utilizing slow lenses and minimal artificial light to create images that feel incredibly tactile, warm, and atmospheric.",
                 "style": "Sensual, highly naturalistic, tactile, atmospheric 35mm.",
                 "techniques": [
@@ -46525,7 +46904,7 @@ const FILMS_DATA = {
                     "Highly atmospheric, smoky, and silhouette-heavy composition"
                 ],
                 "lessons": [
-                    "Don't be afraid of extreme darkness; let shadows consume parts of the frame to build atmosphere.",
+                    "Don't be afraid of extreme darkness; var shadows consume parts of the frame to build atmosphere.",
                     "Use vintage, \"imperfect\" lenses to take the sterile, digital edge off of modern cameras.",
                     "Embrace silhouette to make characters look mythic or terrifying."
                 ],
@@ -49256,7 +49635,7 @@ const FILMS_DATA = {
                     "Meticulous attention to period detail"
                 ],
                 "lessons": [
-                    "Keep the lighting unpretentious to let the story and acting take center stage."
+                    "Keep the lighting unpretentious to var the story and acting take center stage."
                 ],
                 "image": "assets/cinematographers/vikram_amladi.png",
                 "mustWatch": [

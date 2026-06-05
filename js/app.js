@@ -1,4 +1,4 @@
-// CineAcademy - Multi-Page Application Engine
+// CineScholar - Multi-Page Application Engine
 
 document.addEventListener("DOMContentLoaded", () => {
     // --- Page Target Identification ---
@@ -146,28 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return `direction.html`;
     }
 
-    function getStreamingPlatforms(movieTitle, studio, region) {
-        const title = movieTitle.toLowerCase();
-        const s = (studio || "").toLowerCase();
-        
-        // Studio Ghibli or Anime
-        if (title.includes("spirited away") || title.includes("totoro") || title.includes("mononoke") || title.includes("ghibli") || s.includes("ghibli")) {
-            return "Max (Studio Ghibli Hub), Apple TV (Rent/Buy)";
-        }
-        
-        // Modern blockbuster or studio (Warner, Universal, Sony, Disney)
-        if (s.includes("warner") || s.includes("universal") || s.includes("columbia") || s.includes("paramount") || s.includes("20th century") || s.includes("disney") || s.includes("metro-goldwyn-mayer") || s.includes("dreamworks")) {
-            return "Max, Prime Video / Apple TV (Rent)";
-        }
-        
-        // Classic Hollywood or foreign art-house
-        if (region && region !== "hollywood-na" || s.includes("janus") || s.includes("mubi") || s.includes("criterion") || s.includes("toho") || s.includes("shochiku") || s.includes("mosfilm")) {
-            return "Criterion Channel, MUBI, Kanopy (Free via Library)";
-        }
-        
-        // Default academic channels
-        return "Criterion Channel, Kanopy, Prime Video (Rent)";
-    }
+
 
     function initDirectorHubModule() {
         const grid = document.getElementById("regionHubGrid");
@@ -240,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 desc: "Learn self-reflexive docufiction, minimalist poetry, and profound ethical allegories."
             },
             "middle-eastern": {
-                name: "Middle Eastern Cinema",
+                name: "Middle Eastern Filmmakers",
                 desc: "Explore the diverse voices, political allegories, and rich histories of Middle Eastern film."
             },
             "south-asian": {
@@ -270,18 +249,6 @@ document.addEventListener("DOMContentLoaded", () => {
             "australian-oceanic": {
                 name: "Australian & Oceanic Filmmakers",
                 desc: "Confront harsh outback landscapes, dreamtime mysteries, and quirky cultural humor."
-            },
-            "animation": {
-                name: "Animation Filmmakers",
-                desc: "Marvel at hand-drawn landscapes, whimsical fantasies, and profound hand-crafted worlds."
-            },
-            "documentary": {
-                name: "Documentary Filmmakers",
-                desc: "Analyze observational cinema verite, essayistic portraits, and personal histories."
-            },
-            "experimental": {
-                name: "Experimental & Avant-Garde Filmmakers",
-                desc: "Deconstruct dream logic, poetic association, and non-narrative celluloid manipulation."
             }
         };
 
@@ -806,7 +773,6 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <span class="film-item-meta" style="font-size: 0.75rem; color: var(--text-muted);">${person.years}</span>
                             </div>
                         </div>
-                        <span class="film-item-badge" style="font-size: 0.7rem; font-weight: 700; color: var(--accent-gold); letter-spacing: 0.05em; text-transform: uppercase;">${badgeText}</span>
                     `;
 
                     item.addEventListener("click", () => {
@@ -852,7 +818,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             <span class="film-item-title" style="font-size:0.95rem; font-weight:600;">${film.title}</span>
                             <span class="film-item-meta" style="font-size:0.75rem;">${film.year} &bull; ${film.director}</span>
                         </div>
-                        <span class="film-item-badge" style="font-size: 0.7rem; font-weight: 700; color: var(--accent-gold); letter-spacing: 0.05em; text-transform: uppercase;">${badgeText}</span>
                     `;
 
                     item.addEventListener("click", () => {
@@ -996,16 +961,10 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <!-- BOTTOM: Watch & Plot -->
                                 <div class="screening-card-bottom">
                                     
-                                    <div style="background: rgba(212,175,55,0.06); border: 1px solid rgba(212,175,55,0.3); padding: 1rem 1.25rem; border-radius: 8px; display: flex; align-items: flex-start; gap: 0.75rem;">
-                                        <i class="ri-play-circle-line" style="color: var(--accent-gold); font-size: 1.15rem; margin-top: 2px; flex-shrink: 0;"></i>
-                                        <div>
-                                            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 0.3rem;">Where to Watch</div>
-                                            <div style="color: #c0c0c0; font-size: 0.9rem; line-height: 1.4;">${movie.streaming || getStreamingPlatforms(movie.title, movie.studio, person.region)}</div>
-                                        </div>
-                                    </div>
+
                                     
-                                    <div class="movie-plot-section" style="text-align: center;">
-                                        <button class="plot-toggle-btn" onclick="const content = this.nextElementSibling; const icon = this.querySelector('.toggle-icon'); if(content.style.display==='block'){content.style.display='none'; icon.style.transform='rotate(0deg)';}else{content.style.display='block'; icon.style.transform='rotate(180deg)';}" style="background: transparent; border: 1px solid rgba(212,175,55,0.35); color: var(--accent-gold); font-family: var(--font-ui); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; padding: 0.75rem 2rem; border-radius: 6px; display: inline-flex; align-items: center; gap: 0.6rem; transition: all 0.2s ease;">
+                                    <div class="movie-plot-section" style="width: 100%;">
+                                        <button class="plot-toggle-btn" onclick="const content = this.nextElementSibling; const icon = this.querySelector('.toggle-icon'); if(content.style.display==='block'){content.style.display='none'; icon.style.transform='rotate(0deg)';}else{content.style.display='block'; icon.style.transform='rotate(180deg)';}" style="background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.35); color: var(--accent-gold); font-family: var(--font-ui); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; padding: 0.85rem 2rem; border-radius: 6px; display: flex; width: 100%; justify-content: center; align-items: center; gap: 0.6rem; transition: all 0.2s ease;">
                                             <i class="ri-book-open-line"></i>
                                             Read Synopsis
                                             <i class="toggle-icon ri-arrow-down-s-line" style="transition: transform 0.2s ease;"></i>
@@ -1095,16 +1054,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 <!-- BOTTOM: Watch & Plot -->
                 <div class="screening-card-bottom">
                     
-                    <div style="background: rgba(212,175,55,0.06); border: 1px solid rgba(212,175,55,0.3); padding: 1rem 1.25rem; border-radius: 8px; display: flex; align-items: flex-start; gap: 0.75rem;">
-                        <i class="ri-play-circle-line" style="color: var(--accent-gold); font-size: 1.15rem; margin-top: 2px; flex-shrink: 0;"></i>
-                        <div>
-                            <div style="color: var(--accent-gold); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 0.3rem;">Where to Watch</div>
-                            <div style="color: #c0c0c0; font-size: 0.9rem; line-height: 1.4;">${film.streaming || getStreamingPlatforms(film.title, film.studio, null)}</div>
-                        </div>
-                    </div>
+
                     
-                    <div class="movie-plot-section" style="text-align: center;">
-                        <button class="plot-toggle-btn" onclick="const content = this.nextElementSibling; const icon = this.querySelector('.toggle-icon'); if(content.style.display==='block'){content.style.display='none'; icon.style.transform='rotate(0deg)';}else{content.style.display='block'; icon.style.transform='rotate(180deg)';}" style="background: transparent; border: 1px solid rgba(212,175,55,0.35); color: var(--accent-gold); font-family: var(--font-ui); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; padding: 0.75rem 2rem; border-radius: 6px; display: inline-flex; align-items: center; gap: 0.6rem; transition: all 0.2s ease;">
+                    <div class="movie-plot-section" style="width: 100%;">
+                        <button class="plot-toggle-btn" onclick="const content = this.nextElementSibling; const icon = this.querySelector('.toggle-icon'); if(content.style.display==='block'){content.style.display='none'; icon.style.transform='rotate(0deg)';}else{content.style.display='block'; icon.style.transform='rotate(180deg)';}" style="background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.35); color: var(--accent-gold); font-family: var(--font-ui); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; padding: 0.85rem 2rem; border-radius: 6px; display: flex; width: 100%; justify-content: center; align-items: center; gap: 0.6rem; transition: all 0.2s ease;">
                             <i class="ri-book-open-line"></i>
                             Read Synopsis
                             <i class="toggle-icon ri-arrow-down-s-line" style="transition: transform 0.2s ease;"></i>
@@ -1885,7 +1838,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function exportJournalToMarkdown() {
-        let md = "# CineAcademy Film Studies Notebook\n\n";
+        let md = "# CineScholar Film Studies Notebook\n\n";
         md += `* **Generated:** ${new Date().toLocaleDateString()}\n`;
         
         let totalFilms = 0;
@@ -1975,7 +1928,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const url = URL.createObjectURL(blob);
         const link = document.createElement("a");
         link.href = url;
-        link.setAttribute("download", "cineacademy-notes.md");
+        link.setAttribute("download", "cinescholar-notes.md");
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -2375,6 +2328,44 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    // --- Module: 3D Tilt Cards ---
+    function init3DTiltCards() {
+        const tiltCards = document.querySelectorAll('[data-tilt]');
+        
+        tiltCards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                
+                const rotateX = ((y - centerY) / centerY) * -12;
+                const rotateY = ((x - centerX) / centerX) * 12;
+                
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+                card.style.zIndex = "10";
+                
+                const glare = card.querySelector('.glare');
+                if (glare) {
+                    const percentageX = (x / rect.width) * 100;
+                    const percentageY = (y / rect.height) * 100;
+                    glare.style.background = `radial-gradient(circle at ${percentageX}% ${percentageY}%, rgba(212, 175, 55, 0.25) 0%, rgba(255, 255, 255, 0) 70%)`;
+                }
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
+                card.style.zIndex = "1";
+                const glare = card.querySelector('.glare');
+                if (glare) {
+                    glare.style.background = `none`;
+                }
+            });
+        });
+    }
+
     // --- Initializer Orchestration ---
     function init() {
         initSharedElements();
@@ -2399,6 +2390,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (["director", "director-hub", "editor", "editor-hub", "cinematographer", "cinematographer-hub"].includes(state.activePage)) {
             initGlobalSearch();
         }
+
+        init3DTiltCards();
     }
 
     init();
