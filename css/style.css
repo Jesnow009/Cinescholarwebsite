@@ -3491,3 +3491,92 @@ button {
     display: inline-block;
     transform: translateY(-2px);
 }
+
+/* =========================================================
+   GLOBAL MOBILE RESPONSIVENESS OVERRIDES
+   ========================================================= */
+@media (max-width: 992px) {
+    /* Stack explorer layout */
+    .explorer-layout {
+        flex-direction: column !important;
+        padding: 0 1rem;
+    }
+    
+    /* Make the path intro side panel full width */
+    .path-sidebar {
+        width: 100% !important;
+        position: relative !important;
+        top: 0 !important;
+        max-height: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Hero scaling */
+    .hero-title, .subpage-title {
+        font-size: 2.5rem !important;
+        line-height: 1.2 !important;
+    }
+
+    .hero-desc {
+        font-size: 1rem !important;
+        margin-bottom: 2rem !important;
+        padding: 0 1rem;
+    }
+
+    /* Grids scaling */
+    .region-hub-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .paths-grid {
+        grid-template-columns: 1fr !important;
+        padding: 0 1rem;
+    }
+
+    .path-card {
+        min-height: 300px !important;
+        padding: 2rem 1rem !important;
+    }
+
+    .required-screenings-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Top padding for header overlap */
+    .subpage-hero {
+        padding: 7rem 1rem 3rem 1rem !important;
+    }
+
+    /* Modal adjustments */
+    .film-detail-window {
+        width: 95% !important;
+        margin: 1rem auto !important;
+        padding: 1.5rem !important;
+    }
+    
+    .film-detail-header {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    
+    .director-detail-portrait-wrapper {
+        width: 100px !important;
+        height: 100px !important;
+        margin-bottom: 1rem;
+    }
+
+    /* General Padding Reductions */
+    .section {
+        padding: 4rem 1rem !important;
+    }
+    
+    .footer {
+        padding: 3rem 1rem 2rem 1rem !important;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
