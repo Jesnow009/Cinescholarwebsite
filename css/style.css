@@ -532,7 +532,7 @@ button {
 
 /* --- Section Styling --- */
 .section {
-    padding: 6rem 5%;
+    padding: 3.5rem 5%;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -3850,7 +3850,7 @@ button {
 
 /* --- Contact Section Premium Redesign --- */
 .contact-section {
-    padding: 6rem 5%;
+    padding: 3.5rem 5%;
     background: linear-gradient(to bottom, transparent, rgba(10,10,10,0.8));
     border-top: 1px solid rgba(255,255,255,0.05);
     display: flex;
@@ -3864,7 +3864,7 @@ button {
     align-items: center;
     max-width: 1200px;
     width: 100%;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -3912,6 +3912,8 @@ button {
 .contact-socials {
     display: flex;
     gap: 1.5rem;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
 }
 
 @media (max-width: 768px) {
