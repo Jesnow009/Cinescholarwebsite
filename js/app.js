@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Application State ---
     const state = {
         watchedFilms: JSON.parse(localStorage.getItem("cine_watched_films")) || [],
+        watchedSources: JSON.parse(localStorage.getItem("cine_watched_sources")) || {},
         filmNotes: JSON.parse(localStorage.getItem("cine_film_notes")) || {},
 
         activePage: pageId,
@@ -74,6 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Helper: Save States ---
     function saveWatchedState() {
         localStorage.setItem("cine_watched_films", JSON.stringify(state.watchedFilms));
+        localStorage.setItem("cine_watched_sources", JSON.stringify(state.watchedSources));
         updateHeaderStats();
     }
 
@@ -83,17 +85,29 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Global function for quick-tick
-    window.toggleQuickWatch = function(filmId, btn) {
+    window.toggleQuickWatch = function(filmId, btn, sourceTitle = null) {
         if (!state.watchedFilms) state.watchedFilms = [];
+        if (!state.watchedSources) state.watchedSources = {};
+        
+        // Try to figure out sourceTitle if not provided
+        if (!sourceTitle) {
+            if (document.title.includes("DIRECTION")) sourceTitle = "Direction Curriculum";
+            else if (document.title.includes("EDITING")) sourceTitle = "Editing Curriculum";
+            else if (document.title.includes("CINEMATOGRAPHY")) sourceTitle = "Cinematography Curriculum";
+            else sourceTitle = "Direction Curriculum"; // fallback
+        }
+
         const index = state.watchedFilms.indexOf(filmId);
         
         if (index > -1) {
             state.watchedFilms.splice(index, 1);
+            delete state.watchedSources[filmId];
             btn.classList.remove('watched');
             btn.innerHTML = '<i class="ri-add-box-line" style="font-size: 1.1rem; font-weight: bold;"></i><span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Mark Watched</span>';
             btn.title = "Mark as Watched";
         } else {
             state.watchedFilms.push(filmId);
+            state.watchedSources[filmId] = sourceTitle;
             btn.classList.add('watched');
             btn.innerHTML = '<i class="ri-checkbox-circle-fill" style="font-size: 1.1rem; font-weight: bold;"></i><span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Watched</span>';
             btn.title = "Watched";
@@ -1450,6 +1464,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
         
+        const legacyAdded = new Set();
+
         Object.keys(FILMS_DATA).forEach(pathKey => {
             const path = FILMS_DATA[pathKey];
             const listKey = pathKey === "director" ? "directors" : (pathKey === "editor" ? "editors" : "cinematographers");
@@ -1460,7 +1476,11 @@ document.addEventListener("DOMContentLoaded", () => {
                         person.mustWatch.forEach(movie => {
                             const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
                             if (state.watchedFilms.includes(mId)) {
-                                addFilmToGroup(path.title, { ...movie, mId: mId }, person.name);
+                                const targetSource = state.watchedSources[mId];
+                                if (targetSource === path.title || (!targetSource && !legacyAdded.has(mId))) {
+                                    addFilmToGroup(path.title, { ...movie, mId: mId }, person.name);
+                                    legacyAdded.add(mId);
+                                }
                             }
                         });
                     }
@@ -1469,7 +1489,11 @@ document.addEventListener("DOMContentLoaded", () => {
             if (path.films) {
                 path.films.forEach(film => {
                     if (state.watchedFilms.includes(film.id)) {
-                        addFilmToGroup(path.title, { ...film, mId: film.id }, null);
+                        const targetSource = state.watchedSources[film.id];
+                        if (targetSource === path.title || (!targetSource && !legacyAdded.has(film.id))) {
+                            addFilmToGroup(path.title, { ...film, mId: film.id }, null);
+                            legacyAdded.add(film.id);
+                        }
                     }
                 });
             }
@@ -1488,27 +1512,36 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${groupTitle}
                     <span style="font-size: 0.9rem; color: var(--text-muted); font-weight: normal; background: rgba(212,175,55,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; border: 1px solid rgba(212,175,55,0.2);">${films.length} Screened</span>
                 </h2>
-                <div class="notebook-mini-grid"></div>
+                <div class="notebook-poster-grid"></div>
             `;
             
-            const grid = groupSection.querySelector('.notebook-mini-grid');
+            const grid = groupSection.querySelector('.notebook-poster-grid');
             
             films.forEach(movie => {
                 const card = document.createElement('div');
-                card.className = "notebook-mini-card";
+                card.className = "notebook-poster-card";
                 card.id = `notebook-film-${movie.mId}`;
                 
                 card.innerHTML = `
-                    <div class="notebook-mini-card-info">
-                        <div class="notebook-mini-card-title" title="${movie.title}">${movie.title}</div>
-                        ${movie.year ? `<div class="notebook-mini-card-year">${movie.year}</div>` : ''}
+                    <div class="npc-poster-container">
+                        ${movie.poster ? `
+                            <img src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;npc-poster-placeholder&quot;><i class=&quot;ri-clapperboard-line&quot;></i></div>'" />
+                        ` : `
+                            <div class="npc-poster-placeholder">
+                                <i class="ri-clapperboard-line"></i>
+                            </div>
+                        `}
+                        <button class="npc-remove-btn" data-film-id="${movie.mId}" title="Unmark as Watched">
+                            <i class="ri-close-line"></i>
+                        </button>
                     </div>
-                    <button class="notebook-mini-card-btn watched" data-film-id="${movie.mId}" title="Unmark as Watched">
-                        <i class="ri-close-line"></i>
-                    </button>
+                    <div class="npc-info">
+                        <h4 class="npc-title" title="${movie.title}">${movie.title}</h4>
+                        <div class="npc-year">${movie.year || ''}</div>
+                    </div>
                 `;
                 
-                const btn = card.querySelector('.notebook-mini-card-btn');
+                const btn = card.querySelector('.npc-remove-btn');
                 btn.addEventListener('click', (e) => {
                     e.stopPropagation();
                     const index = state.watchedFilms.indexOf(movie.mId);
