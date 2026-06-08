@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const state = {
         watchedFilms: JSON.parse(localStorage.getItem("cine_watched_films")) || [],
         watchedSources: JSON.parse(localStorage.getItem("cine_watched_sources")) || {},
+    watchedDates: JSON.parse(localStorage.getItem("cine_watched_dates")) || {},
         filmNotes: JSON.parse(localStorage.getItem("cine_film_notes")) || {},
 
         activePage: pageId,
@@ -76,6 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function saveWatchedState() {
         localStorage.setItem("cine_watched_films", JSON.stringify(state.watchedFilms));
         localStorage.setItem("cine_watched_sources", JSON.stringify(state.watchedSources));
+        localStorage.setItem("cine_watched_dates", JSON.stringify(state.watchedDates));
         updateHeaderStats();
     }
 
@@ -88,6 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.toggleQuickWatch = function(filmId, btn, sourceTitle = null) {
         if (!state.watchedFilms) state.watchedFilms = [];
         if (!state.watchedSources) state.watchedSources = {};
+        if (!state.watchedDates) state.watchedDates = {};
         
         // Try to figure out sourceTitle if not provided
         if (!sourceTitle) {
@@ -102,12 +105,18 @@ document.addEventListener("DOMContentLoaded", () => {
         if (index > -1) {
             state.watchedFilms.splice(index, 1);
             delete state.watchedSources[filmId];
+            delete state.watchedDates[filmId];
             btn.classList.remove('watched');
             btn.innerHTML = '<i class="ri-add-box-line" style="font-size: 1.1rem; font-weight: bold;"></i><span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Mark Watched</span>';
             btn.title = "Mark as Watched";
         } else {
             state.watchedFilms.push(filmId);
             state.watchedSources[filmId] = sourceTitle;
+            const today = new Date();
+            const d = String(today.getDate()).padStart(2, '0');
+            const m = String(today.getMonth() + 1).padStart(2, '0');
+            const y = today.getFullYear();
+            state.watchedDates[filmId] = `${d}-${m}-${y}`;
             btn.classList.add('watched');
             btn.innerHTML = '<i class="ri-checkbox-circle-fill" style="font-size: 1.1rem; font-weight: bold;"></i><span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Watched</span>';
             btn.title = "Watched";
@@ -1445,7 +1454,7 @@ document.addEventListener("DOMContentLoaded", () => {
             notebookContainer.innerHTML = `
                 <div style="text-align:center; padding: 4rem 1rem; color: var(--text-muted); background: var(--bg-secondary); border-radius: 8px; border: 1px dashed var(--border-color);">
                     <i class="ri-movie-2-line" style="font-size: 4rem; color: rgba(212,175,55,0.2);"></i>
-                    <h2 style="margin-top:1rem; color: var(--text-primary);">Your Notebook is Empty</h2>
+                    <h2 style="margin-top:1rem; color: var(--text-primary);">Your Watch Log is Empty</h2>
                     <p style="margin-top:0.5rem;">Start exploring the curriculum and mark films as watched to see them here.</p>
                     <a class="btn-primary" style="margin-top:1.5rem; display:inline-block;" href="direction.html">Explore Curriculum</a>
                 </div>
@@ -1455,28 +1464,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Group watched films by pathTitle
         const groups = {};
-        
-        function addFilmToGroup(pathTitle, filmObj, parentName, pathKey, personId, personRegion) {
-            if (!groups[pathTitle]) groups[pathTitle] = [];
-            // Prevent duplicates
-            if (!groups[pathTitle].some(f => f.mId === filmObj.mId)) {
-                groups[pathTitle].push({ ...filmObj, parentName, pathKey, personId, personRegion });
-            }
-        }
-        
+
+        const addFilmToGroup = (groupName, film, personName, pathKey, personId, personRegion) => {
+            if (!groups[groupName]) groups[groupName] = [];
+            groups[groupName].push({ ...film, personName, pathKey, personId, personRegion });
+        };
+
         const legacyAdded = new Set();
 
         Object.keys(FILMS_DATA).forEach(pathKey => {
             const path = FILMS_DATA[pathKey];
-            const listKey = pathKey === "director" ? "directors" : (pathKey === "editor" ? "editors" : "cinematographers");
-            
-            if (path[listKey]) {
+            if (pathKey === "director" || pathKey === "editor" || pathKey === "cinematographer") {
+                const listKey = pathKey === "director" ? "directors" : (pathKey === "editor" ? "editors" : "cinematographers");
                 path[listKey].forEach(person => {
                     if (person.mustWatch) {
                         person.mustWatch.forEach(movie => {
                             const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
                             if (state.watchedFilms.includes(mId)) {
-                                const targetSource = state.watchedSources[mId];
+                                let targetSource = state.watchedSources[mId];
+                                if (targetSource === "Direction Curriculum") targetSource = "DIRECTION";
+                                if (targetSource === "Editing Curriculum") targetSource = "EDITING";
+                                if (targetSource === "Cinematography Curriculum") targetSource = "CINEMATOGRAPHY";
+
                                 if (targetSource === path.title || (!targetSource && !legacyAdded.has(mId))) {
                                     addFilmToGroup(path.title, { ...movie, mId: mId }, person.name, pathKey, person.id, person.region);
                                     legacyAdded.add(mId);
@@ -1489,7 +1498,11 @@ document.addEventListener("DOMContentLoaded", () => {
             if (path.films) {
                 path.films.forEach(film => {
                     if (state.watchedFilms.includes(film.id)) {
-                        const targetSource = state.watchedSources[film.id];
+                        let targetSource = state.watchedSources[film.id];
+                        if (targetSource === "Direction Curriculum") targetSource = "DIRECTION";
+                        if (targetSource === "Editing Curriculum") targetSource = "EDITING";
+                        if (targetSource === "Cinematography Curriculum") targetSource = "CINEMATOGRAPHY";
+
                         if (targetSource === path.title || (!targetSource && !legacyAdded.has(film.id))) {
                             addFilmToGroup(path.title, { ...film, mId: film.id }, null, pathKey, null, null);
                             legacyAdded.add(film.id);
@@ -1498,96 +1511,121 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             }
         });
-        
+
         // Render groups
         Object.keys(groups).forEach(groupTitle => {
             const films = groups[groupTitle];
             if (films.length === 0) return;
-            
+
             const groupSection = document.createElement('div');
             groupSection.style.marginBottom = '4rem';
-            
+
             groupSection.innerHTML = `
                 <h2 style="font-size: 1.5rem; color: var(--text-primary); border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between;">
                     ${groupTitle}
                     <span style="font-size: 0.9rem; color: var(--text-muted); font-weight: normal; background: rgba(212,175,55,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; border: 1px solid rgba(212,175,55,0.2);">${films.length} Screened</span>
                 </h2>
-                <div class="notebook-poster-grid"></div>
             `;
-            
-            const grid = groupSection.querySelector('.notebook-poster-grid');
-            
+
+            // Group films by person
+            const personGroups = {};
             films.forEach(movie => {
-                const card = document.createElement('div');
-                card.className = "notebook-poster-card";
-                card.id = `notebook-film-${movie.mId}`;
+                const pName = movie.personName || "Other Selected Films";
+                if (!personGroups[pName]) personGroups[pName] = [];
+                personGroups[pName].push(movie);
+            });
+
+            Object.keys(personGroups).forEach(pName => {
+                const subSection = document.createElement('div');
+                subSection.style.marginBottom = '2.5rem';
                 
-                let targetUrl = "#";
-                if (movie.pathKey === "director" || movie.pathKey === "editor" || movie.pathKey === "cinematographer") {
-                    const prefix = movie.pathKey === "director" ? "direction" : (movie.pathKey === "editor" ? "editing" : "cinematography");
-                    const paramKey = movie.pathKey === "director" ? "director" : (movie.pathKey === "editor" ? "editor" : "cinematographer");
-                    const indianSubregions = ["bengali", "malayalam", "tamil", "hindi", "telugu", "kannada", "marathi"];
-                    
-                    if (indianSubregions.includes(movie.personRegion)) {
-                        targetUrl = `${prefix}-indian.html?subregion=${movie.personRegion}&${paramKey}=${movie.personId}&film=${movie.mId}`;
-                    } else {
-                        targetUrl = `${prefix}-${movie.personRegion}.html?${paramKey}=${movie.personId}&film=${movie.mId}`;
-                    }
-                } else if (movie.pathKey) {
-                    targetUrl = `${movie.pathKey}.html?film=${movie.mId}`;
-                }
-                
-                card.innerHTML = `
-                    <div class="npc-poster-container" style="cursor: pointer;" onclick="window.location.href='${targetUrl}'">
-                        ${movie.poster ? `
-                            <img src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;npc-poster-placeholder&quot;><i class=&quot;ri-clapperboard-line&quot;></i></div>'" />
-                        ` : `
-                            <div class="npc-poster-placeholder">
-                                <i class="ri-clapperboard-line"></i>
-                            </div>
-                        `}
-                        <button class="npc-remove-btn" data-film-id="${movie.mId}" title="Unmark as Watched">
-                            <i class="ri-close-line"></i>
-                        </button>
-                    </div>
-                    <div class="npc-info" style="cursor: pointer;" onclick="window.location.href='${targetUrl}'">
-                        <h4 class="npc-title" title="${movie.title}">${movie.title}</h4>
-                        <div class="npc-year">${movie.year || ''}</div>
-                    </div>
+                let iconHtml = '<i class="ri-user-star-line"></i>';
+                if (pName === "Other Selected Films") iconHtml = '<i class="ri-film-line"></i>';
+
+                subSection.innerHTML = `
+                    <h3 style="font-size: 1.15rem; color: var(--accent-gold); margin-bottom: 1.25rem; font-family: var(--font-ui); display: flex; align-items: center; gap: 0.5rem; padding-left: 0.5rem; border-left: 3px solid var(--accent-gold);">
+                        ${iconHtml} ${pName}
+                    </h3>
+                    <div class="notebook-poster-grid"></div>
                 `;
-                
-                const btn = card.querySelector('.npc-remove-btn');
-                btn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    const index = state.watchedFilms.indexOf(movie.mId);
-                    if (index > -1) {
-                        state.watchedFilms.splice(index, 1);
-                        saveWatchedState();
-                        // Remove the card immediately from Notebook
-                        card.style.opacity = '0';
-                        card.style.transform = 'scale(0.9)';
-                        setTimeout(() => {
-                            card.remove();
-                            // Update total count
-                            const cEl = document.getElementById("notebookTotalCount");
-                            if (cEl) {
-                                cEl.textContent = state.watchedFilms.length + " / 1760";
-                            }
-                            // If grid is empty, remove the group section entirely
-                            if (grid.children.length === 0) {
-                                groupSection.remove();
-                            }
-                            // If everything is empty, re-init the module to show empty state
-                            if (state.watchedFilms.length === 0) {
-                                initJournalModule();
-                            }
-                        }, 200);
+
+                const grid = subSection.querySelector('.notebook-poster-grid');
+
+                personGroups[pName].forEach(movie => {
+                    const card = document.createElement('div');
+                    card.className = "notebook-poster-card";
+                    card.id = `notebook-film-${movie.mId}`;
+
+                    let targetUrl = "#";
+                    if (movie.pathKey === "director" || movie.pathKey === "editor" || movie.pathKey === "cinematographer") {
+                        const prefix = movie.pathKey === "director" ? "direction" : (movie.pathKey === "editor" ? "editing" : "cinematography");
+                        const paramKey = movie.pathKey === "director" ? "director" : (movie.pathKey === "editor" ? "editor" : "cinematographer");
+                        const indianSubregions = ["bengali", "malayalam", "tamil", "hindi", "telugu", "kannada", "marathi"];
+
+                        if (indianSubregions.includes(movie.personRegion)) {
+                            targetUrl = `${prefix}-indian.html?subregion=${movie.personRegion}&${paramKey}=${movie.personId}&film=${movie.mId}`;
+                        } else {
+                            targetUrl = `${prefix}-${movie.personRegion}.html?${paramKey}=${movie.personId}&film=${movie.mId}`;
+                        }
+                    } else if (movie.pathKey) {
+                        targetUrl = `${movie.pathKey}.html?film=${movie.mId}`;
                     }
+
+                    card.innerHTML = `
+                        <div class="npc-poster-container" style="cursor: pointer;" onclick="window.location.href='${targetUrl}'">
+                            ${movie.poster ? `
+                                <img src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;npc-poster-placeholder&quot;><i class=&quot;ri-clapperboard-line&quot;></i></div>'" />
+                            ` : `
+                                <div class="npc-poster-placeholder">
+                                    <i class="ri-clapperboard-line"></i>
+                                </div>
+                            `}
+                            <button class="npc-remove-btn" data-film-id="${movie.mId}" title="Unmark as Watched">
+                                <i class="ri-close-line"></i>
+                            </button>
+                        </div>
+                        <div class="npc-info" style="cursor: pointer;" onclick="window.location.href='${targetUrl}'">
+                            <h4 class="npc-title" title="${movie.title}">${movie.title}</h4>
+                            <div class="npc-year">${movie.year || ''}</div>
+                            <div class="npc-watched-date" style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.4rem; padding-top: 0.4rem; border-top: 1px solid rgba(255,255,255,0.1);"><i class="ri-calendar-line"></i> ${state.watchedDates && state.watchedDates[movie.mId] ? state.watchedDates[movie.mId] : "Unknown Date"}</div>
+                        </div>
+                    `;
+
+                    const btn = card.querySelector('.npc-remove-btn');
+                    btn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        const index = state.watchedFilms.indexOf(movie.mId);
+                        if (index > -1) {
+                            state.watchedFilms.splice(index, 1);
+                            delete state.watchedDates[movie.mId];
+                            saveWatchedState();
+                            card.style.opacity = '0';
+                            card.style.transform = 'scale(0.9)';
+                            setTimeout(() => {
+                                card.remove();
+                                const cEl = document.getElementById("notebookTotalCount");
+                                if (cEl) {
+                                    cEl.textContent = state.watchedFilms.length + " / 1760";
+                                }
+                                if (grid.children.length === 0) {
+                                    subSection.remove();
+                                }
+                                if (groupSection.querySelectorAll('.notebook-poster-card').length === 0) {
+                                    groupSection.remove();
+                                }
+                                if (state.watchedFilms.length === 0) {
+                                    initJournalModule();
+                                }
+                            }, 200);
+                        }
+                    });
+
+                    grid.appendChild(card);
                 });
                 
-                grid.appendChild(card);
+                groupSection.appendChild(subSection);
             });
-            
+
             notebookContainer.appendChild(groupSection);
         });
     }
@@ -1602,7 +1640,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function exportJournalToMarkdown() {
-        let md = "# CineScholar Film Studies Notebook\n\n";
+        let md = "# CineScholar Film Studies Watch Log\n\n";
         md += `* **Generated:** ${new Date().toLocaleDateString()}\n`;
         
         let totalFilms = 0;
@@ -1948,6 +1986,15 @@ document.addEventListener("DOMContentLoaded", () => {
             return Array.from(searchResultsInner.querySelectorAll(".gsr-item"));
         }
 
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('.toggle-quick-watch')) {
+                const btn = e.target.closest('.toggle-quick-watch');
+                const filmId = btn.dataset.filmId;
+                const source = btn.dataset.source || null;
+                toggleQuickWatch(filmId, btn, source);
+            }
+        });
+
         function moveFocus(delta) {
             const items = getFocusedItems();
             if (items.length === 0) return;
@@ -2144,7 +2191,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         } else if (state.activePage === "simulator") {
             initSimulatorModule();
-        } else if (state.activePage === "notebook") {
+        } else if (state.activePage === "watch-log") {
             initJournalModule();
         } else if (state.activePage === "glossary") {
             initGlossaryModule();

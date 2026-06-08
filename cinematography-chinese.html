@@ -24,11 +24,14 @@
     <div class="app-container">
         <!-- Navigation Header -->
         <header class="header-nav" id="headerNav">
-            <div class="logo">
-                <a href="index.html" style="display:flex; align-items:center; gap:0.75rem;">
-                    <i class="ri-movie-2-line logo-icon"></i>
-                    <span class="logo-text">CineScholar</span>
-                </a>
+            <div style="display:flex; align-items:center; gap: 1rem;">
+                <button onclick="if(document.referrer.includes(window.location.hostname)){ history.back(); } else { window.location.href='index.html'; }" class="global-back-btn" title="Go Back"><i class="ri-arrow-left-line"></i></button>
+                <div class="logo">
+                    <a href="index.html" style="display:flex; align-items:center; gap:0.75rem;">
+                        <i class="ri-movie-2-line logo-icon"></i>
+                        <span class="logo-text">CineScholar</span>
+                    </a>
+                </div>
             </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -39,10 +42,10 @@
                         <li><a href="editing.html">Editing</a></li>
                         <li class="active"><a href="cinematography.html">Cinematography</a></li>
                     
-                          <div style="height: 1px; background: rgba(255,255,255,0.1); margin: 0.5rem 0;"></div>
-                          <li><a href="notebook.html" style="color: var(--accent);"><i class="ri-book-mark-line"></i> My Notebook</a></li>
+                          
                       </ul>
                 </li>
+                <li><a href="watch-log.html" style="color: var(--accent-gold);"><i class="ri-book-mark-line" style="vertical-align: middle; margin-right: 4px; margin-top: -2px;"></i> Watch Log</a></li>
             </ul>
             <div class="mobile-menu-toggle" id="mobileMenuBtn">
                 <i class="ri-menu-line"></i>

@@ -1,91 +1,99 @@
 import os
 
-css_addition = """
-/* Notebook Mini Grid */
-.notebook-mini-grid {
+css_path = 'd:/Film Studies Website/css/style.css'
+
+with open(css_path, 'r', encoding='utf-8') as f:
+    content = f.read()
+
+new_css = '''
+
+/* Premium Watch Log Styles */
+.premium-log-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 1rem;
-    margin-bottom: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 2.5rem 1.5rem;
+    padding: 1rem 0;
 }
 
-@media (max-width: 1200px) {
-    .notebook-mini-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
+.notebook-poster-card.premium-card {
+    position: relative;
+    border-radius: 8px;
+    background: linear-gradient(145deg, rgba(30, 30, 30, 0.6), rgba(15, 15, 15, 0.8));
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 0.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
 }
 
-@media (max-width: 768px) {
-    .notebook-mini-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
+.notebook-poster-card.premium-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.15);
+    border-color: rgba(212, 175, 55, 0.3);
 }
 
-@media (max-width: 480px) {
-    .notebook-mini-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-.notebook-mini-card {
-    background: #13151a;
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    padding: 0.75rem 0.5rem 0.75rem 0.75rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: all 0.2s ease;
-    height: 100%;
-}
-
-.notebook-mini-card:hover {
-    border-color: var(--accent);
-    background: rgba(212, 175, 55, 0.05);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-.notebook-mini-card-info {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    margin-right: 0.5rem;
-}
-
-.notebook-mini-card-title {
-    font-size: 0.85rem;
+.npc-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    color: var(--accent-gold);
+    font-size: 0.65rem;
     font-weight: 700;
-    color: var(--text-primary);
-    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.npc-log-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-family: monospace;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    z-index: 10;
+    border-left: 2px solid var(--accent-gold);
+}
+
+.premium-card .npc-poster-container {
+    border-radius: 6px;
     overflow: hidden;
-    text-overflow: ellipsis;
-    line-height: 1.2;
+    margin-bottom: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
 }
 
-.notebook-mini-card-year {
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    margin-top: 0.25rem;
+.premium-card .npc-info {
+    text-align: center;
+    padding-bottom: 0.25rem;
 }
 
-.notebook-mini-card-btn {
-    background: none;
-    border: none;
-    color: var(--accent);
-    cursor: pointer;
-    font-size: 1.2rem;
-    padding: 0.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: color 0.2s ease;
+.premium-card .npc-title {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    color: #f0f0f0;
+    margin-bottom: 0.25rem;
 }
 
-.notebook-mini-card-btn:hover {
-    color: #e74c3c;
+.premium-card .npc-year {
+    color: var(--accent-gold);
+    opacity: 0.8;
 }
-"""
 
-with open("d:/Film Studies Website/css/style.css", "a", encoding="utf-8") as f:
-    f.write(css_addition)
+'''
+
+if '.premium-log-grid' not in content:
+    with open(css_path, 'a', encoding='utf-8') as f:
+        f.write(new_css)
+    print("Appended premium CSS to style.css")
+else:
+    print("Premium CSS already exists")
