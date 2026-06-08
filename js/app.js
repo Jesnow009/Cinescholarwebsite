@@ -1456,11 +1456,11 @@ document.addEventListener("DOMContentLoaded", () => {
         // Group watched films by pathTitle
         const groups = {};
         
-        function addFilmToGroup(pathTitle, filmObj, parentName) {
+        function addFilmToGroup(pathTitle, filmObj, parentName, pathKey, personId, personRegion) {
             if (!groups[pathTitle]) groups[pathTitle] = [];
             // Prevent duplicates
             if (!groups[pathTitle].some(f => f.mId === filmObj.mId)) {
-                groups[pathTitle].push({ ...filmObj, parentName });
+                groups[pathTitle].push({ ...filmObj, parentName, pathKey, personId, personRegion });
             }
         }
         
@@ -1478,7 +1478,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             if (state.watchedFilms.includes(mId)) {
                                 const targetSource = state.watchedSources[mId];
                                 if (targetSource === path.title || (!targetSource && !legacyAdded.has(mId))) {
-                                    addFilmToGroup(path.title, { ...movie, mId: mId }, person.name);
+                                    addFilmToGroup(path.title, { ...movie, mId: mId }, person.name, pathKey, person.id, person.region);
                                     legacyAdded.add(mId);
                                 }
                             }
@@ -1491,7 +1491,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     if (state.watchedFilms.includes(film.id)) {
                         const targetSource = state.watchedSources[film.id];
                         if (targetSource === path.title || (!targetSource && !legacyAdded.has(film.id))) {
-                            addFilmToGroup(path.title, { ...film, mId: film.id }, null);
+                            addFilmToGroup(path.title, { ...film, mId: film.id }, null, pathKey, null, null);
                             legacyAdded.add(film.id);
                         }
                     }
@@ -1522,8 +1522,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 card.className = "notebook-poster-card";
                 card.id = `notebook-film-${movie.mId}`;
                 
+                let targetUrl = "#";
+                if (movie.pathKey === "director" || movie.pathKey === "editor" || movie.pathKey === "cinematographer") {
+                    const prefix = movie.pathKey === "director" ? "direction" : (movie.pathKey === "editor" ? "editing" : "cinematography");
+                    const paramKey = movie.pathKey === "director" ? "director" : (movie.pathKey === "editor" ? "editor" : "cinematographer");
+                    const indianSubregions = ["bengali", "malayalam", "tamil", "hindi", "telugu", "kannada", "marathi"];
+                    
+                    if (indianSubregions.includes(movie.personRegion)) {
+                        targetUrl = `${prefix}-indian.html?subregion=${movie.personRegion}&${paramKey}=${movie.personId}&film=${movie.mId}`;
+                    } else {
+                        targetUrl = `${prefix}-${movie.personRegion}.html?${paramKey}=${movie.personId}&film=${movie.mId}`;
+                    }
+                } else if (movie.pathKey) {
+                    targetUrl = `${movie.pathKey}.html?film=${movie.mId}`;
+                }
+                
                 card.innerHTML = `
-                    <div class="npc-poster-container">
+                    <div class="npc-poster-container" style="cursor: pointer;" onclick="window.location.href='${targetUrl}'">
                         ${movie.poster ? `
                             <img src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;npc-poster-placeholder&quot;><i class=&quot;ri-clapperboard-line&quot;></i></div>'" />
                         ` : `
@@ -1535,7 +1550,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <i class="ri-close-line"></i>
                         </button>
                     </div>
-                    <div class="npc-info">
+                    <div class="npc-info" style="cursor: pointer;" onclick="window.location.href='${targetUrl}'">
                         <h4 class="npc-title" title="${movie.title}">${movie.title}</h4>
                         <div class="npc-year">${movie.year || ''}</div>
                     </div>
