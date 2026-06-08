@@ -90,12 +90,12 @@ document.addEventListener("DOMContentLoaded", () => {
         if (index > -1) {
             state.watchedFilms.splice(index, 1);
             btn.classList.remove('watched');
-            btn.innerHTML = '<i class="ri-add-line" style="font-size: 1.3rem; font-weight: bold;"></i>';
+            btn.innerHTML = '<i class="ri-add-box-line" style="font-size: 1.1rem; font-weight: bold;"></i><span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Mark</span>';
             btn.title = "Mark as Watched";
         } else {
             state.watchedFilms.push(filmId);
             btn.classList.add('watched');
-            btn.innerHTML = '<i class="ri-check-line" style="font-size: 1.3rem; font-weight: bold;"></i>';
+            btn.innerHTML = '<i class="ri-checkbox-circle-fill" style="font-size: 1.1rem; font-weight: bold;"></i><span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Watched</span>';
             btn.title = "Watched";
         }
         
