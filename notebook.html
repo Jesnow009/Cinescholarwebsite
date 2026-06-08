@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Notebook - CineScholar. Track your watched masterpieces.">
+    <title>My Notebook | CineScholar</title>
+    <!-- Remix Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PG3CJBRK3R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PG3CJBRK3R');
+    </script>
+</head>
+<body data-page="notebook">
+    <div class="app-container">
+        <!-- Navigation Header -->
+        <header class="header-nav" id="headerNav">
+            <div class="logo">
+                <a href="index.html" style="display:flex; align-items:center; gap:0.75rem;">
+                    <i class="ri-movie-2-line logo-icon"></i>
+                    <span class="logo-text">CineScholar</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="notebook.html">Notebook</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-trigger">Curriculum <i class="ri-arrow-down-s-line"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="direction.html">Direction</a></li>
+                        <li><a href="editing.html">Editing</a></li>
+                        <li><a href="cinematography.html">Cinematography</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuBtn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content" style="padding-top: 100px; max-width: 1200px; margin: 0 auto; width: 100%;">
+            <div class="notebook-panel" style="margin-bottom: 4rem;">
+                <div class="notebook-header">
+                    <div>
+                        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 1rem;"><i class="ri-book-3-line" style="color: var(--accent-gold);"></i> My Notebook</h1>
+                        <p style="color: var(--text-secondary);">Your personal log of cinematic masterpieces studied.</p>
+                    </div>
+                    <div style="text-align: right; background: rgba(212,175,55,0.05); padding: 1.5rem; border-radius: 8px; border: 1px solid rgba(212,175,55,0.2);">
+                        <div style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; color: var(--accent-gold); margin-bottom: 0.25rem;">Total Screened</div>
+                        <div style="font-size: 2rem; font-family: var(--font-ui); font-weight: 700; color: #fff;" id="notebookTotalCount">0 / 1760</div>
+                    </div>
+                </div>
+
+                <div id="notebookContent">
+                    <!-- Watched movies will be injected here by app.js -->
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-logo">CineScholar</div>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notebook.html" class="active">Notebook</a></li>
+                <li><a href="direction.html">Direction</a></li>
+                <li><a href="editing.html">Editing</a></li>
+                <li><a href="cinematography.html">Cinematography</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 CineScholar. Created for aspiring directors and cinema students.</p>
+        </footer>
+    </div>
+
+    <!-- Load Script files -->
+    <script src="js/data.js?v=14"></script>
+    <script src="js/app.js?v=14"></script>
+</body>
+</html>

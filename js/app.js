@@ -82,6 +82,31 @@ document.addEventListener("DOMContentLoaded", () => {
         updateHeaderStats();
     }
 
+    // Global function for quick-tick
+    window.toggleQuickWatch = function(filmId, btn) {
+        if (!state.watchedFilms) state.watchedFilms = [];
+        const index = state.watchedFilms.indexOf(filmId);
+        
+        if (index > -1) {
+            state.watchedFilms.splice(index, 1);
+            btn.classList.remove('watched');
+            btn.innerHTML = '<i class="ri-add-line" style="font-size: 1.3rem; font-weight: bold;"></i>';
+            btn.title = "Mark as Watched";
+        } else {
+            state.watchedFilms.push(filmId);
+            btn.classList.add('watched');
+            btn.innerHTML = '<i class="ri-check-line" style="font-size: 1.3rem; font-weight: bold;"></i>';
+            btn.title = "Watched";
+        }
+        
+        saveWatchedState();
+        
+        // If we are currently showing lists, update stats/badges without heavy reload
+        if (state.activePage === "explorer" && typeof renderListOnly === 'function') {
+            renderListOnly();
+        }
+    };
+
     // --- Shared: Header scroll effect & watch counter ---
     function initSharedElements() {
         // Scroll effect
@@ -904,6 +929,10 @@ document.addEventListener("DOMContentLoaded", () => {
                         return `
                             <div class="screening-card" id="film-${mId}">
                                 
+                                <button class="quick-tick-btn ${state.watchedFilms.includes(mId) ? 'watched' : ''}" data-film-id="${mId}" onclick="event.stopPropagation(); window.toggleQuickWatch('${mId}', this);" title="${state.watchedFilms.includes(mId) ? 'Watched' : 'Mark as Watched'}">
+                                    <i class="${state.watchedFilms.includes(mId) ? 'ri-check-line' : 'ri-add-line'}" style="font-size: 1.3rem; font-weight: bold;"></i>
+                                </button>
+
                                 <!-- TOP: Poster + Title Block -->
                                 <div class="screening-card-top">
                                     <!-- Poster -->
@@ -997,6 +1026,10 @@ document.addEventListener("DOMContentLoaded", () => {
         el.filmDetailContainer.innerHTML = `
             <div class="film-detail-header screening-card">
                 
+                <button class="quick-tick-btn ${state.watchedFilms.includes(film.id) ? 'watched' : ''}" data-film-id="${film.id}" onclick="event.stopPropagation(); window.toggleQuickWatch('${film.id}', this);" title="${state.watchedFilms.includes(film.id) ? 'Watched' : 'Mark as Watched'}">
+                    <i class="${state.watchedFilms.includes(film.id) ? 'ri-check-line' : 'ri-add-line'}" style="font-size: 1.3rem; font-weight: bold;"></i>
+                </button>
+
                 <!-- TOP: Poster + Title Block -->
                 <div class="screening-card-top">
                     <!-- Poster -->
@@ -1386,446 +1419,160 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- Module: Journal Page Renderer ---
     function initJournalModule() {
-        if (!el.journalEntriesContainer) return;
-
-        let totalFilms = 0;
-        let watchedCount = 0;
-
-        // Calculate totals across both director/editor lists and flat lists
-        Object.keys(FILMS_DATA).forEach(pathKey => {
-            const path = FILMS_DATA[pathKey];
-            if (pathKey === "director" || pathKey === "editor" || pathKey === "cinematographer") {
-                const listKey = pathKey === "director" ? "directors" : (pathKey === "editor" ? "editors" : "cinematographers");
-                path[listKey].forEach(person => {
-                    totalFilms += person.mustWatch.length;
-                    person.mustWatch.forEach(movie => {
-                        const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-                        if (state.watchedFilms.includes(mId)) {
-                            watchedCount++;
-                        }
-                    });
-                });
-            } else {
-                totalFilms += path.films.length;
-                path.films.forEach(film => {
-                    if (state.watchedFilms.includes(film.id)) {
-                        watchedCount++;
-                    }
-                });
-            }
-        });
-
-        updateJournalStatsPanel(watchedCount, totalFilms);
-
-        // Render checklist elements dynamically
-        el.journalEntriesContainer.innerHTML = "";
-
-        Object.keys(FILMS_DATA).forEach(pathKey => {
-            const path = FILMS_DATA[pathKey];
-            
-            if (pathKey === "director" || pathKey === "editor" || pathKey === "cinematographer") {
-                const listKey = pathKey === "director" ? "directors" : (pathKey === "editor" ? "editors" : "cinematographers");
-                const paramKey = pathKey === "director" ? "director" : (pathKey === "editor" ? "editor" : "cinematographer");
-                const label = pathKey === "director" ? "Director" : (pathKey === "editor" ? "Editor" : "Cinematographer");
-                
-                path[listKey].forEach(person => {
-                    const note = state.filmNotes[person.id] || "";
-                    let watchedCount = 0;
-                    person.mustWatch.forEach(movie => {
-                        const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-                        if (state.watchedFilms.includes(mId)) {
-                            watchedCount++;
-                        }
-                    });
-                    
-                    const entry = document.createElement("div");
-                    entry.className = "notebook-entry";
-                    entry.setAttribute(`data-${paramKey}-id`, person.id);
-                    
-                    const watchedIcon = watchedCount === person.mustWatch.length
-                        ? `<span style="color:var(--accent-gold); font-size:0.85rem;"><i class="ri-checkbox-circle-fill"></i> Screened & Mastered</span>`
-                        : `<span style="color:var(--text-muted); font-size:0.85rem;"><i class="ri-checkbox-blank-circle-line"></i> Screened ${watchedCount}/${person.mustWatch.length}</span>`;
-                    
-                    entry.innerHTML = `
-                        <div class="notebook-entry-header">
-                            <div>
-                                <span class="notebook-entry-path">${path.title}</span>
-                                <h4 class="notebook-entry-title">${person.name}</h4>
-                            </div>
-                            <div style="display:flex; align-items:center; gap:1.25rem;">
-                                ${watchedIcon}
-                                <button class="btn-delete-entry" data-${paramKey}-id="${person.id}" style="color:var(--text-muted); font-size: 1.1rem; cursor:pointer;" title="Delete notes">
-                                    <i class="ri-delete-bin-line"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- Small sub-list of must-watch films under this person -->
-                        <div class="notebook-entry-films-checklist">
-                            <span class="checklist-title">Required viewings:</span>
-                            ${person.mustWatch.map(movie => {
-                                const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-                                const isW = state.watchedFilms.includes(mId);
-                                return `
-                                    <span class="checklist-item ${isW ? 'screened' : ''}">
-                                        <i class="${isW ? 'ri-checkbox-circle-line' : 'ri-checkbox-blank-circle-line'}"></i>
-                                        ${movie.title} (${movie.year})
-                                    </span>
-                                `;
-                            }).join("")}
-                        </div>
-                        <div class="notebook-entry-body">
-                            <textarea class="notebook-entry-textarea" placeholder="Record your observations on this ${label.toLowerCase()}'s style, techniques, and scene composition...">${note}</textarea>
-                            <div class="notebook-entry-actions">
-                                <span class="journal-status-indicator" style="font-size:0.75rem;" id="entryStatus-${person.id}">
-                                    <i class="ri-checkbox-circle-line" style="display:none;" id="entrySavedCheck-${person.id}"></i>
-                                    <span id="entryStatusText-${person.id}">Saved</span>
-                                </span>
-                                <button class="btn-save-note" style="padding: 0.4rem 0.9rem; font-size: 0.8rem; cursor:pointer;" data-${paramKey}-id="${person.id}">Save Entry</button>
-                            </div>
-                        </div>
-                    `;
-                    
-                    const noteTextarea = entry.querySelector(".notebook-entry-textarea");
-                    const saveBtn = entry.querySelector(".btn-save-note");
-                    const deleteBtn = entry.querySelector(".btn-delete-entry");
-                    const entrySavedText = entry.querySelector(`#entryStatusText-${person.id}`);
-                    const entrySavedCheck = entry.querySelector(`#entrySavedCheck-${person.id}`);
-
-                    saveBtn.addEventListener("click", () => {
-                        const noteText = noteTextarea.value;
-                        state.filmNotes[person.id] = noteText;
-                        saveNotesState();
-                        
-                        entrySavedText.textContent = "Saved";
-                        entrySavedCheck.style.display = "inline";
-                        setTimeout(() => {
-                            entrySavedCheck.style.display = "none";
-                        }, 2000);
-                    });
-                    
-                    noteTextarea.addEventListener("input", () => {
-                        entrySavedText.textContent = "Unsaved Changes";
-                    });
-
-                    deleteBtn.addEventListener("click", () => {
-                        if (confirm(`Are you sure you want to delete your study notes for ${person.name}?`)) {
-                            state.filmNotes[person.id] = "";
-                            noteTextarea.value = "";
-                            saveNotesState();
-                            entrySavedText.textContent = "Saved";
-                        }
-                    });
-
-                    el.journalEntriesContainer.appendChild(entry);
-                });
-            } else {
-                path.films.forEach(film => {
-                    const isWatched = state.watchedFilms.includes(film.id);
-                    const note = state.filmNotes[film.id] || "";
-                    
-                    const entry = document.createElement("div");
-                    entry.className = "notebook-entry";
-                    entry.setAttribute("data-film-id", film.id);
-                    
-                    const watchedIcon = isWatched 
-                        ? `<span style="color:var(--accent-gold); font-size:0.85rem;"><i class="ri-checkbox-circle-fill"></i> Screened</span>`
-                        : `<span style="color:var(--text-muted); font-size:0.85rem;"><i class="ri-checkbox-blank-circle-line"></i> Unscreened</span>`;
-
-                    entry.innerHTML = `
-                        <div class="notebook-entry-header">
-                            <div>
-                                <span class="notebook-entry-path">${path.title}</span>
-                                <h4 class="notebook-entry-title">${film.title} (${film.year})</h4>
-                            </div>
-                            <div style="display:flex; align-items:center; gap:1.25rem;">
-                                ${watchedIcon}
-                                <button class="btn-delete-entry" data-film-id="${film.id}" style="color:var(--text-muted); font-size: 1.1rem; cursor:pointer;" title="Delete notes">
-                                    <i class="ri-delete-bin-line"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="notebook-entry-body">
-                            <textarea class="notebook-entry-textarea" placeholder="Record your observations on this film's cinematography, lighting, screenplay, or sound design...">${note}</textarea>
-                            <div class="notebook-entry-actions">
-                                <span class="journal-status-indicator" style="font-size:0.75rem;" id="entryStatus-${film.id}">
-                                    <i class="ri-checkbox-circle-line" style="display:none;" id="entrySavedCheck-${film.id}"></i>
-                                    <span id="entryStatusText-${film.id}">Saved</span>
-                                </span>
-                                <button class="btn-save-note" style="padding: 0.4rem 0.9rem; font-size: 0.8rem; cursor:pointer;" data-film-id="${film.id}">Save Entry</button>
-                            </div>
-                        </div>
-                    `;
-                    
-                    const noteTextarea = entry.querySelector(".notebook-entry-textarea");
-                    const saveBtn = entry.querySelector(".btn-save-note");
-                    const deleteBtn = entry.querySelector(".btn-delete-entry");
-                    const entrySavedText = entry.querySelector(`#entryStatusText-${film.id}`);
-                    const entrySavedCheck = entry.querySelector(`#entrySavedCheck-${film.id}`);
-
-                    saveBtn.addEventListener("click", () => {
-                        const noteText = noteTextarea.value;
-                        state.filmNotes[film.id] = noteText;
-                        saveNotesState();
-                        
-                        entrySavedText.textContent = "Saved";
-                        entrySavedCheck.style.display = "inline";
-                        setTimeout(() => {
-                            entrySavedCheck.style.display = "none";
-                        }, 2000);
-                    });
-                    
-                    noteTextarea.addEventListener("input", () => {
-                        entrySavedText.textContent = "Unsaved Changes";
-                    });
-
-                    deleteBtn.addEventListener("click", () => {
-                        if (confirm(`Are you sure you want to delete your study notes for ${film.title}?`)) {
-                            state.filmNotes[film.id] = "";
-                            noteTextarea.value = "";
-                            saveNotesState();
-                            entrySavedText.textContent = "Saved";
-                        }
-                    });
-
-                    el.journalEntriesContainer.appendChild(entry);
-                });
-            }
-        });
-    }
-
-    function renderNotebookEntries() {
-        if (!el.notebookEntriesContainer) return;
-        el.notebookEntriesContainer.innerHTML = "";
+        const notebookContainer = document.getElementById("notebookContent");
+        if (!notebookContainer) return;
         
-        let hasEntries = false;
-        let totalFilms = 0;
-        let watched = 0;
+        notebookContainer.innerHTML = "";
         
-        // Compute total films and watched count dynamically
-        Object.keys(FILMS_DATA).forEach(pathKey => {
-            const path = FILMS_DATA[pathKey];
-            if (pathKey === "director" || pathKey === "editor" || pathKey === "cinematographer") {
-                const listKey = pathKey === "director" ? "directors" : (pathKey === "editor" ? "editors" : "cinematographers");
-                path[listKey].forEach(person => {
-                    totalFilms += person.mustWatch.length;
-                    person.mustWatch.forEach(movie => {
-                        const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-                        if (state.watchedFilms.includes(mId)) {
-                            watched++;
-                        }
-                    });
-                });
-            } else {
-                totalFilms += path.films.length;
-                path.films.forEach(film => {
-                    if (state.watchedFilms.includes(film.id)) {
-                        watched++;
-                    }
-                });
-            }
-        });
+        let watchedFilmsCount = 0;
         
-        Object.keys(FILMS_DATA).forEach(pathKey => {
-            const path = FILMS_DATA[pathKey];
-            
-            if (pathKey === "director" || pathKey === "editor" || pathKey === "cinematographer") {
-                const listKey = pathKey === "director" ? "directors" : (pathKey === "editor" ? "editors" : "cinematographers");
-                const paramKey = pathKey === "director" ? "director" : (pathKey === "editor" ? "editor" : "cinematographer");
-                const label = pathKey === "director" ? "Director" : (pathKey === "editor" ? "Editor" : "Cinematographer");
-                
-                path[listKey].forEach(person => {
-                    const note = state.filmNotes[person.id] || "";
-                    let watchedCount = 0;
-                    
-                    person.mustWatch.forEach(movie => {
-                        const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-                        if (state.watchedFilms.includes(mId)) {
-                            watchedCount++;
-                        }
-                    });
-                    
-                    if (note.trim() !== "" || watchedCount > 0) {
-                        hasEntries = true;
-                        const entry = document.createElement("div");
-                        entry.className = "notebook-entry";
-                        entry.setAttribute(`data-${paramKey}-id`, person.id);
-                        
-                        const watchedIcon = watchedCount === person.mustWatch.length
-                            ? `<span style="color:#28a745; font-size:0.85rem; font-weight:600;"><i class="ri-checkbox-circle-fill"></i> Mastered</span>`
-                            : `<span style="color:var(--text-muted); font-size:0.85rem;"><i class="ri-checkbox-blank-circle-line"></i> Screened ${watchedCount}/${person.mustWatch.length}</span>`;
-                            
-                        entry.innerHTML = `
-                            <div class="notebook-entry-header">
-                                <div>
-                                    <span class="notebook-entry-path">${path.title}</span>
-                                    <h4 class="notebook-entry-title">${person.name}</h4>
-                                </div>
-                                <div style="display:flex; align-items:center; gap: 1rem;">
-                                    ${watchedIcon}
-                                    <button class="btn-delete-entry" data-${paramKey}-id="${person.id}" style="color:var(--text-muted); font-size: 1.1rem; cursor:pointer;" title="Delete notes">
-                                        <i class="ri-delete-bin-line"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <!-- Small sub-list of must-watch films under this person -->
-                            <div style="font-size: 0.85rem; margin-top: 0.5rem; color: var(--text-secondary); display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
-                                <strong>Films:</strong>
-                                ${person.mustWatch.map(movie => {
-                                    const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-                                    const isWatched = state.watchedFilms.includes(mId);
-                                    const icon = isWatched ? `<i class="ri-checkbox-circle-fill" style="color: #28a745;"></i>` : `<i class="ri-checkbox-blank-circle-line"></i>`;
-                                    return `<span>${icon} ${movie.title} (${movie.year})</span>`;
-                                }).join("")}
-                            </div>
-                            <textarea class="notebook-entry-textarea" placeholder="Record your observations on this ${label.toLowerCase()}'s style, techniques, and scene composition...">${note}</textarea>
-                            <div style="display:flex; justify-content:space-between; align-items:center; margin-top: 0.75rem;">
-                                <span class="journal-status-indicator" style="font-size:0.75rem;" id="entryStatus-${person.id}">
-                                    <i class="ri-checkbox-circle-line" style="display:none;" id="entrySavedCheck-${person.id}"></i>
-                                    <span id="entryStatusText-${person.id}">Saved</span>
-                                </span>
-                                <button class="btn-save-note" style="padding: 0.4rem 0.9rem; font-size: 0.8rem; cursor:pointer;" data-${paramKey}-id="${person.id}">Save Entry</button>
-                            </div>
-                        `;
-                        
-                        const noteTextarea = entry.querySelector(".notebook-entry-textarea");
-                        const deleteBtn = entry.querySelector(".btn-delete-entry");
-                        const saveBtn = entry.querySelector(".btn-save-note");
-                        const entrySavedText = entry.querySelector(`#entryStatusText-${person.id}`);
-                        const entrySavedCheck = entry.querySelector(`#entrySavedCheck-${person.id}`);
-                        
-                        let localTimeout = null;
-                        
-                        function saveEntryNote() {
-                            entrySavedText.textContent = "Saving...";
-                            entrySavedCheck.style.display = "none";
-                            setTimeout(() => {
-                                state.filmNotes[person.id] = noteTextarea.value;
-                                saveNotesState();
-                                entrySavedText.textContent = "Saved";
-                                entrySavedCheck.style.display = "inline";
-                                updateJournalStatsPanel(watched, totalFilms);
-                            }, 250);
-                        }
-                        
-                        noteTextarea.addEventListener("input", () => {
-                            entrySavedText.textContent = "Unsaved changes";
-                            entrySavedCheck.style.display = "none";
-                            clearTimeout(localTimeout);
-                            localTimeout = setTimeout(saveEntryNote, 1500);
-                        });
-                        
-                        saveBtn.addEventListener("click", () => {
-                            clearTimeout(localTimeout);
-                            saveEntryNote();
-                        });
-                        
-                        deleteBtn.addEventListener("click", () => {
-                            if (confirm(`Are you sure you want to delete your study notes for ${person.name}?`)) {
-                                state.filmNotes[person.id] = "";
-                                saveNotesState();
-                                renderNotebookEntries();
-                            }
-                        });
-                        
-                        el.notebookEntriesContainer.appendChild(entry);
-                    }
-                });
-            } else {
-                path.films.forEach(film => {
-                    const note = state.filmNotes[film.id] || "";
-                    const isWatched = state.watchedFilms.includes(film.id);
-                    
-                    if (note.trim() !== "" || isWatched) {
-                        hasEntries = true;
-                        const entry = document.createElement("div");
-                        entry.className = "notebook-entry";
-                        entry.setAttribute("data-film-id", film.id);
-
-                        const watchedIcon = isWatched 
-                            ? `<span style="color:#28a745; font-size:0.85rem; font-weight:600;"><i class="ri-checkbox-circle-fill"></i> Screened</span>` 
-                            : `<span style="color:var(--text-muted); font-size:0.85rem;"><i class="ri-checkbox-blank-circle-line"></i> Unscreened</span>`;
-
-                        entry.innerHTML = `
-                            <div class="notebook-entry-header">
-                                <div>
-                                    <span class="notebook-entry-path">${path.title}</span>
-                                    <h4 class="notebook-entry-title">${film.title} (${film.year})</h4>
-                                </div>
-                                <div style="display:flex; align-items:center; gap: 1rem;">
-                                    ${watchedIcon}
-                                    <button class="btn-delete-entry" data-film-id="${film.id}" style="color:var(--text-muted); font-size: 1.1rem; cursor:pointer;" title="Delete notes">
-                                        <i class="ri-delete-bin-line"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <textarea class="notebook-entry-textarea" placeholder="Add observations on camera setups, lighting, performance, and structure...">${note}</textarea>
-                            <div style="display:flex; justify-content:space-between; align-items:center;">
-                                <span class="journal-status-indicator" style="font-size:0.75rem;" id="entryStatus-${film.id}">
-                                    <i class="ri-checkbox-circle-line" style="display:none;" id="entrySavedCheck-${film.id}"></i>
-                                    <span id="entryStatusText-${film.id}">Saved</span>
-                                </span>
-                                <button class="btn-save-note" style="padding: 0.4rem 0.9rem; font-size: 0.8rem; cursor:pointer;" data-film-id="${film.id}">Save Entry</button>
-                            </div>
-                        `;
-
-                        const noteTextarea = entry.querySelector(".notebook-entry-textarea");
-                        const deleteBtn = entry.querySelector(".btn-delete-entry");
-                        const saveBtn = entry.querySelector(".btn-save-note");
-                        const entrySavedText = entry.querySelector(`#entryStatusText-${film.id}`);
-                        const entrySavedCheck = entry.querySelector(`#entrySavedCheck-${film.id}`);
-
-                        let localTimeout = null;
-
-                        function saveEntryNote() {
-                            entrySavedText.textContent = "Saving...";
-                            entrySavedCheck.style.display = "none";
-                            setTimeout(() => {
-                                state.filmNotes[film.id] = noteTextarea.value;
-                                saveNotesState();
-                                entrySavedText.textContent = "Saved";
-                                entrySavedCheck.style.display = "inline";
-                                updateJournalStatsPanel(watched, totalFilms);
-                            }, 250);
-                        }
-
-                        noteTextarea.addEventListener("input", () => {
-                            entrySavedText.textContent = "Unsaved changes";
-                            entrySavedCheck.style.display = "none";
-                            clearTimeout(localTimeout);
-                            localTimeout = setTimeout(saveEntryNote, 1500);
-                        });
-
-                        saveBtn.addEventListener("click", () => {
-                            clearTimeout(localTimeout);
-                            saveEntryNote();
-                        });
-
-                        deleteBtn.addEventListener("click", () => {
-                            if (confirm(`Are you sure you want to delete your study notes for ${film.title}?`)) {
-                                state.filmNotes[film.id] = "";
-                                saveNotesState();
-                                renderNotebookEntries();
-                            }
-                        });
-
-                        el.notebookEntriesContainer.appendChild(entry);
-                    }
-                });
-            }
-        });
-
-        if (!hasEntries) {
-            el.notebookEntriesContainer.innerHTML = `
-                <div class="notebook-empty-state">
-                    <i class="ri-book-3-line notebook-empty-icon"></i>
-                    <h3>Your Journal is Empty</h3>
-                    <p style="margin-top:0.5rem; max-width:400px; margin-left:auto; margin-right:auto;">To start logging notes, head over to any craft page, select a film, and write down your critiques in the Notes Panel.</p>
+        const countElement = document.getElementById("notebookTotalCount");
+        if (countElement) {
+            countElement.textContent = `${state.watchedFilms.length} / 1760`;
+        }
+        
+        if (state.watchedFilms.length === 0) {
+            notebookContainer.innerHTML = `
+                <div style="text-align:center; padding: 4rem 1rem; color: var(--text-muted); background: var(--bg-secondary); border-radius: 8px; border: 1px dashed var(--border-color);">
+                    <i class="ri-movie-2-line" style="font-size: 4rem; color: rgba(212,175,55,0.2);"></i>
+                    <h2 style="margin-top:1rem; color: var(--text-primary);">Your Notebook is Empty</h2>
+                    <p style="margin-top:0.5rem;">Start exploring the curriculum and mark films as watched to see them here.</p>
                     <a class="btn-primary" style="margin-top:1.5rem; display:inline-block;" href="direction.html">Explore Curriculum</a>
                 </div>
             `;
+            return;
         }
 
-        updateJournalStatsPanel(watched, totalFilms);
+        // Group watched films by pathTitle
+        const groups = {};
+        
+        function addFilmToGroup(pathTitle, filmObj, parentName) {
+            if (!groups[pathTitle]) groups[pathTitle] = [];
+            // Prevent duplicates
+            if (!groups[pathTitle].some(f => f.mId === filmObj.mId)) {
+                groups[pathTitle].push({ ...filmObj, parentName });
+            }
+        }
+        
+        Object.keys(FILMS_DATA).forEach(pathKey => {
+            const path = FILMS_DATA[pathKey];
+            const listKey = pathKey === "director" ? "directors" : (pathKey === "editor" ? "editors" : "cinematographers");
+            
+            if (path[listKey]) {
+                path[listKey].forEach(person => {
+                    if (person.mustWatch) {
+                        person.mustWatch.forEach(movie => {
+                            const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+                            if (state.watchedFilms.includes(mId)) {
+                                addFilmToGroup(path.title, { ...movie, mId: mId }, person.name);
+                            }
+                        });
+                    }
+                });
+            }
+            if (path.films) {
+                path.films.forEach(film => {
+                    if (state.watchedFilms.includes(film.id)) {
+                        addFilmToGroup(path.title, { ...film, mId: film.id }, null);
+                    }
+                });
+            }
+        });
+        
+        // Render groups
+        Object.keys(groups).forEach(groupTitle => {
+            const films = groups[groupTitle];
+            if (films.length === 0) return;
+            
+            const groupSection = document.createElement('div');
+            groupSection.style.marginBottom = '4rem';
+            
+            groupSection.innerHTML = `
+                <h2 style="font-size: 1.5rem; color: var(--text-primary); border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between;">
+                    ${groupTitle}
+                    <span style="font-size: 0.9rem; color: var(--text-muted); font-weight: normal; background: rgba(212,175,55,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; border: 1px solid rgba(212,175,55,0.2);">${films.length} Screened</span>
+                </h2>
+                <div class="required-screenings-grid"></div>
+            `;
+            
+            const grid = groupSection.querySelector('.required-screenings-grid');
+            
+            // Re-use screening-card logic
+            films.forEach(movie => {
+                const card = document.createElement('div');
+                card.className = "screening-card";
+                card.id = `notebook-film-${movie.mId}`;
+                
+                card.innerHTML = `
+                    <button class="quick-tick-btn watched" data-film-id="${movie.mId}" title="Unmark as Watched" style="position: absolute; top: 10px; right: 10px; z-index: 10;">
+                        <i class="ri-check-line" style="font-size: 1.3rem; font-weight: bold;"></i>
+                    </button>
+                    <!-- TOP: Poster + Title Block -->
+                    <div class="screening-card-top">
+                        <!-- Poster -->
+                        <div class="screening-card-poster-wrapper">
+                            <div class="screening-card-poster-inner">
+                                ${movie.poster ? `
+                                    <img referrerpolicy="no-referrer" src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.outerHTML='<div class=&quot;poster-placeholder&quot; style=&quot;aspect-ratio: 2/3;&quot;><i class=&quot;ri-clapperboard-line&quot;></i></div>'" />
+                                ` : `
+                                    <div class="poster-placeholder" style="aspect-ratio: 2/3;">
+                                        <i class="ri-clapperboard-line"></i>
+                                    </div>
+                                `}
+                            </div>
+                        </div>
+                        
+                        <!-- Title & Focus -->
+                        <div class="screening-card-title-focus">
+                            <h3 class="screening-card-title">
+                                ${movie.title}
+                            </h3>
+                            <div class="screening-card-year">
+                                ${movie.year || ''}
+                            </div>
+                            
+                            <div class="screening-card-focus-box">
+                                <div class="screening-card-focus-label">Studied Under</div>
+                                <div class="screening-card-focus-text">${movie.parentName ? movie.parentName : 'General Curriculum'}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                const btn = card.querySelector('.quick-tick-btn');
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const index = state.watchedFilms.indexOf(movie.mId);
+                    if (index > -1) {
+                        state.watchedFilms.splice(index, 1);
+                        saveWatchedState();
+                        // Remove the card immediately from Notebook
+                        card.style.opacity = '0';
+                        card.style.transform = 'scale(0.9)';
+                        setTimeout(() => {
+                            card.remove();
+                            // Update total count
+                            const cEl = document.getElementById("notebookTotalCount");
+                            if (cEl) {
+                                cEl.textContent = state.watchedFilms.length + " / 1760";
+                            }
+                            // If grid is empty, remove the group section entirely
+                            if (grid.children.length === 0) {
+                                groupSection.remove();
+                            }
+                            // If everything is empty, re-init the module to show empty state
+                            if (state.watchedFilms.length === 0) {
+                                initJournalModule();
+                            }
+                        }, 200);
+                    }
+                });
+                
+                grid.appendChild(card);
+            });
+            
+            notebookContainer.appendChild(groupSection);
+        });
     }
 
     function updateJournalStatsPanel(watched, totalFilms) {

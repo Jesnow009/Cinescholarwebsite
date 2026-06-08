@@ -2586,6 +2586,46 @@ button {
     gap: 1.25rem;
     transition: var(--transition-normal);
     box-shadow: var(--shadow-md);
+    position: relative;
+}
+
+.quick-tick-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+    background: rgba(15, 17, 26, 0.85);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.quick-tick-btn:hover {
+    border-color: var(--accent-gold);
+    color: #fff;
+    transform: scale(1.1);
+    background: rgba(212, 175, 55, 0.15);
+}
+
+.quick-tick-btn.watched {
+    background: rgba(212, 175, 55, 0.2);
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.quick-tick-btn.watched:hover {
+    background: rgba(212, 175, 55, 0.3);
+    color: #fff;
 }
 
 .screening-card:hover {
