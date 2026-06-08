@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- Application State ---
     const state = {
-        watchedFilms: [],
-        filmNotes: {},
+        watchedFilms: JSON.parse(localStorage.getItem("cine_watched_films")) || [],
+        filmNotes: JSON.parse(localStorage.getItem("cine_film_notes")) || {},
 
         activePage: pageId,
         activePath: null, // set dynamically for curriculum pages
