@@ -927,15 +927,14 @@ document.addEventListener("DOMContentLoaded", () => {
                         const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
                         
                         return `
-                            <div class="screening-card" id="film-${mId}">
-                                
-                                <button class="quick-tick-btn ${state.watchedFilms.includes(mId) ? 'watched' : ''}" data-film-id="${mId}" onclick="event.stopPropagation(); window.toggleQuickWatch('${mId}', this);" title="${state.watchedFilms.includes(mId) ? 'Watched' : 'Mark as Watched'}">
-                                    <i class="${state.watchedFilms.includes(mId) ? 'ri-check-line' : 'ri-add-line'}" style="font-size: 1.3rem; font-weight: bold;"></i>
-                                </button>
-
-                                <!-- TOP: Poster + Title Block -->
+                            <div class="screening-card" id="film-${mId}"><!-- TOP: Poster + Title Block -->
                                 <div class="screening-card-top">
-                                    <!-- Poster -->
+                                    
+                          <button class="quick-tick-btn watched" data-film-id="${movie.mId}" title="Unmark as Watched">
+                              <i class="ri-checkbox-circle-fill" style="font-size: 1.1rem; font-weight: bold;"></i>
+                              <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Watched</span>
+                          </button>
+                          <!-- Poster -->
                                     <div class="screening-card-poster-wrapper">
                                         <div class="screening-card-poster-inner">
                                             ${movie.poster ? `
@@ -992,7 +991,17 @@ document.addEventListener("DOMContentLoaded", () => {
                                     
 
                                     
-                                    <div class="movie-plot-section" style="width: 100%;">
+                                    
+                                      <button class="quick-tick-btn ${state.watchedFilms.includes(mId) ? 'watched' : ''}" data-film-id="${mId}" onclick="event.stopPropagation(); window.toggleQuickWatch('${mId}', this);" title="${state.watchedFilms.includes(mId) ? 'Watched' : 'Mark as Watched'}">
+                                          <i class="${state.watchedFilms.includes(mId) ? 'ri-checkbox-circle-fill' : 'ri-add-box-line'}" style="font-size: 1.1rem; font-weight: bold;"></i>
+                                          <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">${state.watchedFilms.includes(mId) ? 'Watched' : 'Mark Watched'}</span>
+                                      </button>
+                                      
+                      <button class="quick-tick-btn ${state.watchedFilms.includes(film.id) ? 'watched' : ''}" data-film-id="${film.id}" onclick="event.stopPropagation(); window.toggleQuickWatch('${film.id}', this);" title="${state.watchedFilms.includes(film.id) ? 'Watched' : 'Mark as Watched'}">
+                          <i class="${state.watchedFilms.includes(film.id) ? 'ri-checkbox-circle-fill' : 'ri-add-box-line'}" style="font-size: 1.1rem; font-weight: bold;"></i>
+                          <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">${state.watchedFilms.includes(film.id) ? 'Watched' : 'Mark Watched'}</span>
+                      </button>
+                      <div class="movie-plot-section" style="width: 100%;">
                                         <button class="plot-toggle-btn" onclick="const content = this.nextElementSibling; const icon = this.querySelector('.toggle-icon'); if(content.style.display==='block'){content.style.display='none'; icon.style.transform='rotate(0deg)';}else{content.style.display='block'; icon.style.transform='rotate(180deg)';}" style="background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.35); color: var(--accent-gold); font-family: var(--font-ui); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; padding: 0.85rem 2rem; border-radius: 6px; display: flex; width: 100%; justify-content: center; align-items: center; gap: 0.6rem; transition: all 0.2s ease;">
                                             <i class="ri-book-open-line"></i>
                                             Read Synopsis
@@ -1024,13 +1033,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const noteText = state.filmNotes[film.id] || "";
 
         el.filmDetailContainer.innerHTML = `
-            <div class="film-detail-header screening-card">
-                
-                <button class="quick-tick-btn ${state.watchedFilms.includes(film.id) ? 'watched' : ''}" data-film-id="${film.id}" onclick="event.stopPropagation(); window.toggleQuickWatch('${film.id}', this);" title="${state.watchedFilms.includes(film.id) ? 'Watched' : 'Mark as Watched'}">
-                    <i class="${state.watchedFilms.includes(film.id) ? 'ri-check-line' : 'ri-add-line'}" style="font-size: 1.3rem; font-weight: bold;"></i>
-                </button>
-
-                <!-- TOP: Poster + Title Block -->
+            <div class="film-detail-header screening-card"><!-- TOP: Poster + Title Block -->
                 <div class="screening-card-top">
                     <!-- Poster -->
                     <div class="screening-card-poster-wrapper">
@@ -1503,11 +1506,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 card.className = "screening-card";
                 card.id = `notebook-film-${movie.mId}`;
                 
-                card.innerHTML = `
-                    <button class="quick-tick-btn watched" data-film-id="${movie.mId}" title="Unmark as Watched" style="position: absolute; top: 10px; right: 10px; z-index: 10;">
-                        <i class="ri-check-line" style="font-size: 1.3rem; font-weight: bold;"></i>
-                    </button>
-                    <!-- TOP: Poster + Title Block -->
+                card.innerHTML = `<!-- TOP: Poster + Title Block -->
                     <div class="screening-card-top">
                         <!-- Poster -->
                         <div class="screening-card-poster-wrapper">
