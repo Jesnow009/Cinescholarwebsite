@@ -950,7 +950,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
                         
                         return `
-                            <div class="screening-card" id="film-${mId}">
+                            <div class="screening-card" id="film-${mId}" onclick="window.open('https://t.me/cinescholarmovievault', '_blank')" style="cursor: pointer;">
                                 <!-- TOP: Poster + Title Block -->
                                 <div class="screening-card-top">
                                     <!-- Poster -->
@@ -1045,7 +1045,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const noteText = state.filmNotes[film.id] || "";
 
         el.filmDetailContainer.innerHTML = `
-            <div class="film-detail-header screening-card">
+            <div class="film-detail-header screening-card" onclick="window.open('https://t.me/cinescholarmovievault', '_blank')" style="cursor: pointer;">
                 <!-- TOP: Poster + Title Block -->
                 <div class="screening-card-top">
                     <!-- Poster -->
