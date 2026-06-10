@@ -950,7 +950,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         const mId = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
                         
                         return `
-                            <div class="screening-card" id="film-${mId}" onclick="window.open('https://t.me/cinescholarmovievault', '_blank')" style="cursor: pointer;">
+                            <div class="screening-card" id="film-${mId}">
                                 <!-- TOP: Poster + Title Block -->
                                 <div class="screening-card-top">
                                     <!-- Poster -->
@@ -1008,10 +1008,18 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <!-- BOTTOM: Watch & Plot -->
                                 <div class="screening-card-bottom">
                                     
-                                      <button class="quick-tick-btn ${state.watchedFilms.includes(mId) ? 'watched' : ''}" data-film-id="${mId}" onclick="event.stopPropagation(); window.toggleQuickWatch('${mId}', this);" title="${state.watchedFilms.includes(mId) ? 'Watched' : 'Mark as Watched'}">
+                                    <div style="display: flex; gap: 0.5rem; width: 100%;">
+                                      <button class="quick-tick-btn ${state.watchedFilms.includes(mId) ? 'watched' : ''}" data-film-id="${mId}" onclick="event.stopPropagation(); window.toggleQuickWatch('${mId}', this);" title="${state.watchedFilms.includes(mId) ? 'Watched' : 'Mark as Watched'}" style="flex: 1;">
                                           <i class="${state.watchedFilms.includes(mId) ? 'ri-checkbox-circle-fill' : 'ri-add-box-line'}" style="font-size: 1.1rem; font-weight: bold;"></i>
                                           <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">${state.watchedFilms.includes(mId) ? 'Watched' : 'Mark Watched'}</span>
                                       </button>
+                                      ${movie.telegram ? `
+                                      <button class="quick-tick-btn watch-now-btn" onclick="event.stopPropagation(); window.open('${movie.telegram}', '_blank');" style="flex: 1; background: rgba(212,175,55,0.15); border: 1px solid var(--accent-gold); color: var(--accent-gold);" title="Watch Full Movie">
+                                          <i class="ri-play-circle-fill" style="font-size: 1.2rem;"></i>
+                                          <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Watch</span>
+                                      </button>
+                                      ` : ''}
+                                    </div>
 
                                     <div class="movie-plot-section" style="width: 100%;">
                                         <button class="plot-toggle-btn" onclick="const content = this.nextElementSibling; const icon = this.querySelector('.toggle-icon'); if(content.style.display==='block'){content.style.display='none'; icon.style.transform='rotate(0deg)';}else{content.style.display='block'; icon.style.transform='rotate(180deg)';}" style="background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.35); color: var(--accent-gold); font-family: var(--font-ui); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; padding: 0.85rem 2rem; border-radius: 6px; display: flex; width: 100%; justify-content: center; align-items: center; gap: 0.6rem; transition: all 0.2s ease;">
@@ -1045,7 +1053,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const noteText = state.filmNotes[film.id] || "";
 
         el.filmDetailContainer.innerHTML = `
-            <div class="film-detail-header screening-card" onclick="window.open('https://t.me/cinescholarmovievault', '_blank')" style="cursor: pointer;">
+            <div class="film-detail-header screening-card">
                 <!-- TOP: Poster + Title Block -->
                 <div class="screening-card-top">
                     <!-- Poster -->
@@ -1103,10 +1111,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 <!-- BOTTOM: Watch & Plot -->
                 <div class="screening-card-bottom">
                     
-                      <button class="quick-tick-btn ${state.watchedFilms.includes(film.id) ? 'watched' : ''}" data-film-id="${film.id}" onclick="event.stopPropagation(); window.toggleQuickWatch('${film.id}', this);" title="${state.watchedFilms.includes(film.id) ? 'Watched' : 'Mark as Watched'}">
+                    <div style="display: flex; gap: 0.5rem; width: 100%;">
+                      <button class="quick-tick-btn ${state.watchedFilms.includes(film.id) ? 'watched' : ''}" data-film-id="${film.id}" onclick="event.stopPropagation(); window.toggleQuickWatch('${film.id}', this);" title="${state.watchedFilms.includes(film.id) ? 'Watched' : 'Mark as Watched'}" style="flex: 1;">
                           <i class="${state.watchedFilms.includes(film.id) ? 'ri-checkbox-circle-fill' : 'ri-add-box-line'}" style="font-size: 1.1rem; font-weight: bold;"></i>
                           <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">${state.watchedFilms.includes(film.id) ? 'Watched' : 'Mark Watched'}</span>
                       </button>
+                      ${film.telegram ? `
+                      <button class="quick-tick-btn watch-now-btn" onclick="event.stopPropagation(); window.open('${film.telegram}', '_blank');" style="flex: 1; background: rgba(212,175,55,0.15); border: 1px solid var(--accent-gold); color: var(--accent-gold);" title="Watch Full Movie">
+                          <i class="ri-play-circle-fill" style="font-size: 1.2rem;"></i>
+                          <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Watch</span>
+                      </button>
+                      ` : ''}
+                    </div>
 
                     <div class="movie-plot-section" style="width: 100%;">
                         <button class="plot-toggle-btn" onclick="const content = this.nextElementSibling; const icon = this.querySelector('.toggle-icon'); if(content.style.display==='block'){content.style.display='none'; icon.style.transform='rotate(0deg)';}else{content.style.display='block'; icon.style.transform='rotate(180deg)';}" style="background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.35); color: var(--accent-gold); font-family: var(--font-ui); font-size: 0.85rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; padding: 0.85rem 2rem; border-radius: 6px; display: flex; width: 100%; justify-content: center; align-items: center; gap: 0.6rem; transition: all 0.2s ease;">

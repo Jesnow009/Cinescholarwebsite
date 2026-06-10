@@ -33,6 +33,7 @@ const FILMS_DATA = {
                     {
                         "id": "vertigo",
                         "title": "Vertigo",
+                        "telegram": "https://t.me/cinescholarmovievault/3",
                         "year": 1958,
                         "director": "Alfred Hitchcock",
                         "poster": "assets/images/vertigo.jpg",
@@ -48,6 +49,7 @@ const FILMS_DATA = {
                     {
                         "id": "psycho",
                         "title": "Psycho",
+                        "telegram": "https://t.me/cinescholarmovievault/4",
                         "year": 1960,
                         "director": "Alfred Hitchcock",
                         "poster": "assets/images/psycho.jpg",
@@ -63,6 +65,7 @@ const FILMS_DATA = {
                     {
                         "id": "rear-window",
                         "title": "Rear Window",
+                        "telegram": "https://t.me/cinescholarmovievault/5",
                         "year": 1954,
                         "director": "Alfred Hitchcock",
                         "poster": "assets/images/rear_window.jpg",
@@ -78,6 +81,7 @@ const FILMS_DATA = {
                     {
                         "id": "north-by-northwest",
                         "title": "North by Northwest",
+                        "telegram": "https://t.me/cinescholarmovievault/6",
                         "year": 1959,
                         "director": "Alfred Hitchcock",
                         "poster": "assets/images/north_by_northwest.jpg",
@@ -93,6 +97,7 @@ const FILMS_DATA = {
                     {
                         "id": "rope",
                         "title": "Rope",
+                        "telegram": "https://t.me/cinescholarmovievault/7",
                         "year": 1948,
                         "director": "Alfred Hitchcock",
                         "poster": "assets/images/rope.jpg",
@@ -144,6 +149,7 @@ const FILMS_DATA = {
                     {
                         "id": "citizen-kane",
                         "title": "Citizen Kane",
+                        "telegram": "https://t.me/cinescholarmovievault/8",
                         "year": 1941,
                         "director": "Orson Welles",
                         "poster": "assets/images/citizen_kane.jpg",
@@ -159,6 +165,7 @@ const FILMS_DATA = {
                     {
                         "id": "touch-of-evil",
                         "title": "Touch of Evil",
+                        "telegram": "https://t.me/cinescholarmovievault/9",
                         "year": 1958,
                         "director": "Orson Welles",
                         "poster": "assets/images/touch_of_evil.jpg",
@@ -38037,6 +38044,7 @@ const FILMS_DATA = {
                     {
                         "id": "citizen-kane",
                         "title": "Citizen Kane",
+                        "telegram": "https://t.me/cinescholarmovievault/8",
                         "year": 1941,
                         "director": "Orson Welles",
                         "poster": "https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg",
