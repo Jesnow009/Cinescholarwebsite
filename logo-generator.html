@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineScholar Logo Generator</title>
+</head>
+<body style="background: #0a0a0a; color: white; font-family: sans-serif; text-align: center; padding-top: 100px;">
+    <h2 style="color: #D4AF37;">Generating your High-Res Logo...</h2>
+    <p style="color: #888;">If the download doesn't start automatically, click the golden icon below.</p>
+    
+    <canvas id="canvas" width="1024" height="1024" style="display: none;"></canvas>
+    
+    <div style="margin-top: 40px;">
+        <img id="preview" style="width: 256px; height: 256px; cursor: pointer; filter: drop-shadow(0 0 20px rgba(212, 175, 55, 0.4));" />
+    </div>
+    
+    <script>
+        // The raw SVG of the exact logo icon, colored in CineScholar Gold
+        const svg = `<svg viewBox="0 0 24 24" fill="#D4AF37" xmlns="http://www.w3.org/2000/svg"><path d="M12 20H20V22H12C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 14.2512 21.2561 16.3287 20.0007 18H17.2916C18.9525 16.5341 20 14.3894 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 10C10.8954 10 10 9.10457 10 8C10 6.89543 10.8954 6 12 6C13.1046 6 14 6.89543 14 8C14 9.10457 13.1046 10 12 10ZM8 14C6.89543 14 6 13.1046 6 12C6 10.8954 6.89543 10 8 10C9.10457 10 10 10.8954 10 12C10 13.1046 9.10457 14 8 14ZM16 14C14.8954 14 14 13.1046 14 12C14 10.8954 14.8954 10 16 10C17.1046 10 18 10.8954 18 12C18 13.1046 17.1046 14 16 14ZM12 18C10.8954 18 10 17.1046 10 16C10 14.8954 10.8954 14 12 14C13.1046 14 14 14.8954 14 16C14 17.1046 13.1046 18 12 18Z"/></svg>`;
+        
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const img = new Image();
+        const preview = document.getElementById('preview');
+        
+        img.onload = function() {
+            // Draw the SVG onto the 1024x1024 canvas (Transparent background for a true PNG logo)
+            ctx.drawImage(img, 0, 0, 1024, 1024);
+            
+            // Convert to PNG data
+            const pngUrl = canvas.toDataURL("image/png");
+            preview.src = pngUrl;
+            
+            // Auto-trigger download
+            const downloadLink = document.createElement("a");
+            downloadLink.href = pngUrl;
+            downloadLink.download = "CineScholar-Logo-Gold.png";
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+            
+            // Fallback: Click the image to download
+            preview.onclick = () => {
+                const a = document.createElement("a");
+                a.href = pngUrl;
+                a.download = "CineScholar-Logo-Gold.png";
+                a.click();
+            };
+        };
+        
+        // Encode SVG and trigger load
+        img.src = "data:image/svg+xml;base64," + btoa(svg);
+    </script>
+</body>
+</html>
