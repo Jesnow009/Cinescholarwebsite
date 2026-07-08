@@ -2367,6 +2367,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const syncDesc = document.getElementById("syncDesc");
         const syncIcon = document.getElementById("syncIcon");
         const roomPanel = document.querySelector(".room-sync-panel");
+        const syncControls = document.getElementById("syncControls");
 
         function updateRoomSyncUI() {
             if (!roomInput || !btnConnect || !btnDisconnect) return;
@@ -2390,6 +2391,81 @@ document.addEventListener("DOMContentLoaded", () => {
                 btnConnect.style.display = "none";
                 btnDisconnect.style.display = "none";
                 
+                // Show dynamic 'Change Code' button
+                let btnChange = document.getElementById("btnChangeRoomCode");
+                if (!btnChange && syncControls) {
+                    btnChange = document.createElement("button");
+                    btnChange.id = "btnChangeRoomCode";
+                    btnChange.className = "quick-tick-btn";
+                    btnChange.style.background = "transparent";
+                    btnChange.style.border = "1px solid rgba(212, 175, 55, 0.4)";
+                    btnChange.style.color = "var(--accent-gold)";
+                    btnChange.style.padding = "0.75rem 2rem";
+                    btnChange.style.borderRadius = "6px";
+                    btnChange.style.cursor = "pointer";
+                    btnChange.style.textTransform = "uppercase";
+                    btnChange.style.letterSpacing = "2px";
+                    btnChange.style.fontSize = "0.8rem";
+                    btnChange.style.height = "100%";
+                    btnChange.style.display = "flex";
+                    btnChange.style.alignItems = "center";
+                    btnChange.style.gap = "0.5rem";
+                    btnChange.innerHTML = `<i class="ri-edit-line"></i> Change Code`;
+                    
+                    btnChange.addEventListener("click", async () => {
+                        const newCode = prompt("Enter your NEW room code / username:");
+                        if (!newCode) return;
+                        const cleanNewCode = newCode.trim().toLowerCase().replace(/[^a-z0-9_-]+/g, "");
+                        if (!cleanNewCode) {
+                            alert("Invalid room code format.");
+                            return;
+                        }
+                        if (cleanNewCode === state.activeRoom) {
+                            alert("New room code must be different from your current code.");
+                            return;
+                        }
+                        
+                        const confirmCode = prompt("Please CONFIRM your new room code / username:");
+                        if (!confirmCode) return;
+                        const cleanConfirm = confirmCode.trim().toLowerCase().replace(/[^a-z0-9_-]+/g, "");
+                        
+                        if (cleanNewCode !== cleanConfirm) {
+                            alert("Error: Room codes do not match. Change process cancelled.");
+                            return;
+                        }
+                        
+                        const oldRoomKey = state.activeRoom;
+                        btnChange.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Migrating...`;
+                        
+                        try {
+                            // 1. Save data to new room code in Supabase
+                            state.activeRoom = cleanNewCode;
+                            localStorage.setItem("cine_active_room", cleanNewCode);
+                            await syncToCloud();
+                            
+                            // 2. Delete old room code from Supabase
+                            await supabaseClient
+                                .from('watchlists')
+                                .delete()
+                                .eq('room_key', oldRoomKey);
+                                
+                            alert(`Room code successfully changed from "${oldRoomKey}" to "${cleanNewCode}"!`);
+                            initJournalModule();
+                        } catch(err) {
+                            console.error("Migration failed:", err);
+                            alert("Failed to migrate database. Reverting to old room code.");
+                            state.activeRoom = oldRoomKey;
+                            localStorage.setItem("cine_active_room", oldRoomKey);
+                        }
+                        updateRoomSyncUI();
+                    });
+                    
+                    syncControls.appendChild(btnChange);
+                } else if (btnChange) {
+                    btnChange.style.display = "flex";
+                    btnChange.innerHTML = `<i class="ri-edit-line"></i> Change Code`;
+                }
+                
                 if (syncTitle && syncDesc && syncIcon && roomPanel) {
                     syncTitle.innerHTML = `Connected to Room: <span style="color: var(--accent-gold); font-family: var(--font-ui); font-weight: 700;">${state.activeRoom}</span>`;
                     syncDesc.textContent = "Your watchlist and notes are syncing in real-time.";
@@ -2408,6 +2484,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 btnConnect.style.display = "flex";
                 btnConnect.innerHTML = `<i class="ri-login-box-line"></i> Connect`;
                 btnDisconnect.style.display = "none";
+                
+                const btnChange = document.getElementById("btnChangeRoomCode");
+                if (btnChange) {
+                    btnChange.style.display = "none";
+                }
                 
                 if (syncTitle && syncDesc && syncIcon && roomPanel) {
                     syncTitle.textContent = "Watchlist Cloud Sync";
