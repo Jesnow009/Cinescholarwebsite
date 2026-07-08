@@ -2386,10 +2386,9 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             
             if (state.activeRoom) {
-                roomInput.value = state.activeRoom;
-                roomInput.disabled = true;
+                roomInput.style.display = "none";
                 btnConnect.style.display = "none";
-                btnDisconnect.style.display = "flex";
+                btnDisconnect.style.display = "none";
                 
                 if (syncTitle && syncDesc && syncIcon && roomPanel) {
                     syncTitle.innerHTML = `Connected to Room: <span style="color: var(--accent-gold); font-family: var(--font-ui); font-weight: 700;">${state.activeRoom}</span>`;
@@ -2403,6 +2402,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     helpText.innerHTML = `<i class="ri-checkbox-circle-line" style="color: #4caf50; vertical-align: middle;"></i> Real-time cloud sync is active. Any movies you mark as watched on any page will be saved immediately to room <strong>${state.activeRoom}</strong>.`;
                 }
             } else {
+                roomInput.style.display = "";
                 roomInput.value = "";
                 roomInput.disabled = false;
                 btnConnect.style.display = "flex";
