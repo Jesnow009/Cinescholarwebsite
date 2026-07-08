@@ -1462,6 +1462,31 @@ document.addEventListener("DOMContentLoaded", () => {
         
         notebookContainer.innerHTML = "";
         
+        if (!state.activeRoom) {
+            notebookContainer.innerHTML = `
+                <div style="text-align:center; padding: 4rem 1rem; color: var(--text-muted); background: var(--bg-secondary); border-radius: 8px; border: 1px dashed rgba(212,175,55,0.25);">
+                    <i class="ri-door-lock-line" style="font-size: 4rem; color: rgba(212,175,55,0.2); display: block; margin-bottom: 1rem;"></i>
+                    <h2 style="margin-top:1rem; color: var(--text-primary); font-size: 1.8rem; font-family: var(--font-ui); font-weight: 700; letter-spacing: 1px;">Access Restricted</h2>
+                    <p style="margin-top:0.75rem; max-width: 550px; margin-left: auto; margin-right: auto; line-height: 1.6; font-size: 0.95rem; color: var(--text-secondary);">
+                        Please enter a room code or username in the panel above to access your watchlist. 
+                        Only by entering the correct name or room number can you access the stored list.
+                    </p>
+                    <div style="margin-top: 2rem; background: rgba(212,175,55,0.03); border: 1px solid rgba(212,175,55,0.15); padding: 1.25rem; border-radius: 6px; display: inline-block; text-align: left; max-width: 500px; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+                        <span style="color: var(--accent-gold); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 0.35rem;"><i class="ri-user-add-line"></i> Creating a new Room?</span>
+                        Simply type any unique room name or code of your choice (e.g., <code>jesnow-list</code>) and click <strong>Connect</strong>. A new sync room will be created for you automatically!
+                    </div>
+                </div>
+            `;
+            const countElement = document.getElementById("notebookTotalCount");
+            if (countElement) {
+                countElement.textContent = "Locked";
+            }
+            
+            // --- Room Sync Binding ---
+            initRoomSyncUI();
+            return;
+        }
+        
         let watchedFilmsCount = 0;
         
         const countElement = document.getElementById("notebookTotalCount");
@@ -2346,6 +2371,20 @@ document.addEventListener("DOMContentLoaded", () => {
         function updateRoomSyncUI() {
             if (!roomInput || !btnConnect || !btnDisconnect) return;
             
+            let helpText = document.getElementById("syncHelpText");
+            if (!helpText && roomPanel) {
+                helpText = document.createElement("div");
+                helpText.id = "syncHelpText";
+                helpText.style.width = "100%";
+                helpText.style.fontSize = "0.8rem";
+                helpText.style.color = "var(--text-muted)";
+                helpText.style.marginTop = "0.75rem";
+                helpText.style.borderTop = "1px solid rgba(212,175,55,0.1)";
+                helpText.style.paddingTop = "0.75rem";
+                helpText.style.textAlign = "left";
+                roomPanel.appendChild(helpText);
+            }
+            
             if (state.activeRoom) {
                 roomInput.value = state.activeRoom;
                 roomInput.disabled = true;
@@ -2359,6 +2398,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     syncIcon.style.color = "var(--accent-gold)";
                     roomPanel.style.borderColor = "rgba(212, 175, 55, 0.4)";
                     roomPanel.style.background = "rgba(212, 175, 55, 0.04)";
+                }
+                if (helpText) {
+                    helpText.innerHTML = `<i class="ri-checkbox-circle-line" style="color: #4caf50; vertical-align: middle;"></i> Real-time cloud sync is active. Any movies you mark as watched on any page will be saved immediately to room <strong>${state.activeRoom}</strong>.`;
                 }
             } else {
                 roomInput.value = "";
@@ -2374,6 +2416,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     syncIcon.style.color = "var(--accent-gold)";
                     roomPanel.style.borderColor = "rgba(212, 175, 55, 0.15)";
                     roomPanel.style.background = "rgba(212, 175, 55, 0.02)";
+                }
+                if (helpText) {
+                    helpText.innerHTML = `<i class="ri-information-line" style="color: var(--accent-gold); vertical-align: middle;"></i> You can only access a room if you provide the exact username or room number. <strong style="color: var(--text-primary);">New Room?</strong> Just type a new code and click Connect to create it automatically.`;
                 }
             }
         }
