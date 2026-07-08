@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Interactive search & filter query states
         searchQuery: "",
         filterUnscreenedOnly: false,
+        activeRoom: localStorage.getItem("cine_active_room") || null,
         // Local storage data
         
         
@@ -79,11 +80,13 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("cine_watched_sources", JSON.stringify(state.watchedSources));
         localStorage.setItem("cine_watched_dates", JSON.stringify(state.watchedDates));
         updateHeaderStats();
+        syncToCloud();
     }
 
     function saveNotesState() {
         localStorage.setItem("cine_film_notes", JSON.stringify(state.filmNotes));
         updateHeaderStats();
+        syncToCloud();
     }
 
     // Global function for quick-tick
@@ -1644,6 +1647,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             notebookContainer.appendChild(groupSection);
         });
+
+        // --- Room Sync Binding ---
+        initRoomSyncUI();
     }
 
     function updateJournalStatsPanel(watched, totalFilms) {
@@ -2221,6 +2227,246 @@ document.addEventListener("DOMContentLoaded", () => {
         init3DTiltCards();
     }
 
-    init();
+    // --- Supabase watch-log integration helpers ---
+    const supabaseUrl = "https://vqitxshhlmzdgwzbfgbn.supabase.co";
+    let supabaseKey = localStorage.getItem("cine_supabase_anon_key") || "YOUR_SUPABASE_ANON_KEY";
+    let supabaseClient = null;
+
+    function mergeWatchlists(remote) {
+        const localFilms = state.watchedFilms || [];
+        const remoteFilms = remote.watched_films || [];
+        state.watchedFilms = Array.from(new Set([...localFilms, ...remoteFilms]));
+        
+        const localSources = state.watchedSources || {};
+        const remoteSources = remote.watched_sources || {};
+        state.watchedSources = { ...remoteSources, ...localSources };
+        
+        const localDates = state.watchedDates || {};
+        const remoteDates = remote.watched_dates || {};
+        state.watchedDates = { ...remoteDates, ...localDates };
+        
+        const localNotes = state.filmNotes || {};
+        const remoteNotes = remote.film_notes || {};
+        state.filmNotes = { ...remoteNotes, ...localNotes };
+    }
+
+    async function syncToCloud() {
+        if (!supabaseClient || !state.activeRoom) return;
+        try {
+            await supabaseClient
+                .from('watchlists')
+                .upsert({
+                    room_key: state.activeRoom,
+                    watched_films: state.watchedFilms,
+                    watched_sources: state.watchedSources,
+                    watched_dates: state.watchedDates,
+                    film_notes: state.filmNotes,
+                    updated_at: new Date().toISOString()
+                });
+        } catch (e) {
+            console.error("Cloud sync failed:", e);
+        }
+    }
+
+    async function backgroundSyncRoom(roomKey) {
+        if (!supabaseClient) return;
+        try {
+            const { data, error } = await supabaseClient
+                .from('watchlists')
+                .select('*')
+                .eq('room_key', roomKey)
+                .maybeSingle();
+                
+            if (error) {
+                console.error("Background sync error:", error);
+                return;
+            }
+            
+            if (data) {
+                mergeWatchlists(data);
+                localStorage.setItem("cine_watched_films", JSON.stringify(state.watchedFilms));
+                localStorage.setItem("cine_watched_sources", JSON.stringify(state.watchedSources));
+                localStorage.setItem("cine_watched_dates", JSON.stringify(state.watchedDates));
+                localStorage.setItem("cine_film_notes", JSON.stringify(state.filmNotes));
+                
+                updateHeaderStats();
+                if (state.activePage === "watch-log") {
+                    initJournalModule();
+                } else if (state.activePage === "explorer" || ["director", "writer", "editor", "cinematographer", "sound"].includes(state.activePage)) {
+                    renderPathDetails();
+                }
+            }
+        } catch (e) {
+            console.error("Background sync failed:", e);
+        }
+    }
+
+    function initSupabase(callback) {
+        if (supabaseUrl && supabaseKey && supabaseKey !== "YOUR_SUPABASE_ANON_KEY") {
+            if (window.supabase) {
+                try {
+                    supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
+                } catch(e) {
+                    console.error("Supabase init error:", e);
+                }
+                if (callback) callback();
+            } else {
+                const script = document.createElement("script");
+                script.src = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2";
+                script.onload = () => {
+                    if (window.supabase) {
+                        try {
+                            supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
+                        } catch(e) {
+                            console.error("Supabase init error:", e);
+                        }
+                    }
+                    if (callback) callback();
+                };
+                script.onerror = () => {
+                    console.error("Failed to load Supabase SDK from CDN");
+                    if (callback) callback();
+                };
+                document.head.appendChild(script);
+            }
+        } else {
+            if (callback) callback();
+        }
+    }
+
+    function initRoomSyncUI() {
+        const roomInput = document.getElementById("syncRoomInput");
+        const btnConnect = document.getElementById("btnConnectRoom");
+        const btnDisconnect = document.getElementById("btnDisconnectRoom");
+        const syncTitle = document.getElementById("syncTitle");
+        const syncDesc = document.getElementById("syncDesc");
+        const syncIcon = document.getElementById("syncIcon");
+        const roomPanel = document.querySelector(".room-sync-panel");
+
+        function updateRoomSyncUI() {
+            if (!roomInput || !btnConnect || !btnDisconnect) return;
+            
+            if (state.activeRoom) {
+                roomInput.value = state.activeRoom;
+                roomInput.disabled = true;
+                btnConnect.style.display = "none";
+                btnDisconnect.style.display = "flex";
+                
+                if (syncTitle && syncDesc && syncIcon && roomPanel) {
+                    syncTitle.innerHTML = `Connected to Room: <span style="color: var(--accent-gold); font-family: var(--font-ui); font-weight: 700;">${state.activeRoom}</span>`;
+                    syncDesc.textContent = "Your watchlist and notes are syncing in real-time.";
+                    syncIcon.className = "ri-cloud-line";
+                    syncIcon.style.color = "var(--accent-gold)";
+                    roomPanel.style.borderColor = "rgba(212, 175, 55, 0.4)";
+                    roomPanel.style.background = "rgba(212, 175, 55, 0.04)";
+                }
+            } else {
+                roomInput.value = "";
+                roomInput.disabled = false;
+                btnConnect.style.display = "flex";
+                btnConnect.innerHTML = `<i class="ri-login-box-line"></i> Connect`;
+                btnDisconnect.style.display = "none";
+                
+                if (syncTitle && syncDesc && syncIcon && roomPanel) {
+                    syncTitle.textContent = "Watchlist Cloud Sync";
+                    syncDesc.textContent = "Sync your watchlist across devices using a room code or username.";
+                    syncIcon.className = "ri-cloud-windy-line";
+                    syncIcon.style.color = "var(--accent-gold)";
+                    roomPanel.style.borderColor = "rgba(212, 175, 55, 0.15)";
+                    roomPanel.style.background = "rgba(212, 175, 55, 0.02)";
+                }
+            }
+        }
+
+        async function connectToRoomProcess(roomKey) {
+            try {
+                const { data, error } = await supabaseClient
+                    .from('watchlists')
+                    .select('*')
+                    .eq('room_key', roomKey)
+                    .maybeSingle();
+                
+                if (error) {
+                    alert("Database connection error: " + error.message);
+                    updateRoomSyncUI();
+                    return;
+                }
+                
+                state.activeRoom = roomKey;
+                localStorage.setItem("cine_active_room", roomKey);
+                
+                if (data) {
+                    mergeWatchlists(data);
+                }
+                
+                await syncToCloud();
+                
+                localStorage.setItem("cine_watched_films", JSON.stringify(state.watchedFilms));
+                localStorage.setItem("cine_watched_sources", JSON.stringify(state.watchedSources));
+                localStorage.setItem("cine_watched_dates", JSON.stringify(state.watchedDates));
+                localStorage.setItem("cine_film_notes", JSON.stringify(state.filmNotes));
+                
+                alert(`Successfully connected to room "${roomKey}". Watchlist synchronized!`);
+                
+                updateHeaderStats();
+                initJournalModule();
+            } catch (err) {
+                console.error("Connection process failed:", err);
+                alert("Connection failed. Check console for details.");
+            }
+            updateRoomSyncUI();
+        }
+
+        if (btnConnect && !btnConnect.dataset.listenerBound) {
+            btnConnect.dataset.listenerBound = "true";
+            btnConnect.addEventListener("click", async () => {
+                const roomKey = roomInput.value.trim().toLowerCase().replace(/[^a-z0-9_-]+/g, "");
+                if (!roomKey) {
+                    alert("Please enter a valid username or room code (alphanumeric, underscores, hyphens).");
+                    return;
+                }
+                
+                if (!supabaseClient) {
+                    const keyPrompt = prompt("To connect, please enter your Supabase Anon Public Key (you can find this in your Supabase Dashboard -> Project Settings -> API):");
+                    if (!keyPrompt) return;
+                    supabaseKey = keyPrompt.trim();
+                    localStorage.setItem("cine_supabase_anon_key", supabaseKey);
+                    
+                    btnConnect.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Initializing...`;
+                    initSupabase(async () => {
+                        if (!supabaseClient) {
+                            alert("Failed to initialize Supabase. Please check your credentials and try again.");
+                            btnConnect.innerHTML = `<i class="ri-login-box-line"></i> Connect`;
+                            return;
+                        }
+                        await connectToRoomProcess(roomKey);
+                    });
+                } else {
+                    btnConnect.innerHTML = `<i class="ri-loader-4-line ri-spin"></i> Connecting...`;
+                    await connectToRoomProcess(roomKey);
+                }
+            });
+        }
+
+        if (btnDisconnect && !btnDisconnect.dataset.listenerBound) {
+            btnDisconnect.dataset.listenerBound = "true";
+            btnDisconnect.addEventListener("click", () => {
+                if (confirm("Are you sure you want to disconnect from this room? Your local browser watchlist will remain, but edits will no longer sync to the cloud.")) {
+                    state.activeRoom = null;
+                    localStorage.removeItem("cine_active_room");
+                    updateRoomSyncUI();
+                }
+            });
+        }
+
+        updateRoomSyncUI();
+    }
+
+    initSupabase(() => {
+        init();
+        if (state.activeRoom && supabaseClient) {
+            backgroundSyncRoom(state.activeRoom);
+        }
+    });
 });
 
