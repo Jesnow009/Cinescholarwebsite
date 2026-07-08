@@ -2229,7 +2229,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- Supabase watch-log integration helpers ---
     const supabaseUrl = "https://vqitxshhlmzdgwzbfgbn.supabase.co";
-    let supabaseKey = localStorage.getItem("cine_supabase_anon_key") || "YOUR_SUPABASE_ANON_KEY";
+    let supabaseKey = "sb_publishable_BS3bEGCedxuBZBok52B-Yg_UahuFdRN";
     let supabaseClient = null;
 
     function mergeWatchlists(remote) {
