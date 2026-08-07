@@ -71,28 +71,6 @@
                     </div>
                 </div>
 
-                <!-- Cloud Sync Room Panel -->
-                <div class="room-sync-panel" style="background: rgba(212,175,55,0.02); border: 1px solid rgba(212,175,55,0.15); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1.5rem; transition: all 0.3s ease;">
-                    <div style="display: flex; align-items: center; gap: 1rem;">
-                        <div style="background: rgba(212,175,55,0.1); width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(212,175,55,0.2);">
-                            <i class="ri-cloud-windy-line" style="font-size: 1.5rem; color: var(--accent-gold);" id="syncIcon"></i>
-                        </div>
-                        <div>
-                            <h3 style="font-size: 1.25rem; font-weight: 700; color: #fff; margin-bottom: 0.25rem; letter-spacing: 1px;" id="syncTitle">Watchlist Cloud Sync</h3>
-                            <p style="font-size: 0.85rem; color: var(--text-secondary); margin: 0;" id="syncDesc">Sync your watchlist across devices using a room code or username.</p>
-                        </div>
-                    </div>
-                    <div style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;" id="syncControls">
-                        <input type="text" id="syncRoomInput" placeholder="Enter room code or username..." style="background: rgba(0,0,0,0.4); border: 1px solid rgba(212,175,55,0.3); color: #fff; padding: 0.75rem 1.25rem; border-radius: 6px; font-family: var(--font-ui); font-size: 0.9rem; min-width: 250px; outline: none; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--accent-gold)';" onblur="this.style.borderColor='rgba(212,175,55,0.3)';" />
-                        <button id="btnConnectRoom" class="quick-tick-btn" style="background: var(--accent-gold); color: #000; font-weight: 700; border: none; padding: 0.75rem 2rem; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; height: 100%; display: flex; align-items: center; gap: 0.5rem;">
-                            <i class="ri-login-box-line"></i> Connect
-                        </button>
-                        <button id="btnDisconnectRoom" class="quick-tick-btn" style="display: none; background: rgba(255, 82, 82, 0.1); color: #ff5252; border: 1px solid rgba(255, 82, 82, 0.3); padding: 0.75rem 2rem; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; height: 100%; display: flex; align-items: center; gap: 0.5rem;">
-                            <i class="ri-logout-box-line"></i> Disconnect
-                        </button>
-                    </div>
-                </div>
-
                 <div id="notebookContent">
                     <!-- Watched movies will be injected here by app.js -->
                 </div>
